@@ -20,7 +20,28 @@ ALLOWED_EXTENSIONS = {'json'}
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+def download_spacy_model():
+    try:
+        command = [
+            sys.executable,
+            "-m", "spacy", "download", "en_core_web_trf"
+        ]
+        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) as process:
+            for line in process.stdout:
+                print(line, end='')
 
+            for line in process.stderr:
+                print(f"ERROR: {line}", end='')
+
+        returncode = process.wait()
+
+        if returncode == 0:
+            print("Model 'en_core_web_trf' downloaded successfully!")
+        else:
+            print(f"Failed to download 'en_core_web_trf'. Return code: {returncode}")
+
+    except Exception as e:
+        print(f"Error during downloading 'en_core_web_trf': {e}")
 
 @app.route('/')
 def index():
@@ -52,6 +73,7 @@ def upload_files():
 
 @app.route('/train', methods=['POST'])
 def train_model():
+    download_spacy_model()
     model = request.form.get('model')
     if model not in ['tonnage_info', 'vessel_info', 'cargo']:
         return jsonify({'error': 'Invalid model specified'}), 400
@@ -150,4 +172,4 @@ def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
