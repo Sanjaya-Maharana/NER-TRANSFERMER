@@ -1,1145 +1,269 @@
 {
     "classes": [
-        "VESSEL_NAME",
-        "IMO",
-        "DWT",
-        "BUILD_YEAR",
-        "OPEN_DATE",
-        "OPEN_AREA",
-        "FLAG",
-        "CRANES"
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
     ],
     "annotations": [
         [
-            "//TUNCAY\r\nGOOD DAY\r\nHOME TONNAGE OPEN AT ITAQUI ON AROUND 30th Aug - 04th Sept 2024 AGW.\r\nMV SSI INVINCIBLE II\r\nIMO NUMBER: 9434747\r\n56,815 DWT ON 12.80 M SSW\r\nBUILT ON JUNE 2012 IN CHINA\r\nGRT 33.044 / NRT 19,231\r\nLOA 189.99 M / BEAM 32.26 M / TPC 58.80\r\nGRAIN 71,634 CBM / BALE 68,768 CBM\r\n5 HO / 5 HA\r\nCARGO CRANES: IHI-WUHAN X 4 SETS, SWL 30MT WHEN WORKING HOOKS AND SWL  24MT WHEN WORKING WITH GRABS.\r\nGRABS: 4 X REMOTE CONTROLLED GRAB ; CAPACITY 12 M3.\r\nSPEED / CONSUMPTION:\r\nLADEN : ABT 12.00 KNOTS ON ABT 25.0 MT IFO + ABT 0.1 MT MGO\r\nBALLAST : ABT 12.50 KNOTS ON ABT 25.0 MT IFO + ABT 0.1 MT MGO\r\nPORT IDLE : ABT 3.0 MT IFO + ABT 0.25 MT LSMGO\r\nPORT WORKING : ABT 5.0 MT IFO + ABT 0.25 MT LSMGO.\r\nSPEED/CONSUMPTION BASED ON GOOD WEATHER CONDITION UPTO BEAUFORT SCALE 4 (MAX 16 KTS) AND/OR DOUGLAS SEA STATE 3 (COMBINED SEA/SWELL/ MAXIMUM SIGNIFICANT WAVE HEIGHT OF 1.25 M) AND SMOOTH SEA, NO ADVERSE CURRENT AND/OR NEGATIVE INFLUENCE OF SWELL, AND ALWAYS\r\nLOADED LESS THAN VESSEL'S MAX SUMMER LOADLINE, EVEN KEEL CONDITION AND ALWAYS EXCLUDING VOYAGES LESS THAN 48 HOURS TRANSIT TIME FROM SEA PILOT TO SEA PILOT, PASSAGES WITH RESTRICTED VISIBILITY,\r\nCONGESTED WATERS, STRAITS, NARROWED WATERS AND WHILE MANEUVERING, ENTERING/LEAVING PORTS.\r\nIN CASE OF HOT/COLD CLIMATES AN ADDITIONAL 1MT DAILY CONSUMPTION IS EXPECTED FOR MACHINERY COOLING, AND FUEL HEATING DEMANDS.\r\nIF SEA WATER TEMPERATURE IS BELOW 15 DEGREE CELCIUS THERE WILL BE EXTRA BOILER CONSUMPTION.\r\nPERIODS OF LESS THAN 24 HOURS,FROM NOON REPORT TO NOON REPORT, OF CONTINUOUS GOOD WEATHER TO BE EXPRESSLY EXCLUDED FROM DETERMINATION OF THE VESSEL'S PERFORMANCE. UNLESS OTHERWISE AGREED BY OWNERS, CHARTERERS MAY NOT DEDUCT OR SET-OFF AMOUNTS FROM HIRE PAYMENTS\r\nFOR SPEED AND/OR OVERCONSUMPTION CLAIMS.\r\nVESSEL HAS LIBERTY TO CONSUME DIESEL OIL WHEN MANEUVERING, IN/OUT PORTS, STARTING OF A/E, IN THE BOLIER DURING PORT STAY, BURNING OF SLUDGE OIL IN INCINERATOR, NAVIGATING IN SHALLOW/RESTRICTED/BUSY/CONGESTED WATERS/CANALS/RIVERS/DURING PILOTAGE OR FOR SAFETY\r\nOF VESSEL DURING BAD WEATHER/FOG, ALWAYS UNDER DISCRETION OF THE MASTER.\r\nWEATHER ROUTING COMPANY CALCULATION FOR GOOD WEATHER DAYS SHALL BE ONLY APPLICABLE AND LIMITED FOR THE GOOD WEATHER DAYS ONLY AND CANNOT BE SPREAD ALL OVER THE ENTIRE VOYAGE.\r\n-BUNKER QUALITY:\r\nDURING CURRENCY OF THE CHARTER, BUNKERS  TO BE SUPPLIED SHALL BE IN ACCORDANCE WITH MIN ISO 8217:2017 SPECIFICATION OR ANY SUBSEQUENT AMENDMENTS THERETO.\r\n-VLSFO 380 CST: RMG 380 AS PER ISO 8217:2017-E (MAX SULPHUR CONTENT: 0.5% PCT)\r\n-LSMGO: DMA ISO 8217:2017-E (MAX SULPHUR CONTENT : 0.1% )\r\nBOTH GRADES ALWAYS TO COMPLY WITH MARPOL 73/78 REQUIREMENTS, REG 14, 18 OF ANNEX VI AND ANY SUBSEQUENT AMENDMENTS THERETO.\r\nDURING THE CURRENCY OF THIS CHARTER, CHARTERERS ARE ONLY PERMITTED TO SUPPLY ABOVE GRADES TO THE VESSEL.\r\nVESSEL CAN ONLY BE BUNKERED UP TO 85 PCT OF TANK CAPACITY. COMINGLING OF DIFFERENT BUNKER STEMS NOT ALLOWED.\r\nOPL BUNKERING IS NOT ALLOWED.\r\n++\r\nBest Regards,\r\nTuncay SAVASCI\r\nDensay Shipping and Trading DMCC\r\nAs brokers only\r\nPhone: +90 533 290 06 79\r\nSkype: savasci_tuncay@hotmail.com",
+            "Eagle, Johnny Cash\r\nkrishnapatnam, ec india\r\n58018\r\n2007\r\n4X36\r\nEXODUS CHARTERING SERVICES., INDIA TEL: 0091-44-26542962/69 EMAIL: chartering@exoduschartering.info --------------------------------------------------------------- GOOD DAY MV  JOHNNY CASH  - KRISHNAPATNAM, EC INDIA 03/06 SEPT ================ PNMX 75149MTS ON 14.217M BLT 2007 CHINA -MARSHALL ISLANDS FLAG L/B 225M/32.26M 7H/H GLESS GR 89938.96 CBM SPEED ABT 12 KNOTS / ADA MV  EAGLE  - ZHOUSHAN, CHINA (EX DD) 04/07 SEPT ========== BC 58018 MTS ON 12,95 BUILT 2010 CHINA - LLOYS REGISTER -MARSHALL ISLANDS FLAG 5 H/H CR 4X36 MTS + GRABS: 4X 6.5 -18 M3 - GR 71549.3 CBM /L/B:189,99 M /32,26 M CO2/A60 FITTED - 2X25MTS COILS - DECK CARGO- SPEED ABT 12 KNTS / ADA MV PAPA JOHN - PIPAVAV, WC INDIA 26/28 AUG ============= BC 56543 MTS ON 12.80M / BLT 2010 / MARSHALL ISLANDS FLAG 5HOHA 4CRx35MT + GRABS GR 71,634 CBM L/B:189.99/32.26M A60/CO2 FITTED / 2X25MTS COILS / DECK CARGO/ SPEED ABT 12 KNTS / ADA B.RGDS / MANUEL MOB: 91-9840446665, AS BROKERS ONLY E. & O. E. All details about and given in good faith. SKYPE: manuel13291 ================================================== This is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\" ================================================== *Treat hyperlinks and attachments if any in this email with caution.*",
             {
                 "entities": [
-                    [
-                        33,
-                        47,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        58,
-                        83,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        90,
-                        107,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        112,
-                        131,
-                        "IMO"
-                    ],
-                    [
-                        133,
-                        143,
-                        "DWT"
-                    ],
-                    [
-                        169,
-                        178,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        310,
-                        336,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "//TUNCAY\r\nGOOD DAY\r\nHOME TONNAGE OPEN AT ITAQUI ON AROUND 30th Aug - 04th Sept 2024 AGW.\r\nMV SSI INVINCIBLE II\r\nIMO NUMBER: 9434747\r\n56,815 DWT ON 12.80 M SSW\r\nBUILT ON JUNE 2012 IN CHINA\r\nGRT 33.044 / NRT 19,231\r\nLOA 189.99 M / BEAM 32.26 M / TPC 58.80\r\nGRAIN 71,634 CBM / BALE 68,768 CBM\r\n5 HO / 5 HA\r\nCARGO CRANES: IHI-WUHAN X 4 SETS, SWL 30MT WHEN WORKING HOOKS AND SWL  24MT WHEN WORKING WITH GRABS.\r\nGRABS: 4 X REMOTE CONTROLLED GRAB ; CAPACITY 12 M3.\r\nSPEED / CONSUMPTION:\r\nLADEN : ABT 12.00 KNOTS ON ABT 25.0 MT IFO + ABT 0.1 MT MGO\r\nBALLAST : ABT 12.50 KNOTS ON ABT 25.0 MT IFO + ABT 0.1 MT MGO\r\nPORT IDLE : ABT 3.0 MT IFO + ABT 0.25 MT LSMGO\r\nPORT WORKING : ABT 5.0 MT IFO + ABT 0.25 MT LSMGO.\r\nSPEED/CONSUMPTION BASED ON GOOD WEATHER CONDITION UPTO BEAUFORT SCALE 4 (MAX 16 KTS) AND/OR DOUGLAS SEA STATE 3 (COMBINED SEA/SWELL/ MAXIMUM SIGNIFICANT WAVE HEIGHT OF 1.25 M) AND SMOOTH SEA, NO ADVERSE CURRENT AND/OR NEGATIVE INFLUENCE OF SWELL, AND ALWAYS\r\nLOADED LESS THAN VESSEL'S MAX SUMMER LOADLINE, EVEN KEEL CONDITION AND ALWAYS EXCLUDING VOYAGES LESS THAN 48 HOURS TRANSIT TIME FROM SEA PILOT TO SEA PILOT, PASSAGES WITH RESTRICTED VISIBILITY,\r\nCONGESTED WATERS, STRAITS, NARROWED WATERS AND WHILE MANEUVERING, ENTERING/LEAVING PORTS.\r\nIN CASE OF HOT/COLD CLIMATES AN ADDITIONAL 1MT DAILY CONSUMPTION IS EXPECTED FOR MACHINERY COOLING, AND FUEL HEATING DEMANDS.\r\nIF SEA WATER TEMPERATURE IS BELOW 15 DEGREE CELCIUS THERE WILL BE EXTRA BOILER CONSUMPTION.\r\nPERIODS OF LESS THAN 24 HOURS,FROM NOON REPORT TO NOON REPORT, OF CONTINUOUS GOOD WEATHER TO BE EXPRESSLY EXCLUDED FROM DETERMINATION OF THE VESSEL'S PERFORMANCE. UNLESS OTHERWISE AGREED BY OWNERS, CHARTERERS MAY NOT DEDUCT OR SET-OFF AMOUNTS FROM HIRE PAYMENTS\r\nFOR SPEED AND/OR OVERCONSUMPTION CLAIMS.\r\nVESSEL HAS LIBERTY TO CONSUME DIESEL OIL WHEN MANEUVERING, IN/OUT PORTS, STARTING OF A/E, IN THE BOLIER DURING PORT STAY, BURNING OF SLUDGE OIL IN INCINERATOR, NAVIGATING IN SHALLOW/RESTRICTED/BUSY/CONGESTED WATERS/CANALS/RIVERS/DURING PILOTAGE OR FOR SAFETY\r\nOF VESSEL DURING BAD WEATHER/FOG, ALWAYS UNDER DISCRETION OF THE MASTER.\r\nWEATHER ROUTING COMPANY CALCULATION FOR GOOD WEATHER DAYS SHALL BE ONLY APPLICABLE AND LIMITED FOR THE GOOD WEATHER DAYS ONLY AND CANNOT BE SPREAD ALL OVER THE ENTIRE VOYAGE.\r\n-BUNKER QUALITY:\r\nDURING CURRENCY OF THE CHARTER, BUNKERS  TO BE SUPPLIED SHALL BE IN ACCORDANCE WITH MIN ISO 8217:2017 SPECIFICATION OR ANY SUBSEQUENT AMENDMENTS THERETO.\r\n-VLSFO 380 CST: RMG 380 AS PER ISO 8217:2017-E (MAX SULPHUR CONTENT: 0.5% PCT)\r\n-LSMGO: DMA ISO 8217:2017-E (MAX SULPHUR CONTENT : 0.1% )\r\nBOTH GRADES ALWAYS TO COMPLY WITH MARPOL 73/78 REQUIREMENTS, REG 14, 18 OF ANNEX VI AND ANY SUBSEQUENT AMENDMENTS THERETO.\r\nDURING THE CURRENCY OF THIS CHARTER, CHARTERERS ARE ONLY PERMITTED TO SUPPLY ABOVE GRADES TO THE VESSEL.\r\nVESSEL CAN ONLY BE BUNKERED UP TO 85 PCT OF TANK CAPACITY. COMINGLING OF DIFFERENT BUNKER STEMS NOT ALLOWED.\r\nOPL BUNKERING IS NOT ALLOWED.\r\n++\r\nBest Regards,\r\nTuncay SAVASCI\r\nDensay Shipping and Trading DMCC\r\nAs brokers only\r\nPhone: +90 533 290 06 79\r\nSkype: savasci_tuncay@hotmail.com",
-            {
-                "entities": [
-                    [
-                        33,
-                        47,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        58,
-                        83,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        90,
-                        107,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        112,
-                        131,
-                        "IMO"
-                    ],
-                    [
-                        133,
-                        143,
-                        "DWT"
-                    ],
-                    [
-                        160,
-                        178,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        310,
-                        336,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM SnC MARITIME SEOUL KOREA 82-2-778-0283 DRY@SNCMARITIME.COM - SS Kang\r\nREVISED VSL’S SPD/CONSUMPTION : -\r\nMV PVT SAPPHIRE 56K OPEN SINGAPORE 24/28 AUG 2024\r\nBOD RVTG (WILL SUPPLY AT SGP)\r\n- cis ok / nickel ore & Clinker ok\r\nMV PVT SAPPHIRE\r\nDWT: 56,024 MT ON 12.575 M(Summer Draft)\r\nDWT: 57,481 MT ON 13.125 M(Tropical)\r\nTPC: 55.8 MT\r\nBUILT: 6/2006, JAPAN\r\nVIETNAM FLAG, SINGLE DECK BULK CARRIER\r\nGRT: 31,275 / NRT: 18,504\r\nLDT: 8,533\r\nCLASS: NK\r\nLOA: 189.9M, LBP: 182.00M, BREADTH: 32.26M\r\nHOLDS: 5 / HATCHES: 5\r\nHATCH DIMENSIONS\r\n17.60 x 18.92 m\r\n21.12 x 18.92 m\r\n21.12 x 18.92 m\r\n21.12 x 18.92 m\r\n21.12 x 18.92 m\r\nCOVERS TYPE: END FOLDING TYPE\r\nCAPACITY: GRAIN 70,811 / BALE 68,084\r\nGEAR: CRANES 4X30T PLUS 4 GRABS 12 CBM\r\nSPEED AND CONSUMPTION:\r\nECO LADEN/BALLAST ABOUT 11.5/11 KNOTS ON ABOUT 23.5 MTS OF VLSFO MAX 380 CST + ABOUT 0.1 MT LSMGO.\r\nPORT / ANCHORAGE CONSUMPTION\r\nIDLE ABOUT 3 MT VLSFO + ABOUT 0.2 MT LSMGO\r\nWORKING ABOUT 6 MT VLSFO + ABOUT 0.2 MT LSMGO\r\nADA\r\nB,RGDS / SS Kang (강석산)\r\nDIR : 822 778 0283\r\nMOB : 82 10 8751 5308\r\nDRY@SNCMARITIME.COM\r\nSKYPE : KANGCHO29@HOTMAIL.COM",
-            {
-                "entities": [
-                    [
-                        110,
-                        125,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        228,
-                        243,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        245,
-                        259,
-                        "DWT"
-                    ],
-                    [
-                        287,
-                        301,
-                        "DWT"
-                    ],
-                    [
-                        339,
-                        352,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        354,
-                        373,
-                        "FLAG"
-                    ],
-                    [
-                        696,
-                        708,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "Good day!\b\r\nLadies and Gentlemen,\r\nplease propose for the below:\r\n(cement, clinker non prefer)\r\nCan consider VOY, TCT, PERIOD\r\naa. mv Jetstream 34,562MT 2012 4X35MT CR  open 19-21 AUG DAMMAM, SAUDIAN ARABIA .\r\naa. MV JETSTREAM, DESCRIBED AS BELOW\r\nFLAG:  MALTA\r\nPORT OF REGISTRY:  VALLETTA\r\nBUILT:    JUNE 2012\r\nBUILDER:   SPP SHIPBUILDING CO.,LTD., KOREA\r\nOFFICIAL NO.: 9528184\r\nIMO NO.:   9528184\r\nMMSI NO.:  229 047 000\r\nCALL SIGN:  9HA3024\r\nTYPE OF VESSEL:    SINGLE DECK BULK CARRIER\r\nCLASSIFICATION SOCIETY: KOREAN REGISTER OF SHIPPING\r\nDWT: 34,562.7 MT AT S.L.W.L. 9.9165M (SUMMER LOAD DRAFT), TPC: 48.9MT\r\nLOA/LBP/BREADTH/DEPTH (M): 180.00/172.93/30.00/14.70\r\nGRT/NRT: 23458/11578\r\nHOLDS/HATCHES: 5/5\r\nTTL CAPACITY (GRAIN INCL. HATCH COAMINGS): 48.700 CBM\r\n5 HOLDS TANK TOP DIMENSIONS (LM X WM X HM):\r\nNO.1 24,80 X 8,40(FWD)/19,80(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.2 24,80 X 20,70(FWD)/22,00(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.3 24,80 X 22,00 X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.4 24,80 X 22,00 X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.5 25,60 X 22,00(FWD)/12,80(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nALL CARGO HOLDS EQUIPPED WITH MECHANICAL EXPLOSION PROOF TYPE EXHAUST VENTILATION\r\n(2 VENTILATORS (EACH 50) FOR EACH HOLD), WITH RATE 6 AIR CHANGES PER HOUR.\r\n-CO2 FITTED: ENGINE ROOM, EACH CARGO HOLD.\r\n–LADDERS: AUSTRALIAN TYPE.\r\n–STRENGTH OF THE TANK TOP:\r\nNO.1- 16,7 TON/M2,\r\nNO2.- 14 TON/M2,\r\nNO.3- 19,35 TON/M2,\r\nNO.4- 14,1 TON/M2,\r\nNO.5- 18,3 TON/M2.\r\nHEAVY CARGOES OF S.F. 12 CFT/LT (0.34 CBM/LT) IN HOLDS NOS. 1, 3 & 5 AND NOS.2 & 4 EMPTY SHALL BE LOADED AT FULL SCANTLING DRAFT AND HOLDS NOS. 2 & 4 SHALL BE DESIGNED FOR LOADING OF S.F. 35 CBF/LT.\r\n5 HATCH COVERS: WEATHER TIGHT, ELECTRO-HYDRAULIC FORE & AFT FOLDING TYPE\r\nOPERATED BY EXTERNAL HYDRAULIC CYLINDERS.\r\nHATCH COVES TOP STRENGTH: NO.1- 4,1 TON/M2; NO. 2~5- 3,5 TON/M2\r\nHATCH COVER SIZE (LM X BM)\r\n-------------------------------\r\nNO.1 16,00 X 18,40/13,70\r\nNOS. 2~5 19,20 X 20,20\r\nHATCH NO. & NOMINAL OPENING SIZE (LM X BM)\r\n-------- ------------------------------\r\nNO.1     16.00 X 18.20/13.50\r\nNOS. 2~5 19.20 X 20.20\r\nCRANES: 4 X SWL 35 MT INSTALLED IN CENTER ON UPPER DECK BETWEEN EACH HOLDS.\r\nMAIN ENGINE: MAN-B&W 5S50MC-C MK7. MCR 10750 BHP(7900KW) X 127 RPM\r\nGENERATOR ENGINE: 3 X YANMAR 6EY18ALW X 600 KW X 900 RPM (440V, 60HZ)\r\nM/E & G/E FUEL OIL:\r\n-HFO RMG 380 CST/50 C IN ACCORDANCE WITH ISO 8217:2010E WITH CALCULATED CARBON\r\nAROMATICITY INDEX (C.C.A.I.) NOT EXCEEDS 850. THE FUEL SHALL BE FREE FROM INORGANIC ACIDS AND FROM USED LUBRICATING OILS.\r\nTHE FUEL SHOULD NOT INCLUDE ANY ADDED SUBSTANCE OR CHEMICAL WASTE WHICH JEOPARDIZES THE SAFETY OF SHIPS OR ADVERSELY AFFECTS THE PERFORMANCE OF THE MACHINERY, ETC, IN ACCORDANCE WITH CLAUSE 5 OF THE ISO 8217:2010E WHERE AND WHEN IT APPLICABLE.\r\n-MGO(DMA), MDO/DMB IN ACCORDANCE WITH ISO 8217:2010E WITH SULFUR CONTENT ACCORDING TO CURRENT SULFUR REGULATIONS IMO, EU, CALIFORNIA STATE AREAS AND VISCOSITY ABOVE 3 CST AT 40 DEGREES CELSIUS.\r\nVESSEL’S SPEED/BUNKER CONSUMPTION: SEA SPEED (LADEN/BALLAST) ABOUT 13,0/13,5 KNOTS.\r\nDAILY FUEL OIL CONSUMPTION OF MAIN ENGINE:  20 MT/DAY PLUS 2.0 MT/DAY GE\r\nFOR MANEUVER: 550 KG/HR MGO(DMA), MDO/DMB - FOR PURPOSE OF RELIABLE ENGINE OPERATION AND IN ACCORDANCE WITH CURRENT SULFUR REGULATIONS IMO, EU, CALIFORNIA STATE AREAS.\r\nTHE ABOVE STATED SPEED AND BUNKER CONSUMPTION FIGURES AT SEA ARE STATED PROVIDED THE ABSENCE OF (ADVERSE) COMING CURRENT AND/OR NEGATIVE INFLUENCE OF SWELL, I.E. WHEN GOOD WEATHER CONDITIONS - WIND MAXIMUM BEAUFORT FORCE 2 (UP TO 3.5 M/SEC), CALM (SWH UPTO 0.5 M) AND DEEP SEA AND PROVIDED VESSEL'S UNDERWATER HULL AND PROPELLER ARE CLEAN FROM FOULING.\r\nVESSEL'S M/E BURNS MDO/DMB WHEN MANEUVERING IN/APPROACHES NARROW OR RESTRICTED WATERS INCLUDING CANALS/RIVERS/SHALLOW WATERS/FOG CONDITIONS AND ALSO WHEN ME/GE COLD START APPLICABLE.\r\nBUNKER CONSUMPTION IN PORT:\r\nIN PORT W/O CARGO OPERATIONS – 1.5 MT HFO 380 CST PER DAY PLUS BOILER CONSUMPTION:\r\nA) 1.0 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE ABOVE 15 DEG CELSIUS\r\nB) 1.2 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE FROM 0 AND UPTO 15 DEG CELSIUS\r\nC) 1.5 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE BELOW 0 DEG CELSIUS\r\nIN PORT WITH CARGO OPERATIONS – 3.5 MT HFO 380 CST PER DAY PLUS BOILER CONSUMPTION:\r\nA) 1.0 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE ABOVE 15 DEG CELSIUS\r\nB) 1.2 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE FROM 0 AND UPTO 15 DEG CELSIUS\r\nC) 1.5 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE BELOW 0 DEG CELSIUS\r\nADA WOG.\r\nOWNERS’ P&I CLUB: JAPAN P&I CLUB.\r\nH+M INSURANCE COMPANY: LLOYDS OF LONDON.\r\nBest regards\r\nDD Shipping ltd, S.A.\r\nChartering Dept.",
-            {
-                "entities": [
-                    [
-                        131,
-                        143,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        214,
-                        226,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        291,
-                        310,
-                        "BUILD_YEAR"
-                    ],
                     [
                         371,
-                        383,
-                        "IMO"
-                    ],
-                    [
-                        543,
-                        559,
-                        "DWT"
-                    ],
-                    [
-                        2142,
-                        2163,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "Good day!\b\r\nLadies and Gentlemen,\r\nplease propose for the below:\r\n(cement, clinker non prefer)\r\nCan consider VOY, TCT, PERIOD\r\naa. mv Jetstream 34,562MT 2012 4X35MT CR  open 19-21 AUG DAMMAM, SAUDIAN ARABIA .\r\naa. MV JETSTREAM, DESCRIBED AS BELOW\r\nFLAG:  MALTA\r\nPORT OF REGISTRY:  VALLETTA\r\nBUILT:    JUNE 2012\r\nBUILDER:   SPP SHIPBUILDING CO.,LTD., KOREA\r\nOFFICIAL NO.: 9528184\r\nIMO NO.:   9528184\r\nMMSI NO.:  229 047 000\r\nCALL SIGN:  9HA3024\r\nTYPE OF VESSEL:    SINGLE DECK BULK CARRIER\r\nCLASSIFICATION SOCIETY: KOREAN REGISTER OF SHIPPING\r\nDWT: 34,562.7 MT AT S.L.W.L. 9.9165M (SUMMER LOAD DRAFT), TPC: 48.9MT\r\nLOA/LBP/BREADTH/DEPTH (M): 180.00/172.93/30.00/14.70\r\nGRT/NRT: 23458/11578\r\nHOLDS/HATCHES: 5/5\r\nTTL CAPACITY (GRAIN INCL. HATCH COAMINGS): 48.700 CBM\r\n5 HOLDS TANK TOP DIMENSIONS (LM X WM X HM):\r\nNO.1 24,80 X 8,40(FWD)/19,80(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.2 24,80 X 20,70(FWD)/22,00(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.3 24,80 X 22,00 X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.4 24,80 X 22,00 X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nNO.5 25,60 X 22,00(FWD)/12,80(AFT) X 13,10(UPPER DECK)/15,10(HATCH COVER)\r\nALL CARGO HOLDS EQUIPPED WITH MECHANICAL EXPLOSION PROOF TYPE EXHAUST VENTILATION\r\n(2 VENTILATORS (EACH 50) FOR EACH HOLD), WITH RATE 6 AIR CHANGES PER HOUR.\r\n-CO2 FITTED: ENGINE ROOM, EACH CARGO HOLD.\r\n–LADDERS: AUSTRALIAN TYPE.\r\n–STRENGTH OF THE TANK TOP:\r\nNO.1- 16,7 TON/M2,\r\nNO2.- 14 TON/M2,\r\nNO.3- 19,35 TON/M2,\r\nNO.4- 14,1 TON/M2,\r\nNO.5- 18,3 TON/M2.\r\nHEAVY CARGOES OF S.F. 12 CFT/LT (0.34 CBM/LT) IN HOLDS NOS. 1, 3 & 5 AND NOS.2 & 4 EMPTY SHALL BE LOADED AT FULL SCANTLING DRAFT AND HOLDS NOS. 2 & 4 SHALL BE DESIGNED FOR LOADING OF S.F. 35 CBF/LT.\r\n5 HATCH COVERS: WEATHER TIGHT, ELECTRO-HYDRAULIC FORE & AFT FOLDING TYPE\r\nOPERATED BY EXTERNAL HYDRAULIC CYLINDERS.\r\nHATCH COVES TOP STRENGTH: NO.1- 4,1 TON/M2; NO. 2~5- 3,5 TON/M2\r\nHATCH COVER SIZE (LM X BM)\r\n-------------------------------\r\nNO.1 16,00 X 18,40/13,70\r\nNOS. 2~5 19,20 X 20,20\r\nHATCH NO. & NOMINAL OPENING SIZE (LM X BM)\r\n-------- ------------------------------\r\nNO.1     16.00 X 18.20/13.50\r\nNOS. 2~5 19.20 X 20.20\r\nCRANES: 4 X SWL 35 MT INSTALLED IN CENTER ON UPPER DECK BETWEEN EACH HOLDS.\r\nMAIN ENGINE: MAN-B&W 5S50MC-C MK7. MCR 10750 BHP(7900KW) X 127 RPM\r\nGENERATOR ENGINE: 3 X YANMAR 6EY18ALW X 600 KW X 900 RPM (440V, 60HZ)\r\nM/E & G/E FUEL OIL:\r\n-HFO RMG 380 CST/50 C IN ACCORDANCE WITH ISO 8217:2010E WITH CALCULATED CARBON\r\nAROMATICITY INDEX (C.C.A.I.) NOT EXCEEDS 850. THE FUEL SHALL BE FREE FROM INORGANIC ACIDS AND FROM USED LUBRICATING OILS.\r\nTHE FUEL SHOULD NOT INCLUDE ANY ADDED SUBSTANCE OR CHEMICAL WASTE WHICH JEOPARDIZES THE SAFETY OF SHIPS OR ADVERSELY AFFECTS THE PERFORMANCE OF THE MACHINERY, ETC, IN ACCORDANCE WITH CLAUSE 5 OF THE ISO 8217:2010E WHERE AND WHEN IT APPLICABLE.\r\n-MGO(DMA), MDO/DMB IN ACCORDANCE WITH ISO 8217:2010E WITH SULFUR CONTENT ACCORDING TO CURRENT SULFUR REGULATIONS IMO, EU, CALIFORNIA STATE AREAS AND VISCOSITY ABOVE 3 CST AT 40 DEGREES CELSIUS.\r\nVESSEL’S SPEED/BUNKER CONSUMPTION: SEA SPEED (LADEN/BALLAST) ABOUT 13,0/13,5 KNOTS.\r\nDAILY FUEL OIL CONSUMPTION OF MAIN ENGINE:  20 MT/DAY PLUS 2.0 MT/DAY GE\r\nFOR MANEUVER: 550 KG/HR MGO(DMA), MDO/DMB - FOR PURPOSE OF RELIABLE ENGINE OPERATION AND IN ACCORDANCE WITH CURRENT SULFUR REGULATIONS IMO, EU, CALIFORNIA STATE AREAS.\r\nTHE ABOVE STATED SPEED AND BUNKER CONSUMPTION FIGURES AT SEA ARE STATED PROVIDED THE ABSENCE OF (ADVERSE) COMING CURRENT AND/OR NEGATIVE INFLUENCE OF SWELL, I.E. WHEN GOOD WEATHER CONDITIONS - WIND MAXIMUM BEAUFORT FORCE 2 (UP TO 3.5 M/SEC), CALM (SWH UPTO 0.5 M) AND DEEP SEA AND PROVIDED VESSEL'S UNDERWATER HULL AND PROPELLER ARE CLEAN FROM FOULING.\r\nVESSEL'S M/E BURNS MDO/DMB WHEN MANEUVERING IN/APPROACHES NARROW OR RESTRICTED WATERS INCLUDING CANALS/RIVERS/SHALLOW WATERS/FOG CONDITIONS AND ALSO WHEN ME/GE COLD START APPLICABLE.\r\nBUNKER CONSUMPTION IN PORT:\r\nIN PORT W/O CARGO OPERATIONS – 1.5 MT HFO 380 CST PER DAY PLUS BOILER CONSUMPTION:\r\nA) 1.0 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE ABOVE 15 DEG CELSIUS\r\nB) 1.2 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE FROM 0 AND UPTO 15 DEG CELSIUS\r\nC) 1.5 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE BELOW 0 DEG CELSIUS\r\nIN PORT WITH CARGO OPERATIONS – 3.5 MT HFO 380 CST PER DAY PLUS BOILER CONSUMPTION:\r\nA) 1.0 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE ABOVE 15 DEG CELSIUS\r\nB) 1.2 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE FROM 0 AND UPTO 15 DEG CELSIUS\r\nC) 1.5 MT HFO 380 CST P/DAY WHEN OUTSIDE TEMPERATURE BELOW 0 DEG CELSIUS\r\nADA WOG.\r\nOWNERS’ P&I CLUB: JAPAN P&I CLUB.\r\nH+M INSURANCE COMPANY: LLOYDS OF LONDON.\r\nBest regards\r\nDD Shipping ltd, S.A.\r\nChartering Dept.",
-            {
-                "entities": [
-                    [
-                        131,
-                        143,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        169,
-                        183,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        184,
-                        206,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        214,
-                        226,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        248,
-                        260,
-                        "FLAG"
-                    ],
-                    [
-                        291,
-                        310,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        543,
-                        559,
-                        "DWT"
-                    ],
-                    [
-                        2142,
-                        2163,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "HOT TO FIX // YB GLOBAL SHIPPING LLC FZ // MV HAPPY HERO - OPENING AT COLOMBO\r\nKind Attention: Chartering Desk\r\nDear Sir / Ma’am,\r\nGood Day,\r\nPlease Propose Suitable Cargo for Voyage for Our Period Tonnage :\r\nOpening At Colombo - 19th August, 2024\r\nMV Happy Hero\r\nABT 10,090 MTDW TWEEN DECK GENERAL CARGO VESSEL\r\nBUILT APRIL 2002 AT SHIN KURUSHIMA DOCKYARD\r\nPANAMANIAN FLAG - NK CLASS – IMO 9254276\r\nLOA  100.60M / LBP 93.50M / BM 18.80M / DM 13.00M / DRAFT 9.219M\r\nGRT 6,381T / NRT 3,658T\r\nTWO HOLDS (LOWER HOLDS ARE BOX SHAPE)\r\nHOLD CAPACITY GRAIN 13,999.08 M3 / BALE 12,857.98 M3\r\nDECK CRANE 23T X 2\r\nDERRICK 15T X 1\r\n( FIGURES ARE ALL ABOUT WITHOUT GUARANTEE).\r\nPleased to Hear!!\r\nBest Regards,\r\nAyush Sharma\r\nChartering, YB Global Shipping LLC-FZ\r\nMobile/WhatsApp/Skype: +91 9523757703\r\nwww.ybglobalshipping.com|  chartering@ybglobalshipping.com\r\nThe Meydan Hotel, Granstad, 6th floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E\r\nView email in browser\r\nYB GLOBAL SHIPPING LLC-FZ · Al Meydan Road · Al Qouz First · Dubai, Dubai   · United Arab Emirates\r\nupdate your preferences or unsubscribe",
-            {
-                "entities": [
-                    [
-                        43,
-                        56,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        59,
-                        77,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        209,
-                        227,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        230,
-                        247,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        249,
-                        262,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        313,
-                        329,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        358,
-                        373,
-                        "FLAG"
+                        386,
+                        "LOA_BEAM"
                     ],
                     [
                         387,
+                        391,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
                         398,
-                        "IMO"
-                    ]
-                ]
-            }
-        ],
-        [
-            "// EXCLUSIVE //\r\nOPEN SALALAH 17th AUG\r\nM/V HAI PHUONG 87\r\nDWT 32,816MTS ON 10.15M DRAFT\r\nBULKER/SINGLE DECK\r\nVIETNAM FLAG / CLASS NK&VR\r\nCHINA BUILT 2009\r\nGRT 20767 / NRT 12116\r\nLOA/BEAM/DEPTH 179.9/28.4/14.1M\r\nHOLDS 5 / HATCHES 5\r\nHATCH COVER: MCGREGOR, HYDRO FOLDING TYPE\r\nGRAIN 43127 / BALE 41402CBM\r\n4 X30MTS CRANES\r\nADA\r\n-no GOA passing\r\nBest Regards\r\nHuseyin Turgut\r\ndir +6562483117\r\nmob +6596165388",
-            {
-                "entities": [
-                    [
-                        17,
-                        29,
-                        "OPEN_AREA"
+                        411,
+                        "GRAIN_AND_BALE"
                     ],
                     [
-                        30,
-                        38,
-                        "OPEN_DATE"
+                        621,
+                        634,
+                        "GRAIN_AND_BALE"
                     ],
                     [
-                        40,
-                        54,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        59,
-                        72,
-                        "DWT"
-                    ],
-                    [
-                        110,
-                        122,
-                        "FLAG"
-                    ],
-                    [
-                        144,
-                        154,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        305,
-                        320,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "// EXCLUSIVE //\r\nOPEN SALALAH 17th AUG\r\nM/V HAI PHUONG 87\r\nDWT 32,816MTS ON 10.15M DRAFT\r\nBULKER/SINGLE DECK\r\nVIETNAM FLAG / CLASS NK&VR\r\nCHINA BUILT 2009\r\nGRT 20767 / NRT 12116\r\nLOA/BEAM/DEPTH 179.9/28.4/14.1M\r\nHOLDS 5 / HATCHES 5\r\nHATCH COVER: MCGREGOR, HYDRO FOLDING TYPE\r\nGRAIN 43127 / BALE 41402CBM\r\n4 X30MTS CRANES\r\nADA\r\n-no GOA passing\r\nBest Regards\r\nHuseyin Turgut\r\ndir +6562483117\r\nmob +6596165388",
-            {
-                "entities": [
-                    [
-                        17,
-                        29,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        30,
-                        38,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        40,
-                        54,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        59,
-                        72,
-                        "DWT"
-                    ],
-                    [
-                        110,
-                        122,
-                        "FLAG"
-                    ],
-                    [
-                        144,
-                        154,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        305,
-                        320,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 10:28:49   (GMT +5:30)\r\nREFERΕNCE NO: 17699422\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n1. MV CHANG HONG AN ( 57K/2012 ) OPEN GANGAVARAM ,INDIA ARD AUG 28TH,2024\r\n-PREFER FAREAST DIRECTION\r\n2. MV OCEAN TIANBO 63K/2018 OPEN FUKUYAMA  ,JAPAN  ARD AUG 26TH ,\r\n2024-2X25 MT COIL OK/DECK OK-\r\nNO GOA TRANSIT-\r\nTRY ANY INCL PERIOD\r\n3. MV AGRI TBN 52K(2000) OPEN UMM QASR,IRAQ ARD AUG 27TH,2024\r\n-PREFER FH\r\n-RED SEA OK\r\n-FULL TCD HERE\r\nMV CHANG HONG AN\r\nIMO: 9562001 CallSign: BOUI3\r\nEx-Name(s):  OLYMPIC\r\nBulk Carrier, Built: 2012 by CMHI JINLING\r\nFlag: China, Class: CCS\r\nDWT/Draft: 57,034 MT DWT / 12.80 m SSW\r\nTPC / TPI:  58.80 MT / 149.35 LT at full summer draft\r\nLOA/Beam: 189.99 m (loa) / 32.26 m (beam)\r\nGRT/NRT: 32,987/ 19,231\r\nSuez: 34,258 GT / 30,643NT\r\nTropical fresh: 58,607MT / 13.355 m / 59.00 TPC\r\nSummer fresh: 57,033MT / 13.088 m / 59.00 TPC\r\nTropical salt: 58,607 MT / 13.067 m / 58.90 TPC\r\nWinter salt: 55,499 MT / 12.533 m / 58.70 TPC\r\nGrain/Bale: 71,634 cbm / 68,200 cbm\r\nHo/Ha: 5/5 Hatch cover: McGregor Folding Type\r\nCargo Gears:  4x30T Cranes (outreach),\r\nGrabs size: 4x12cbm\r\nHatch size (L x B X D):\r\nNo.1: 18.86 m X 18.26 m X 0.9 m\r\nNo.2: 21.32 m X 18.26 m X 0.9 m\r\nNo.3: 21.32 m X 18.26 m X 0.9 m\r\nNo.4: 21.32 m X 18.26 m X 0.9 m\r\nNo.5: 21.32 m X 18.26 m X 0.9 m\r\nHold Dimensions (L x B X D):\r\nNo.1: C/H 27.88m x 32.26m x 16.76m\r\nNo.2: C/H 31.16m x 32.26m x 16.72m\r\nNo.3: C/H 29.52m x 32.26m x 16.72m\r\nNo.4: C/H 31.16m x 32.26m x 16.72m\r\nNo.5: C/H 29.52m x 32.26m x 16.72m\r\nHold capacity (Grain/Bale):\r\nNo.1: 13,009.90 cbm/12,619.6 cbm\r\nNo.2: 15,333.20 cbm/14,873.3 cbm\r\nNo.3: 14,553.10 cbm/14,116.5 cbm\r\nNo.4: 15,333.30 cbm/14,873.3 cbm\r\nNo.5: 13,404.60 cbm/13,002.5 cbm\r\nTank top strength (MT/m2): hold No.1-5: 25.00/20/25/20/25\r\nCO2 fitted\r\nTank Capacity:  IFO (100%) / 2052.77 M3    MGO (100%)/ 317.11 M3\r\nFW (100%)/ 433.59 M3      BALLAST WATER/ 30886.46 M3\r\nConstants: about 550MT (excl. freshwater)\r\nSpeed/Consumption:\r\nBallast: about 12 kts on about IFO 22 MT (380CST) +MD/GO 0.1 MT at sea\r\nLaden: about 11.5 kts on about IFO 24 MT (380CST) +MD/GO 0.1 MT at sea\r\nPort idle: about 3.5 IFO + 0.1 MD/GO (MT/24hours)\r\nPort working: about 5.5 IFO + 0.1 MD/GO (MT/24hours)\r\nADDITIONAL 1 MT IFO PER DAY FOR BOILER IN COLD WEATHER.\r\nBALLASTING/DE-BALLASTING EXCHANGE AND HOLDS CLEANING WHILE AT SEA OR PORT THE TOTAL CONSUMPTION OF THE VESSEL WILL BE INCREASED BY ABT 4 MT\r\nALL FIGURES STATED FOR SPEED AND CONSUMPTION ARE \"ABOUT\" ALWAYS UPWARDS IN EFFECT FOR BUNKERS AND CLEAN UNDER WATER HULL, ABOUT TO MEAN -0.5 KNOTS AND +5% ON CONSUMPTION. FOR THE PURPOSE OF CALCULATING VESSEL'S PERFORMANCE UNDER THIS CHARTER PARTY IT IS AGREED THAT ALL DAYS AND TIME WHERE THE WEATHER EXCEEDS BFF 4 AND DSS3, ADVERSE CURRENT, NEGATIVE INLUENCE OF SWELL AND COMBINED SIGNIFICANT WAVE AND SWELL HEIGHT EXCEEDING 1.25M ARE EXPRESSLY EXCLUDED FROM PERFORMANCE ASSESSMENT ANDCALCULATIONS. AN ADMISSIBLE PERIOD OF GOOD WEATHER HAS TO BE A PERIOD OF 24 CONSECUTIVE HOURS RUNNING FROM NOON TO NOON. POSITIVE CURRENTS NOT TO BE DEBITED FROM VESSEL'S SPEED IN SPEED/CONSUMPTION CALCULATIONS. DEFICIENCY IN SPEED, IF ANY, CAN BE OFFSET BY THE SAVING OF IFO AND/OR MGO AND VICE VERSA.\r\nHOWEVER, WHILST MANOUEVRING IN/OUT OF PORTS, RIVERS, CANALS, NARROW WATERS, SAILING IN PIRACY AREAS, HEAVY TRAFFIC, FOGS, STEAMING/STAYING IN ECA AREAS/PORTS ETC ABOVE SPEED & CONS WARRANTY IS NOT APPLICABLE, VESSEL MAY BURN LSMGO IN THE ENGINE\r\nBUNKER SPECS:\r\nFUEL OIL 380 CST SPECS: ISO 8217 2010 RMG 380 (SULPHUR CONTENT < 0.5%)\r\nDIESEL OILS SPECS: ISO-8217 2010 DMA/B (SULPHUR CONTENT < 0.1%)\r\nEMISSION CONTROL RESTRICTION BY INTERNATIONAL, NATIONAL, LOCAL AUTHORITIES TO BE MAINTAINED\r\nNO OPL BUNKERING\r\nALL ABOVE DETAILS ABOUT\r\nMV OCEAN TIANBO\r\nIMO NO.: 9740134 CALL SIGN: VRRM3 PORT OF REGISTRY: HONG KONG\r\nFLAG: HONG KONG,CHINA CLASS: CCS\r\nBUILDER: CHINA SHIPPING INDUSTRY (JIANGSU) CO., LTD , BLT 2018\r\nTYPE: BULK CARRIER\r\nNUMBER OF HATCH: 5. NUMBER OF HOLD: 5\r\nLOA: 199.90M  LBP: 194.50M  BREADTH: 32.26M  DEPTH: 18.50M\r\nMAX HEIGHT ABOVE KEEL: 50.04M\r\nSUMMER DWT: 63578.7MT DRAFT:13.30M\r\nDISP: 75226.7 MT  TPC: 62.4 (T/CM)\r\nLIGHT SHIP: 11648.05MT GRAIN: 78642.4 CBM IN BULK\r\nGROSS TONNAGE / NET TONNAGE: 36415 / 21570 GEAR AND GRAB: 4X30MT CRANES TYPE H300200 / IHI-WMMP AND 4X12CBM GRABS HATCH COVER TYPE: BZ-01\r\nGRAIN CAPACITY:\r\nHOLD 1: 13922\r\nHOLD 2: 17661\r\nHOLD 3: 15302\r\nHOLD 4: 15815\r\nHOLD 5: 15943\r\nTOTAL: 78643 CBM\r\nTANKTOP STRENGTH (METRIC TONS PER M2):\r\nHOLD #1: 25 HOLD #2: 20  HOLD #3: 25  HOLD #4: 20  HOLD #5: 25\r\nSPEED/CONSUMPTION:\r\n‒ LADEN/BALLAST ABOUT 13.5/14.5 KTS ON ABT 28.5 MT/DAY IFO RMG 380 CST + 0.1 MT /DAY MGO ECONOMY SPEED/CONSUMPTION:\r\n‒ LADEN: ABT 12.0 KTS ON ABT 20 MT IFO 380 + 0.1MT MGO ‒ BALLAST: ABT 12.5 KTS ON ABT 18.5 MT IFO 380 +0.1MT MGO IN PORT:\r\n‒ WORKING ABOUT 5.5 MT IFO 380 CST/DAY +0.1MT MGO/DAY ‒ IDLE ABOUT 3.0MT IFO 380CST/DAY +0.1MT MGO/DAY\r\n- NO EXTRA MDO AT SEA AND IN PORT EXCEPT BAD/COLD WEATHER AND/OR ENTERING INTO OR LEAVING FROM PORT OF CALL AND/OR MANEUVERING IN NARROW/SHALLOW/CONGESTED WATER . VSL HAS THE LIBERTY TO BURN MDO DURING HARBOR STEAMING AND NAVIGATING IN SHALLOW/NARROW WATERS/CHANNELS ETC.\r\n'IFO 380CST/RMG ISO 8217 2010' AND ANY AMENDMENTS THEREAFTER.\r\nALL DETAILS ABOUT\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
-            {
-                "entities": [
-                    [
-                        240,
-                        262,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        267,
-                        280,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        337,
-                        358,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        364,
-                        372,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        470,
-                        488,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        493,
-                        506,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        662,
-                        673,
-                        "FLAG"
-                    ],
-                    [
-                        1168,
-                        1180,
-                        "CRANES"
-                    ],
-                    [
-                        3909,
-                        3924,
-                        "FLAG"
-                    ],
-                    [
-                        4349,
-                        4362,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:13:55   (GMT +5:30)\r\nREFERΕNCE NO: 17699883\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV UNIVERSE KAISA - HDY - OPEN ZHANGJIAGANG , CJK - 24TH- 28TH AUG, 2024\r\nMV. UNIVERSE KAISA\r\nBLT  2004 IMABARI /JAPAN\r\nBUIK CARRIER / LOGGER / CO2 FITTED\r\nDWT 28,388 MT ON 9.778 MTRS (SUMMER)\r\nLOA 169.26 / BEAM 27.2\r\nGRT 16,954 / NRT 10,134\r\n5 HO / 5 HO\r\nGRAIN:37,523 CBM (1,325,110 CBF) / BALE:35,762 CBM (1,262,937 CBF)\r\nCRANES: 4 X 30.5 MTONS\r\nSPEED/CONSUMPTION\r\nBALLAST: ABT 12.5 KNOTS ON ABT 17.0 MT IFO (380CST) + ABT 0.2 MT MGO\r\nLADEN:    ABT 12.0 KNOTS ON ABT 18.0 MT IFO (380CST) + ABT 0.2 MT MGO\r\nIN PORT IDLE: ABT 2.2 MTONS IFO + 0.3 MTONS MGO\r\nIN PORT WORKING: ABT 3.5 MTONS IFO + 1.2 MTONS MGO\r\nSPEED AND CONSUMPTION IS ON BASIS OF THE CONDITION OF MAXIMUM BEAUFORT WIND FORCE 4 AND DOUGLAS SEA STATE 3 AND NO ADVERSE CURRENT.\r\nAN UNDERPERFORMANCE CLAIM CAN ONLY BE SUBMITTED IN RESPECT OF PERIODS DURING WHICH THE VESSEL ENCOUNTERS WEATHER UPTO BEAUFORT 4 AND/OR DOUGLAS SEASTATE 3 (SIGNIFICANT WAVE UP TO 1.25 M MAX N SWELL WAVE UP TO 2 M MAX)  AND NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL\r\nSPEED \"ABOUT\" MEANS 0.5 KNOTS DOWNWARDS AND BUNKER \"ABOUT\" MEANS 5%, UPWARDS IN CALCULATING OVER-CONSUMPTION BUT NO ALLOWANCE IN FUEL UNDER-CONSUMPTION.ALL SPEED AND CONSUMPTION FIGURES ARE AVERAGE FIGURES DURING C/P PERIOD\r\nVESSELS MAIN ENGINE MAY BURN MDO/MGO AND/OR EXTRA IFO IN CASE OF\r\nEMERGENCY OR HILE NAVIGATING/MANEUVERING IN NARROW/SHALLOW/RESTRICTED\r\nWATERS, CANALS, RIVERS, ENTERING/LEAVING PORTS/CANALS, STARTING/STOPPING\r\nTHE ENGINE, BALLAST WATER EXCHANGING, CLEANING VESSEL’S HOLDS,\r\nBALLASTING/DEBALLASTING OPERATION, OR BAD/COLD WEATHER CONDITION ETC.\r\nALWAYS AT THE DISCRETION OF THE MASTER WITH REASONABLE EXCUSE.\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
-            {
-                "entities": [
-                    [
-                        209,
-                        226,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        235,
-                        258,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        261,
-                        281,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        283,
-                        301,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        303,
-                        312,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        365,
-                        378,
-                        "DWT"
-                    ],
-                    [
-                        533,
-                        555,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:21:24   (GMT +5:30)\r\nREFERΕNCE NO: 17699981\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV GRAMPUS ACE  DWT 32503MT - OPEN ZHOUSHAN, CHINA EX DD AROUND - 1- 4TH SEP, 2024.\r\n(hold clean, semi-box, a60 fitted, bod abt 400/48mts)\r\nlast five: copper concs(recent)/alumina/bagged ammonium nitrate/granite block/petcock\r\nMV GRAMPUS ACE\r\nSGP FLAG 2011 BUILT SDBC\r\nDWT: 32,503MT DWT ON 10.17M SSW\r\nGRT 20,969 / NRT 11,798\r\nLOA 179.90M / BEAM 28.40M\r\n5HA5HO, CRANE 4X30T\r\nGRAIN CAPA 43,477.4CBM\r\nBLALLASTING ABT 12K/ABT 17.2MT  IFO 380CST+0.1MT  MGO(WOG)\r\nLADEN ABT 11.2K/ABT 17.6MT IFO 380CST+0.1MT MGO(WOG)\r\nIDLE: FO/ 2.7 MT + DO/ 0.1 MT\r\nWORKING: FO/ 4.5 MT + DO/ 0.1 MT\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
-            {
-                "entities": [
-                    [
-                        209,
-                        223,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        225,
-                        236,
-                        "DWT"
-                    ],
-                    [
-                        239,
-                        259,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        275,
-                        292,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        436,
-                        438,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        439,
-                        460,
-                        "FLAG"
-                    ],
-                    [
-                        461,
-                        471,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        478,
-                        491,
-                        "DWT"
-                    ],
-                    [
-                        571,
-                        582,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:21:24   (GMT +5:30)\r\nREFERΕNCE NO: 17699981\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV GRAMPUS ACE  DWT 32503MT - OPEN ZHOUSHAN, CHINA EX DD AROUND - 1- 4TH SEP, 2024.\r\n(hold clean, semi-box, a60 fitted, bod abt 400/48mts)\r\nlast five: copper concs(recent)/alumina/bagged ammonium nitrate/granite block/petcock\r\nMV GRAMPUS ACE\r\nSGP FLAG 2011 BUILT SDBC\r\nDWT: 32,503MT DWT ON 10.17M SSW\r\nGRT 20,969 / NRT 11,798\r\nLOA 179.90M / BEAM 28.40M\r\n5HA5HO, CRANE 4X30T\r\nGRAIN CAPA 43,477.4CBM\r\nBLALLASTING ABT 12K/ABT 17.2MT  IFO 380CST+0.1MT  MGO(WOG)\r\nLADEN ABT 11.2K/ABT 17.6MT IFO 380CST+0.1MT MGO(WOG)\r\nIDLE: FO/ 2.7 MT + DO/ 0.1 MT\r\nWORKING: FO/ 4.5 MT + DO/ 0.1 MT\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
-            {
-                "entities": [
-                    [
-                        209,
-                        223,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        225,
-                        236,
-                        "DWT"
-                    ],
-                    [
-                        239,
-                        259,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        275,
-                        292,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        436,
-                        450,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        461,
-                        471,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        478,
-                        491,
-                        "DWT"
-                    ],
-                    [
-                        492,
-                        505,
-                        "DWT"
-                    ],
-                    [
-                        571,
-                        582,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:16:29   (GMT +5:30)\r\nREFERΕNCE NO: 17699916\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV ORIENTAL PHOENIX - SMX - OPEN ULSAN,KOREA - 24 AUG\r\nMV ORIENTAL PHOENIX\r\nFLAG: LIBERIA CLASS: BV PNI: TMS\r\nSINGLE DECK BULK CARRIER BLT: 1997 CROATIA\r\nDWT: 42584 MT SSW: 10.987M TPC: 51.4\r\nGT/NT: 24533/13770\r\nLOA/BREADTH: 187.63M/30.80M\r\nGRAIN/BALE: ABT 51125.70/49034.16 CBM\r\nCRANE: 4 X 30 MT GRAB: 4 X 12 CBM\r\nSPEED AND CONSUMPTION:\r\nNORMAL SPEED\r\nBALLAST:  ABT 12.5 KTS ABT 19.50MT IFO 380CST + ABT 0.5MT MGO DAILY\r\nLADEN:   ABT 11.0 KTS ABT 19.50MT IFO 380CST + ABT 0.5MT MGO DAILY\r\nIN PORT\r\nIDLE:    ABT 2.5MT IFO 380CST + ABT 0.5MT MGO DAILY\r\nWORKING: ABT 5.0MT IFO 380CST + ABT 0.5MT MGO DAILY\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
-            {
-                "entities": [
-                    [
-                        209,
-                        228,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        237,
-                        253,
-                        "OPEN_AREA"
-                    ],
-                    [
-                        256,
-                        262,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        264,
-                        283,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        285,
-                        298,
-                        "FLAG"
-                    ],
-                    [
-                        344,
-                        353,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        363,
-                        376,
-                        "DWT"
-                    ]
-                ]
-            }
-        ],
-        [
-            "TO: WHOM IT MAY CONCERNED PARTIES\r\nFM:TRAWIND SHIPPING LOGISTICS (HK) LIMITED\r\nGOOD DAY!\r\nPLS KINDLY PPS SUITABLE CGO FOR OUR FLWG VSLS:\r\nVESSEL NAME\r\nBLT\r\nDWT\r\nOPEN POSITION\r\nOPEN DATE\r\nREMARK\r\nMV.YUAN ZHENG\r\n1990BLT\r\nDWT3250MT\r\nPOHANG OR INCHON\r\nEARLY OF SEP\r\nMV.QI HANG\r\n1991BLT\r\nDWT3720MT\r\nINLANDSEA\r\n30TH AUG\r\nMV.TRAWIND COURAGE\r\n2013BLT\r\nDWT5670MT\r\nMANILA\r\n4TH SEP\r\nCRANE60MTX2;1H1H;SINGLE OR TWEEN DECK ALTERNATIVELY\r\nMV.TRAWIND RE\r\n2007BLT\r\nDWT12900MT\r\nPORT KELANG\r\n28TH AUG\r\nMV.XIN JI 6\r\n2009BLT\r\nDWT15700MT\r\nPORT MORESBY\r\n24TH AUG\r\nMV.TRAWIND RE 17\r\n2007BLT\r\nDWT15930MT\r\nMOROWALI\r\n20TH SEP\r\nMV.TRAWIND GLORY\r\n2007BLT\r\nDWT 12005MT\r\nREVERTG\r\nREVERTG\r\nCRANE 30MTX2\r\nMV.TRAWIND VISION\r\n2008BLT\r\nDWT16645MT\r\nN.CHINA\r\nEARLY OF SEP\r\nCRANE 30MTX2,CEMENT HOLE\r\nMV.TRAWIND WISDOM\r\n2007BLT\r\nDWT16822MT\r\nPOHANG\r\n28TH AUG\r\nCRANE 30.7MTX3,CEMENT HOLE\r\n",
-            {
-                "entities": [
-                    [
-                        195,
-                        208,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        219,
-                        228,
-                        "DWT"
-                    ],
-                    [
-                        262,
-                        272,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        283,
-                        292,
-                        "DWT"
-                    ],
-                    [
-                        315,
-                        333,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        344,
-                        353,
-                        "DWT"
-                    ],
-                    [
-                        372,
-                        383,
-                        "CRANES"
-                    ],
-                    [
-                        425,
-                        438,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        449,
-                        459,
-                        "DWT"
-                    ],
-                    [
-                        484,
-                        504,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        506,
-                        516,
-                        "DWT"
-                    ],
-                    [
-                        542,
-                        555,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        569,
-                        579,
-                        "DWT"
-                    ],
-                    [
-                        601,
-                        617,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        628,
                         639,
-                        "DWT"
+                        657,
+                        "LOA_BEAM"
                     ],
                     [
-                        659,
-                        671,
-                        "CRANES"
+                        865,
+                        878,
+                        "GRAIN_AND_BALE"
                     ],
                     [
-                        673,
-                        690,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        701,
-                        711,
-                        "DWT"
-                    ],
-                    [
-                        736,
-                        748,
-                        "CRANES"
-                    ],
-                    [
-                        762,
-                        779,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        790,
-                        800,
-                        "DWT"
-                    ],
-                    [
-                        820,
-                        834,
-                        "CRANES"
+                        879,
+                        896,
+                        "LOA_BEAM"
                     ]
                 ]
             }
         ],
         [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
+            "Yangtze Elite\r\ndamietta, egypt\r\n56854\r\n2011\r\nbod vlsfo 400-500mt, lsmgo 30-40mt\r\n/nrt 32,983/19,191\r\nhours ballast 12.5knots on 25mt vlsfo + 0.1mt lsmgo laden 12.0knots on 25mt vlsfo +0.1mt lsmgo in port 3.5mt vlsfo +0.1mt lsmgo idle 5.0mt vlsfo +0.1mt lsmgo\r\nDear All,\r\n\r\nPlease pps for our below vessel,\r\n\r\nMV YANGTZE ELITE 57K OPEN DAMIETTA, EGYPT O/A 20-23 AUG\r\nBOD VLSFO ABT 400-500MT, LSMGO ABT 30-40MT\r\n\r\nMV YANGTZE ELITE\r\nBULK CARRIER\r\nMARSHALL ISLANDS FLAG\r\nBUILT:  2011  BUILT IN COSCO (DALIAN) SHIPYARD CP., LTD ,CHINA CLASS:BV\r\nDWT :56,854MT DWT ON 12.80M SSW  TPC:58.80\r\nGRT/NRT:  32,983/19,191\r\nLOA/BEAM: 189.99 M/32.26M        \r\nHOLDS/HATCHES: 5 / 5\r\nEND FOLDING TPYE HATCH COVERS HATCH HATCH SIZE\r\nNO.1)    18.86X18.26M,\r\nNO.2-5)  21.32X18.26M\r\nTTL HOLD GRAIN CAPA 71,634 CBM\r\nGEAR: CRANE 4X36T, GRAB 4*12 CBM\r\nSPEED/CONSUMPTION AS VESSEL TRADING AT OPEN SEA FOR 24 HOURS:\r\nBALLAST: ABT 12.5KNOTS ON ABT 25MT VLSFO + 0.1MT LSMGO\r\nLADEN: ABT 12.0KNOTS ON ABT 25MT VLSFO +0.1MT LSMGO\r\nIN PORT :\r\nABT 3.5MT VLSFO +0.1MT LSMGO  IDLE\r\nABT 5.0MT VLSFO +0.1MT LSMGO  BSS CRANE WORKING\r\n“ABT” MEANS AN ALLOWANCE OF +/-0.5KN ON SPEED AND 5PCT ON CONSUMPTION \r\n\r\nALL ABOVE SPEED/CONSUMPTIONS ARE GIVEN FROM BEGINNING TO END OF SEA PASSAGE, AT OPEN SEA, NOT EXCEEDING SUMMER DRAFT, UNDER GOOD WEATHER CONDITION NAMELY, 24 CONSECUTIVE HOURS (FROM NOON TO NOON), NO ADVERSE CURRENT, NO NEGATIVE INFLUENCE OF SWELL, BEAUFORT SCALE MAX 4, DOUGLAS SEA STATE 3 (MEANS SIGNIFICANT WAVE HEIGHT LESS THAN 1.25 METRES).\r\nALWAYS EXCLUDING ANY VOYAGE LESS THAN 48 HOURS TRANSIT TIME FROM SEA PILOT TO SEA PILOT, SAILING IN PIRACY AREAS, IN CONGESTION, IN REDUCED VISIBILITY, MANEUVERING OR SAILING IN SHALLOW/RESTRICTED WATERS, STRAITS, RIVERS, CANALS, WHEN APPROACHING /ENTERING/LEAVING PORTS AND WHEN LOADED WITH DECK CARGO.\r\nTHE VESSEL HAS LIBERTY TO BURN EXTRA VLSFO/LSMGO IN CASE OF EMERGENCY, EXCHANGING BALLAST WATER AT SEA, HEATING FUEL IN COLD WEATHER, HOLD CLEANING, MAINTENANCE, MANOEUVRING, SAILING IN SHALLOW/NARROW/CONFINED WATERS, STRAITS, RIVERS, CANAL, ENTERING/LEAVING PORTS, IN HEAVY WEATHER CONDITION AND WHEREVER NECESSARY. COST AND TIME (INCLUDING ANY DEVIATION TIME REQUIRED TO MEET SECA REQUIREMENTS AND/OR REGULATIONS IN OPERATION PORTS TO WHICH VESSEL IS BOUND) INCL BALLAST EXCHANGE TO BE FOR CHARTERERS' ACCOUNT. \r\nCHARTERERS TO SUPPLY BUNKERS WITH SPECIFICATIONS IN ACCORDANCE WITH VLSFO (SULFUR 0.5% MAX)\r\nISO 8217:2017 RMG380 AND LSMGO(SULFUR 0.1% MAX) ISO 8217:2017 DMA. BIMCO 2020 MARINE FUEL SULPHUR CONTENT CLAUSE FOR TIME CAHRTER PARTIES TO BE INCORPORATED INTO THIS CP.\r\nADA\r\n\r\nTks&B/rgds\r\n\r\nLeon Qiu",
             {
                 "entities": [
                     [
-                        215,
-                        224,
-                        "VESSEL_NAME"
+                        93,
+                        99,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        233,
-                        242,
-                        "DWT"
+                        562,
+                        567,
+                        "DRAFT"
                     ],
                     [
-                        359,
-                        368,
-                        "VESSEL_NAME"
+                        584,
+                        607,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        430,
-                        451,
-                        "FLAG"
+                        609,
+                        634,
+                        "LOA_BEAM"
                     ],
                     [
-                        459,
-                        472,
-                        "IMO"
+                        644,
+                        660,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        890,
+                        944,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        946,
+                        997,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1003,
+                        1073,
+                        "PORT_CONS"
                     ]
                 ]
             }
         ],
         [
-            "DEAR SIRS\r\nGD DAY\r\nPLS KINDLY PPS FOR:\r\nMV.WANG DA 38K/16,JEDDAH ARD 12-13TH/SEPT  IAGW,NO IRAN/ISRAEL/YEMAN,PREFER BUSINESS TO CHINA DIRECTLY,TRY F.E OR S.E.ASIA,BOD RVTG\r\nWANG DA\r\nPANAMA FLAG,NKK CLASS,2016 BLT\r\nSUMMER DWT 38225MT BSS 10.60M/TPC 51.7MT\r\nGT/NT 24750/12765,TPC 51.7\r\nLOA/BEAM:179.90/30.00M\r\n4*36MT CRANE ,4*(6-12)CBM GRAB(REMOTE CONTROL)\r\nG/B (BSS TWN DEC OPEN) 45108.80CBM/NIL\r\nG/B(BSS TWN DECK CLOSED) 46516.30/44728.8CBM\r\nHOLD 2&4 TWIN DECK (FLUSH TD CAN BE REGARDED AS SINGLE DECK FOR BULK CARGO),OTHERS SD\r\n5H/5H\r\nSPEED/ CONSUMPTION:\r\nFULL SPEED/CONS:\r\nBALLAST/LADEN ABT 12.50KN/ABT 12.20KN ON ABT 20.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nECO:\r\nBALLAST/LADEN ABT 11.70KN/ABT 11.70KN ON ABT 17.50MT/ABT 18.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nPORT CONS:IDLE ABT 2.80MT IFO 380CST(RMG 380)+ ABT 0.10MT MDO OR WORKING ABT 3.8MT BSS 12H OR  5.00MT BSS 24H IFO 380CST(RMG 380)+ABT 0.10MT MDO\r\nADDITIONAL ABT 0.5MT IFO 380CST(RMG 380) FOR IDLE OR WORKING IF THE AIR TEMPERATURE IS UNDER 15 CENTIGRADE(INCL)\r\nSPEED/CONSUMPTION BASED ON CLEAN BOTTOM ，WITHOUT DECK CARGO AND GOOD WEATHER CONDITIONS WHICH MEANS:WINDS UP TO AND INCLUDING BEAUFORT SCALE 4 / DOUGLAS SEA STATE 3(MAXIMUM SIGNIFICANT WAVE HEIGHT 1.25M) AND NO AFFECT OF SEA AND CURRENT AND NO INFLUENCE OF SWELL AND ADVERSE CURRENT.\"ABT\" MEANS 0.5 KN DECREASE IN SPEED & 5% INCREASE IN CONSUMPTION. FAVORABLE CURRENTS ALWAYS WORK TO OWNERS’ ADVANTAGE. ALL PERFORMANCE ASSESSMENT ARE CALCULATED ON A GOOD WEATHER DAY BASIS 24 CONSECUTIVE HOURS FROM NOON REPORT TO NOON REPORT.NO EXTRAPOLATIONS CAN BE MADE FOR OTHER WEATHER/SEA CONDITIONS THAN THOSE DESCRIBED ABOVE.\r\nVESSEL MAY CONSUME EXTRA BUNKER WHEN EXCHANGE BALLAST WATER, HOLDS CLEANING, IN/OUT PORT, IN VERY COLD OR VERY WARM WATER, DURING LIGHTENING OPERATION / DOUBLE BANKING/BUNKERING OR OTHER OPERATIONS WHEN VESSEL NECESSARY TO HAVE THE ENGINE STANDBY OR ADDITIONAL A/E AND BOILER.\r\nVESSEL CONSUMES MGO IN MAIN ENGINE, WHEN MANOEUVERING / NAVIGATING IN SHALLOW, NARROW, CONGESTED, RESTRICTED AND CONFINED WATERS / CANALS / RIVERS, ENTERING / LEAVING PORTS/CANALS, WITHIN SECA AREA, AND MAY ALSO BURN MGO WHEN STARTING/SWITCHING OFF AND RUNNING AUXILIARIES AT SEA OR PORT.\r\nCHARTERERS SHALL ALSO ENSURE, PRIOR TO THE VESSEL ENTERING IN ANY OF THE EMISSION CONTROL AREAS (ECAS),TO SUPPLY THE VESSEL WITH SUFFICIENT QUANTITY OF LOW SULPHUR BUNKERS (THE SULPHUR CONTENT PURSUANT TO THE REQUIREMENTS OF ECAS) TO BE CONSUMED WHEN TRADING IN ECAS AREAS AT CHARTERERS RISK, TIME AND EXPENSES WITHOUT MIXING THIS FUEL WITH OTHER BUNKERS ON BOARD.  IT IS UNDERSTOOD THAT THE LOW SULPHUR BUNKER QUANTITY REQUIRED FOR CHANGE-OVER FROM HIGH TO LOW SULPHUR BUNKER PRIOR ENTERING IN ECAS TO BE FOR CHARTERERS' ACCOUNT AS WELL. FOR THE PURPOSE OF THIS CLAUSE, \"EMISSION CONTROL AREAS (ECAS)\" MEAN THE AREAS DESIGNATED UNDER MARPOL ANNEX VI AND/OR ANY OTHER AREA WHERE A MAXIMUM FUEL SULPHUR CONTENT REQUIREMENT IS IMPOSED BY REGIONAL AND/OR NATIONAL AUTHORITIES. THE CHARTERERS MAY GIVE WRITTEN INSTRUCTIONS TO THE MASTER - WITH COPY TO OWNERS -FOR SLOW STEAMING, SUBJECT ALWAYS TO MASTER’S OBLIGATIONS IN RESPECT OF THE SAFETY OF THE CREW, VESSEL AND CARGO, WHEREOF IN ANY CASE OWNERS NOT TO BE HELD LIABLE FOR ANY PERFORMANCE SHORTFALL. FURTHERMORE, PROLONGED PERIODS OF SLOW STEAM, ARE SUBJECT TO VESSEL’S MAIN ENGINE MINIMUM RPM RESTRICTIONS AS IMPOSED BY ENGINE MAKERS AND/OR ANY OTHER PARAMETERS WHICH MAY AFFECT THE CONDITION OF THE MAIN ENGINE DUE TO CONTINUOUS RUNNING WITH LOW RPM. OWNERS/MASTER/CH.ENGINEER, ARE ENTITLED TO REVERT TO VESSEL’S SERVICE SPEED WHEN SAME IS DEEMED NECESSARY FOR MAINTAINING ENGINES’ INTEGRITY AND VESSEL’S  SAFETY.\r\nFUEL OIL TO CONFORM WITH VLSFO-RMG380(MAX SULPHUR:0.5%) (ISO 8217:2017(E) STANDARD) / LSMGO-DMA (EXCEPT PP)(ISO8217:2017(E) STANDARD)(MAX SULPHUR :0.1%). CHARTERTERS SHALL PROVIDE OWNERS/VESSEL BUNKER COQ IN COMPLIANCE WITH ISO 8217:2017 WITH RELIABALE LABORTORY'S STAMP/SIGNATURE NOT LATER THAN 24 HOURS BEFORE COMMENTCEMENT OF BUNKERING, FAILING WHICH ALL CONSEQUENCES/LOSS TO BE ON CHARTERERS' ACCOUNT..\r\nADA\r\nBest Regards\r\nZhangChao As Agent For Nasco\r\nADD: No. 18F, No.5, ZhongTai International Plaza, 311 JiangDong Road (M), Nanjing 210019, P.R.China\r\nT: +86 25 58820507 | QQ: 1549444379\r\nM: +86 13515119883 OR 13515110981 | SKYPE ZHCHDLMU@HOTMAIL.COM\r\nZHANGCHAO@NASCO.COM.CN |WWW.NASCO.COM.CN",
+            "Position List Asia | Week 34\r\nWe are open with the following positions:\r\n\r\nSouth East Asia\r\nMV  ANNIE  , Blt 2010\r\n12,537 dwat, 3 Box Holds\r\n15,952 cbm Bale\r\n2 x 180 mt Cranes, 360 mt combi\r\n\r\nView details\r\n \r\nPosition:\r\nSouth East Asia - end September \r\n\r\nDirection: \r\nWorldwide\r\nMV  CHARLIE  , Blt 2021\r\n12,248 dwat, 2 Box Holds\r\n17,612 cmb Bale\r\n2 x 250 mt Cranes, 500 mt combi\r\n\r\nView details\r\nPosition:\r\nSouth East Asia - mid/end September \r\n\r\nDirection: \r\nIntra Asia\r\n \r\nFar East Asia\r\nMV  GWEN  , Blt 2008\r\n12,537 dwat, 3 Box Holds\r\n15,952 cbm Bale\r\n2 x 180 mt Cranes, 360 mt combi\r\n\r\nView details\r\n \r\nPosition:\r\nFar East - end August \r\n\r\nDirection: \r\nUSWC/Mexico \r\nUSEC\r\nGreat Lakes\r\n \r\nMV   STEVIE  , Blt 2010\r\n12,652 dwat, 3 Box Holds\r\n15,952 cbm Bale\r\n2 x 150 mt Cranes, 300 mt combi\r\n\r\nView details\r\n \r\nPosition:\r\nJapan - mid September\r\n\r\n\r\nDirection: \r\nContinent\r\n\r\n++fast transit++\r\n \r\nMV  JANIS  , Blt 2009\r\n12,537 dwat, 3 Box Holds\r\n15,952 cbm Bale\r\n2 x 180 mt Cranes, 360 mt combi\r\n\r\nView details\r\n \r\nPosition:\r\nFar East - early October \r\n\r\nDirection: \r\nWorldwide\r\n \r\nMV  EEMSLIFT NELLI  , Blt 2014\r\nmpp twd/box 1ho / 1ha \r\n4,400 dwat - 6700 cbm Bale\r\nHatch openings  64 meters\r\nGeared 2 x 150mts – 300mts combi\r\n\r\n\r\nView details\r\n \r\nPosition:\r\nFar East - mid October \r\n\r\nDirection: \r\nWorldwide\r\nNew Zealand\r\nMV  EEMSLIFT NADINE  , Blt 2014\r\nmpp twd/box 1ho / 1ha \r\n4,400 dwat - 6700 cbm Bale\r\nHatch openings  64 meters\r\nGeared 2 x 150mts – 300mts combi\r\n\r\n\r\nView details\r\n \r\nPosition:\r\nNew Zealand - early/mid October \r\n\r\nDirection: \r\nWorldwide\r\n",
             {
                 "entities": [
                     [
-                        40,
-                        50,
-                        "VESSEL_NAME"
+                        1129,
+                        1138,
+                        "HOLD_AND_HATCHES"
+                    ]
+                ]
+            }
+        ],
+        [
+            "- open Matadi, Congo 12-13 Sep\r\n\r\n- prefer direction Far East or Med\r\n\r\n \r\n\r\nMV. B PIONEER\r\n\r\nIMO CARGO CLASS 1-9 FITTED\r\n\r\nPANAMA FLAG; CLASS NK；BLT 2010 ；\r\n\r\nDWT/GRT/NRT: 8767 / 7057 / 2534 DRAFT: 7.99M,\r\nLOA/BM/DEPTH: 110.0 / 18.8 / 12.7; \r\n\r\nG/B CAPA: 12696 /11737CBM；\r\n\r\n2H/2H;  HATCH SIZE: 15.75×12.6M/27.75×12.6M; \r\n\r\nTWEEN DECK; CRANE: 30MT X 2 DERRICKS: 30MT\r\n\r\nADA\r\n\r\n ",
+            {
+                "entities": [
+                    [
+                        180,
+                        191,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        189,
-                        197,
-                        "FLAG"
+                        192,
+                        204,
+                        "DRAFT"
                     ],
                     [
                         221,
-                        232,
-                        "DWT"
-                    ]
-                ]
-            }
-        ],
-        [
-            "DEAR SIRS\r\nGD DAY\r\nPLS KINDLY PPS FOR:\r\nMV.WANG DA 38K/16,JEDDAH ARD 12-13TH/SEPT  IAGW,NO IRAN/ISRAEL/YEMAN,PREFER BUSINESS TO CHINA DIRECTLY,TRY F.E OR S.E.ASIA,BOD RVTG\r\nWANG DA\r\nPANAMA FLAG,NKK CLASS,2016 BLT\r\nSUMMER DWT 38225MT BSS 10.60M/TPC 51.7MT\r\nGT/NT 24750/12765,TPC 51.7\r\nLOA/BEAM:179.90/30.00M\r\n4*36MT CRANE ,4*(6-12)CBM GRAB(REMOTE CONTROL)\r\nG/B (BSS TWN DEC OPEN) 45108.80CBM/NIL\r\nG/B(BSS TWN DECK CLOSED) 46516.30/44728.8CBM\r\nHOLD 2&4 TWIN DECK (FLUSH TD CAN BE REGARDED AS SINGLE DECK FOR BULK CARGO),OTHERS SD\r\n5H/5H\r\nSPEED/ CONSUMPTION:\r\nFULL SPEED/CONS:\r\nBALLAST/LADEN ABT 12.50KN/ABT 12.20KN ON ABT 20.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nECO:\r\nBALLAST/LADEN ABT 11.70KN/ABT 11.70KN ON ABT 17.50MT/ABT 18.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nPORT CONS:IDLE ABT 2.80MT IFO 380CST(RMG 380)+ ABT 0.10MT MDO OR WORKING ABT 3.8MT BSS 12H OR  5.00MT BSS 24H IFO 380CST(RMG 380)+ABT 0.10MT MDO\r\nADDITIONAL ABT 0.5MT IFO 380CST(RMG 380) FOR IDLE OR WORKING IF THE AIR TEMPERATURE IS UNDER 15 CENTIGRADE(INCL)\r\nSPEED/CONSUMPTION BASED ON CLEAN BOTTOM ，WITHOUT DECK CARGO AND GOOD WEATHER CONDITIONS WHICH MEANS:WINDS UP TO AND INCLUDING BEAUFORT SCALE 4 / DOUGLAS SEA STATE 3(MAXIMUM SIGNIFICANT WAVE HEIGHT 1.25M) AND NO AFFECT OF SEA AND CURRENT AND NO INFLUENCE OF SWELL AND ADVERSE CURRENT.\"ABT\" MEANS 0.5 KN DECREASE IN SPEED & 5% INCREASE IN CONSUMPTION. FAVORABLE CURRENTS ALWAYS WORK TO OWNERS’ ADVANTAGE. ALL PERFORMANCE ASSESSMENT ARE CALCULATED ON A GOOD WEATHER DAY BASIS 24 CONSECUTIVE HOURS FROM NOON REPORT TO NOON REPORT.NO EXTRAPOLATIONS CAN BE MADE FOR OTHER WEATHER/SEA CONDITIONS THAN THOSE DESCRIBED ABOVE.\r\nVESSEL MAY CONSUME EXTRA BUNKER WHEN EXCHANGE BALLAST WATER, HOLDS CLEANING, IN/OUT PORT, IN VERY COLD OR VERY WARM WATER, DURING LIGHTENING OPERATION / DOUBLE BANKING/BUNKERING OR OTHER OPERATIONS WHEN VESSEL NECESSARY TO HAVE THE ENGINE STANDBY OR ADDITIONAL A/E AND BOILER.\r\nVESSEL CONSUMES MGO IN MAIN ENGINE, WHEN MANOEUVERING / NAVIGATING IN SHALLOW, NARROW, CONGESTED, RESTRICTED AND CONFINED WATERS / CANALS / RIVERS, ENTERING / LEAVING PORTS/CANALS, WITHIN SECA AREA, AND MAY ALSO BURN MGO WHEN STARTING/SWITCHING OFF AND RUNNING AUXILIARIES AT SEA OR PORT.\r\nCHARTERERS SHALL ALSO ENSURE, PRIOR TO THE VESSEL ENTERING IN ANY OF THE EMISSION CONTROL AREAS (ECAS),TO SUPPLY THE VESSEL WITH SUFFICIENT QUANTITY OF LOW SULPHUR BUNKERS (THE SULPHUR CONTENT PURSUANT TO THE REQUIREMENTS OF ECAS) TO BE CONSUMED WHEN TRADING IN ECAS AREAS AT CHARTERERS RISK, TIME AND EXPENSES WITHOUT MIXING THIS FUEL WITH OTHER BUNKERS ON BOARD.  IT IS UNDERSTOOD THAT THE LOW SULPHUR BUNKER QUANTITY REQUIRED FOR CHANGE-OVER FROM HIGH TO LOW SULPHUR BUNKER PRIOR ENTERING IN ECAS TO BE FOR CHARTERERS' ACCOUNT AS WELL. FOR THE PURPOSE OF THIS CLAUSE, \"EMISSION CONTROL AREAS (ECAS)\" MEAN THE AREAS DESIGNATED UNDER MARPOL ANNEX VI AND/OR ANY OTHER AREA WHERE A MAXIMUM FUEL SULPHUR CONTENT REQUIREMENT IS IMPOSED BY REGIONAL AND/OR NATIONAL AUTHORITIES. THE CHARTERERS MAY GIVE WRITTEN INSTRUCTIONS TO THE MASTER - WITH COPY TO OWNERS -FOR SLOW STEAMING, SUBJECT ALWAYS TO MASTER’S OBLIGATIONS IN RESPECT OF THE SAFETY OF THE CREW, VESSEL AND CARGO, WHEREOF IN ANY CASE OWNERS NOT TO BE HELD LIABLE FOR ANY PERFORMANCE SHORTFALL. FURTHERMORE, PROLONGED PERIODS OF SLOW STEAM, ARE SUBJECT TO VESSEL’S MAIN ENGINE MINIMUM RPM RESTRICTIONS AS IMPOSED BY ENGINE MAKERS AND/OR ANY OTHER PARAMETERS WHICH MAY AFFECT THE CONDITION OF THE MAIN ENGINE DUE TO CONTINUOUS RUNNING WITH LOW RPM. OWNERS/MASTER/CH.ENGINEER, ARE ENTITLED TO REVERT TO VESSEL’S SERVICE SPEED WHEN SAME IS DEEMED NECESSARY FOR MAINTAINING ENGINES’ INTEGRITY AND VESSEL’S  SAFETY.\r\nFUEL OIL TO CONFORM WITH VLSFO-RMG380(MAX SULPHUR:0.5%) (ISO 8217:2017(E) STANDARD) / LSMGO-DMA (EXCEPT PP)(ISO8217:2017(E) STANDARD)(MAX SULPHUR :0.1%). CHARTERTERS SHALL PROVIDE OWNERS/VESSEL BUNKER COQ IN COMPLIANCE WITH ISO 8217:2017 WITH RELIABALE LABORTORY'S STAMP/SIGNATURE NOT LATER THAN 24 HOURS BEFORE COMMENTCEMENT OF BUNKERING, FAILING WHICH ALL CONSEQUENCES/LOSS TO BE ON CHARTERERS' ACCOUNT..\r\nADA\r\nBest Regards\r\nZhangChao As Agent For Nasco\r\nADD: No. 18F, No.5, ZhongTai International Plaza, 311 JiangDong Road (M), Nanjing 210019, P.R.China\r\nT: +86 25 58820507 | QQ: 1549444379\r\nM: +86 13515119883 OR 13515110981 | SKYPE ZHCHDLMU@HOTMAIL.COM\r\nZHANGCHAO@NASCO.COM.CN |WWW.NASCO.COM.CN",
-            {
-                "entities": [
-                    [
-                        173,
-                        193,
-                        "FLAG"
-                    ],
-                    [
-                        221,
-                        232,
-                        "DWT"
-                    ]
-                ]
-            }
-        ],
-        [
-            "DEAR SIRS\r\nGD DAY\r\nPLS KINDLY PPS FOR:\r\nMV.WANG DA 38K/16,JEDDAH ARD 12-13TH/SEPT  IAGW,NO IRAN/ISRAEL/YEMAN,PREFER BUSINESS TO CHINA DIRECTLY,TRY F.E OR S.E.ASIA,BOD RVTG\r\nWANG DA\r\nPANAMA FLAG,NKK CLASS,2016 BLT\r\nSUMMER DWT 38225MT BSS 10.60M/TPC 51.7MT\r\nGT/NT 24750/12765,TPC 51.7\r\nLOA/BEAM:179.90/30.00M\r\n4*36MT CRANE ,4*(6-12)CBM GRAB(REMOTE CONTROL)\r\nG/B (BSS TWN DEC OPEN) 45108.80CBM/NIL\r\nG/B(BSS TWN DECK CLOSED) 46516.30/44728.8CBM\r\nHOLD 2&4 TWIN DECK (FLUSH TD CAN BE REGARDED AS SINGLE DECK FOR BULK CARGO),OTHERS SD\r\n5H/5H\r\nSPEED/ CONSUMPTION:\r\nFULL SPEED/CONS:\r\nBALLAST/LADEN ABT 12.50KN/ABT 12.20KN ON ABT 20.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nECO:\r\nBALLAST/LADEN ABT 11.70KN/ABT 11.70KN ON ABT 17.50MT/ABT 18.00MT IFO 380CST (RMG 380)+ABT 0.10MT MDO\r\nPORT CONS:IDLE ABT 2.80MT IFO 380CST(RMG 380)+ ABT 0.10MT MDO OR WORKING ABT 3.8MT BSS 12H OR  5.00MT BSS 24H IFO 380CST(RMG 380)+ABT 0.10MT MDO\r\nADDITIONAL ABT 0.5MT IFO 380CST(RMG 380) FOR IDLE OR WORKING IF THE AIR TEMPERATURE IS UNDER 15 CENTIGRADE(INCL)\r\nSPEED/CONSUMPTION BASED ON CLEAN BOTTOM ，WITHOUT DECK CARGO AND GOOD WEATHER CONDITIONS WHICH MEANS:WINDS UP TO AND INCLUDING BEAUFORT SCALE 4 / DOUGLAS SEA STATE 3(MAXIMUM SIGNIFICANT WAVE HEIGHT 1.25M) AND NO AFFECT OF SEA AND CURRENT AND NO INFLUENCE OF SWELL AND ADVERSE CURRENT.\"ABT\" MEANS 0.5 KN DECREASE IN SPEED & 5% INCREASE IN CONSUMPTION. FAVORABLE CURRENTS ALWAYS WORK TO OWNERS’ ADVANTAGE. ALL PERFORMANCE ASSESSMENT ARE CALCULATED ON A GOOD WEATHER DAY BASIS 24 CONSECUTIVE HOURS FROM NOON REPORT TO NOON REPORT.NO EXTRAPOLATIONS CAN BE MADE FOR OTHER WEATHER/SEA CONDITIONS THAN THOSE DESCRIBED ABOVE.\r\nVESSEL MAY CONSUME EXTRA BUNKER WHEN EXCHANGE BALLAST WATER, HOLDS CLEANING, IN/OUT PORT, IN VERY COLD OR VERY WARM WATER, DURING LIGHTENING OPERATION / DOUBLE BANKING/BUNKERING OR OTHER OPERATIONS WHEN VESSEL NECESSARY TO HAVE THE ENGINE STANDBY OR ADDITIONAL A/E AND BOILER.\r\nVESSEL CONSUMES MGO IN MAIN ENGINE, WHEN MANOEUVERING / NAVIGATING IN SHALLOW, NARROW, CONGESTED, RESTRICTED AND CONFINED WATERS / CANALS / RIVERS, ENTERING / LEAVING PORTS/CANALS, WITHIN SECA AREA, AND MAY ALSO BURN MGO WHEN STARTING/SWITCHING OFF AND RUNNING AUXILIARIES AT SEA OR PORT.\r\nCHARTERERS SHALL ALSO ENSURE, PRIOR TO THE VESSEL ENTERING IN ANY OF THE EMISSION CONTROL AREAS (ECAS),TO SUPPLY THE VESSEL WITH SUFFICIENT QUANTITY OF LOW SULPHUR BUNKERS (THE SULPHUR CONTENT PURSUANT TO THE REQUIREMENTS OF ECAS) TO BE CONSUMED WHEN TRADING IN ECAS AREAS AT CHARTERERS RISK, TIME AND EXPENSES WITHOUT MIXING THIS FUEL WITH OTHER BUNKERS ON BOARD.  IT IS UNDERSTOOD THAT THE LOW SULPHUR BUNKER QUANTITY REQUIRED FOR CHANGE-OVER FROM HIGH TO LOW SULPHUR BUNKER PRIOR ENTERING IN ECAS TO BE FOR CHARTERERS' ACCOUNT AS WELL. FOR THE PURPOSE OF THIS CLAUSE, \"EMISSION CONTROL AREAS (ECAS)\" MEAN THE AREAS DESIGNATED UNDER MARPOL ANNEX VI AND/OR ANY OTHER AREA WHERE A MAXIMUM FUEL SULPHUR CONTENT REQUIREMENT IS IMPOSED BY REGIONAL AND/OR NATIONAL AUTHORITIES. THE CHARTERERS MAY GIVE WRITTEN INSTRUCTIONS TO THE MASTER - WITH COPY TO OWNERS -FOR SLOW STEAMING, SUBJECT ALWAYS TO MASTER’S OBLIGATIONS IN RESPECT OF THE SAFETY OF THE CREW, VESSEL AND CARGO, WHEREOF IN ANY CASE OWNERS NOT TO BE HELD LIABLE FOR ANY PERFORMANCE SHORTFALL. FURTHERMORE, PROLONGED PERIODS OF SLOW STEAM, ARE SUBJECT TO VESSEL’S MAIN ENGINE MINIMUM RPM RESTRICTIONS AS IMPOSED BY ENGINE MAKERS AND/OR ANY OTHER PARAMETERS WHICH MAY AFFECT THE CONDITION OF THE MAIN ENGINE DUE TO CONTINUOUS RUNNING WITH LOW RPM. OWNERS/MASTER/CH.ENGINEER, ARE ENTITLED TO REVERT TO VESSEL’S SERVICE SPEED WHEN SAME IS DEEMED NECESSARY FOR MAINTAINING ENGINES’ INTEGRITY AND VESSEL’S  SAFETY.\r\nFUEL OIL TO CONFORM WITH VLSFO-RMG380(MAX SULPHUR:0.5%) (ISO 8217:2017(E) STANDARD) / LSMGO-DMA (EXCEPT PP)(ISO8217:2017(E) STANDARD)(MAX SULPHUR :0.1%). CHARTERTERS SHALL PROVIDE OWNERS/VESSEL BUNKER COQ IN COMPLIANCE WITH ISO 8217:2017 WITH RELIABALE LABORTORY'S STAMP/SIGNATURE NOT LATER THAN 24 HOURS BEFORE COMMENTCEMENT OF BUNKERING, FAILING WHICH ALL CONSEQUENCES/LOSS TO BE ON CHARTERERS' ACCOUNT..\r\nADA\r\nBest Regards\r\nZhangChao As Agent For Nasco\r\nADD: No. 18F, No.5, ZhongTai International Plaza, 311 JiangDong Road (M), Nanjing 210019, P.R.China\r\nT: +86 25 58820507 | QQ: 1549444379\r\nM: +86 13515119883 OR 13515110981 | SKYPE ZHCHDLMU@HOTMAIL.COM\r\nZHANGCHAO@NASCO.COM.CN |WWW.NASCO.COM.CN",
-            {
-                "entities": [
-                    [
-                        40,
-                        50,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        163,
-                        193,
-                        "FLAG"
-                    ],
-                    [
-                        221,
-                        232,
-                        "DWT"
-                    ],
-                    [
-                        315,
-                        338,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
-            {
-                "entities": [
-                    [
-                        215,
-                        232,
-                        "VESSEL_NAME"
-                    ],
-                    [
                         233,
-                        242,
-                        "IMO"
+                        "LOA_BEAM"
                     ],
                     [
-                        244,
-                        279,
-                        "OPEN_DATE"
+                        246,
+                        266,
+                        "GRAIN_AND_BALE"
                     ],
                     [
-                        359,
-                        377,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        411,
-                        428,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        430,
-                        444,
-                        "FLAG"
-                    ],
-                    [
-                        459,
-                        472,
-                        "IMO"
+                        276,
+                        281,
+                        "HOLD_AND_HATCHES"
                     ]
                 ]
             }
         ],
         [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
+            "DEAR ALL \r\n \r\n\r\nGOOD DAY \r\n\r\n\r\n\r\nTRADING AREA (/PERSIAN GULF/INDIA OCEAN/ FAR EAST/PACIFIC ISLANDS)\r\n\r\n\r\n GALAXY SKY  (DWCC 8500/TWEEN/ CRANE 55MT /13448CBM)  OPEN IN TUTICORIN INDIA , ON 8TH SEP \r\n\r\n GALAXY GLORY  (DWCC 12500 GRAIN CERT/TWEEN/CRANE 55MT/20842CBM)  OPEN IN OBI,INDONESIA ON 28TH SEP \r\n\r\n\r\n\r\n\r\n\r\n\r\n GALAXY SKY ( 2010 BLTDWCC 8500/TWEEN/CRANES30MT/RINA/LONDONPNI )  OPEN  IN TUTICORIN INDIA , ON 8TH SEP \r\n\r\n====== NEED PART CARGO FROM KOREA/CHINA RANGE TO TUTICORIN RANGE,INDIA =======\r\n\r\nBELIZE FLAG, BUILT 2010, DWT/GRT/NRT: 9000 MT/8500/7141/2681\r\n\r\nLOA/LBP/BM/DEPTH:112/102/18.80/12.7   DRAFT:7.9M\r\n\r\n2H/2H,  HATCH SIZE: H1/ 25.5*13.50  H2/ 25.50*13.5）\r\n\r\nGRAIN CAPA/BALE CAPA:13448/12661 BOX TYPE LOWER HOLD/\r\n\r\nCRANE: 30MT*2 (COMB 50MT)\r\n\r\nPNI/CLASS COVERED, DANGEROUS CARGO FITTED ADA WOG  \r\n\r\n \r\n\r\nGALAXY GLORY ( 2009 BLTDWCC 12500/BULK GRAIN CERT/TWEEN/CRANES 50MT/RINA ) OPEN IN OBI,INDONESIA 28TH SEP \r\n\r\nPAN FLAG, BUILT 2009, DWT/GRT/NRT: 12926/12500/9593/4062\r\n\r\nLOA/LBP/BM/DEPTH:119/112/21.20    DRAFT:8.8 M\r\n\r\n2H/2H,  HATCH SIZE: H1/ 29.25*15   H2/ 29.25*15）\r\n\r\nGRAIN CAPA/BALE CAPA:20842/19844  BOX TYPE LOWER HOLD/\r\n\r\nCRANE: 30MT*2 (COMB 50MT)\r\n\r\nPNI/CLASS COVERED, DANGEROUS CARGO FITTED ADA WOG  \r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n ",
             {
                 "entities": [
                     [
-                        215,
-                        232,
-                        "VESSEL_NAME"
+                        551,
+                        560,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        233,
-                        242,
-                        "DWT"
+                        586,
+                        589,
+                        "LOA_BEAM"
                     ],
                     [
-                        244,
-                        279,
-                        "OPEN_DATE"
+                        594,
+                        599,
+                        "LOA_BEAM"
                     ],
                     [
-                        359,
-                        377,
-                        "VESSEL_NAME"
+                        607,
+                        617,
+                        "DRAFT"
                     ],
                     [
-                        402,
-                        428,
-                        "BUILD_YEAR"
+                        621,
+                        626,
+                        "HOLD_AND_HATCHES"
                     ],
                     [
-                        430,
-                        451,
-                        "FLAG"
+                        697,
+                        708,
+                        "GRAIN_AND_BALE"
                     ],
                     [
-                        459,
-                        472,
-                        "IMO"
+                        973,
+                        983,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        474,
-                        490,
-                        "DWT"
+                        1009,
+                        1012,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        1017,
+                        1022,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        1026,
+                        1035,
+                        "DRAFT"
+                    ],
+                    [
+                        1041,
+                        1046,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        1116,
+                        1125,
+                        "GRAIN_AND_BALE"
                     ]
                 ]
             }
         ],
         [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
+            "- DIR LOCAL OWNER\r\n\r\n- OPEN N. CHINA (INT. CAOFEDIAN) AUG 30 / SEPT 2\r\n\r\n- TRADING CIS RU/S. AFRICA RGE\r\n\r\n- PREFER CIS COAL\r\n\r\n \r\n\r\nMV. HOPE\r\n\r\nType : Bulk Carrier\r\nBuilt : 2005 , Japan, IMABARI Shipyard, Japan.\r\n\r\nDWT/Draft\r\n\r\nSummer SW 53,474 mts @ 12.303 m extreme / tpc 55.30 mt/cm\r\n\r\nWinter SW 52,063 mts @ 12.047 m extreme\r\n\r\nTropical SW 54,892 mts @ 12.559 m extreme\r\n\r\nLOA/LBP 189.94 m. / 182.00 m Breadth (moulded) 32.26 m. Depth (moulded) – 17.30 m.\r\n\r\nGT/RT (International 1969) : 30,002/18,486\r\n\r\nSuez Canal : 31,129,20 / 28,617.44\r\n\r\nPanama Canal NT : 24,902\r\n\r\n \r\n\r\nSpeed/Consumption at Sea\r\n\r\nBALLAST - Abt 13.5 knots on abt 26.5mts VLSFO including auxiliaries + 0.2mts ULSMGO\r\n\r\nLADEN - Abt 13.5 knots on abt 30.5mts VLSFO including auxiliaries + 0.2mts ULSMGO\r\n\r\n \r\n\r\n5 holds/5 hatches\r\n\r\nHatch covers: 4 panels per hatch end folding type, double skin - hydraulic cylinder operated.\r\n\r\nHatch opening – 21.12 m. (L) x 17.60 m. (W), ALL HATCHES\r\n\r\n \r\n\r\nHolds tank-top dimensions, minimums excluding lower stools, bulkhead corrugations etc (approx only wog)\r\n\r\nHold No. 1 Length 29.0 m, X19,00 m X 19.30 M MIN\r\n\r\n29,00 X 30,50 X 19.30 M MAX\r\n\r\nHold Nos 2 , 3, 4 29,00 M X 32,26M X 17,50 M MAX\r\n\r\nMIN 29,00 MX 23,90 M 17,50 M Hold\r\n\r\nNo. 5 MAX 29.80 Mx 32,26 m x17,50 m\r\n\r\nMin 29,80m x 19,40m x17,50 m\r\n\r\n \r\n\r\nCargo Gear:\r\n\r\n4 units electro/hydraulic deck cranes each 30.5 mtons SWL,\r\n\r\nWorking radius at swl 30.5mt 26 mtrs , Maximum clear outreach 9.87mtrs.\r\n\r\nCranes capable of use in grab operation When cranes on grab or on skip/bucket duty maximum gross lifting limited to 24mt (ttl weight of grab or skip/bucket and cargo).\r\n\r\n \r\n\r\nNo more than 1 ship's crane to be worked simultaneously at a hatch. Owners will not supply crane men from Crew.\r\n\r\n \r\n\r\nVessel's cranes designed and class approved to operate within the designated capacities/parameters (for further details\r\n\r\nrefer to makers' instruction manual) only in a harbour or sheltered waters environment with no significant movement\r\n\r\nof the ship due to wave action, nor any relative movement between crane/grab and cargo if loading/discharging\r\n\r\ninto/from barges, transhipment or similar environmental conditions to be less than Beauport force 2 , sea state 1.-\r\n\r\n \r\n\r\nAmbient temperature for cranes operation: -10degrees C to +40degrees C.\r\n\r\n \r\n\r\nGrabs: 4 X 12 cbm\r\n\r\nType: “Hook –on “/ “Radio-controlled”, Opening single rope\r\n\r\nMaker: Tobu Jukogyo Co.Ltd, Model RSHC-120 /60x3\r\n\r\nVolume capacity: 12/6 cbm cargo density 1/1.87 mt/cbm\r\n\r\nGrabs suitable only for cargoes with material grain size from min 2mm to max 50mm. When cranes on grab duty\r\n\r\nmaximum gross lifting limited to 24,00mt (ttl weight of grab and cargo).\r\n\r\nWhen the vessel calls at port or terminal where required mooring ropes in addition and/or of different specification\r\n\r\nfrom what the vessel has onboard to be supplied and/or hired at chrtrs’ cost time\r\n\r\n \r\n\r\nTank capacities:\r\n\r\n-abt 1,934,45 mt VLSFO (excl serv/settl tanks), bss 90% full and SG of fuel 0.95\r\n\r\n-abt 314 mt ( 388m3) ULSMGO ( exclserv/settl tanks) , bss 90% full and SG of ULSMGO 0.86\r\n\r\nBallast capacity excluding No 3 floodable hold – abt 14,570 cu.m.\r\n\r\nFW capacity: abt 408.04 cu m.\r\n\r\nVessel de-ballasting time need about 30 hours. if the loading speed too fast, there will happen the loading suspend,\r\n\r\nsuch suspend should not be deemed as off hire.\r\n\r\nConstants : abt 380 mts excl. fresh water / unpumpables\r\n\r\n \r\n\r\nUniform Strengths: (Homogeneous type of cargo loading conditions)\r\n\r\nTanktops local strength:\r\n\r\nHold #1 21.43 mt/sq.m.\r\n\r\nHold #2 18.00 mt/sq.m,\r\n\r\nHold #3 23.50 mt/sq.m,\r\n\r\nHold #4 18.00 mt/sq.m,\r\n\r\nHold #5 21.00 mt/sq.m.\r\n\r\n \r\n\r\nBulk cargoes to have maximum Specific Gravity of 2.11 metric tons per cubic meter.\r\n\r\n \r\n\r\nM/Deck 2.50 mt/sq.m (excluding cross-decks)\r\n\r\nHatch Cover 1- 2.08 mt/sq.m.\r\n\r\nHatch Covers 2 to 5 - 1.75 mt/sq.m\r\n\r\n \r\n\r\nOther fittings:\r\n\r\nNatural ventilation yes\r\n\r\nCement holes per hold: 2 (diameter: 600 mm)\r\n\r\nAussie hold ladder fitted\r\n\r\n \r\n\r\nFor all steel products and steel coil loading owners to be contacted for approval with regards to vessel's strength,\r\n\r\nintake, and final stowage plan. No California (vertical) block stow for Steel Plates/Slabs etc.\r\n\r\nAll details about, given in good faith and without guarantee\r\n\r\n \r\n\r\nVessel burns ULSMGO when maneuvering, in confined waters and for starting d/gens or low load.\r\n\r\n \r\n\r\nSpeed and consumption figures basis up to summer draft, even keel (for laden passages) good weather conditions\r\n\r\nup to max Beaufort 4, and/or significant wave height up to 1.25mtrs and no adverse influence of currents,\r\n\r\nthe first 24 hours and last 24 hours of any sea passage being excluded, also excluding periods with reduction of speed, in straits, in tidal affected waters, high risk piracy areas, due to reasons of safety/visibility or on charterers’ orders.\r\n\r\n \r\n\r\nFor ballast exchange programs and ballast/de ballast floodable hold, the vessel has the liberty of slow steaming or\r\n\r\nstopping or being idle if required. Cost of ballast treatment if required and any loss of speed / time to be for\r\n\r\ncharterers account.\r\n\r\n \r\n\r\nThe warranted speeds and consumptions are on an average of the performance results of each passage over\r\n\r\nthe entire Charter period.\r\n\r\n \r\n\r\nAny savings in fuel consumption to be set off against any loss of time and vice versa.\r\n\r\n \r\n\r\nConsumption in port:\r\n\r\nWhen idle - about 2.5 tonnes VLSFO\r\n\r\nWhen working – about 5.50 tonnes VLSFO (basis 24 hrs working)\r\n\r\n \r\n\r\nFuel Quality\r\n\r\nCharterers undertake to supply only fuel and diesel/gasoil complying with current ISO specifications at the time of supply.\r\n\r\nVLSFO - 380 Centistoke ISO 8217:2017 (E) RMG 380 with max sulphur 0.50% Ultra Low Sulphur Marine Gas Oil (ULSMGO) with max sulphur 0.10% grade DMA 8217:2017 Min FIA/100 20 ECN (IP541). VLSFO purchased/supplied in different lots must be segregated.\r\n\r\n \r\n\r\nAll Fuel shall consist of hydrocarbons derived from petroleum sources and shall not contain any anomalous components\r\n\r\n(such as Tall Oil and/or Inorganic Acid Substances) and to be of a stable and homogenous nature.\r\n\r\nFuel have to be free of waste lubricants, chemicals and chemical wastes. Cold flow characteristics of the fuel should be such\r\n\r\nthat paraffin precipitation does not hinder operability of fuel system components. The fuel shall comply with the specifications of ISO 8217 Table 1 or 2 and to Clause 5 and the Revised Annex VI regulation 18.3. During bunkering, bunker suppliers to comply with reg 18 of Marpol Annex VI and the guidelines set out in IMO res Mepc.182(59) guidelines for representative drip samples to be drawn from ship’s manifold.\r\n\r\n \r\n\r\nSeller/Supplier warrants that (i) the products being supplied and barges nominated in this Order are not designated in any sanctions list issued by the UN, US or EU and (ii) is not owned or controlled by any person or entity registered in or operating from Iran, or designated in any sanctions issued by the UN, US or EU.\r\n\r\n \r\n\r\nBunker specifications to conform with any local and/or state and/or international regulations prevailing at any areas, ports and/or places vessel calls/sails.\r\n\r\n \r\n\r\nViscosity for LSFO to be over 30 and Bunkering is not allowed in any CIS ports.\r\n\r\n \r\n\r\nCUBIC CAPACITIES: Total 68,927.4 CBM grain, 65,526.1 CBM bale\r\n\r\n(Note: above bale capacity is calculated basis of 600 x 600 x 600 mm bale cargo)\r\n\r\nADA\r\n\r\n ",
             {
                 "entities": [
                     [
-                        215,
-                        232,
-                        "VESSEL_NAME"
+                        253,
+                        260,
+                        "DRAFT"
                     ],
                     [
-                        233,
-                        242,
-                        "DWT"
+                        313,
+                        321,
+                        "DRAFT"
                     ],
                     [
-                        244,
-                        279,
-                        "OPEN_DATE"
+                        358,
+                        365,
+                        "DRAFT"
                     ],
                     [
-                        359,
-                        377,
-                        "VESSEL_NAME"
+                        378,
+                        406,
+                        "LOA_BEAM"
                     ],
                     [
-                        402,
-                        428,
-                        "BUILD_YEAR"
+                        464,
+                        506,
+                        "GRT_AND_NRT"
                     ],
                     [
-                        430,
-                        451,
-                        "FLAG"
+                        609,
+                        692,
+                        "SPEED_AND_CONSUMPTION"
                     ],
                     [
-                        459,
-                        472,
-                        "IMO"
-                    ]
-                ]
-            }
-        ],
-        [
-            "// EXCLUSIVE //\r\nOPEN SALALAH 16/18TH AUG\r\nM/V HAI PHUONG 87\r\nDWT 32,816MTS ON 10.15M DRAFT\r\nBULKER/SINGLE DECK\r\nVIETNAM FLAG / CLASS NK&VR\r\nCHINA BUILT 2009\r\nGRT 20767 / NRT 12116\r\nLOA/BEAM/DEPTH 179.9/28.4/14.1M\r\nHOLDS 5 / HATCHES 5\r\nHATCH COVER: MCGREGOR, HYDRO FOLDING TYPE\r\nGRAIN 43127 / BALE 41402CBM\r\n4 X30MTS CRANES\r\nADA\r\n-no GOA passing\r\nBest Regards\r\nHuseyin Turgut\r\ndir +6562483117\r\nmob +6596165388",
-            {
-                "entities": [
-                    [
-                        62,
-                        75,
-                        "DWT"
+                        696,
+                        777,
+                        "SPEED_AND_CONSUMPTION"
                     ],
                     [
-                        113,
-                        127,
-                        "FLAG"
+                        786,
+                        795,
+                        "HOLD_AND_HATCHES"
                     ],
                     [
-                        141,
-                        157,
-                        "BUILD_YEAR"
+                        5418,
+                        5489,
+                        "PORT_CONS"
                     ],
                     [
-                        293,
-                        323,
-                        "CRANES"
-                    ]
-                ]
-            }
-        ],
-        [
-            "// EXCLUSIVE //\r\nOPEN SALALAH 16/18TH AUG\r\nM/V HAI PHUONG 87\r\nDWT 32,816MTS ON 10.15M DRAFT\r\nBULKER/SINGLE DECK\r\nVIETNAM FLAG / CLASS NK&VR\r\nCHINA BUILT 2009\r\nGRT 20767 / NRT 12116\r\nLOA/BEAM/DEPTH 179.9/28.4/14.1M\r\nHOLDS 5 / HATCHES 5\r\nHATCH COVER: MCGREGOR, HYDRO FOLDING TYPE\r\nGRAIN 43127 / BALE 41402CBM\r\n4 X30MTS CRANES\r\nADA\r\n-no GOA passing\r\nBest Regards\r\nHuseyin Turgut\r\ndir +6562483117\r\nmob +6596165388",
-            {
-                "entities": [
-                    [
-                        62,
-                        75,
-                        "DWT"
-                    ],
-                    [
-                        113,
-                        125,
-                        "FLAG"
-                    ]
-                ]
-            }
-        ],
-        [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
-            {
-                "entities": [
-                    [
-                        215,
-                        232,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        233,
-                        242,
-                        "DWT"
-                    ],
-                    [
-                        244,
-                        279,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        411,
-                        428,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        430,
-                        444,
-                        "FLAG"
-                    ],
-                    [
-                        459,
-                        472,
-                        "IMO"
-                    ]
-                ]
-            }
-        ],
-        [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
-            {
-                "entities": [
-                    [
-                        215,
-                        232,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        233,
-                        242,
-                        "DWT"
-                    ],
-                    [
-                        244,
-                        279,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        359,
-                        377,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        411,
-                        428,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        430,
-                        444,
-                        "FLAG"
-                    ],
-                    [
-                        459,
-                        472,
-                        "IMO"
-                    ]
-                ]
-            }
-        ],
-        [
-            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
-            {
-                "entities": [
-                    [
-                        215,
-                        232,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        233,
-                        242,
-                        "DWT"
-                    ],
-                    [
-                        244,
-                        279,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        359,
-                        377,
-                        "VESSEL_NAME"
-                    ],
-                    [
-                        411,
-                        428,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        430,
-                        444,
-                        "FLAG"
-                    ],
-                    [
-                        459,
-                        472,
-                        "IMO"
-                    ]
-                ]
-            }
-        ],
-        [
-            "ATTN : CHARTERING DESK\r\n/   HUMAM (Mobile: + 66 65 2368 786)\r\nSKYPE ID:\r\nsyedhumam@hotmail.com\r\nKINDLY PROPOSE THE SUITABLE CARGO WITH RATE\r\nTRY ANY DIRECTION\r\nM.V.SF DARIKA (DWT 35237 MT / BUILT 2010)\r\nOPEN RAVENNA (ITALY)  20 – 26 AUG\r\n- ESTD BOD - VLSFO / LSMGO - ABOUT 600 MT / ABOUT 30 MT\r\n- EEXI COMPLIANT\r\n- VSL HOLDS ARE GRAIN CLEAN\r\n- FULLY FTTED LOGGER\r\n- CAN DO STEEL COILS – 15 T COIL – 3 TIERS AND 20 T COIL – 2 TIERS\r\n- CO2 FITTED\r\n- A60 STEEL BULKHEAD\r\nMV SF DARIKA\r\n‘EX TASMAN SPIRIT’\r\nTYPE:SDBC,LOGGER WITH ENGINE/BRIDGE AFT\r\nCLASSIFICATION: KR\r\nIMO NUMBER: 9502752\r\nCALL SIGN: V7A4814\r\nFLAG: THAI\r\nBUILT: NANTONG CHANGQINGSHA SHIPYARD, CHINA, 2010\r\nGROSS TONNAGE: 22,402\r\nNET TONNAGE: 12,019\r\nVESSEL DIMENSIONS:\r\nL.O.A.: 179.90 M\r\nL.B.P.: 171.50 M\r\nBEAM: 28.44 M\r\nDEPTH MOULDED: 15.0 M\r\nDEADWEIGHT/DRAFT:\r\nSUMMER: 35237.0 MTS ON 10.816 METERS\r\nWINTER: 34193.9 MTS ON 10.591 METERS\r\nTROPICAL: 36286.3 MTS ON 11.041 METERS\r\nTIMBER SUMER: 34309.7 MTS ON 10.616 METERS\r\nTPC AT SUMMER: 46.5; TPC AT WINTER: 46.3\r\nHOLDS / HATCHES: 5 HOLDS / 5 HATCHES\r\nCAPACITY AND DIMENSIONS:\r\nCARGO HOLDS CAPACITY IN CBM:\r\nHOLD NO.          GRAIN CBM         BALE CBM\r\nNO.1 HOLD           6,910.70          6,598.13\r\nNO.2 HOLD          10,018.30          9,665.95\r\nNO.3 HOLD           9,375.40          9,045.69\r\nNO.4 HOLD          10,018.30          9,665.95\r\nNO.5 HOLD           7,971.60          7,611.12\r\nTOTAL:              44,294.30         42,586.84\r\nCARGO HOLD DEMENTION (TANKTOP MEASUREMENT)\r\nHOLD NO.     DIMENTION L x B (F/A) x H       HATCH SIZE\r\nNO.1 HOLD     26.4 x 4.80/24.6 x 13.35        14.4 x 17.6\r\nNO.2 HOLD     28.8 x 24.6/24.6 x 13.35        20.0 x 19.2\r\nNO.3 HOLD     28.8 x 24.6/24.6 x 13.35        20.0 x 19.2\r\nNO.4 HOLD     28.8 x 24.6/24.6 x 13.35        20.0 x 19.2\r\nNO.5 HOLD     25.6 x 24.6/11.2 x 13.35        18.4 x 19.2\r\nTYPE OF OPENING HATCH: MACGREGOR, HYDRAULIC\r\nFOLDING HATCH COVER\r\nPERMISSIBLE LOADS (TON PER SQ.METER):\r\nON TANK TOPS: 1/20.0;   2/20.0;   3/20.0;   4/20.0;    5/20.0\r\nON HATCH COVERS: 3.0 TON/M2; UPPER DECK: 4.0 TON/M2\r\nCO2 FITTED, FULLY LOGS FITTED, AUSTRALIAN LADDER FITTED\r\nCRANES TYPE AND CAPACITY:\r\n4 WUHAN IHI CRANES / SWL 30.5 MT\r\nMAX OUTREACH FROM C/L 24 M\r\nMAX OUTREACH FROM SHIP’S SIDE 9.6 M\r\nNO. 1 CRANE - BETWEEN HOLDS NOS. 1 AND 2\r\nNO. 2 CRANE - BETWEEN HOLDS NOS. 2 AND 3\r\nNO. 3 CRANE - BETWEEN HOLDS NOS. 3 AND 4\r\nNO. 4 CRANE - BETWEEN HOLDS NOS. 4 AND 5\r\nHEIGHT OF LOG STANCHIONS: AT HOLD 1: 7.5M; HOLDS 2-5: 8.5 M\r\nVESSEL FULL TANK CAPACITY (NOT ALL PUMPABLE):\r\nFUEL OIL TANK: 1,463.4 CBM\r\nDIESEL OIL TANK: 167.7 CBM\r\nFRESH WATER TANK: 309.5 CBM\r\nUNPUMPABLE BALLAST WATER: ABT 100MT WOG\r\nCONSTANT: ABT 350 MTS WOG\r\nSPEED & CONSUMPTION:\r\nBASIS SUMMER DRAFT, UNDER GOOD WEATHER CONDITIONS ON UNRESTRICTED PASSAGE NOT EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3\r\nAT SEA CONSUMPTION FULL SPEED:\r\nBALLAST\r\nABOUT 13.5 KNOTS ON ABT 18.9 MTS VLSFO + 1.74 MT LSMGO\r\nLADEN\r\nABOUT 13.25 KNOTS ON ABT 20.0 MTS VLSFO + 1.74 MT LSMGO\r\nAT SEA CONSUMPTION ECO :\r\nBALLAST ABOUT 12 KNOTS ON ABT 14.5 MTS VLSFO + 1.74 MT LSMGO\r\nLADEN ABOUT 12 KNOTS ON ABOUT 16.3 MTS VLSFO + 1.74 MT LSMGO\r\nIN PORT CONSUMPTION:\r\nAT PORT MOORING OR LOADING OR DISCHARING\r\nBASIS TWO A/E + BOILER:\r\nAT PORT WORKING, 1.5 MT VLSFO + 3.0 MT LSMGO\r\nIDLE, ONE A/E + BOILER: 1.0 MT VLSFO + 1.5 MT LSMGO\r\nSULPHUR CONTENT - VLSFO, ISO 8217/2017, LSMGO (DMA) MAX 0.1 PCT SULPHUR CONTENT ISO 8217/2017\r\nALL DETAILS ABOUT AND GIVEN IN GOOD FAITH ANY SAVING IN CONSUMPTION MUST BE OFF-SET AGAINST ANY SPEED UNDERPERFORMANCE, ANY SAVING IN TIME MUST BE OFF-SET AGAINST ANY EXCESS CONSUMPTION, ANY SAVING\r\nIN FO MUST BE OFF-SET AGAINST INCREASED MDO AND VICE VERSA, AND ANY OVERALL SAVING ON INDIVIDUAL PASSAGE(S) MUST BE SET OFF AGAINST AN OVERALL LOSS ON OTHER INDIVIDUAL PASSAGE(S).\r\nSPEED/CONSUMPTION FIGURES BASIS SUMMER DRAFT, UNDER GOOD WEATHER CONDITIONS ON UNRESTRICTED PASSAGE NOT EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3\r\nIT IS EXPLICITY UNDERSTOOD AND AGREED THAT NO WARRANTY APPLIES WHILST SAILING IN RESTRICTED AREAS A/O I/O PORTS/CANALS/RIVERS, MANOEUVERING, PILOT TO PILOT, SAILING IN BAD WEATHER AND/OR IN NARROW/SHALLOW\r\nWATERS WHEN THE VESSEL MAY CONSUMES MDO IN MAIN ENGINE. CONSUMPTION MAY INCREASE DURING BALLASTING/DEBALLASTING/BALLAST EXCHANGE OPERATION AT PORT/SEA.\r\n'ABOUT' ON SPEED MEANS 0.5 KNOT ALLOWANCE AND 'ABOUT' ON BUNKERS CONSUMPTION MEANS 5% ALLOWANCE ON THE DESCRIBED DAILY BUNKER CONSUMPTION.\r\nSPEED/CONSUMPTION UNDERPERFORMANCE CLAIM CAN ONLY BE SUBMITTED IN RESPECT OF PERIODS DURING WHICH THE VESSEL ENCOUNTERS WEATHER UPTO BEAUFORT 4 AND/OR DOUGLAS SEASTATE 3 (SIGNIFICANT WAVE UP TO 1.25\r\nM MAX) AND/OR NO ADVERSE CURRENT AND/OR NO NEGATIVE INFLUENCE OF SWELL WITH A MINIMUM STEAMING OF ATLEAST 24 CONSECUTIVE HOURS.\r\nVESSEL'S CRANES NOT TO BE OPERATED BY CREW BUT INSTEAD TO BE OPERATED BY QUALIFIED AND PROPERLY CERTIFIED SHORE PERSONNEL EMPLOYED AND PAID FOR BY CHARTERERS AND CRANE OPERATION ALWAYS AT CHARTERERS\r\nENTIRE RISK, RESPONSIBILITY AND EXPENSE WHO ARE TO FOLLOW OPERATING INSTRUCTIONS STRICTLY AS PER MANUFACTURERS OPERATING MANUALS.\r\nCHARTERERS TO HAVE THE OPTION TO HAVE THE VESSEL RUN ON ECO SPEED AND CONSUMPTION AS DESCRIBED BY OWNERS. WHEN CHARTERERS ORDER THE VESSEL TORUN ON ECO SPEED, THIS SHALL CONSTITUTE COMPLIANCE WITH,\r\nAND THERE SHALL BE NO BREACH OF, ANY OBLIGATION REQUIRING THE VESSEL TO PROCEED WITH UTMOSTAND/OR DUE DESPATCH OR ANY OTHER SUCH SIMILAR/EQUIVALENT EXPRESSION. VESSEL/OWNERS ARE NOT TO BE RESPONSIBLE FOR ANY CLAIMS RELATED TO VESSELS SPEED AND/OR BUNKER CONSUMPTION\r\nDURING ANY PERIODS WHERE THE VESSEL HAS BEEN REQUESTED TO PROCEED AT ECO SPEED.\r\nALL DETAILS ABOUT\r\nBest regards,\r\nMaritime Shipbrokers Co., Ltd. Bangkok\r\nfix@mshipbrokers.com\r\nHUMAM (MR.)\r\nMobile: + 66 65 2368 786\r\nSKYPE ID:\r\nsyedhumam@hotmail.com",
-            {
-                "entities": [
-                    [
-                        175,
-                        184,
-                        "DWT"
-                    ],
-                    [
-                        190,
-                        200,
-                        "BUILD_YEAR"
-                    ],
-                    [
-                        203,
-                        236,
-                        "OPEN_DATE"
-                    ],
-                    [
-                        563,
-                        573,
-                        "IMO"
-                    ],
-                    [
-                        604,
-                        614,
-                        "FLAG"
-                    ],
-                    [
-                        2168,
-                        2188,
-                        "CRANES"
+                        7315,
+                        7333,
+                        "GRAIN_AND_BALE"
                     ]
                 ]
             }
