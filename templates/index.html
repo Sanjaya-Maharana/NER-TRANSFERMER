@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Upload & Training</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 400px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        select, input[type="file"], button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 40px 0;
+        }
+    </style>
+    <script>
+        function uploadFiles(event) {
+            event.preventDefault();
+            const model = document.getElementById('upload-model').value;
+            const files = document.getElementById('file-upload').files;
+            const formData = new FormData();
+            formData.append('model', model);
+
+            for (let i = 0; i < files.length; i++) {
+                formData.append('file', files[i]);
+            }
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => alert(data.message))
+            .catch(error => alert('Error: ' + error));
+        }
+
+        function startTraining(event) {
+            event.preventDefault();
+            const model = document.getElementById('train-model').value;
+            const formData = new FormData();
+            formData.append('model', model);
+
+            fetch('/train', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => alert(data.message))
+            .catch(error => alert('Error: ' + error));
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Model Upload & Training Interface</h1>
+
+        <!-- Section for Uploading Files -->
+        <h2>Upload Annotation Files</h2>
+        <form id="upload-form" onsubmit="uploadFiles(event)">
+            <label for="upload-model">Select Model:</label>
+            <select id="upload-model">
+                <option value="vessel_info">Vessel Info</option>
+                <option value="tonnage_info">Tonnage Info</option>
+                <option value="cargo">Cargo</option>
+            </select>
+            <label for="file-upload">Select JSON Files:</label>
+            <input type="file" id="file-upload" name="files" multiple>
+            <button type="submit">Upload Files</button>
+        </form>
+
+        <hr>
+
+        <!-- Section for Training the Model -->
+        <h2>Start Training</h2>
+        <form id="train-form" onsubmit="startTraining(event)">
+            <label for="train-model">Select Model:</label>
+            <select id="train-model">
+                <option value="vessel_info">Vessel Info</option>
+                <option value="tonnage_info">Tonnage Info</option>
+                <option value="cargo">Cargo</option>
+            </select>
+            <button type="submit">Start Training</button>
+        </form>
+    </div>
+</body>
+</html>

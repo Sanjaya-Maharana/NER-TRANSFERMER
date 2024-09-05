@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All / Oner Good day, Pls offer firm - cargo: abt 8’000 limestone in bulk- loadport: 1sb Bilbao- disport: 1sb Ghent- laycan: 19 aug 2024- laytime at load: 6’000mt pwwd sshex fri 5 pm mon 8 am ntc eiu- laytime at discharge: 7’000mt pwwd sshinc- 2.5 adcompus  - iacs class & good pandi & approved under AM vetting- owners to check and satisfy themselves with all restrictions/about vessel’s suitability to enter the ports of loading & discharge Best regardsOner TokcanNautical Bulk Carriers S.A.Vogue Business Center, 6th Floor, Atasehir, Istanbul – TurkeyMob: +90 506 507 4730Tel: +90 216 639 0228email: oner.tokcan@nbcarriers.comSkype: onertokcan  ",
+            {
+                "entities": [
+                    [
+                        79,
+                        99,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        101,
+                        119,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        121,
+                        140,
+                        "LAYCAN"
+                    ],
+                    [
+                        248,
+                        260,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:10:58   (GMT +5:30)\r\nREFERΕNCE NO: 17699822\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV DAEJOO ARIRANG 2 - HDY - OPEN DANGJIN - 19 - 21st AUG 2024\r\nONLY WITHIN FAREAST\r\nMv DAEJOO ARIRANG 2  Open dangjin, korea 19/ 21st aug 2024\r\nSINGLE DECK/ BLT 2003 JAPAN\r\nKOREA FLAG\r\n32,394 MT DWAT ON 10.02M SSW\r\nLOA/BEAM 177.00/ 28.40M\r\n5HOHA - 4 X 30MT CRANES\r\nGRAIN/BALE 42,595/ 41,124 CBM\r\nGRT/NRT 20,212/ 10,948\r\nABT 12.00(B)/ 12.0(L) ON ABT 20MT VLSFO\r\nIN PORT IDLE/WORK - ABT 2.5/ 4 MT VLSFO\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        226,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        237,
+                        249,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        252,
+                        265,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        293,
+                        312,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        314,
+                        326,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        334,
+                        346,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        366,
+                        374,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        375,
+                        392,
+                        "FLAG"
+                    ],
+                    [
+                        457,
+                        472,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

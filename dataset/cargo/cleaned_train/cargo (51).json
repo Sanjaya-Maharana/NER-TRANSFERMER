@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear sirs,\r\n\r\nPls ppose for\r\n\r\na/c fcc\r\nAbout 20.000 MT +/- 5% Bagged Rice\r\nlaycan 20-25Aug\r\nLoad Port: 1sbp /Hcm, Vietnam\r\nDischarge Port: 1 sbp in WAFR intention Luanda or Lome\r\nLoad rate: 2000 MT PWWD SATPM SHEX\r\nDischarge rate: 1500 MT PWWD SATPMSHEX\r\nAdcom 2.5% Pus",
+            {
+                "entities": [
+                    [
+                        31,
+                        38,
+                        "COMPANY"
+                    ],
+                    [
+                        76,
+                        91,
+                        "LAYCAN"
+                    ],
+                    [
+                        93,
+                        122,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        124,
+                        178,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        180,
+                        203,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        216,
+                        244,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        262,
+                        270,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

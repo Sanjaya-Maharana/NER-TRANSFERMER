@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Good day\r\nPls offer firm for our very close /greek headowns lady\r\nFull guidance here\r\nUnder our C/P\r\n- M/V MADRID / 30.912 DWT / VERACRUZ / 22 - 27 AUGUST\r\nBLT 2013,FLAG Liberia ,CLASS DNV, UK P&I Club ,DWT ABT 30.912 MTDW, GT/NT : 19999/10872 ,GRAIN CUBIC TTL: 40,639.40 / BALE CUBIC TTL: 39,577.50\r\n5 HO/5 HA , LOA/LBP/B/D: 178.70/170.0 M / 28.00 M / 14.00 M\r\nCRANES  4X30 SWL , GRABS 3 X10 CMB\r\nSPEED & CONS:\r\nBALLAST: 13.0 KN ON 24.00 MT VLSFO INCLUDING A/E + 0.10 MTS LSMGO\r\nLADEN : 13.0 KN ON 25.00 MT VLSFO INCLUDING A/E + 0.10 MTS LSMGO\r\nECO SPEED WOG:\r\nBALLAST:12 KN ON 17.50 MT VLSFO INCLUDING A/E + 0.10 MTS LSMGO\r\nLADEN : 11.50 KN ON 19.00 MT VLSFO INCLUDING A/E + 0.10 MTS LSMGO\r\nIN PORT IDLE: 2.8 MT VLSFO + 0.20 MTS LSMGO / WORKING: 5.0 MT VLSFO + 0.20 MTS LSMGO\r\nALL DETAILS 'ABT'\r\nBest regards/Elina Psilla\r\nTel   : 0030 2108064867/8066243\r\nmobile: 0030 6946101386\r\nskype : elina.psilla\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nUnited Seas Corp.\r\nKonitsis 5 & Kifisias ave,4th floor\r\nMarousi 151-25, greece\r\nTel     : 0030 210 8064867/8066243\r\nEmail   : chartering@unitedseascorp.gr\r\nposition@unitedseascorp.gr\r\nWeb     : www.unitedseascorp.gr\r\nMembers : Bimco.178704,Baltic Exchange,H.S.A,GSSCA\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        116,
+                        126,
+                        "DWT"
+                    ],
+                    [
+                        165,
+                        177,
+                        "FLAG"
+                    ],
+                    [
+                        203,
+                        217,
+                        "DWT"
+                    ],
+                    [
+                        362,
+                        374,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

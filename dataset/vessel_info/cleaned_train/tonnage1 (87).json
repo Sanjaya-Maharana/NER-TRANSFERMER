@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FM: EDOLENA SHIPPING LTD\r\nAT:  SALE & PURCHASE\r\nBeluga P1 type heavy lifter for sale:\r\nMAGOTHY - IMO: 9418975 | design: Beluga P1\r\nBLT: 12/2009 @ Qingshan Shipyard, China\r\nABT 19,397 DWT ON 13.9M Draft | TPC: 33.4\r\nClass: Bureau Veritas | next due SS: 2024-12-27 | Flag: Liberia\r\nGT: 15,549 | NT: 6,089\r\nLoa: 166.15M | Lbp: 156.0M | Beam: 22.9M | Depth: 13.9M\r\nIce Class: 1A\r\n2 HO | 2 HA\r\nCapacity: ABT 23,960 CBM Grain | 23,960 CBM Bale\r\n1031 TEU | 779 TEU @ 14T\r\nGear: Crane 2x400.0, Crane 1x120.0\r\nBWTS: Fitted\r\nM/E Type: 1 × MAN 7L58/64CD 13,324 BHP @ 428 RPM\r\nAUX: 1 × 1550.0 kW | 3 × 500.0 kW\r\nABT 6,983 LDT\r\nALL DETAILS BELIEVED TO BE CORRECT BUT NOT GUARANTEED\r\nShould you require, we can also offer employment opportunities for the vessel.\r\nThe M/V \"Magothy\" is currently trading in the Mediterranean and Southeast Asia. It is important to note that this versatile vessel can also be utilized in container trades if needed.\r\nRecent comparable sales include the M/V Hanna, built in 2011 at the same yard, which sold for USD 16.0 million, and the M/V Ocean Globe, built in 2010 at the same yard, which sold for USD 15.80 million.\r\nThe owners are inviting the best offers and are keen on concluding a swift and seamless transaction.\r\nLooking forward to your feedback.\r\nPlease copy in reply to shipbroker@edolena.eu  for faster feedback.\r\nRegards,\r\nEdolena Shipping Ltd. (ESL)\r\nSale & Purchase and Chartering\r\nshipbroker@edolena.eu\r\nwww.edolena.com",
+            {
+                "entities": [
+                    [
+                        97,
+                        109,
+                        "IMO"
+                    ],
+                    [
+                        131,
+                        143,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        176,
+                        186,
+                        "DWT"
+                    ],
+                    [
+                        265,
+                        278,
+                        "FLAG"
+                    ],
+                    [
+                        471,
+                        484,
+                        "CRANES"
+                    ],
+                    [
+                        486,
+                        499,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

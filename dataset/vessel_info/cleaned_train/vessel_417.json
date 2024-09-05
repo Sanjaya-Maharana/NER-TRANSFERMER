@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Dear All, Good day!\r\nPls pps suitable biz for our lady and add czk@fz-highton.com in your address book，\r\nand pls contact me on WeChat(+86-18054994220) or skype(live:1203957315)\r\nMV XIN HAI TONG 16 2008 56842DWT 4X30MT CRANE WL OPEN DAR ES SALAAM, TANZANIA 2ND-8TH/SEP 2024 IAGW WP.\r\nBOD: LSFO ABT 550-650MT . MGO ABT  100-110 MT.\r\nLAST 3 CGO :  WHEAT/GENERAL CARGO/NICKEL ORE\r\nTRY ANY\r\n1. NAME: MV XIN HAI TONG 16\r\n2. TYPE: GEARED, SINGLE DECK BULK CARRIER\r\n3. BUILT: 2008\r\n4. FLAG: PANAMA\r\n5. GRT/NRT INTERNATIONAL: 33000/19266\r\n6. LOA / LBP / BEAM / DEPTH MOUDED: 189.99M / 185.00M / 32.26M / 18.00M\r\n7. LOADING INFORMATION BSS SW (S.G.1.025)\r\nLOADLINE DEADWEIGHT    DRAFT       FREEBOARD     DISPLACEMENT\r\nSUMMER:  56842        12.800M     5.200M       67680\r\nWINTER:   55272        12.533M     5.467M       66110\r\nTROPICAL:  58416        13.067M     4.933M       69254\r\nTPC AT SUMMER DRAFT: 58.8\r\n8. CARGO GEARS: 4 CRANES ON DECK SWL 30TON UNDER HOOK/ 24MT WITH GRABS ATTACHED\r\n– WORKING RADIUS 4 TO 25 MTS AND 4 GRABS OF 14 CUMT.\r\n9. H/H: 5/5\r\n10. TYPE OF HATCH COVERS: FOLDING TYPE, HYDRAULIC SYSTEM\r\n11. GRAIN & BALE CAPACITY (INCL HATCH WAYS)\r\nHOLD WISE   BALE (M3)      GRAIN (M3)\r\nHOLD 1      12300        13009\r\nHOLD 2      14700        15333\r\nHOLD 3      14000        14553\r\nHOLD 4      14700        15333\r\nHOLD 5      12500        13404\r\n",
+            {
+                "entities": [
+                    [
+                        178,
+                        193,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        202,
+                        210,
+                        "DWT"
+                    ],
+                    [
+                        211,
+                        223,
+                        "CRANES"
+                    ],
+                    [
+                        227,
+                        255,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        256,
+                        272,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        395,
+                        410,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        461,
+                        472,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        477,
+                        489,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

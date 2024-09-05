@@ -1,0 +1,71 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GUNDEM SHIPPING, ISTANBUL & GUNDEM SHIPYARD, YALOVA\r\nEXCLUSIVE POSITION LIST - WEEK 33\r\n----------------------------------------------------------------------------------------------------------\r\nMV GUNDEM SERRA  5500 DWCC  @  AEGEAN SEA     06-08 SEPTEMBER\r\n6028 MTS DWT, 6.90 M DRAFT, 2004 BLT, BOX, SID, DOUBLE SKIN\r\n2HO/2HA, OPEN HATCH, GEARLESS, GR/BL CAP ABT 234K/225K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\nMV GUNDEM AZRA  4500 DWCC  @  FRENCH MED     21-23 AUGUST\r\n4964 MTS DWT, 6.56 M DRAFT, 2007 BLT, BOX, SID, DOUBLE SKIN\r\n2HO/2HA, OPEN HATCH, GEARLESS,  GR/BL CAP ABT 184K/184K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\nMV GUNDEM MAKBULE  4300 DWCC  @  A.R.A.G.     10-12 SEPTEMBER\r\n4696 MTS DWT, 6.38 M DRAFT, 2009 BLT, BOX, SID, DOUBLE SKIN\r\n2HO/2HA, OPEN HATCH, GEARLESS, GR/BL CAP ABT 187K/187K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\n----------------------------------------------------------------------------------------------------------\r\nBEST REGARDS\r\nRAMAZAN S. PARLAR & CAPT. ALI YILDIRIM\r\n- CHARTERING DEPARTMENT -\r\nDIR: +90 216 447 11 62 | FAX: +90 216 447 11 63\r\nMB: +90 541 649 97 16 | SKYPE: rsparlar\r\nMB: +90 549 548 36 55 | SKYPE: yildirimali.ay\r\nwww.gundemshipping.com | chartering@gundemshipping.com\r\nDo not re-circulate - Please reply only to \" chartering@gundemshipping.com “ -  Let us know for 'un-subscribe'",
+            {
+                "entities": [
+                    [
+                        196,
+                        211,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        259,
+                        271,
+                        "DWT"
+                    ],
+                    [
+                        381,
+                        392,
+                        "FLAG"
+                    ],
+                    [
+                        444,
+                        458,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        474,
+                        484,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        489,
+                        501,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        503,
+                        515,
+                        "DWT"
+                    ],
+                    [
+                        626,
+                        637,
+                        "FLAG"
+                    ],
+                    [
+                        752,
+                        764,
+                        "DWT"
+                    ],
+                    [
+                        874,
+                        885,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

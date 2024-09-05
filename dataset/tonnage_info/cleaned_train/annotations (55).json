@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "\r\nGood day     \r\n\r\n \r\n\r\nPls offer firm for our very close /greek lady\r\n\r\n \r\n\r\nOUR C/P\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nMoondance II at CJK 25 - 30 August\r\n\r\n-----------------------------------\r\n\r\n \r\n\r\nBLT 2005 , CLASS DNV, FLG LIBERIA, UK P%I, DWT 55,566, GT/NT 30.988/18.171, GRAIN/BALE CAP 69.451/66.965,80 , HO/HA 5/5, LOA/LBP/B/D 189.90/185.00/32.26/17.80,\r\n\r\nCRANES 4 x SWL 30mt, GRABS 3 x ELECTROHYDRAULIC GRABS\r\n\r\n \r\n\r\n \r\n\r\nSPEED / CONS:\r\n\r\nFULL SPEEDS :BALLAST 12.00 KN ON 24.50 MT FO + 2.50 FO + 0.2 MT LSMGO /LADEN: 12.00 KN ON 25.50 MT FO + 2.50 FO FOR GENERATORS + 0.2 MT LSMGO\r\n\r\nECO SPEED WOG :BALLAST 11.00 KN ON 18.00 MT FO + 2.50 FO + 0.2 MT LSMGO /LADEN: 11.00 KN ON 19.00 MT FO + 2.50 FO FOR GENERATORS + 0.2 MT LSMGO\r\n\r\nIN PORT IDLE: 2.00 MT FO + 0.1 MT LSMGO / WORKING: 2.00 MT FO/8 HRS + 0.1 MT LSMGO\r\n\r\n-ALL DETAILS\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nBest regards/Elina Psilla\r\n\r\nTel   : 0030 2108064867/8066243\r\n\r\nmobile: 0030 6946101386\r\n\r\nskype : elina.psilla\r\n\r\n \r\n\r\n \r\n\r\n  \r\n\r\n \r\n\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n\r\nUnited Seas Corp.\r\n\r\nKonitsis 5 & Kifisias ave,4th floor\r\n\r\nMarousi 151-25, greece\r\n\r\nTel     : 0030 210 8064867/8066243\r\n\r\nEmail   : chartering@unitedseascorp.gr\r\n\r\n          position@unitedseascorp.gr\r\n\r\nWeb     : www.unitedseascorp.gr\r\n\r\nMembers : Bimco.178704,Baltic Exchange,H.S.A,GSSCA\r\n\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n\r\n ",
+            {
+                "entities": [
+                    [
+                        241,
+                        260,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        263,
+                        293,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        296,
+                        304,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        319,
+                        325,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        333,
+                        338,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        438,
+                        502,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        504,
+                        574,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        583,
+                        648,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        651,
+                        727,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        728,
+                        807,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

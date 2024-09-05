@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 15:33:27   (GMT +5:30)\r\nREFERΕNCE NO: 17703115\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV ADVENTURE  - HDY - OPEN TELUKBAYUR - 20 - 21 AUG\r\nM/V ADVENTURE ( ECO ENGINE )\r\nBOX / DOUBLE SKIN / LOG FITTED\r\nIMO 9749972\r\nFLAG MARSHALL ISLANDS\r\nDWT 34487\r\nBUILT YEAR / PLACE 2019 - HAKODATE HK, JAPAN\r\nCLASS BV\r\nGRT/NRT 21.574/11.199\r\n5 HO/5 HA\r\nGRAIN / BALE 44.150 / 42.900 (CBM)\r\nLOA 179,97 M\r\nBEAM 30 M\r\nDRAFT 9,82M\r\nCRANE 4 X 30 MTS\r\nECO SPEED/CONSUMPTION AS FOLLOWS FOR REF ONLY WOG.\r\nLADEN ABOUT    12.00 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAY\r\nBALLAST ABOUT 12.50 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAY\r\nPORTS (I) ABT 2.3 MT VLSFO + ABT 0.1 MT LSMGO -(W) ABT 5.0 MT VLSFO + ABT 0.1 MT LSMGO\r\nBOD  ABT 350 MTS LSFO ABT 140 MT LSGO\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        207,
+                        219,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        229,
+                        244,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        247,
+                        258,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        260,
+                        273,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        322,
+                        333,
+                        "IMO"
+                    ],
+                    [
+                        335,
+                        356,
+                        "FLAG"
+                    ],
+                    [
+                        358,
+                        367,
+                        "DWT"
+                    ],
+                    [
+                        369,
+                        392,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        533,
+                        549,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

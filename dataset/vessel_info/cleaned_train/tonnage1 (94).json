@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "-/Sezgin\r\nRe: MV PROPUS – 10K DWT – MARMARA POS\r\nPosition: Marmara 19/22 Aug\r\nmv PROPUS\r\n10,430 DWT ON 8.58 M DRAFT\r\nBLT 1997\r\nCLASS BV\r\nFLAG PANAMA\r\nGRT 7708 /NRT 3514 MT\r\nLOA 126. / BEAM 20 M\r\n3 HO/3 HA\r\nBOX LIKE\r\nGRAIN 11960 / BALE 11220 CBM\r\nADA\r\nWarm Regards\r\nSezgin Baysak\r\nM:+905326384411 - Whatsapp\r\nT:+902167666665\r\nS:broker.sezgin\r\nwww.sbmchartering.com\r\nSBM Shipping and Trading ltd – Istanbul - sbm@sbmchartering.com\r\nAddress: Akasya Mall Tower A1, F23/116 Uskudar, Istanbul",
+            {
+                "entities": [
+                    [
+                        14,
+                        23,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        26,
+                        33,
+                        "DWT"
+                    ],
+                    [
+                        59,
+                        66,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        67,
+                        76,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        89,
+                        99,
+                        "DWT"
+                    ],
+                    [
+                        117,
+                        125,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        137,
+                        148,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}
