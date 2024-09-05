@@ -62,35 +62,35 @@ def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
         print(f"Error during training for model {output_path}: {e}")
 
 
-# if __name__ == "__main__":
-#     models = ['tonnage_info', 'vessel_info', 'cargo']
-#
-#     for model in models:
-#         print(f'Starting process for model: {model}')
-#
-#         config_path = "./config.cfg"
-#         output_path = f".models/{model}"
-#         train_data_path = f"./data/{model}/train.spacy"
-#         dev_data_path = f"./data/{model}/dev.spacy"
-#         print(f'Paths set for {model}')
-#
-#         train_json_folder = Path(f"./dataset/{model}/train")
-#         train_output_folder = Path(f"./dataset/{model}/cleaned_train")
-#         test_json_folder = Path(f"./dataset/{model}/test")
-#         test_output_folder = Path(f"./dataset/{model}/cleaned_test")
-#
-#         clean_entity_spans(train_json_folder, train_output_folder)
-#         clean_entity_spans(test_json_folder, test_output_folder)
-#
-#         train_data = combine_json_files(train_output_folder, model)
-#         test_data = combine_json_files(test_output_folder, model)
-#
-#         train_output_path = Path(f"./data/{model}/train.spacy")
-#         test_output_path = Path(f"./data/{model}/dev.spacy")
-#
-#         convert_json_to_spacy(train_data, train_output_path)
-#         convert_json_to_spacy(test_data, test_output_path)
-#
-#         run_spacy_train(config_path, output_path, train_data_path, dev_data_path)
-#
-#         print(f"Process completed for model: {model}\n")
+if __name__ == "__main__":
+    models = ['tonnage_info']
+
+    for model in models:
+        print(f'Starting process for model: {model}')
+
+        config_path = "./config.cfg"
+        output_path = f".models/{model}"
+        train_data_path = f"./data/{model}/train.spacy"
+        dev_data_path = f"./data/{model}/dev.spacy"
+        print(f'Paths set for {model}')
+
+        train_json_folder = Path(f"./dataset/{model}/train")
+        train_output_folder = Path(f"./dataset/{model}/cleaned_train")
+        test_json_folder = Path(f"./dataset/{model}/test")
+        test_output_folder = Path(f"./dataset/{model}/cleaned_test")
+
+        clean_entity_spans(train_json_folder, train_output_folder)
+        clean_entity_spans(test_json_folder, test_output_folder)
+
+        train_data = combine_json_files(train_output_folder, model)
+        test_data = combine_json_files(test_output_folder, model)
+
+        train_output_path = Path(f"./data/{model}/train.spacy")
+        test_output_path = Path(f"./data/{model}/dev.spacy")
+
+        convert_json_to_spacy(train_data, train_output_path)
+        convert_json_to_spacy(test_data, test_output_path)
+
+        run_spacy_train(config_path, output_path, train_data_path, dev_data_path)
+
+        print(f"Process completed for model: {model}\n")

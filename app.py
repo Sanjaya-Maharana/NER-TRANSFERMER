@@ -73,7 +73,6 @@ def upload_files():
 
 @app.route('/train', methods=['POST'])
 def train_model():
-    download_spacy_model()
     model = request.form.get('model')
     if model not in ['tonnage_info', 'vessel_info', 'cargo']:
         return jsonify({'error': 'Invalid model specified'}), 400
@@ -125,8 +124,6 @@ def predict(model):
         return jsonify({'error': 'No text provided'}), 400
 
     text = request.json['text']
-    text = text.replace('\n\n', '       ').replace('\n', '  ')
-    print(text)
     try:
         nlp = spacy.load(Path(f"models/{model}/model-best"))
     except Exception as e:
