@@ -5,7 +5,7 @@ from pathlib import Path
 def clean_entity_spans(input_json_folder, output_json_folder):
     print(f"Cleaning files from {input_json_folder} and saving to {output_json_folder}")
 
-    output_json_folder.mkdir(parents=True, exist_ok=True)
+    # output_json_folder.mkdir(parents=True, exist_ok=True)
 
     for json_file_path in input_json_folder.glob("*.json"):
         try:
