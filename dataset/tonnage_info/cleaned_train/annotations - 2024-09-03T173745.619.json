@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 13:24:49   (GMT +5:30)\r\nREFERΕNCE NO: 17757557\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV  Aisha Sarwar (DWT: 48,265 SSW: 11.735 M, Built: 2000, HOLD: 5H/5H, GRD: 4 X 25M SWL, LOA: 189.33 M)\r\nOpening Chattogram, Bangladesh 28th August, 2024, Further details as per attached TC description.\r\nMV. Fatema Jahan I (DWT: 66,604, SSW: 12.925 M, Built: 2015, HOLD: 5H/5H, GRD: 4X31 MT SWL, LOA: 199.99 M\r\nOpening CJK, China 30th August, 2024, Further details as per attached TC description\r\nMV. Zayd Jahan (DWT: 66,637 SSW: 12.925 M, Blt: 2015, HOLD: 5H/5H, GRD: 4X31MT SWL, LOA: 199.99 M),\r\nOpening Payra, Bangladesh 06th September, 2024, Further details as per attached ship's particulars\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-ECI - Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nitindev@outlook.com\r\nSeasia-FarEast: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        242,
+                        250,
+                        "DRAFT"
+                    ],
+                    [
+                        271,
+                        276,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        296,
+                        309,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        449,
+                        457,
+                        "DRAFT"
+                    ],
+                    [
+                        478,
+                        483,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        503,
+                        516,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        637,
+                        645,
+                        "DRAFT"
+                    ],
+                    [
+                        664,
+                        669,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        688,
+                        701,
+                        "LOA_BEAM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

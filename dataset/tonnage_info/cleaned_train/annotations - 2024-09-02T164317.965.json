@@ -1,0 +1,62 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 079FW 29/03/24 12:04\r\nURSA Shipbrokers\r\nAkti Miaouli 67, Piraeus 18537, Greece,\r\nt: +30 210 4294220 - www.ursashipbrokers.gr\r\ne: chartering@ursa.gr / panamax@ursa.gr / operation@ursa.gr\r\n/nicolo\r\nGuide,\r\nMV Nordic BC Kiel 55947 Dwt  Open\r\nTARRAGONA  14 - 18 APRIL 2024\r\nBOD : VLSFO ABT\r\n1140 LSMGO ABT 100MT\r\nPREF FH BUT CAN TRY\r\nANY\r\nDescription\r\nMV Nordic BC\r\nKiel\r\nType : Handysize\r\nBulk Carrier\r\nBuilt : June 2010\r\nFlag : Liberia\r\nClass : NKK\r\nIMO : 9478573\r\nDWAT : 55,947.00 on\r\n12,735m (Summer)\r\nLOA : 190,00 m\r\nBeam : 32,26 ms\r\nDepth moulded :\r\n18,10 m\r\nInternational GT/NT\r\n: 31,532 (GT) / 18,765 (NT)\r\nTPC : 56.94 mt/cm\r\n(laden)\r\nSpeed &\r\nConsumption:\r\nAt Sea:\r\nLaden About 12.0\r\nknots on about 21.5 mt IFO plus abt. 0.1 mt MDO\r\nBallast About 12.5\r\nknots on about 21.0 mt IFO plus abt. 0.1 mt MDO\r\nPort: abt. 3.1 mt\r\nHFO + abt. 0.1 mt MGO (idle)\r\nabt. 5.6 mt HFO +\r\nabt. 0.1 mt MGO (working)\r\nend\r\nBest regards,\r\nNicolo' Ruvolo\r\nSkype: live:.cid.989f9d2fd3b7d916\r\nTel: +30 6988186884",
+            {
+                "entities": [
+                    [
+                        281,
+                        318,
+                        "BOD"
+                    ],
+                    [
+                        495,
+                        502,
+                        "DRAFT"
+                    ],
+                    [
+                        513,
+                        544,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        586,
+                        620,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        673,
+                        747,
+                        "SEA_CONS"
+                    ],
+                    [
+                        749,
+                        816,
+                        "SEA_CONS"
+                    ],
+                    [
+                        818,
+                        858,
+                        "PORT_CONS"
+                    ],
+                    [
+                        859,
+                        911,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

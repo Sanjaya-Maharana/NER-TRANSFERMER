@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "TO:Chartering dept \r\nAttn:whom it may concern\r\n\r\nPls pps suitable biz for our lady and add wl@fz-highton.com in your address book，and pls contact me on WeChat(id:levinwl) or skype:wanglei5630@outlook.com \r\n\r\nMV\r\n400 D3; display: inline;\">  XIN HAI TONG \r\n29  2011 BLT  57297.05 DWT  4X30 MT CRANE WL OPEN JORF LASFAR O/A 1ST - 5TH SEP 2024 IAGW WP.\r\nBOD: ABT 300-400 MT FOR VLSFO AND ABT 100-150 MT FOR LSMGO.\r\nTRY ALL DIRECTION.\r\n\r\n1. NAME: MV XIN HAI TONG 29\r\n\r\n2. TYPE: GEARED, SINGLE DECK BULK CARRIER\r\n\r\n3. BUILT: 2011\r\n\r\n4. FLAG: PANAMA\r\n\r\n5. GRT/NRT INTERNATIONAL: 33,226 / 19,294\r\n\r\n6. LOA / LBP / BEAM / DEPTH MOUDED: 190.00M / 183.30M / 32.26M / 18.50M\r\n\r\n7. LOADING INFORMATION：\r\n\r\n    LOADLINE DEADWEIGHT    DRAFT\r\n\r\n    SUMMER:      57297.05       13.020 M\r\n\r\n    WINTER:       55745.6        12.749M\r\n\r\n    TROPICAL:     58850.9        13.291 M\r\n\r\n    TPC AT SUMMER DRAFT: 57.3\r\n\r\n8. CRANE/GRAB: 4 X 30 MT CRANES + 4X12CBM GRABS\r\n\r\n9. H/H: 5/5\r\n\r\n10. TYPE OF HATCH COVERS: FOLDING TYPE\r\n\r\n11. GRAIN CAPACITY: 71987.9CBM\r\n\r\nHOLD #1:      13624.9 CU. M\r\n\r\nHOLD #2:      14,872.6 CU. M\r\n\r\nHOLD #3:      14310.0 CU. M\r\n\r\nHOLD #4:      14,884.9 CU. M\r\n\r\nHOLD #5:      14295.5 CU. M\r\n\r\n13. ECO SPEED/CONSUMPTION IS GIVEN WITHOUT GUARANTEE: \r\n\r\nBALLAST: ABT 12.0 KNOTS ON ABT 22.0 MT VLSFO  + 0. 1MT LSMGO\r\n\r\nLADEN:     ABT 11.5 KNOTS ON ABT 23.0 MT VLSFO + 0.1MT LSMGO\r\n\r\nAT PORT:\r\n\r\nIDLE：           ABT 2.5 MTS VLSFO  + 0.1 MTS LSMGO PER DAY\r\n\r\nWORKING：ABT 4.5 MTS VLSFO  + 0.1MTS LSMGO  PER DAY\r\n\r\nADDITIONAL ABT 4.5 MT VLSFO DAILY FOR BALLAST/DEBALLAST\r\n\r\nADDITIONAL ABT 1.5 MT VLSFO DAILY FOR BOILER CONSUMPTION WITH TEMPERATURE LESS THAN 10 DEGREE CENTIGRADE.\r\n\r\n ",
+            {
+                "entities": [
+                    [
+                        350,
+                        408,
+                        "BOD"
+                    ],
+                    [
+                        572,
+                        592,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        627,
+                        634,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        648,
+                        653,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        766,
+                        769,
+                        "DRAFT"
+                    ],
+                    [
+                        1007,
+                        1032,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        1202,
+                        1312,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1316,
+                        1376,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1383,
+                        1529,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

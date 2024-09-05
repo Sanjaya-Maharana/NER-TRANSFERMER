@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "Dear sirs,\r\nCAN TRY ANY FLEXIBLE CARGO / TRADE\r\nM/V MANTA KEREM     OPEN AT  SINGAPORE  7 / 12  SEPT\r\nSdbc, Marshall Island Flg, 37.046 mts on 10.869 m, 2014 Blt\r\n5 Ha / 5 Ho,HOLDS # 2,3,4 - BOX\r\nG/B 45.790/45.294 cbm, 4x30 ts Grd ,\r\nLoa/Bm/Depth 177.85/26.8/15 m , Tpc 46.66 mt\r\nGrt / Nrt 22852 / 12602\r\nPandi Standart U.K., Class NKK\r\nLaden abt 13 knts on abt 22.5 mt vlsfo + 0,1 mt lsmgo\r\nBalast abt 14 knts on abt 21.5 mt vlsfo + 0,1 mt lsmgo\r\nI/W abt 2 mt vlsfo + 0.1 mt lsmgo / abt 4 mt vlsfo + 0.1 mt lsmgo\r\nADA\r\nBest Regards\r\nSen\r\nMARINE BIZ INTERNATIONAL – CHARTERING\r\nINDIA\r\nMobile : +91 988 42 92 32 6\r\nEmail : chartering@marinebiz.in\r\nEmail : mbchartering@gmail.com\r\nSkype :  marinebizz\r\nGDPR NOTICE :This message is not 'SPAM' and sent only within the shipping stakeholders, if this message is irrelevant to your business or you do not\r\nwish to receive any further Newsletter from us, please reply REMOVE.",
+            {
+                "entities": [
+                    [
+                        143,
+                        151,
+                        "DRAFT"
+                    ],
+                    [
+                        163,
+                        174,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        196,
+                        217,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        247,
+                        258,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        280,
+                        303,
+                        "GRT_AND_NRT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

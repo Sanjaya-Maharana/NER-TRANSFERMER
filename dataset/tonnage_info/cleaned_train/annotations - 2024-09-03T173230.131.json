@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM IBULK (SINGAPORE) PTE LTD / WWW.IBULK-SIN.COM\r\nFOR CARGO/ORDER: DRYCARGO@IBULK-SIN.COM\r\nFOR TONNAGE: TONNAGE@IBULK-SIN.COM\r\nREPLY UNSUBSCRIBE NOT TO RECEIVE CIRCULATION\r\n+++ STRICTLY NO RECIRCULATION +++\r\nGOOD DAY,\r\nPLEASED TO HEAR WHAT YOU CAN PROPOSE FOR OUR FOLLOWING IN HOUSE TONNAGE:\r\n- CAN TRADE GOA/PG/FULL RED SEA INCLUDING YEMEN/DJIBOUTI ETC\r\n- CAN TRY ANY DIRECTION PREFER VOYAGE TRY TCT\r\n- OPEN RED SEA ON AROUND 08 - 18 SEPTEMBER, 2024\r\n- ETA AQABA  ON AROUND 12 - 22 SEPTEMBER, 2024\r\n- ETA BLACK SEA ON AROUND  17 - 27 SEPTEMBER, 2024\r\nMV \"INCE NORTHWIND\"\r\nSD/BC BLT 2023 SINGAPORE FLAG CLASS NK\r\nABT 63,500MT DWT ON 13.52 M SSW\r\nLOA/BEAM/DEPTH 199.98/32.24/19.30M\r\nGRT/NRT 36,500/21,500\r\n4 X 30.5 TS CRANES + 12CBM GRABS\r\n80,750.00 CBM GRAIN\r\nCO2 FITTED\r\nSPEED CONS : ABT 13.0K  L ON ABT 23.00MT IFO + ABT 0.1 MT MDO  ABT 13.50K B ON ABT 21.30MT IFO + ABT 0.1 MT MDO\r\n(ECO SPEED/CONSUMPTION IS AVAILABLE AND WILL BE PROVIDED UPON FIRM INTEREST.)\r\nPORT CONS :\r\nIDLE ABT 2.50 MT IFO / WWW ABT 4.5 MT IFO (INCL. BALLAST OPERATION)\r\nVESSEL HAS LIBERTY TO USE ADDITIONAL MDO WHEN MANOEUVERING, PASSING FROM STRAITS, BERTHING OR  UNBERTHING, AT HEAVY SWELLS, IN CONFINED WATERS, HOLD CLEANING ETC.\r\n\"ALL DETAILS ARE GIVEN IN GOOD FAITH AND WITHOUT GUARANTEE\"\r\nWarm Regards.,\r\nThomas Hermantoso\r\nMike Goh\r\nSubhasis Behera\r\nSencer Sahinkaya\r\n---------------------------------------------------------------------------\r\nThomas Hermantoso\r\nMobile: +65 9128 2382\r\nDirect Line: +65 6718 2075\r\nSkype: tmazz17\r\nMike Goh\r\nMobile: +65 94763866\r\nDirect Line: +65 6718 2074\r\nSkype: cid.c8806083f48551d0\r\nSubhasis Behera\r\nMobile: +971 5 67641137\r\nPersonal: subhasis@ibulk-dubai.com\r\nSkype: subhasis.pcl\r\nSencer Sahinkaya\r\nMobile: +65 9177 1244\r\nDirect Line: +65 6718 2077\r\nSkype: sencer.sahinkaya1\r\nYahoo: sencersahinkaya\r\n---------------------------------------------------------------------------\r\nIBULK (SINGAPORE) PTE LTD\r\n300 Beach Road, #13-01 The Concourse, Singapore 199555\r\nMain line +65 6718 2070\r\nFax +65 6718 2071\r\nE-mail: drycargo@ibulk-sin.com\r\nwww.ibulk-sin.com\r\nNOTICE: This message and its attachment files may contain confidential and privileged information. Unless you are the intended addressee, any distribution, copying or disclosure of such information is strictly prohibited. If you have received this message by mistake, please notify the sender immediately and delete all copies of this message from your computer. Also note that any message originating from this address is intended and sent \"As Brokers only\" and \"As Agents of IBulk International S.A.\"",
+            {
+                "entities": [
+                    [
+                        635,
+                        642,
+                        "DRAFT"
+                    ],
+                    [
+                        663,
+                        675,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        684,
+                        708,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        787,
+                        885,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        979,
+                        1020,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

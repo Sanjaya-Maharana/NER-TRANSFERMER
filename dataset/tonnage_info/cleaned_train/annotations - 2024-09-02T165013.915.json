@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "Gdday,\r\npls offer firm for our very close lady\r\nOUR C/P\r\nMV Florencia | open Onsan | 02 - 07 Sept.\r\n39,972 DWT - BOX\r\nBLT 2023 JAPAN\r\nCLASS NK / Malta FLAG\r\nGRAIN/BALE 48,358.24/47,116.74 M3\r\nHO/HA 5/5\r\nCRANES 30.7 T X 4\r\nMAX OUTREACH OF CRANES 10.0 m\r\nLOA/LBP/B/D 182.27/179.95/31.0/14.7 m M Summer Draft 10.346 m mtrs\r\nG/N   25.015 / 12.488\r\nTropical fresh DWAT 41060 mt/draft 10,796 mtrs - Freeboard 4,187 m\r\nDWAT Fresh water 39971 / draft 10,581 mtrs - FreeBoard 4.472 m\r\nTropical DWAT 41060 /draft 10,561 mtrs - FreeBoard 4,207 m\r\nSummer DWAT 39972 / draft 10,346 mts - FreeBoard 4,422m\r\nWinter DWAT 38861 mt / draft 10,131 mtrs - FreeBoard 4,637\r\nHATCH OPENING SIZE: NO.1 16.00mX19.20m, NO.2-5 20.80mX25.40m\r\nTT STRENGTH 20 mt /M2\r\nAll cargo holds electric Ventilated @ 6 air changes per hour basis empty\r\nhold Australian ladders fitted / ITF fitted\r\nSPEED/CONSUMPTION:\r\nAT SEA: LADEN    ABT 13 KNOTS ON 18 MT(IFO380) + 0.10 MT MDO  OR\r\nBALLAST  ABT 13 KNOTS ON 18 MT(IFO380)  + 0.10 MT MDO\r\nVSL'S SPEED CONSUMPTION BASED ON GOOD WEATHER/CALM SEA MAX BEAUFORT 4 /\r\nDOUGLAS SEA STATE 3 AND NO ADVERSE CURRENT WITHOUT GUARANTEE\r\nIN PORT: IDLE    ABT 2.7 MT(IFO380) + 0.10 MT MDO\r\nWORKING ABT 4.00 MT(IFO380) + 0.10 MT MDO WITHIN ISO 8217:2020 RMG380\r\nADA\r\nBest regards/Elina Psilla\r\nTel   : 0030 2108064867/8066243\r\nmobile: 0030 6946101386\r\nskype : elina.psilla\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nUnited Seas Corp.\r\nKonitsis 5 & Kifisias ave,4th floor\r\nMarousi 151-25, greece\r\nTel     : 0030 210 8064867/8066243\r\nEmail   : chartering@unitedseascorp.gr\r\nposition@unitedseascorp.gr\r\nWeb     : www.unitedseascorp.gr\r\nMembers : Bimco.178704,Baltic Exchange,H.S.A,GSSCA\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        265,
+                        271,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        279,
+                        283,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        300,
+                        314,
+                        "DRAFT"
+                    ],
+                    [
+                        373,
+                        390,
+                        "DRAFT"
+                    ],
+                    [
+                        497,
+                        514,
+                        "DRAFT"
+                    ],
+                    [
+                        616,
+                        633,
+                        "DRAFT"
+                    ],
+                    [
+                        886,
+                        936,
+                        "SEA_CONS"
+                    ],
+                    [
+                        943,
+                        996,
+                        "SEA_CONS"
+                    ],
+                    [
+                        1138,
+                        1225,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

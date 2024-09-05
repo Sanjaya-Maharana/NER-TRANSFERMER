@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "NORVIC COPENHAGEN (63K/23 BLT), OPEN XINSHA, CHINA 8-13 SEPT\r\nCAN DO PERIOD UPTO 1 YEAR, TRY LONGER - INDEX OR FLAT\r\nIDEAS HERE\r\nNO GOA (SUB CHANGES OF SITUATION)\r\nDECK/HATCH MAY CONSIDER\r\nNO 2X25\r\nREDEL WW\r\nM/V NORVIC COPENHAGEN\r\nBUILT AUG/2023 IMBABARI SHIPYARD\r\nDWT 63,470 MT ON 13.526M\r\nTPC 61.50\r\nLOA/BEAM 199.99M/32.24M\r\nIMO 9968956\r\nFLAG LIBERIA\r\nPORT OF REGISTRY MONROVIA\r\nBULK CARRIER TYPE\r\n5 HOLDS/5 HATCHES\r\n4 X 30MT CRANES + 4X12CBM GRABS\r\nGRAIN M3: 80,750/BALE M3: 76,4000\r\nSTRENGTHENED FOR HEAVY CARGOES\r\nCO2 FITTED HOLDS/A60 BULKHEAD\r\nENGINE MAKE/MODEL/TYPE HITACHI-MAN B&W 6S50ME-C9.7-HPSCR\r\nBALLAST: ABOUT 13.9KNOTS ON ABOUT 23.2MT/DAY VLSFO (FOR M/E ONLY) + ABOUT 0.1MT/DAY LSMGO\r\nLADEN ABOUT 13.1KNOTS ON ABOUT 23.2MT/DAY VLSFO (FOR M/E ONLY) + ABOUT 0.1MT/DAY LSMGO\r\nECO SPEED CONSUMPTION (REFERENCE ONLY WITHOUT GUARANTEE)\r\nBALLAST ABOUT 12.7KNOTS ON ABOUT 15.1MT/DAY VLSFO (FOR M/E ONLY) +ABOUT 0.1MT/DAY LSMGO\r\nLADEN ABOUT 11.8KNOTS ON ABOUT 15.1MT/DAY VLSFO (FOR M/E ONLY) + ABOUT 0.1MT/DAY LSMGO\r\nSEAGOING ABOUT 1.9MT/DAY\r\nIN PORT (WORKING) ABOUT 6.5 MT/DAY(REFERENCE ONLY WITHOUT GUARANTEE)\r\nIN PORT (IDLE) ABOUT 2.2 MT/DAY(REFERENCE ONLY WITHOUT GUARANTEE)\r\nALL FIGURES ABOUT WOG\r\nRegards\r\nChristian Friedrich\r\nphone +49 40450143141\r\nmob +49 15110604640\r\nH. VOGEMANN GMBH - Hallerstrasse 40 - 20146 Hamburg - Germany\r\nRegistered in Hamburg - HRB 17249 - MD F. Jensen, L. Rudebec k",
+            {
+                "entities": [
+                    [
+                        282,
+                        289,
+                        "DRAFT"
+                    ],
+                    [
+                        302,
+                        325,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        400,
+                        416,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        452,
+                        485,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        617,
+                        696,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        699,
+                        785,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        872,
+                        932,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        934,
+                        1020,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1051,
+                        1082,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1121,
+                        1149,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}
