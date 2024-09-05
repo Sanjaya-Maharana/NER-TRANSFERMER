@@ -1,57 +1,179 @@
-import requests
+import sys
+import json
+import spacy
+import subprocess
+from pathlib import Path
+from flask import Flask, request, jsonify, render_template
+from werkzeug.utils import secure_filename
+from clean import clean_entity_spans
+from convert import combine_json_files, convert_json_to_spacy
 
-url = 'http://127.0.0.1:5000/predict/vessel_info'
+app = Flask(__name__)
 
-data = {
-    "text": '''
-    FROM SnC MARITIME SEOUL KOREA 82-2-778-0283 DRY@SNCMARITIME.COM - SS Kang
 
-    CLOSE LOCAL OWNERS HV : -
+UPLOAD_FOLDER = './dataset'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-    OPEN VIZAG,    
-    27th JULY
 
-    TRY 1tct or 2-3LL (upto 9/22)
+ALLOWED_EXTENSIONS = {'json'}
 
-    VSL PARTICULAR:
 
-    =========
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+def download_spacy_model():
+    try:
+        command = [
+            sys.executable,
+            "-m", "spacy", "download", "en_core_web_trf"
+        ]
+        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) as process:
+            for line in process.stdout:
+                print(line, end='')
 
-    MV GLOVIS MELODY
-    DWT 55,705 MT ON 12.868M SSW TPC 57.1
-    BUILT NOV  2012
-    FLAG BAHAMAS
-    GEARED SINGLE DECK BULK CARRIER
-    GRT/NRT 32,545/18,528
-    LOA/BEAM 187.88M/32.26M
-    CARGO CAPA GRAIN ABT 70,761CBM, BALE ABT 68,290 CBM
-    CRANES  4X30 .0MT SWL (HOOK MODE) / 24.0MT SWL (GRAB MODE) GRAB 4 GRABS(14CBM)
-    ADA
+            for line in process.stderr:
+                print(f"ERROR: {line}", end='')
 
-    SPEED/CONS:
-    ABT 13.20 KN ON ABT 26.2 MT IFO (BALLAST)
-    ABT 13.20 KN ON ABT 28.2 MT IFO (LADEN)
-    IN PORT - ABT 3.0 MT IFO PER DAY IDLE / ABT 4.5 MT IFO PER DAY WORKING
+        returncode = process.wait()
 
-    THE SPEED/CONSUMPTION OF THE VESSEL IS ALWAYS TO BE CONSIDERED AS AVERAGE SPEED/CONSUMPTION IN FULLY BALLAST/ LADEN CONDITION AND UNDER GOOD WEATHER CONDITIONS WHICH FOR THE PURPOSE OF THIS C/P ARE DEFINED AS NO ADVERSE CURRENT, NEGATIVE INFLUENCE OF SWELL, MODERATE SEA, WIND NOT EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3(MEANS SIGNIFICANT WAVE HEIGHT LESS THAN 1.25M) AT THE CONDITION OF CLEAN BOTTOM IN OPEN, CALM AND DEEP SEA CONDITION WITH MINIMUM 24 HOURS STEAMING TIME, WITH EVEN KEEL CONDITION. POSITIVE CURRENT SHALL NOT BE USED IN DIMINISHING VESSEL'S PERFORMANCE. VESSEL HAS LIBERTY TO MDO/DMA WHEN MANUEVERING IN SHALLOW / NARROW / BUSY / ONFINED AND RESTRICTED WATERS, PASSING FROM STRAITS, CANALS, RIVERS, BERTHING / UNBERTHING, IN / OUT PORTS, DURING BAD WEATHER AND HEAVY SWELLS, IF REQUIRED. THE WORD “ABOUT” UNDER THIS FIXTURE AS WEATHER APPLY TO BOTH HER “SPEED(S)” AND “CONSUMPTION” IT IS DEFINED AS A TOLERANCE OF 0.5KT ON “SPEED” AND A TOLERANCE OF 5% ON BUNKER CONSUMPTION.
+        if returncode == 0:
+            print("Model 'en_core_web_trf' downloaded successfully!")
+        else:
+            print(f"Failed to download 'en_core_web_trf'. Return code: {returncode}")
 
-    ECO SPEED (WOG, FOR GUIDANCE ONLY):
-    ABT 12.2 KN ON ABT 25.3 MT IFO
-    ALL DETAILS ABOUT AND GIVEN IN GOOD FAITH
+    except Exception as e:
+        print(f"Error during downloading 'en_core_web_trf': {e}")
 
-    B,RGDS / SS Kang (강석산)
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-    DIR : 822 778 0283
-    MOB : 82 10 8751 5308
-    DRY@SNCMARITIME.COM
-    SKYPE : KANGCHO29@HOTMAIL.COM
-    '''
-}
+@app.route('/upload', methods=['POST'])
+def upload_files():
+    if 'model' not in request.form:
+        return jsonify({'error': 'Model not specified'}), 400
 
-response = requests.post(url, json=data)
+    model = request.form['model']
+    if model not in ['tonnage_info', 'vessel_info', 'cargo']:
+        return jsonify({'error': 'Invalid model specified'}), 400
 
-print(response.status_code)
-if response.status_code == 200:
-    print(response.json())
-else:
-    print(f"Error: {response.status_code}")
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file uploaded'}), 400
+
+    files = request.files.getlist('file')
+    upload_folder = Path(app.config['UPLOAD_FOLDER']) / model / 'train'
+    upload_folder.mkdir(parents=True, exist_ok=True)
+
+    for file in files:
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file.save(upload_folder / filename)
+
+    return jsonify({'message': f'Files successfully uploaded for model {model}'}), 200
+
+
+@app.route('/train', methods=['POST'])
+def train_model():
+    download_spacy_model()
+    model = request.form.get('model')
+    if model not in ['tonnage_info', 'vessel_info', 'cargo']:
+        return jsonify({'error': 'Invalid model specified'}), 400
+
+    config_path = "./config.cfg"
+    output_path = f"./models/{model}"
+    train_data_path = f"./data/{model}/train.spacy"
+    dev_data_path = f"./data/{model}/dev.spacy"
+
+    train_json_folder = Path(f"./dataset/{model}/train")
+    train_output_folder = Path(f"./dataset/{model}/cleaned_train")
+    test_json_folder = Path(f"./dataset/{model}/test")
+    test_output_folder = Path(f"./dataset/{model}/cleaned_test")
+
+    clean_entity_spans(train_json_folder, train_output_folder)
+    clean_entity_spans(test_json_folder, test_output_folder)
+
+    train_data = combine_json_files(train_output_folder, model)
+    test_data = combine_json_files(test_output_folder, model)
+
+    train_output_path = Path(f"./data/{model}/train.spacy")
+    test_output_path = Path(f"./data/{model}/dev.spacy")
+
+    convert_json_to_spacy(train_data, train_output_path)
+    convert_json_to_spacy(test_data, test_output_path)
+
+    run_spacy_train(config_path, output_path, train_data_path, dev_data_path)
+
+    return jsonify({'message': f'Training started for model {model}'}), 200
+
+
+@app.route('/predict/vessel_info', methods=['POST'])
+def predict_vessel_info():
+    return predict('vessel_info')
+
+
+@app.route('/predict/tonnage_info', methods=['POST'])
+def predict_tonnage_info():
+    return predict('tonnage_info')
+
+
+@app.route('/predict/cargo', methods=['POST'])
+def predict_cargo():
+    return predict('cargo')
+
+
+def predict(model):
+    if 'text' not in request.json:
+        return jsonify({'error': 'No text provided'}), 400
+
+    text = request.json['text']
+    text = text.replace('\n\n', '       ').replace('\n', '  ')
+    print(text)
+    try:
+        nlp = spacy.load(Path(f"models/{model}/model-best"))
+    except Exception as e:
+        return jsonify({'error': f'Failed to load model {model}: {str(e)}'}), 500
+
+    doc = nlp(text)
+    result_dict = []
+    for ent in doc.ents:
+        result_dict.append({
+            "text": ent.text,
+            "label": ent.label_
+        })
+    return jsonify({"entities": result_dict}), 200
+
+def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
+    try:
+        print(f'Command start executing for model: {output_path}')
+        command = [
+            sys.executable,
+            "-m", "spacy", "train", config_path,
+            "--output", output_path,
+            "--paths.train", train_data_path,
+            "--paths.dev", dev_data_path
+        ]
+
+        print(f'Running command: {" ".join(command)}')
+        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) as process:
+            for line in process.stdout:
+                print(line, end='')
+
+            for line in process.stderr:
+                print(f"ERROR: {line}", end='')
+
+        returncode = process.wait()
+
+        if returncode == 0:
+            print(f"Training completed successfully for model: {output_path}!")
+        else:
+            print(f"Training failed for model: {output_path} with return code: {returncode}")
+
+    except Exception as e:
+        print(f"Error during training for model {output_path}: {e}")
+
+
+# if __name__ == '__main__':
+#     app.run(debug=True, host='0.0.0.0')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000, debug=True, use_reloader=True)
+
