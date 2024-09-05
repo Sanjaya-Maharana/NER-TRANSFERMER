@@ -171,6 +171,9 @@ def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
         print(f"Error during training for model {output_path}: {e}")
 
 
+# if __name__ == '__main__':
+#     app.run(debug=True, host='0.0.0.0')
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0', port=8000, debug=True, use_reloader=True)
 
