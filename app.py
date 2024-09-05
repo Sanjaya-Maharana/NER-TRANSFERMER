@@ -173,3 +173,4 @@ def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
+
