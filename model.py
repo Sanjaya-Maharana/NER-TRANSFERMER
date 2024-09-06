@@ -63,7 +63,7 @@ def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
 
 
 if __name__ == "__main__":
-    models = ['tonnage_info']
+    models = ['cargo']
 
     for model in models:
         print(f'Starting process for model: {model}')
