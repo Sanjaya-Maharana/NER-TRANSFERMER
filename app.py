@@ -14,7 +14,7 @@ def get_ist_time():
     return ist_time.strftime('%Y-%m-%d %H:%M:%S')
 
 
-stats_file_path = Path('api_stats.json')
+stats_file_path = Path('api_status.json')
 
 
 if not stats_file_path.exists():
