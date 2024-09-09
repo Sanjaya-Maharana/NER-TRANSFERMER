@@ -1,18 +1,21 @@
-import sys
 import json
 import spacy
 from pathlib import Path
-from flask import Flask, request, jsonify, render_template
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import JSONResponse
+from fastapi.middleware.gzip import GZipMiddleware
 from datetime import datetime, timedelta
+import asyncio
 
-app = Flask(__name__)
+app = FastAPI()
+
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 
 def get_ist_time():
     utc_time = datetime.utcnow()
     ist_time = utc_time + timedelta(hours=5, minutes=30)
     return ist_time.strftime('%Y-%m-%d %H:%M:%S')
-
 
 stats_file_path = Path('api_status.json')
 
@@ -37,48 +40,51 @@ def update_api_stats(api_name):
         f.truncate()
 
 
-@app.route('/')
-def home():
+vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
+tonnage_nlp = spacy.load(Path(f"models/tonnage_info/model-best"))
+cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
+
+
+@app.get("/")
+async def home():
+
     with open(stats_file_path, 'r') as f:
         data = json.load(f)
-    return render_template('index.html', stats=data)
+    return JSONResponse(content=data)
 
 
-@app.route('/predict/tonnage', methods=['POST'])
-def predict_vessel_and_tonnage():
+@app.post("/predict/tonnage")
+async def predict_vessel_and_tonnage(request: Request):
     update_api_stats('tonnage')
-    return predict_combined(['vessel_info', 'tonnage_info'])
+    data = await request.json()
+    return await predict_combined([vessel_nlp, tonnage_nlp], data)
 
 
-@app.route('/predict/cargo', methods=['POST'])
-def predict_cargo():
+@app.post("/predict/cargo")
+async def predict_cargo(request: Request):
     update_api_stats('cargo')
-    return predict_combined(['cargo'])
+    data = await request.json()
+    return await predict_combined([cargo_nlp], data)
 
 
-def predict_combined(models):
-    if 'text' not in request.json:
-        return jsonify({'error': 'No text provided'}), 400
+async def predict_combined(models, request_data):
+    if 'text' not in request_data:
+        raise HTTPException(status_code=400, detail="No text provided")
 
-    text = request.json['text']
+    text = request_data['text']
     combined_result = []
 
     for model in models:
-        try:
-            nlp = spacy.load(Path(f"models/{model}/model-best"))
-        except Exception as e:
-            return jsonify({'error': f'Failed to load model {model}: {str(e)}'}), 500
-
-        doc = nlp(text)
+        doc = model(text)
         for ent in doc.ents:
             combined_result.append({
                 "text": ent.text,
                 "label": ent.label_
             })
 
-    return jsonify({"entities": combined_result}), 200
+    return JSONResponse(content={"entities": combined_result})
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
-
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True, workers=4)
