@@ -43,6 +43,10 @@ cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
 
 @app.get("/")
 async def home():
+    return {"message": "Hello World"}
+
+@app.get("/data")
+async def data():
     with open(stats_file_path, 'r') as f:
         data = json.load(f)
     return {'data': data}
