@@ -46,7 +46,7 @@ cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
 async def home():
     with open(stats_file_path, 'r') as f:
         data = json.load(f)
-    return JSONResponse(content=data)
+    return {'data': data}
 
 @app.post("/predict/tonnage")
 async def predict_vessel_and_tonnage(request: Request):
@@ -75,7 +75,7 @@ async def predict_combined(models, request_data):
                 "label": ent.label_
             })
 
-    return JSONResponse(content={"entities": combined_result})
+    return {"entities": combined_result}
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True, workers=4)
