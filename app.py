@@ -12,8 +12,7 @@ stats_file_path = Path('api_stats.json')
 if not stats_file_path.exists():
     initial_data = {
         'timestamp': {'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')},
-        'vessel_info': {'count': 0, 'last_called': None},
-        'tonnage_info': {'count': 0, 'last_called': None},
+        'tonnage': {'count': 0, 'last_called': None},
         'cargo': {'count': 0, 'last_called': None}
     }
     with open(stats_file_path, 'w') as f:
@@ -34,39 +33,38 @@ def home():
         data = json.load(f)
     return render_template('index.html', stats=data)
 
-@app.route('/predict/vessel_info', methods=['POST'])
-def predict_vessel_info():
-    update_api_stats('vessel_info')
-    return predict('vessel_info')
-
-@app.route('/predict/tonnage_info', methods=['POST'])
-def predict_tonnage_info():
-    update_api_stats('tonnage_info')
-    return predict('tonnage_info')
+@app.route('/predict/tonnage', methods=['POST'])
+def predict_vessel_and_tonnage():
+    update_api_stats('tonnage')
+    return predict_combined(['vessel_info', 'tonnage_info'])
 
 @app.route('/predict/cargo', methods=['POST'])
 def predict_cargo():
     update_api_stats('cargo')
-    return predict('cargo')
+    return predict_combined(['cargo'])
 
-def predict(model):
+def predict_combined(models):
     if 'text' not in request.json:
         return jsonify({'error': 'No text provided'}), 400
 
     text = request.json['text']
-    try:
-        nlp = spacy.load(Path(f"models/{model}/model-best"))
-    except Exception as e:
-        return jsonify({'error': f'Failed to load model {model}: {str(e)}'}), 500
+    combined_result = []
 
-    doc = nlp(text)
-    result_dict = []
-    for ent in doc.ents:
-        result_dict.append({
-            "text": ent.text,
-            "label": ent.label_
-        })
-    return jsonify({"entities": result_dict}), 200
+    for model in models:
+        try:
+            nlp = spacy.load(Path(f"models/{model}/model-best"))
+        except Exception as e:
+            return jsonify({'error': f'Failed to load model {model}: {str(e)}'}), 500
+
+        doc = nlp(text)
+        for ent in doc.ents:
+            combined_result.append({
+                "text": ent.text,
+                "label": ent.label_
+            })
+
+    return jsonify({"entities": combined_result}), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

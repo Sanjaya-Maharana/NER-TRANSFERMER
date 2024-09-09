@@ -52,14 +52,9 @@
                 <th>Last Called Time</th>
             </tr>
             <tr>
-                <td>Vessel Info</td>
-                <td>{{ stats['vessel_info']['count'] }}</td>
-                <td>{{ stats['vessel_info']['last_called'] or 'Never Called' }}</td>
-            </tr>
-            <tr>
                 <td>Tonnage Info</td>
-                <td>{{ stats['tonnage_info']['count'] }}</td>
-                <td>{{ stats['tonnage_info']['last_called'] or 'Never Called' }}</td>
+                <td>{{ stats['tonnage']['count'] }}</td>
+                <td>{{ stats['tonnage']['last_called'] or 'Never Called' }}</td>
             </tr>
             <tr>
                 <td>Cargo Info</td>
