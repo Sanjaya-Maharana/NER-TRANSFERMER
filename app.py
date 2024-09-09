@@ -63,6 +63,7 @@ def predict_combined(models):
                 "label": ent.label_
             })
 
+
     return jsonify({"entities": combined_result}), 200
 
 
