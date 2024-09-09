@@ -3,29 +3,39 @@ import json
 import spacy
 from pathlib import Path
 from flask import Flask, request, jsonify, render_template
-from datetime import datetime
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
+
+def get_ist_time():
+    utc_time = datetime.utcnow()
+    ist_time = utc_time + timedelta(hours=5, minutes=30)
+    return ist_time.strftime('%Y-%m-%d %H:%M:%S')
+
+
 stats_file_path = Path('api_stats.json')
+
 
 if not stats_file_path.exists():
     initial_data = {
-        'timestamp': {'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')},
+        'timestamp': {'timestamp': get_ist_time()},
         'tonnage': {'count': 0, 'last_called': None},
         'cargo': {'count': 0, 'last_called': None}
     }
     with open(stats_file_path, 'w') as f:
         json.dump(initial_data, f, indent=4)
 
+
 def update_api_stats(api_name):
     with open(stats_file_path, 'r+') as f:
         data = json.load(f)
         data[api_name]['count'] += 1
-        data[api_name]['last_called'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        data[api_name]['last_called'] = get_ist_time()
         f.seek(0)
         json.dump(data, f, indent=4)
         f.truncate()
+
 
 @app.route('/')
 def home():
@@ -33,15 +43,18 @@ def home():
         data = json.load(f)
     return render_template('index.html', stats=data)
 
+
 @app.route('/predict/tonnage', methods=['POST'])
 def predict_vessel_and_tonnage():
     update_api_stats('tonnage')
     return predict_combined(['vessel_info', 'tonnage_info'])
 
+
 @app.route('/predict/cargo', methods=['POST'])
 def predict_cargo():
     update_api_stats('cargo')
     return predict_combined(['cargo'])
+
 
 def predict_combined(models):
     if 'text' not in request.json:
@@ -63,9 +76,9 @@ def predict_combined(models):
                 "label": ent.label_
             })
 
-
     return jsonify({"entities": combined_result}), 200
 
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
+
