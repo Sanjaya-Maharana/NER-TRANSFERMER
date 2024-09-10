@@ -21,18 +21,23 @@
 
     ],
     "ner":[
+      "ADDESS _COM",
       "ADDRESS_COM",
+      "CARGO NAME",
       "CARGO_NAME",
       "CARGO_SIZE",
       "COMPANY",
+      "COMPANY ",
       "DELIVERY",
+      "DELIVERY ",
       "DISCHARGE_PORT",
       "DISCHARGE_RATE",
       "DURATION",
       "LAYCAN",
       "LOAD_PORT",
       "LOAD_RATE",
-      "RE_DELIVERY"
+      "RE_DELIVERY",
+      "TCT"
     ]
   },
   "pipeline":[
@@ -47,32 +52,32 @@
 
   ],
   "performance":{
-    "ents_f":0.1904761905,
-    "ents_p":0.3333333333,
-    "ents_r":0.1333333333,
+    "ents_f":0.25,
+    "ents_p":0.5,
+    "ents_r":0.1666666667,
     "ents_per_type":{
-      "ADDRESS_COM":{
+      "CARGO_SIZE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "COMPANY":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
       "LAYCAN":{
-        "p":0.5,
-        "r":0.3333333333,
-        "f":0.4
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
       "DURATION":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "LOAD_PORT":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       }
     },
-    "tok2vec_loss":541.1581296292,
-    "ner_loss":865.6605119873
+    "tok2vec_loss":1880.6834340187,
+    "ner_loss":1128.1095714868
   }
 }
