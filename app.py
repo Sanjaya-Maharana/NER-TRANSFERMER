@@ -5,21 +5,17 @@ from pathlib import Path
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.gzip import GZipMiddleware
 from datetime import datetime, timedelta
-
-vessel_nlp = None
-tonnage_nlp = None
-cargo_nlp = None
+import asyncio
 
 app = FastAPI()
 
-
 app.add_middleware(GZipMiddleware, minimum_size=1000)
-
 
 def get_ist_time():
     utc_time = datetime.utcnow()
     ist_time = utc_time + timedelta(hours=5, minutes=30)
     return ist_time.strftime('%Y-%m-%d %H:%M:%S')
+
 
 stats_file_path = Path('api_status.json')
 
@@ -41,15 +37,9 @@ def update_api_stats(api_name):
         json.dump(data, f, indent=4)
         f.truncate()
 
-def get_model(model_name):
-    global vessel_nlp, tonnage_nlp, cargo_nlp
-    if model_name == 'vessel' and vessel_nlp is None:
-        vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
-    elif model_name == 'tonnage' and tonnage_nlp is None:
-        tonnage_nlp = spacy.load(Path(f"models/tonnage_info/model-best"))
-    elif model_name == 'cargo' and cargo_nlp is None:
-        cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
-    return vessel_nlp if model_name == 'vessel' else tonnage_nlp if model_name == 'tonnage' else cargo_nlp
+vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
+tonnage_nlp = spacy.load(Path(f"models/tonnage_info/model-best"))
+cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
 
 @app.get("/")
 async def home():
@@ -65,15 +55,12 @@ async def data():
 async def predict_vessel_and_tonnage(request: Request):
     update_api_stats('tonnage')
     data = await request.json()
-    vessel_nlp = get_model('vessel')
-    tonnage_nlp = get_model('tonnage')
     return await predict_combined([vessel_nlp, tonnage_nlp], data)
 
 @app.post("/predict/cargo")
 async def predict_cargo(request: Request):
     update_api_stats('cargo')
     data = await request.json()
-    cargo_nlp = get_model('cargo')
     return await predict_combined([cargo_nlp], data)
 
 async def predict_combined(models, request_data):
