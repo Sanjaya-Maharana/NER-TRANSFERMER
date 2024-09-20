@@ -6,13 +6,41 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.gzip import GZipMiddleware
 from datetime import datetime, timedelta
 import asyncio
-import language_tool_python
+import subprocess
+import platform
 
 app = FastAPI()
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
-tool = language_tool_python.LanguageTool('en-US')
+
+def install_java_linux():
+    try:
+        distro = platform.linux_distribution()[0].lower()
+        if 'ubuntu' in distro or 'debian' in distro:
+            print("Installing Java on Ubuntu/Debian...")
+            subprocess.run(['sudo', 'apt', 'update'], check=True)
+            subprocess.run(['sudo', 'apt', 'install', '-y', 'default-jre'], check=True)
+
+        elif 'centos' in distro or 'fedora' in distro or 'rhel' in distro:
+            print("Installing Java on CentOS/Fedora/RHEL...")
+            subprocess.run(['sudo', 'yum', 'install', '-y', 'java-11-openjdk'], check=True)
+
+        else:
+            print("Unsupported Linux distribution. Please install Java manually.")
+            return False
+        java_version = subprocess.run(['java', '-version'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print("Java installed successfully!", java_version)
+        return True
+
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred during installation: {e}")
+        return False
+    except Exception as ex:
+        print(f"Unexpected error: {ex}")
+        return False
+
+install_java_linux()
 
 def get_ist_time():
     utc_time = datetime.utcnow()
@@ -86,23 +114,30 @@ async def predict_combined(models, request_data):
 
 @app.post("/check_text")
 async def check_text(request: Request):
+    import language_tool_python
+    tool = language_tool_python.LanguageTool('en-US')
     data = await request.json()
     text = data.get('text', '')
     matches = tool.check(text)
-
     incorrect_words = []
     corrected_words = []
-    corrected_sentence = text
+    corrected_sentence = list(text)
 
     try:
+        offset_correction = 0
         for match in matches:
             incorrect_word = text[match.offset:match.offset + match.errorLength]
             suggestion = match.replacements[0] if match.replacements else incorrect_word
 
             incorrect_words.append(incorrect_word)
             corrected_words.append(suggestion)
-            corrected_sentence = corrected_sentence[:match.offset] + suggestion + corrected_sentence[
-                                                                                  match.offset + match.errorLength:]
+
+            corrected_sentence[
+            match.offset + offset_correction:match.offset + match.errorLength + offset_correction] = suggestion
+
+            offset_correction += len(suggestion) - len(incorrect_word)
+
+        corrected_sentence = ''.join(corrected_sentence)
 
         return {
             'incorrect_words': incorrect_words,
@@ -114,7 +149,7 @@ async def check_text(request: Request):
         return {
             'incorrect_words': incorrect_words,
             'corrected_words': corrected_words,
-            'corrected_sentence': corrected_sentence,
+            'corrected_sentence': ''.join(corrected_sentence),
             'error': str(e)
         }
 
