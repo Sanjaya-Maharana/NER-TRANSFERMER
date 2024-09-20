@@ -85,9 +85,9 @@ async def predict_combined(models, request_data):
 
 
 @app.post("/check_text")
-async def check_text(request: TextCheckRequest):
-
-    text = request.text
+async def check_text(request: Request):
+    data = await request.json()
+    text = data.get('text', '')
     matches = tool.check(text)
 
     incorrect_words = []
