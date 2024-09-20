@@ -6,10 +6,13 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.gzip import GZipMiddleware
 from datetime import datetime, timedelta
 import asyncio
+import language_tool_python
 
 app = FastAPI()
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
+
+tool = language_tool_python.LanguageTool('en-US')
 
 def get_ist_time():
     utc_time = datetime.utcnow()
@@ -79,6 +82,42 @@ async def predict_combined(models, request_data):
             })
 
     return {"entities": combined_result}
+
+
+@app.post("/check_text")
+async def check_text(request: TextCheckRequest):
+
+    text = request.text
+    matches = tool.check(text)
+
+    incorrect_words = []
+    corrected_words = []
+    corrected_sentence = text
+
+    try:
+        for match in matches:
+            incorrect_word = text[match.offset:match.offset + match.errorLength]
+            suggestion = match.replacements[0] if match.replacements else incorrect_word
+
+            incorrect_words.append(incorrect_word)
+            corrected_words.append(suggestion)
+            corrected_sentence = corrected_sentence[:match.offset] + suggestion + corrected_sentence[
+                                                                                  match.offset + match.errorLength:]
+
+        return {
+            'incorrect_words': incorrect_words,
+            'corrected_words': corrected_words,
+            'corrected_sentence': corrected_sentence
+        }
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return {
+            'incorrect_words': incorrect_words,
+            'corrected_words': corrected_words,
+            'corrected_sentence': corrected_sentence,
+            'error': str(e)
+        }
+
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, loop="uvloop", http="httptools", workers=4)
