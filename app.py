@@ -14,33 +14,44 @@ app = FastAPI()
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 
-def install_java_linux():
+def check_and_install_java():
     try:
-        distro = platform.linux_distribution()[0].lower()
-        if 'ubuntu' in distro or 'debian' in distro:
-            print("Installing Java on Ubuntu/Debian...")
-            subprocess.run(['sudo', 'apt', 'update'], check=True)
-            subprocess.run(['sudo', 'apt', 'install', '-y', 'default-jre'], check=True)
+        java_version = subprocess.run(['java', '-version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if java_version.returncode == 0:
+            version_info = java_version.stderr.decode().split('\n')[0]
+            return {"message": "Java is already installed", "java_version": version_info}
 
-        elif 'centos' in distro or 'fedora' in distro or 'rhel' in distro:
-            print("Installing Java on CentOS/Fedora/RHEL...")
-            subprocess.run(['sudo', 'yum', 'install', '-y', 'java-11-openjdk'], check=True)
+    except FileNotFoundError:
+        try:
+            distro = platform.linux_distribution()[0].lower()
 
-        else:
-            print("Unsupported Linux distribution. Please install Java manually.")
-            return False
-        java_version = subprocess.run(['java', '-version'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print("Java installed successfully!", java_version)
-        return True
+            if 'ubuntu' in distro or 'debian' in distro:
+                print("Installing Java on Ubuntu/Debian...")
+                subprocess.run(['sudo', 'apt', 'update'], check=True)
+                subprocess.run(['sudo', 'apt', 'install', '-y', 'default-jre'], check=True)
 
-    except subprocess.CalledProcessError as e:
-        print(f"An error occurred during installation: {e}")
-        return False
+            elif 'centos' in distro or 'fedora' in distro or 'rhel' in distro:
+                print("Installing Java on CentOS/Fedora/RHEL...")
+                subprocess.run(['sudo', 'yum', 'install', '-y', 'java-11-openjdk'], check=True)
+
+            else:
+                return {"message": "Unsupported Linux distribution. Please install Java manually."}
+
+            java_version = subprocess.run(['java', '-version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            if java_version.returncode == 0:
+                version_info = java_version.stderr.decode().split('\n')[0]
+                return {"message": "Java installed successfully", "java_version": version_info}
+
+        except subprocess.CalledProcessError as e:
+            return {"error": f"An error occurred during installation: {e}"}
+
     except Exception as ex:
-        print(f"Unexpected error: {ex}")
-        return False
+        return {"error": f"Unexpected error: {ex}"}
 
-install_java_linux()
+@app.get("/install_java")
+def install_java():
+    return check_and_install_java()
+
 
 def get_ist_time():
     utc_time = datetime.utcnow()
