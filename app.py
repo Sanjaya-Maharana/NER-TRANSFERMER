@@ -16,6 +16,7 @@ from fastapi import FastAPI, Request, Depends, HTTPException
 import jwt
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from datetime import datetime
+from googletrans import Translator
 
 JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
 ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
@@ -25,6 +26,7 @@ app = FastAPI()
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
+translator = Translator()
 
 def decode_jwt_token(token: str):
     try:
@@ -161,6 +163,17 @@ async def predict_cargo(request: Request):
     update_api_stats('cargo')
     data = await request.json()
     return await predict_combined([cargo_nlp], data)
+
+async def detect_and_translate(data):
+    text = data['text']
+    if not text.strip():
+        raise HTTPException(status_code=400, detail="No text provided")
+    detected_lang = translator.detect(text)
+    if detected_lang.lang != 'en':
+        translation = translator.translate(text, dest='en')
+        return {"translated_text": translation.text}
+    else:
+        return {"translated_text": text}
 
 async def predict_combined(models, request_data):
     if 'text' not in request_data:
@@ -320,6 +333,12 @@ async def plot_data(request_data: PlotDataRequest):
     except Exception as e:
         print(traceback.print_exc())
         return {"error": str(e), "status": False}
+
+
+@app.post("/translate")
+async def predict_vessel_and_tonnage(request: Request):
+    data = await request.json()
+    return await detect_and_translate(data)
 
 
 if __name__ == '__main__':
