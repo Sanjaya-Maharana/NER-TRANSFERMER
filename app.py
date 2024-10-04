@@ -227,7 +227,7 @@ async def plot_data(request_data: PlotDataRequest):
             tonnage_data = await collection.find(
                 date_filter,
                 {'_id': 0, 'vessel_name': 1, 'vessel_type': 1, 'Formatted_Date': 1, 'dwt': 1, 'new_open_port': 1}
-            ).limit(100000).to_list()
+            ).limit(50000).to_list()
 
             if not tonnage_data:
                 return JSONResponse(status_code=200, content={"data": {}, "status": False, "message": "No data found"})
@@ -275,7 +275,7 @@ async def plot_data(request_data: PlotDataRequest):
 
             cargo_data = await collection.find(date_filter, {
                 '_id': 0, 'cargo': 1, 'cargo_type': 1, 'Formatted_Date': 1, 'cargo_size': 1, 'load_port': 1
-            }).limit(100000).to_list()
+            }).limit(50000).to_list()
 
             if not cargo_data:
                 return JSONResponse(status_code=200, content={"data": {}, "status": False, "message": "No data found"})
