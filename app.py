@@ -13,11 +13,37 @@ from sklearn.linear_model import LinearRegression
 from fastapi.middleware.gzip import GZipMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi import FastAPI, Request, Depends, HTTPException
+import jwt
+from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
+from datetime import datetime
+
+JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
+ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
+JWT_ENCODE_ALGO = "HS256"
 
 app = FastAPI()
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
+
+def decode_jwt_token(token: str):
+    try:
+        decoded_token = jwt.decode(token, ADMIN_SECRET_JWT_TOKEN, algorithms=[JWT_ENCODE_ALGO])
+        return decoded_token
+    except ExpiredSignatureError:
+        return {"error": "Token has expired"}
+    except InvalidTokenError:
+        return {"error": "Invalid token"}
+    except Exception:
+        try:
+            decoded_token = jwt.decode(token, JWT_USER_SECRET_KEY, algorithms=[JWT_ENCODE_ALGO])
+            return decoded_token
+        except ExpiredSignatureError:
+            return {"error": "Token has expired"}
+        except InvalidTokenError:
+            return {"error": "Invalid token"}
+        except Exception as e:
+            return {"error": str(e)}
 
 def get_ist_time():
     utc_time = datetime.utcnow()
@@ -52,7 +78,6 @@ cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
 
 # MongoDB client initialization
 client = AsyncIOMotorClient('mongodb+srv://theoceann:UPYLXvOujwCeARDO@oceannmail-staging.tamt4.mongodb.net/')
-db = client['theoceann']  # Default to 'theoceann' database
 
 # Pydantic model for request data validation
 class PlotDataRequest(BaseModel):
@@ -67,6 +92,7 @@ class PlotDataRequest(BaseModel):
     cargo_type: str = None
     load_port: str = None
     laycan: str = None
+    token: str = None
 
 # Helper function to create bins for DWT or Cargo Size
 def create_bins_and_labels(min_value, max_value, step=500001):
@@ -153,8 +179,15 @@ async def predict_combined(models, request_data):
 @app.post("/plot_data/")
 async def plot_data(request_data: PlotDataRequest):
     try:
-        #print('request_data: ', request_data)
-        db_name = request_data.client if request_data.client else 'theoceann'
+        if request_data.token:
+            decoded_token = decode_jwt_token(request_data.token)
+            company = decoded_token.get("company_name", None)
+            if company:
+                db_name = company.lower()
+            else:
+                db_name = 'theoceann'
+        else:
+            db_name = request_data.client if request_data.client else 'theoceann'
         database = client[db_name]
 
         end_date = datetime.now()
@@ -283,4 +316,4 @@ async def plot_data(request_data: PlotDataRequest):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="0.0.0.0", port=6000, loop="uvloop", http="httptools", workers=4)
+    uvicorn.run(app, host="0.0.0.0", port=8000, loop="uvloop", http="httptools", workers=4)
