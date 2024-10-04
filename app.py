@@ -62,9 +62,13 @@ if not stats_file_path.exists():
     with open(stats_file_path, 'w') as f:
         json.dump(initial_data, f, indent=4)
 
+
+# Function to update API stats
 def update_api_stats(api_name):
     with open(stats_file_path, 'r+') as f:
         data = json.load(f)
+        if api_name not in data:
+            data[api_name] = {'count': 0, 'last_called': None}
         data[api_name]['count'] += 1
         data[api_name]['last_called'] = get_ist_time()
         f.seek(0)
@@ -188,6 +192,7 @@ async def plot_data(request_data: PlotDataRequest):
                 db_name = 'theoceann'
         else:
             db_name = request_data.client if request_data.client else 'theoceann'
+        update_api_stats(db_name)
         database = client[db_name]
 
         end_date = datetime.now()
@@ -272,6 +277,8 @@ async def plot_data(request_data: PlotDataRequest):
                 date_filter['cargo_type'] = request_data.cargo_type
             if request_data.load_port:
                 date_filter['load_port.port'] = request_data.load_port
+
+            date_filter['cargo_size'] = {"$lt": 10000000}
 
             cargo_data = await collection.find(date_filter, {
                 '_id': 0, 'cargo': 1, 'cargo_type': 1, 'Formatted_Date': 1, 'cargo_size': 1, 'load_port': 1
