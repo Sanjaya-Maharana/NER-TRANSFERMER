@@ -179,7 +179,7 @@ async def predict_cargo(request: Request):
     data = await request.json()
     return await predict_combined([cargo_nlp], data)
 
-async def detect_and_translate_html(content):
+async def detect_and_translate_html(data):
     text = data['text']
     if not text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
