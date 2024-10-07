@@ -176,7 +176,7 @@ async def detect_and_translate_html(content):
         raise HTTPException(status_code=400, detail="No text provided")
     try:
         response = openai.ChatCompletion.create(
-            engine="gpt-4",
+            engine="gpt-35-turbo",
             messages=[
                 {
                     "role": "system",
