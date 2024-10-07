@@ -14,6 +14,8 @@ from fastapi.middleware.gzip import GZipMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware  # Import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+
 import jwt
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from datetime import datetime
@@ -31,12 +33,14 @@ JWT_ENCODE_ALGO = "HS256"
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    max_body_size=10 * 1024 * 1024  # 10 MB
 )
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
@@ -184,7 +188,7 @@ async def detect_and_translate_html(data):
     if not text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
     try:
-        response = openai.ChatCompletion.create(
+        response = await openai.ChatCompletion.create(
             engine="gpt-35-turbo",
             messages=[
                 {
@@ -383,4 +387,4 @@ async def translate_html(request: Request):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="0.0.0.0", port=8000, loop="uvloop", http="httptools", workers=4)
+    uvicorn.run(app, host="0.0.0.0", port=8000, loop="uvloop", http="httptools", workers=4, timeout_keep_alive=300)
