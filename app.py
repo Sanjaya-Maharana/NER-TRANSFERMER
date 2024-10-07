@@ -376,7 +376,7 @@ async def plot_data(request_data: PlotDataRequest):
 
 
 @app.post("/translate")
-async def predict_vessel_and_tonnage(request: Request):
+async def translate_html(request: Request):
     update_api_stats('translate')
     data = await request.json()
     return await detect_and_translate_html(data)
