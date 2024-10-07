@@ -13,6 +13,7 @@ from sklearn.linear_model import LinearRegression
 from fastapi.middleware.gzip import GZipMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi import FastAPI, Request, Depends, HTTPException
+from fastapi.middleware.cors import CORSMiddleware  # Import CORSMiddleware
 import jwt
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from datetime import datetime
@@ -29,6 +30,14 @@ ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()
 JWT_ENCODE_ALGO = "HS256"
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
