@@ -8,8 +8,6 @@ from datetime import datetime, timedelta
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from datetime import datetime
-from src.translate import detect_and_translate_html
 from src.analytics import plot_data_fun
 from src.models import predict_combined
 from src.status import update_api_stats
@@ -57,7 +55,6 @@ class PlotDataRequest(BaseModel):
 async def home():
     return {"message": "Hello World"}
 
-
 @app.get("/data")
 async def data():
     with open(stats_file_path, 'r') as f:
@@ -76,17 +73,9 @@ async def predict_cargo(request: Request):
     data = await request.json()
     return await predict_combined([cargo_nlp], data)
 
-
 @app.post("/plot_data/")
 async def plot_data(request_data: PlotDataRequest):
     return await plot_data_fun(request_data)
-
-
-@app.post("/translate")
-async def translate_html(request: Request):
-    update_api_stats('translate')
-    data = await request.json()
-    return await detect_and_translate_html(data)
 
 
 if __name__ == '__main__':
