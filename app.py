@@ -187,7 +187,7 @@ async def detect_and_translate_html(data):
     if not text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
     try:
-        response = await openai.ChatCompletion.create(
+        response = openai.ChatCompletion.create(
             engine="gpt-35-turbo",
             messages=[
                 {
