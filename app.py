@@ -4,6 +4,7 @@ import uvicorn
 import traceback
 from pathlib import Path
 from pydantic import BaseModel
+from fastapi.responses import HTMLResponse
 from datetime import datetime, timedelta
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi import FastAPI, Request, Depends, HTTPException
@@ -11,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.analytics import plot_data_fun, handle_data
 from src.models import predict_combined
 from src.status import update_api_stats
-
+from src.translate import translate_html_content
 
 JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
 ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
@@ -79,6 +80,13 @@ async def plot_data(request_data: PlotDataRequest):
 @app.post("/plot_data_filter")
 async def plot_data_filter(request_data: PlotDataRequest):
     return handle_data(request_data)
+
+
+@app.post("/translate_html")
+async def translate_html(request: Request):
+    data = await request.json()
+    body = data['text']
+    return await translate_html_content(body)
 
 
 if __name__ == '__main__':
