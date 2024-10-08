@@ -39,8 +39,7 @@ app.add_middleware(
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
-    max_body_size=10 * 1024 * 1024  # 10 MB
+    allow_headers=["*"]
 )
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
