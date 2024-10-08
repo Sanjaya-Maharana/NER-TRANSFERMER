@@ -72,7 +72,7 @@ async def predict_cargo(request: Request):
     data = await request.json()
     return await predict_combined([cargo_nlp], data)
 
-@app.post("/plot_data/")
+@app.post("/plot_data")
 async def plot_data(request_data: PlotDataRequest):
     return await plot_data_fun(request_data)
 
