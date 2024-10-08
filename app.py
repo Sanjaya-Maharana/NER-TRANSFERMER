@@ -214,9 +214,9 @@ async def detect_and_translate_html(data):
             translated_content = response["choices"][0]["message"]["content"]
             return {"translated_text": translated_content}
         else:
-            return {"translated_text": text}
+            return {"translated_text": text, 'response': response}
     except Exception as e:
-        return {"translated_text": text}
+        return {"translated_text": text, "error": str(e)}
 
 async def predict_combined(models, request_data):
     if 'text' not in request_data:
