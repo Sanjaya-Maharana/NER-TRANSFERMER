@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from src.analytics import plot_data_fun
+from src.analytics import plot_data_fun, handle_data
 from src.models import predict_combined
 from src.status import update_api_stats
 
@@ -75,6 +75,10 @@ async def predict_cargo(request: Request):
 @app.post("/plot_data")
 async def plot_data(request_data: PlotDataRequest):
     return await plot_data_fun(request_data)
+
+@app.post("/plot_data_filter")
+async def plot_data_filter(request_data: PlotDataRequest):
+    return handle_data(request_data)
 
 
 if __name__ == '__main__':

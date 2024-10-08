@@ -2,6 +2,7 @@ import math
 import numpy as np
 import pandas as pd
 import traceback
+from pymongo import MongoClient
 from src.status import update_api_stats
 from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -196,4 +197,93 @@ async def plot_data_fun(request_data):
     except Exception as e:
         print(traceback.print_exc())
         return JSONResponse(content={"error": str(e), "status": False})
+
+
+
+
+
+# Helper function to filter valid ports
+def filter_ports(port_list):
+    return [port for port in port_list if isinstance(port, str) and port.strip() and port.lower() != 'n/a']
+
+
+def handle_data(request_data):
+    client = MongoClient('mongodb+srv://theoceann:UPYLXvOujwCeARDO@oceannmail-staging.tamt4.mongodb.net/')
+
+    try:
+        token = getattr(request_data, 'token', None)
+        if token:
+            decoded_token = decode_jwt_token(token)
+            company = decoded_token.get("company_name", None)
+            if company:
+                db_name = company.lower()
+            else:
+                db_name = 'theoceann'
+        else:
+            db_name = getattr(request_data, 'client', 'theoceann')
+
+        update_api_stats(db_name)
+        db = client[db_name]
+        end_date = datetime.now()
+        start_date = end_date - timedelta(weeks=8)
+        from_unix = int(start_date.timestamp())
+        to_unix = int(end_date.timestamp())
+
+        if request_data.type == 'tonnage':
+            collection = db['tonnage']
+            vessel_name_list = filter_ports(collection.distinct('vessel_name'))[:200]
+            vessel_type_list = filter_ports(collection.distinct('vessel_type'))
+            sub_vessel_type_list = filter_ports(collection.distinct('sub_vessel_type'))
+            port_list = filter_ports(collection.distinct('new_open_port'))[:200]
+
+            date_filter = {
+                'Formatted_Date': {'$gte': from_unix, '$lte': to_unix},
+                'dwt': {"$lt": 10000000}
+            }
+            tonnage_data = list(collection.find(date_filter, {
+                '_id': 0, 'vessel_name': 1, 'vessel_type': 1, 'dwt': 1, 'new_open_date': 1
+            }).limit(50000))
+
+            return {
+                'status': True,
+                'type': 'tonnage',
+                'vessel_names': vessel_name_list,
+                'vessel_types': vessel_type_list,
+                'sub_vessel_types': sub_vessel_type_list,
+                'ports': port_list,
+                'filtered_tonnage': tonnage_data
+            }
+
+        elif request_data.type == 'cargo':
+            collection = db['cargo']
+            cargo_list = filter_ports(collection.distinct('cargo'))
+            cargo_type_list = filter_ports(collection.distinct('cargo_type'))
+            port_list = filter_ports(collection.distinct('load_port.port'))
+            date_filter = {
+                'Formatted_Date': {'$gte': from_unix, '$lte': to_unix},
+                'dwt': {"$lt": 10000000}
+            }
+            cargo_data = list(collection.find(date_filter, {
+                '_id': 0, 'cargo': 1, 'cargo_type': 1, 'Formatted_Date': 1, 'cargo_size': 1, 'load_port': 1
+            }).limit(50000))
+            return {
+                'status': True,
+                'type': 'cargo',
+                'cargo': cargo_list,
+                'cargo_types': cargo_type_list,
+                'ports': port_list,
+                'filtered_cargo': cargo_data
+            }
+
+        else:
+            raise HTTPException(status_code=400, detail="Invalid data type.")
+
+    except Exception as e:
+        print(f"Error occurred: {e}")
+        return {
+            'status': False,
+            'type': 'None',
+            'error': str(e)
+        }
+
 
