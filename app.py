@@ -17,6 +17,11 @@ JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W
 ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
 JWT_ENCODE_ALGO = "HS256"
 
+stats_file_path = Path('api_status.json')
+
+vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
+tonnage_nlp = spacy.load(Path(f"models/tonnage_info/model-best"))
+cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
 app = FastAPI()
 
 
@@ -29,12 +34,6 @@ app.add_middleware(
 )
 
 app.add_middleware(GZipMiddleware, minimum_size=1000)
-
-vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
-tonnage_nlp = spacy.load(Path(f"models/tonnage_info/model-best"))
-cargo_nlp = spacy.load(Path(f"models/cargo/model-best"))
-
-
 
 class PlotDataRequest(BaseModel):
     type: str
