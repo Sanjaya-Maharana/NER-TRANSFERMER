@@ -1,8 +1,9 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
-from bs4 import BeautifulSoup
-import requests
 import json
+import requests
+from bs4 import BeautifulSoup
+from fastapi.responses import HTMLResponse
+
+
 subscription_key = "4073d25f84ee4db18f700ec8aa6b73c8"
 endpoint = "https://api.cognitive.microsofttranslator.com/"
 location = "global"
