@@ -82,7 +82,7 @@ async def plot_data_filter(request_data: PlotDataRequest):
     return handle_data(request_data)
 
 
-@app.post("/translate_html")
+@app.post("/translate")
 async def translate_html(request: Request):
     data = await request.json()
     body = data['text']
