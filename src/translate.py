@@ -25,12 +25,15 @@ def translate_text(text, target_language="en"):
 
 
 async def translate_html_content(body):
-    target_language = "en"
-    soup = BeautifulSoup(body, "html.parser")
-    for tag in soup.find_all(text=True):
-        original_text = tag.string
-        if original_text and original_text.strip():
-            translated_text = translate_text(original_text, target_language)
-            tag.string.replace_with(translated_text)
+    try:
+        target_language = "en"
+        soup = BeautifulSoup(body, "html.parser")
+        for tag in soup.find_all(text=True):
+            original_text = tag.string
+            if original_text and original_text.strip():
+                translated_text = translate_text(original_text, target_language)
+                tag.string.replace_with(translated_text)
 
-    return HTMLResponse(content=str(soup), media_type="text/html")
+        return {"status": True, "text": str(soup)}
+    except Exception as e:
+        return {"status": False, "text": str(e)}
