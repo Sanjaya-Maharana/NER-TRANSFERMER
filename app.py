@@ -57,6 +57,7 @@ class PlotDataRequest(BaseModel):
 async def home():
     return {"message": "Hello World"}
 
+
 @app.get("/data")
 async def data():
     with open(stats_file_path, 'r') as f:
@@ -89,4 +90,4 @@ async def translate_html(request: Request):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="0.0.0.0", port=8000, loop="uvloop", http="httptools", workers=4, timeout_keep_alive=300)
+    uvicorn.run(app, host="0.0.0.0", port=8000, workers=4, timeout_keep_alive=600)
