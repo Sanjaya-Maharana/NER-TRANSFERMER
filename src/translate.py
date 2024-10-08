@@ -1,44 +1,35 @@
-import openai
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
+from bs4 import BeautifulSoup
+import requests
+import json
+subscription_key = "4073d25f84ee4db18f700ec8aa6b73c8"
+endpoint = "https://api.cognitive.microsofttranslator.com/"
+location = "global"
 
-openai.api_type = "azure"
-openai.api_base = "https://extractinfo.openai.azure.com/"
-openai.api_version = "2023-07-01-preview"
-openai.api_key = "30363b3002684528a6af160e7cb7ae31"
+
+def translate_text(text, target_language="en"):
+    path = '/translate?api-version=3.0'
+    params = f'&to={target_language}'
+    constructed_url = endpoint + path + params
+    headers = {
+        'Ocp-Apim-Subscription-Key': subscription_key,
+        'Ocp-Apim-Subscription-Region': location,
+        'Content-type': 'application/json'
+    }
+    body = [{'text': text}]
+    response = requests.post(constructed_url, headers=headers, json=body)
+    response_json = response.json()
+    return response_json[0]['translations'][0]['text']
 
 
+async def translate_html_content(body):
+    target_language = "en"
+    soup = BeautifulSoup(body, "html.parser")
+    for tag in soup.find_all(text=True):
+        original_text = tag.string
+        if original_text and original_text.strip():
+            translated_text = translate_text(original_text, target_language)
+            tag.string.replace_with(translated_text)
 
-async def detect_and_translate_html(data):
-    text = data['text']
-    if not text.strip():
-        raise HTTPException(status_code=400, detail="No text provided")
-    try:
-        response = openai.ChatCompletion.create(
-            engine="gpt-35-turbo",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an AI assistant that detects and translates the text to English while preserving the HTML structure. "
-                        "Translate any non-English text within the HTML content but ensure the HTML tags remain unchanged."
-                        "Response must have only html no other text"
-                    )
-                },
-                {
-                    "role": "user",
-                    "content": f"Here is the HTML content to translate:\n\n{text}"
-                }
-            ],
-            temperature=0.2,
-            top_p=0.95,
-            frequency_penalty=0,
-            presence_penalty=0,
-            stop=None
-        )
-
-        if response and "choices" in response and response["choices"]:
-            translated_content = response["choices"][0]["message"]["content"]
-            return {"translated_text": translated_content}
-        else:
-            return {"translated_text": text, 'response': response}
-    except Exception as e:
-        return {"translated_text": text, "error": str(e)}
+    return HTMLResponse(content=str(soup), media_type="text/html")
