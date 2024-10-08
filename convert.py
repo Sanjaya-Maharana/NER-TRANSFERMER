@@ -39,11 +39,14 @@ def convert_json_to_spacy(json_data, output_path):
         doc = nlp.make_doc(text)
         ents = []
         for start, end, label in entities:
-            span = doc.char_span(start, end, label=label)
-            if span is None:
-                print(f"Skipping entity in : ({start}, {end}, {label})")
-            else:
-                ents.append(span)
+            try:
+                span = doc.char_span(start, end, label=label)
+                if span is None:
+                    print(f"Skipping entity in : ({start}, {end}, {label})")
+                else:
+                    ents.append(span)
+            except Exception as e:
+                print(e)
 
         doc.ents = ents
         doc_bin.add(doc)
