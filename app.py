@@ -10,6 +10,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from src.analytics import plot_data_fun, handle_data
+from src.fbx import fetch_fbx_data
 from src.models import predict_combined
 from src.status import update_api_stats
 from src.translate import translate_html_content
@@ -87,6 +88,10 @@ async def translate_html(request: Request):
     data = await request.json()
     body = data['text']
     return await translate_html_content(body)
+
+@app.get("/fetch_fbx_data")
+def fetch_fbx():
+    return fetch_fbx_data()
 
 
 if __name__ == '__main__':
