@@ -13,7 +13,7 @@ def detect_and_translate(text, target_language="en"):
         print(f"Error during detection/translation: {e}")
         return text
 
-def translate_html_content(body):
+async def translate_html_content(body):
     try:
         target_language = "en"
         soup = BeautifulSoup(body, "html.parser")
