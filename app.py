@@ -2,6 +2,7 @@ import json
 import spacy
 import uvicorn
 import traceback
+from typing import Optional
 from pathlib import Path
 from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
@@ -51,7 +52,9 @@ class PlotDataRequest(BaseModel):
     laycan: str = None
     token: str = None
 
-
+class FBXRequest(BaseModel):
+    from_date: Optional[str] = None
+    to_date: Optional[str] = None
 @app.get("/")
 async def home():
     return {"message": "Hello World"}
@@ -89,9 +92,11 @@ async def translate_html(request: Request):
     body = data['text']
     return await translate_html_content(body)
 
-@app.get("/fetch_fbx_data")
-def fetch_fbx():
-    return fetch_fbx_data()
+@app.post("/fetch_fbx_data")
+def fetch_fbx(request: FBXRequest):
+    from_date = request.from_date
+    to_date = request.to_date
+    return fetch_fbx_data(from_date, to_date)
 
 
 if __name__ == '__main__':

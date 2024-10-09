@@ -1,10 +1,8 @@
-from fastapi import FastAPI
+
 import requests
 import pandas as pd
 
-app = FastAPI()
-
-url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=2000-05-01&to_date=2024-12-31&is_year_over_year=True'
+url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=2000-05-01&to_date=2040-12-31&is_year_over_year=True'
 
 headers = {
     'accept': 'application/json, text/plain, */*',
@@ -13,7 +11,12 @@ headers = {
 }
 
 
-def fetch_fbx_data():
+def fetch_fbx_data(from_date, to_date):
+    global url, headers
+    if from_date:
+        url = url.replace('2000-05-01', from_date)
+    if to_date:
+        url = url.replace('2024-12-31', to_date)
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         data = response.json()
