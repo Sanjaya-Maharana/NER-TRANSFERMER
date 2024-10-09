@@ -68,7 +68,7 @@ if __name__ == "__main__":
     for model in models:
         print(f'Starting process for model: {model}')
 
-        config_path = "./config.cfg"
+        config_path = "../config.cfg"
         output_path = f"./models/{model}"
         train_data_path = f"./data/{model}/train.spacy"
         dev_data_path = f"./data/{model}/dev.spacy"

@@ -2,7 +2,7 @@ import spacy
 
 
 # Load the trained model
-nlp = spacy.load("cargo/model-best")
+nlp = spacy.load("../models/cargo/model-best")
 
 def predict_entities(text):
     doc = nlp(text)
@@ -12,67 +12,61 @@ def predict_entities(text):
 # Example usage
 if __name__ == "__main__":
     example_text = '''
-    Doc-No. 3874821   04/SEP/2024 (WED)  10:48  (+0300)  BM
+ Dear All/Oscar
 
  
 
-TNS Shipbrokers and Agents Ltd (Since 1991)
-
-phone:+359 56 841005/6, fax:+359 56 840299
-
-home page:www.tns-shipping.com
-
-email: chart@tns-shipping.com
-
- 
-
--- / Miteva
-
- 
-
-Good day
-
- 
-
-ACC: NORTHBULK
-
-15K / 25K DWT VSL
-
-DEL: WCUS
-
-REDEL: REDSEA
-
-END SEPT
-
-DUR: 60 DAYS +/- 10 DAYS INCHOPT
-
-ADD COM: 3.75 PUS
-
- 
-
-CAN ALSO TRY VOYAGE ALL DETS AVALIBLE FOR THE NAMED TONNAGE
-
- 
-
-Plsd to hear
-
- 
-
-Kind regards,
-
-TNS Shipbrokers - B.Miteva
-
- 
-
-Skype: blagovesta_bs
-
-Mob: +359 878 593660
-
-BIMCO Members (reg. no. 116957)
+PLEASE KINDLY PROPOSE TONNAGE FOR BELOW FIRM CARGO:
 
  
 
  
+
+ACCT: TONGLI TIANJIN----FULLY BOOKED
+
+DWT: SMX-UMX, MAX 20YEARS
+
+CARGO:COAL
+
+DELY: TO MAKE E KALI
+
+REDELY:WCI
+
+LAYCAN :10-16 OCT
+
+DURATION :ABT 30 DAYS WOG
+
+ADD COMM: 3.75%  
+
+ 
+
+TRY 2-3LLS OR PERIOD
+
+ 
+
+ 
+
+ 
+
+Best regards
+
+ 
+
+MR.WANG NING/OSCAR
+
+For and on behalf of TONGLI SHIPPING PTE.LTD
+
+8 TEMASEK BOULEVARD #40-02，SUNTEC TOWER THREE SINGAPORE 038988
+
+INDIA OCEAN DIVISION
+
+Skype: wangoscar8
+
+M.p : 18649185805
+
+Email: tianjin1@tonglishippingpte.com
+
+           panamax@tonglishippingpte.com
     '''
     example_text = example_text.replace('  ',' ').replace('\n','  ').replace('\t',' ').replace('  ',' ').replace('   ',' ')
     print(example_text)
