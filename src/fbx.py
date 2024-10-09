@@ -19,10 +19,15 @@ def fetch_fbx_data():
         data = response.json()
         fbx_data = data['indexPoints']
         df = pd.DataFrame(fbx_data)
-        df['month'] = pd.to_datetime(df['month']).dt.strftime('%d-%m-%Y')
+        df['month'] = pd.to_datetime(df['month'])
+        df['year'] = df['month'].dt.year
+        df['month'] = df['month'].dt.strftime('%d-%m-%Y')
         df['value'] = df['value'].round(2)
         df = df.sort_values(by='month')
-        data = df.to_dict(orient='records')
-        return {"status": True, "data": data}
+        grouped_data = {}
+        for year, group in df.groupby('year'):
+            grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
+
+        return {"status": True, "data": grouped_data}
     else:
-        return {"status": False,"error": f"Failed to fetch data. Status code: {response.status_code}"}
+        return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
