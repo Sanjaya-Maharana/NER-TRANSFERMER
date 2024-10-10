@@ -4,6 +4,8 @@ import uvicorn
 import traceback
 from typing import Optional
 from pathlib import Path
+
+from django.templatetags.i18n import language
 from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
 from datetime import datetime, timedelta
@@ -89,8 +91,11 @@ async def plot_data_filter(request_data: PlotDataRequest):
 @app.post("/translate")
 async def translate_html(request: Request):
     data = await request.json()
-    body = data['text']
-    return await translate_html_content(body)
+    body = data.get('body', None)
+    if not body:
+        raise HTTPException(status_code=400, detail="No body provided")
+    language = data.get('language', 'english')
+    return await translate_html_content(body, language)
 
 @app.post("/fetch_fbx_data")
 def fetch_fbx(request: FBXRequest):
