@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 from datetime import datetime
-url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=2000-05-01&to_date=2040-12-31&is_year_over_year=True'
+url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=True'
 
 headers = {
     'accept': 'application/json, text/plain, */*',
@@ -13,10 +13,10 @@ headers = {
 def fetch_fbx_data(from_date, to_date, key):
     global url, headers
     current_year = datetime.now().year
-    if key and key.lower() != 'all':
+    if key.lower() != 'all':
         try:
             years = int(key.replace('y', ''))
-            if years == 1 and key != 'all':
+            if years == 1:
                 from_year = current_year
             else:
                 from_year = current_year - years
@@ -25,9 +25,10 @@ def fetch_fbx_data(from_date, to_date, key):
         except ValueError:
             return {"status": False, "error": "Invalid key format. Use '1y', '2y', etc. or 'all'."}
     if from_date:
-        url = url.replace('2000-05-01', from_date)
+        url = url.replace('1000-05-01', from_date)
     if to_date:
         url = url.replace('2040-12-31', to_date)
+    print(url)
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:

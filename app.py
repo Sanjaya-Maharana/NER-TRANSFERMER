@@ -58,7 +58,7 @@ class PlotDataRequest(BaseModel):
 class FBXRequest(BaseModel):
     from_date: Optional[str] = None
     to_date: Optional[str] = None
-    key: Optional[str] = None
+    key: Optional[str] = "all"
 @app.get("/")
 async def home():
     return {"message": "Hello World"}
