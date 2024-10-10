@@ -44,7 +44,6 @@ This project is licensed under the SM License. See the LICENSE file for more det
 
 Sanjaya Maharana
 
-
 [Email](SanjayaMaharana145@gmail.com), 
 [Linkedin](https://www.linkedin.com/in/sanjaya-maharana-363189137/), 
 [Git-Hub](https://github.com/Sanjaya-Maharana/)
