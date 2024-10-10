@@ -1,7 +1,6 @@
-
 import requests
 import pandas as pd
-
+from datetime import datetime
 url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=2000-05-01&to_date=2040-12-31&is_year_over_year=True'
 
 headers = {
@@ -11,16 +10,31 @@ headers = {
 }
 
 
-def fetch_fbx_data(from_date, to_date):
+def fetch_fbx_data(from_date, to_date, key):
     global url, headers
+    current_year = datetime.now().year
+    if key.lower() != 'all':
+        try:
+            years = int(key.replace('y', ''))
+            if years == 1 and key != 'all':
+                from_year = current_year
+            else:
+                from_year = current_year - years
+            print(from_year)
+            from_date = f'{from_year}-01-01'
+            to_date = f'{current_year}-12-31'
+        except ValueError:
+            return {"status": False, "error": "Invalid key format. Use '1y', '2y', etc. or 'all'."}
     if from_date:
         url = url.replace('2000-05-01', from_date)
     if to_date:
-        url = url.replace('2024-12-31', to_date)
+        url = url.replace('2040-12-31', to_date)
+
     response = requests.get(url, headers=headers)
+
     if response.status_code == 200:
         data = response.json()
-        fbx_data = data['indexPoints']
+        fbx_data = data.get('indexPoints', [])
         df = pd.DataFrame(fbx_data)
         df['month'] = pd.to_datetime(df['month'])
         df['year'] = df['month'].dt.year
@@ -30,7 +44,6 @@ def fetch_fbx_data(from_date, to_date):
         grouped_data = {}
         for year, group in df.groupby('year'):
             grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
-
         return {"status": True, "data": grouped_data}
     else:
         return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}

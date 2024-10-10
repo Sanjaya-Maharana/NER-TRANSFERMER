@@ -58,6 +58,7 @@ class PlotDataRequest(BaseModel):
 class FBXRequest(BaseModel):
     from_date: Optional[str] = None
     to_date: Optional[str] = None
+    key: Optional[str] = None
 @app.get("/")
 async def home():
     return {"message": "Hello World"}
@@ -102,7 +103,8 @@ async def translate_html(request: Request):
 def fetch_fbx(request: FBXRequest):
     from_date = request.from_date
     to_date = request.to_date
-    return fetch_fbx_data(from_date, to_date)
+    key = request.key
+    return fetch_fbx_data(from_date, to_date, key)
 
 
 if __name__ == '__main__':
