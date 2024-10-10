@@ -1,1 +1,0 @@
-{"classes":["VESSEL_NAME","IMO","DWT","BUILD_YEAR","OPEN_DATE","OPEN_AREA","FLAG","CRANES"],"annotations":[["FORTUNE TIGER, 58K DWT     OPEN DANGJIN 25-29 AUGUST\r\n",{"entities":[[0,13,"VESSEL_NAME"],[15,22,"DWT"],[27,39,"OPEN_AREA"],[40,52,"OPEN_DATE"]]}]]}
