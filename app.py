@@ -91,7 +91,7 @@ async def plot_data_filter(request_data: PlotDataRequest):
 @app.post("/translate")
 async def translate_html(request: Request):
     data = await request.json()
-    body = data.get('body', None)
+    body = data.get('text', None)
     if not body:
         raise HTTPException(status_code=400, detail="No body provided")
     language = data.get('language', 'english')
