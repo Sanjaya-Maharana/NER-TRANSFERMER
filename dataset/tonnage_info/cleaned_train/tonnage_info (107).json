@@ -1,0 +1,37 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\nGUNDEM SHIPPING, ISTANBUL & GUNDEM SHIPYARD, YALOVA\r\n\r\nEXCLUSIVE POSITION LIST - WEEK 33\r\n---------------------------------------------------------------------------------------\r\n\r\nMV GUNDEM SERRA  5500 DWCC  @  AEGEAN SEA     11-13 SEPTEMBER\r\n6028 MTS DWT, 6.90 M DRAFT, 2004 BLT, BOX, SID, DOUBLE SKIN\r\n\r\n2HO/2HA, OPEN HATCH, GEARLESS, GR/BL CAP ABT 234K/225K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\n\r\n \r\nMV GUNDEM AZRA  4500 DWCC  @  ALGECIRAS     S P O T\r\n4964 MTS DWT, 6.56 M DRAFT, 2007 BLT, BOX, SID, DOUBLE SKIN\r\n2HO/2HA, OPEN HATCH, GEARLESS,  GR/BL CAP ABT 184K/184K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\n  \r\nMV GUNDEM MAKBULE  4300 DWCC  @  A.R.A.G.     10-12 SEPTEMBER\r\n4696 MTS DWT, 6.38 M DRAFT, 2009 BLT, BOX, SID, DOUBLE SKIN\r\n2HO/2HA, OPEN HATCH, GEARLESS, GR/BL CAP ABT 187K/187K CBFT\r\nPANAMA FLAG, CLASS NKK, P&I NORTH STANDARD, APP B FITTED, ADA\r\n\r\n\r\n---------------------------------------------------------------------------------------\r\n\r\n\r\nBEST REGARDS\r\n\r\n\r\n\r\nRAMAZAN S. PARLAR & CAPT. ALI YILDIRIM\r\n- CHARTERING DEPARTMENT -\r\n\r\nDIR: +90 216 447 11 62 | FAX: +90 216 447 11 63\r\nMB: +90 541 649 97 16 | SKYPE: rsparlar\r\nMB: +90 549 548 36 55 | SKYPE: yildirimali.ay\r\nwww.gundemshipping.com | chartering@gundemshipping.com\r\n \r\n\r\n\r\n\r\n\r\n\r\nDo not re-circulate - Please reply only to \" chartering@gundemshipping.com “ -  Let us know for 'un-subscribe'\r\n\r\n \r\n",
+            {
+                "entities": [
+                    [
+                        311,
+                        318,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        507,
+                        519,
+                        "DRAFT"
+                    ],
+                    [
+                        760,
+                        772,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

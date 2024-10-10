@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 11:04:31   (GMT +5:30)REFERΕNCE NO: 17675711 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELM/V \"HAI PHUONG 86\" 2010 BUILT 28K DWT - OPEN SUAO, TAIWAN 15-16 AUG 2024- TRY CLEAN OR DIRTY / AUSSIE / LEGS / SP  -  RIGHTSHIP SAFETY SCORE 3 + - M/V \"HAI PHUONG 86\"  SINGLE DECK BULK CARRIER  CLASS: NK  PANAMA FLAG / BUILT 2010 IMABARI  DWT 28,193 MTS ON 9.819M SSW  GT/NT 17025/10108  LOA 169.37, BEAM 27.2M, DEPTH 13.6M  5 HO/HA  HATCH COVER: FOLDING TYPE  GRAIN 37320.63, BALE 35742.83  4 X 26T CRANES. BWTS FITTED  AT SEA:(B):ABOUT 12.0 KNOTS ON ABOUT 17.50 MTS IFO + 0.5 MTS MDO  (L): ABOUT 11.5 KNOTS ON ABOUT 18.00 MTS IFO + 0.5 MT MDO  IN PORT CONSUMPTION: IDLE ABT 3.0 MT IFO AND 0.5 MT MGO  WORKING ABT 5 MT IFO AND 0.5 MT MGO  ALL DETAILS ABOUT PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: https://www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        452,
+                        458,
+                        "DRAFT"
+                    ],
+                    [
+                        464,
+                        481,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        483,
+                        505,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        520,
+                        527,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        556,
+                        585,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        620,
+                        676,
+                        "SEA_CONS"
+                    ],
+                    [
+                        682,
+                        734,
+                        "SEA_CONS"
+                    ],
+                    [
+                        746,
+                        796,
+                        "PORT_CONS"
+                    ],
+                    [
+                        798,
+                        833,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

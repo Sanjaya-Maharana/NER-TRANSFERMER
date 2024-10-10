@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "To : ALL CONCERNED PARTIES\r\nFm : MARISO\r\nPLS PPOSE ASF;-\r\nM/V OCEAN SUCCESS – DAMMAM 5TH SEP\r\n-------------------------------------\r\nKOREAN FLAG, 2009 BLT. KR CLASS, 17,556MT DWT ON 10.01M,\r\nGRT/NRT 11,481/5,850 TON 3HO/3HA, TWN DECKER, LOA/BM/DM 131.9/22.0/14.5M\r\nGRAIN/BALE 23,110CBM/21,346CBM DECK CRANE 3 X 30MT(COMBINE 1 X 55MT)\r\nBest regards / Jae Youn Kim\r\nMariso shipping\r\nTel)  82 2 752 4200\r\nEmail) biz@mrsship.co.kr\r\nMobile) 82 10 7257 4789",
+            {
+                "entities": [
+                    [
+                        58,
+                        75,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        133,
+                        144,
+                        "FLAG"
+                    ],
+                    [
+                        146,
+                        155,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        166,
+                        178,
+                        "DWT"
+                    ],
+                    [
+                        301,
+                        315,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

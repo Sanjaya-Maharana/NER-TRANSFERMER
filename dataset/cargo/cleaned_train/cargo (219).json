@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear sirs,\r\nPls ppose for\r\n-Pol: Dung Quat port, Vietnam\r\n-Pod: Thessaloniki , Greece\r\n-Cargo: 10,000 mts wire rod\r\n-Terms: Fios\r\n-Load/disch: CQD\r\n-Tos: End August - September 2024\r\n-P/C ok\r\n-5% ttl\r\nBest Regards\r\nSen\r\nMARINE BIZ INTERNATIONAL – CHARTERING\r\nINDIA\r\nMobile : +91 988 42 92 32 6\r\nEmail : chartering@marinebiz.in\r\nEmail : mbchartering@gmail.com\r\nSkype :  marinebizz\r\nGDPR NOTICE :This message is not 'SPAM' and sent only within\r\nthe shipping stakeholders, if this message is irrelevant to\r\nyour business or you do not\r\nwish to receive any further Newsletter from us, please reply\r\nREMOVE.",
+            {
+                "entities": [
+                    [
+                        28,
+                        56,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        60,
+                        76,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        95,
+                        105,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        154,
+                        181,
+                        "LAYCAN"
+                    ],
+                    [
+                        193,
+                        195,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TO:Chartering dept\r\nAttn:whom it may concern\r\nPls pps suitable biz for our lady and add wl@fz-highton.com in your address book，and pls contact me on WeChat(id:levinwl) or skype:wanglei5630@outlook.com\r\nMV XIN HAI TONG 29  2011BLT  57297.05 DWT  4X30MT CRANE WL OPEN JORF LASFAR O/A 1ST - 5TH SEP 2024 IAGW WP.\r\nBOD: ABT 300-400 MT FOR VLSFO AND ABT 100-150 MT FOR LSMGO.\r\nTRY ALL DIRECTION.\r\n1. NAME: MV XIN HAI TONG 29\r\n2. TYPE: GEARED, SINGLE DECK BULK CARRIER\r\n3. BUILT: 2011\r\n4. FLAG: PANAMA\r\n5. GRT/NRT INTERNATIONAL: 33,226 / 19,294\r\n6. LOA / LBP / BEAM / DEPTH MOUDED: 190.00M / 183.30M / 32.26M / 18.50M\r\n7. LOADING INFORMATION：\r\nLOADLINE DEADWEIGHT    DRAFT\r\nSUMMER:      57297.05       13.020 M\r\nWINTER:       55745.6        12.749M\r\nTROPICAL:     58850.9        13.291 M\r\nTPC AT SUMMER DRAFT: 57.3\r\n8. CRANE/GRAB: 4 X 30 MT CRANES + 4X12CBM GRABS\r\n9. H/H: 5/5\r\n10. TYPE OF HATCH COVERS: FOLDING TYPE\r\n11. GRAIN CAPACITY: 71987.9CBM\r\nHOLD #1:      13624.9 CU. M\r\nHOLD #2:      14,872.6 CU. M\r\nHOLD #3:      14310.0 CU. M\r\nHOLD #4:      14,884.9 CU. M\r\nHOLD #5:      14295.5 CU. M\r\n13. ECO SPEED/CONSUMPTION IS GIVEN WITHOUT GUARANTEE:\r\nBALLAST: ABT 12.0 KNOTS ON ABT 22.0 MT VLSFO  + 0. 1MT LSMGO\r\nLADEN:     ABT 11.5 KNOTS ON ABT 23.0 MT VLSFO + 0.1MT LSMGO\r\nAT PORT:\r\nIDLE：           ABT 2.5 MTS VLSFO  + 0.1 MTS LSMGO PER DAY\r\nWORKING：ABT 4.5 MTS VLSFO  + 0.1MTS LSMGO  PER DAY\r\nADDITIONAL ABT 4.5 MT VLSFO DAILY FOR BALLAST/DEBALLAST\r\nADDITIONAL ABT 1.5 MT VLSFO DAILY FOR BOILER CONSUMPTION WITH TEMPERATURE LESS THAN 10 DEGREE CENTIGRADE.\r\n(A) AVERAGE SPEED AND AVERAGE CONSUMPTION TO BE CALCULATED FROM SEA BUOY TO SEA BUOY EXCLUDING PERIODS OF SLOW STEAMING\r\nON CHARTERERS ORDER OR FOR REASONS OF SAFETY OR STANDING BY OR ASSISTING ANOTHER VESSEL IN DISTRESS.\r\n(B) SPEED AND CONSUMPTION BASIS GOOD WEATHER CONDITIONS OF UP TO BEAUFORT FORCE 4 AND DOUGLAS SEA STATE 3 (SIGNIFICANT HEIGHT MAX 1.25M)WITH NO NEGATIVE SWELL NO ADVERSE CURRENTS, MINIMUM 24 HOURS STEAMING TIME, MAX SEA SURFACE TEMPERATURE OF 26 DEGREES CELCIUS, EXTRAPOLATION OF “GOOD WEATHER” PERFORMANCE FOR “BAD WE ATHER” PERIODS IS NOT ALLOWED.\r\n(C)VESL MAY BURN SMALL QTYS OF LSMGO WHEN MANEUVERING IN SHALLOW&NARROW WATERS ENTERING/LEAVING PORTS/IN HEAVY WEATHER/CANAL/RIVER/BALLAST/DEBALLAST ETC.\r\n(D) 0.5 KNOT ALLOWANCE  TO BE APPLIED FOR SPEED ASSESSMENT, 5% ALLOWANCE FOR OWNER TO BE APPLIED TO BUNKER CONSUMPTION.\r\n(E) BUNKER SAVING TO OFFSET ANY TIME LOST AND VICE VERSA.\r\n(F) BUNKER SUPPLIED BEING OF ISO8217:2017 (E)  SPECIFICATION, OR 2010, IF 2017 IS NOT AVAILABLE\r\nALL DETAILS ABOUT",
+            {
+                "entities": [
+                    [
+                        202,
+                        220,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        222,
+                        229,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        240,
+                        251,
+                        "DWT"
+                    ],
+                    [
+                        261,
+                        277,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        282,
+                        300,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        401,
+                        419,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        467,
+                        478,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        483,
+                        495,
+                        "FLAG"
+                    ],
+                    [
+                        827,
+                        841,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

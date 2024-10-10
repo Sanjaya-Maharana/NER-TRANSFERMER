@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "SEATRANS CHARTERING S.A.\r\n27/08/2024-20:18:18 / REF:745268-CNB\r\nEst.1999\r\nE-mail: chartering@seatranschartering.gr\r\n40 +/-10 barley SF 53’\r\nKavkaz - Yanbu-Jeddah range\r\n03-07/09\r\n7000/6000\r\nsyna 5 ttl\r\nConstantine(Costas)N.Benetos,Cell:+30 6945 150 237, Skype: CNBenetos\r\nBest Regards/STC S.A. - As Brokers Only\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        140,
+                        146,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        149,
+                        167,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        169,
+                        177,
+                        "LAYCAN"
+                    ],
+                    [
+                        179,
+                        183,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        185,
+                        193,
+                        "DISCHARGE_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "PLS PPSE\r\n6,000 tons Paper Reels. uw 1ton. dims height abt 2700mm x dia 1150mm\r\nfully stackable / no tier restrictions (loading in vertical poss)\r\nPOL: TANJUNG BUTON, Indonesia\r\nPOD: JEBEL ALI, UAE\r\nLycn: 15-25 Sept\r\nFrt on FILO HH\r\nL/rate: 1000 MT PWWD SSHINC.\r\nD/rate: Liner Out hook\r\nVsl holds must be BOX type / over age ok\r\nChart agent at l/port only (PT. MANDALA SAMUDERA ABADI)\r\nRuko Megah Enggano Blok B No.9 M Tanjung Priok Jakarta 14310 Indonesia\r\nMP / WhatsApp: 082112999890\r\nPIC : Capt Herman\r\nEmail: herman@citradermagaperkasa.com\r\n2.5% pus\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        147,
+                        176,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        178,
+                        197,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        199,
+                        215,
+                        "LAYCAN"
+                    ],
+                    [
+                        233,
+                        260,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        545,
+                        549,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

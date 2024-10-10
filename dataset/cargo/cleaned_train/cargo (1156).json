@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 23-08-2024 07:59:56   (GMT +5:30)\r\nREFERΕNCE NO: 17734092\r\nATTN CHARTERING DESK\r\nGOOD DAY\r\nDIRECT CHARTERERS ORDER\r\nPLEASE ADVISE SUITABLE VESSEL FOR FOLLOWING FIRM ORDER\r\nACC DIRECT CHTRS\r\n60000MT 10% MOLOO BLK CORN – PMX GLESS OAGE OK\r\nLOAD BARCARENA BRAZIL\r\nDISCH EGYPT MED INT DAMIETTA / EL DEKHELIA\r\nLYCN FULL SEPTEMBER\r\nLOAD  8000MT FRI 1700HRS TILL MON 0800HRS NTC EIU\r\nDISCH 8000MT THURS 1700HRS TILL SUN 0800HRS NTC EIU\r\n3.75% TTL PUS\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nSiddharth Arya | Voyage Desk\r\nDirect: +91 22 4044 9001\r\nMobile: +91 9821230311\r\nSKYPE ID: asbpl.siddharth@outlook.com\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        211,
+                        227,
+                        "COMPANY"
+                    ],
+                    [
+                        229,
+                        240,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        248,
+                        255,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        277,
+                        298,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        300,
+                        342,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        344,
+                        363,
+                        "LAYCAN"
+                    ],
+                    [
+                        365,
+                        377,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        422,
+                        428,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        469,
+                        474,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

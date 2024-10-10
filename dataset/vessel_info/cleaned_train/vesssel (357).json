@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 15:21:19   (GMT +5:30)\r\nREFERΕNCE NO: 17724877\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV MEGHNA VENUS 56K DWT - OPEN CHITTAGONG 23/25 AUG\r\nLAST 4 CARGOS - CLINKER/CLINKER/COAL/CLINKER\r\nBUNKERS ABT: 580/600 MT VLSFO + 55/60 MT LSGO\r\nTRIP CHINA, INDO/INDIA, INDO/BDESH - OK\r\nDIRTIES - OK\r\n++++++++++++\r\nMV MEGHNA VENUS\r\nBUILT: 2006\r\nFLAG    BANGLADESH\r\nIMO NO.:9324095\r\nP&I CLUB:SKULD\r\nSUMMER\r\nDRAFT   12.575M\r\nDWT     56,045 MT\r\nLOA:    189.99 M\r\nBREADTH:32.26 M\r\nSPEED / CONSUMPTION AT SEA\r\n-----------------------------\r\nBALLAST ABT 12.5 KTS ON ABT 22.5 MT IFO 380CST AND 0.15 MT LSMGO\r\nLADEN (SUMMER) ABT 12.00 KTS ON ABT 23.5 MT IFO 380CST AND 0.15 MT LSMGO\r\nECO SPEED / CONSUMPTION\r\nBALLAST ABT 12.0 KTS ON ABT 22 MT IFO 380CST AND 0.15 MT LSMGO\r\nLADEN (SUMMER)  ABT 11.5 KNOTS ON ABT 22 MT IFO 380CST AND 0.15 MT LSMGO\r\nCONSUMPTION IN PORT:\r\nIDLE:      ABT 2.6 MT IFO 380CST AND 0.15 MT LSMGO PER DAY\r\nWORKING:    ABT 5.0 MT IFO 380CST AND 0.20 MT LSMGO PER DAY\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        209,
+                        224,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        225,
+                        232,
+                        "DWT"
+                    ],
+                    [
+                        235,
+                        250,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        252,
+                        265,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        424,
+                        439,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        441,
+                        452,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        454,
+                        472,
+                        "FLAG"
+                    ],
+                    [
+                        474,
+                        489,
+                        "IMO"
+                    ],
+                    [
+                        524,
+                        534,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

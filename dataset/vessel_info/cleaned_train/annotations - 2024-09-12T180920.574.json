@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "SEATRANS CHARTERING S.A.\r\n23/08/2024-15:48:18 / REF:741870-CNB\r\nEst.1999\r\nE-mail: chartering@seatranschartering.gr\r\nMV PERIDOT -EXPECT OPEN CAPE TOWN 30/31 AUG\r\n56723 MT DWT ON 12.80 M SSWAD\r\nBLT 2012-PANAMA FLAG-4X36MT CRANES\r\nGRAB FITTED\r\nOWISE FULL DETS AS PER NEW ATTACHMENT\r\nALL DETS ‘ABOUT’\r\nVSL CAN DO 2X25 COILS AND DECKCGO\r\nConstantine(Costas)N.Benetos,Cell:+30 6945 150 237, Skype: CNBenetos\r\nBest Regards/STC S.A. - As Brokers Only\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        116,
+                        126,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        135,
+                        149,
+                        "DWT"
+                    ],
+                    [
+                        150,
+                        159,
+                        "DWT"
+                    ],
+                    [
+                        161,
+                        173,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

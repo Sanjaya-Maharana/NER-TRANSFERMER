@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "​280824-FMASSOUH-037112​04:54:39 UTC​\r\nPLEASE PPSE YR BEST FOR FLLWNG\r\nAcct Egyptian client\r\n50.000 TONS BULK CORN.STW 47-49' ABT. 10% MOLOO.\r\nSANTOS, BRAZIL / ALEXANDRIA OR DAMIETTA, EGYPT\r\nLAYCAN 20-30 SEPT.\r\nL/D 10000TS SHINC / 8000TS FHINC\r\nGCN 2.5 % TTL COMM\r\nBEST REGARDS\r\nF. Massouh\r\nS GLOBAL PARTNERS FZE\r\nA1-102 A – BLDG A 1\r\nAL HAMRA INDUSTRIAL ZONE – FZ\r\nRAK – UAE\r\nTel : + 971 439 997 67\r\nMOB : +971 56 90 494 90 ( CALL + WHATSAPP)\r\nEmail: chartering@sgp.ae\r\nSKYPE: live:.cid.6badee35f5d8c232",
+            {
+                "entities": [
+                    [
+                        143,
+                        156,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        160,
+                        189,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        191,
+                        208,
+                        "LAYCAN"
+                    ],
+                    [
+                        215,
+                        228,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        231,
+                        243,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        249,
+                        253,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

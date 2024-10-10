@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "MV SEACON  YANTAI 56K OPEN TIESHAN 31 AUG - 2 SEPT\r\nN.ORE candidate\r\nlooking for S.china or SE Asia direction\r\nM/V SEACON YANTAI\r\nTYPE: GEARED BULK CARRIER\r\nLOA: 189.99, LBP: 185.64, BEAM: 32.26, MOULDED DEPTH: 18.00\r\nSSW DWT: 56943.80, SSW DRAFT: 12.800\r\nGRT: 33044.00, NRT: 19231.00\r\nSUEZ GRT:33919.94, SUEZ NRT: 31284.6\r\nHOLD GRAIN/BALE CAP: 71634.10/69929.61\r\nHOLD/HATCH: 5/5\r\nTYPE OF HATCH: TRANSFOLDING TYPE\r\nHATCH OPEN DIMENSION: L X B\r\n1. 18.860 X 18.260\r\n2-5. 21.320 X 18.260\r\nHOLD CO2 FITTED\r\nCARGO GEAR: 4 ELECTRO-HYDRAULIC CRANES SWL / 30MT SWL\r\nGRABS : 4 REMOTE CONTROL GRABS\r\nSPEED AND CONSUMPTION AS VESSEL TRADING AT OPEN SEA FOR 24 HOURS:\r\nIN BALLAST:\r\nABOUT 12.50 KNOTS ON ABOUT 23.5MTS VLSFO + 0.10MT LSMGO\r\nABOUT 13.00 KNOTS ON ABOUT 28.5MTS VLSFO + 0.10MT LSMGO\r\nABOUT 13.50 KNOTS ON ABOUT 30.0MTS VLSFO + 0.10MT LSMGO\r\nLOADED:\r\nABOUT 12.50 KNOTS ON ABOUT 24.5MTS VLSFO + 0.10MT LSMGO\r\nABOUT 13.25 KNOTS ON ABOUT 30MT VLSFO + 0.10MT LSMGO\r\n2.00 MT ADDITIONAL VLSFO PER DAY DURING BALLAST EXCHANGE\r\nPORT CONSUMPTION:\r\nABOUT 3.50 MTS VLSFO + 0.10MT LSMGO PER DAY AT PORT (IDLE)\r\nABOUT 5.50 MTS VLSFO + 0.10MT LSMGO PER DAY AT PORT (WORKING)\r\nADA\r\n(the term \"abt\" means +/-5% for both speed and consumption in ship's favor)\r\nBest regards\r\nRegards\r\nChristian Friedrich\r\nphone +49 40450143141\r\nmob +49 15110604640\r\nH. VOGEMANN GMBH - Hallerstrasse 40 - 20146 Hamburg - Germany\r\nRegistered in Hamburg - HRB 17249 - MD F. Jensen, L. Rudebec k",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        18,
+                        21,
+                        "DWT"
+                    ],
+                    [
+                        22,
+                        34,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        35,
+                        50,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        222,
+                        235,
+                        "DWT"
+                    ],
+                    [
+                        548,
+                        552,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

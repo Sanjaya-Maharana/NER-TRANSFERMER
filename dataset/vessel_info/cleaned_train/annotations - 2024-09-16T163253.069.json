@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nWC INDIA ON ABT 23/27 AUG\r\nM/V SEA FALCON\r\nTYPE: SINGLE DECK SELF TRIMMING - GENERAL CARGO/OHBS\r\nCLASS: NKK\r\nMARSHALL ISLANDS FLAG\r\nBUILT: 2010 OSHIMA, JAPAN\r\nAMERICAN P&I CLUB\r\nSUMMER DEADWEIGHT/DRAFT/TPC: 51,725MT/12.109M/54.94MT\r\nLOA/BEAM: 188.50M/32.26M\r\nGRT/NRT: 29,829/15,810\r\nGRAIN/BALE (CBM): 60,579/60,124\r\nHO/HA: 5/5\r\nGRAIN FITTED\r\nCO2 FITTED\r\nGEARED WITH 4 X 30 MT DECK CRANE / 4X12 CBFT GRABS SUITABLE FOR PALLETIZED CARGO.\r\nCONSUMPTION AT SEA:\r\n(BALLAST)     ABT 13.2 KNTS ON ABT 22.5 MT VLSFO FOR M/E + ABT 1.5 MT VLSFO\r\nFOR AUX\r\n(LADEN)    ABT  13 KNTS ON ABT 25.4 MT VLSFO FOR M/E + ABT 1.5 MT VLSFO FOR\r\nAUX.\r\n(ECO BALLAST) ABT 11 KNTS ON ABT  18 MT VLSFO FOR M/E + ABT 1.5 MT VLSFO FOR AUX (ECO LADEN ) ABT 11 KNTS ON ABT 19 MT VLSFO FOR M/E + ABT 1.5 MT VLSFO FOR AUX.\r\nIN PORT (IDLE): ABOUT 3 MT VLSFO / (WORKING): ABOUT 4.5 MT VLSFO ADA/WOG\r\nPLS OFFER FIRM / RATED EMPL.\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        205,
+                        219,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        287,
+                        308,
+                        "FLAG"
+                    ],
+                    [
+                        310,
+                        321,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        546,
+                        564,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

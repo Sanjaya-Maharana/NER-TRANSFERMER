@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 3851813   28/AUG/2024 (WED)  11:34  (+0300)  AG\r\nTNS Shipbrokers and Agents Ltd (Since 1991)\r\nphone:+359 56 841005/6, fax:+359 56 840299\r\nhome page:www.tns-shipping.com\r\nemail: chart@tns-shipping.com\r\n-/Antoniya\r\nGood day,\r\n/close owner/\r\nMV Morning open Ain Sukhna, Egypt 13th - 17th September 2024\r\n- Double skinned, box shaped\r\n- Grain/ferts clean\r\n- 2 x 25t coils ok, deck cargo\r\n- Preference for voyage business\r\n- No Israel/Russia/Ukraine trading\r\nMV MORNING\r\n46,859 DWT ON 12.11 M / TPC 51.75\r\nDOUBLE SKINNED BULK CARRIER, BOX SHAPED HOLDS 2, 3 & 4\r\nSTRENGTHENED FOR HEAVY CARGOES\r\n4 X CRANES - NO.1 X 30 MTONS, NO.2-4 X 40 MTONS\r\n4 SETS PEINER ELECTRO-HYDRAULIC GRABS 6-12CBM\r\nIMO# 9263069  CALL SIGN: 5LNV3\r\nCLASS: NK  FLAG: LIBERIA\r\nBUILT: 03/2004 PT PAL INDONESIA\r\nLOA / BEAM(MOULDED): 189.90 M / 30.50 M\r\nHO/HA: 5/5\r\nGT/NT: 28,795/15,387\r\nGRAIN / BALE: 57,711.40 / 55,422.52\r\nTANKTOP STRENGTH:\r\nHOLDS 1,3,5 – 25.16 MT/M2\r\n2,4 – 17.45 MT/M2\r\nCO2 FITTED IN HOLDS\r\nALL DETAILS ABOUT\r\nKind regards,\r\nTNS Shipbrokers - Antoniya\r\nSkype: live:.cid.adba817154cf7291\r\nWeChat: wxid_twwaqwr0eao712\r\nMob: +359 899 20 66 88\r\nBimco Members (reg. no. 116957)",
+            {
+                "entities": [
+                    [
+                        247,
+                        257,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        258,
+                        280,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        281,
+                        307,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        462,
+                        472,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        474,
+                        484,
+                        "DWT"
+                    ],
+                    [
+                        601,
+                        625,
+                        "CRANES"
+                    ],
+                    [
+                        693,
+                        705,
+                        "IMO"
+                    ],
+                    [
+                        736,
+                        749,
+                        "FLAG"
+                    ],
+                    [
+                        751,
+                        765,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 11CCD-00 28/08/24 09:46 +03:00\r\nPLS PROPOSE SUITABLE TONNAGE.\r\n++\r\nA/C DRYDEL\r\nSUPRA/ULTRA\r\nDEL SEASIA\r\nL/C  4-9 SEP 24\r\nTCT EAST AFRICA\r\nDURATION ABT 45-50 DAYS WOG\r\n3.75 ADCOM\r\nALT CAN TRY 3/5 MONTHS PERIOD\r\n++\r\nBest Regards,\r\nJustin Adumekwe\r\nChartering Dept.\r\nMobile: +971 56 538 4575\r\nEmail: chartering@drydelmaritime.com\r\nSkype: justin.adumekwe\r\nwww.drydelshipping.com\r\nEMAIL - DISCLAIMER\r\nThis message, as well as any attachments, may contain confidential information\r\nand maybe legally privileged. If you are not the intended recipient, please\r\npromptly inform the sender, delete this email from your system and destroy any\r\ncopies of it. Any other unauthorized access or unauthorized forwarding, copy\r\ncreation, publication or any other action in this connection is prohibited.\r\nEmail transmission cannot be guaranteed to be secure or error-free. Therefore,\r\nthe genuineness or completeness of the information contained in this message,\r\nthe statements set forth above are not legally binding. Furthermore, high\r\nquality systems are used to ensure that this message is virus free. However,\r\nsince transmission is not secure and masquerading technologies are often used\r\nby third parties, we cannot be held responsible or liable for any damages\r\ncaused by such technologies and/or viruses.",
+            {
+                "entities": [
+                    [
+                        115,
+                        130,
+                        "LAYCAN"
+                    ],
+                    [
+                        149,
+                        176,
+                        "DURATION"
+                    ],
+                    [
+                        178,
+                        188,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

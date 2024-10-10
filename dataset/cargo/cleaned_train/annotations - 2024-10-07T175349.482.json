@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "View in browser  Chartering desk / Ruslan,\r\nPlease offer firm for:\r\nDo not circulate!\r\n40’000 mt +/-10% Rapeseed, SF abt 51-53’ wog.\r\nOdessa / 1sp 2sb ARAG.\r\n6’000x / 8’000x.\r\nSpot / prompt.\r\n1.25% ttl here.\r\nAcc / frt idea available for interested candidates.\r\nSincerely,\r\nRuslan Mamont-Zavialov\r\nBroker | STRIBROK | Chartering Department\r\nOdessa, Ukraine\r\nPhone: +38 063 067 61 83\r\nSkype: r.mamzav\r\nEmail: chartering@stribrok.co\r\nChartering team:\r\nArtur Mamont-Zavialov: a.mamzav@stribrok.co\r\nRuslan Mamont-Zavialov: r.mamzav@stribrok.co\r\nVisit us at:\r\nhttps://www.stribrok.co\r\nhttps://freight.stribrok.co\r\nDisclaimer:\r\nThis e-mail (including all attachments) may contain confidential or privileged information or information that is otherwise exempt from disclosure. If you are not the intended recipient please notify the sender by return mail immediately. In such an event you must immediately delete it and shall not disclose, copy or distribute it to others.\r\nWe require your agreement and consent to continue maintaining your contact information. If you do not agree and consent you can unsubscribe at any time by clicking the \"unsubscribe\" link below.\r\nInternet communications cannot be guaranteed to be timely, secure, error-free or virus-free. STRIBROK does not accept any liability for any errors or omissions and anyone who communicates with us by email is taken to accept these risks. STRIBROK does not accept any liability for any loss caused by cyber hacking or other corruptive manipulation of internet systems, whether STRIBROK’s or others'.\r\nYou received this email because you are in our lists. If you no longer wish to receive emails from us, you can unsubscribe at any time by clicking the \"unsubscribe\" link below.\r\nUnsubscribe",
+            {
+                "entities": [
+                    [
+                        87,
+                        96,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        134,
+                        140,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        143,
+                        155,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        158,
+                        164,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        167,
+                        173,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        192,
+                        197,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

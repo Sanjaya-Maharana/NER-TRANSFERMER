@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            " Good day Please offer for our below home lady  Open Marmara  arnd 18 August MV EKMEN STAR ( IMO 9218193 )BARBADOS FLAG /MULTIPURPOSE DRY CARGO/ BLT 2001CLASS RINA / PANDI: THE NORTH P&I BOX-OPEN HATCHSTRENGTHENED FOR HEAVY CARGODWT: 8266  ON 7.01 M AT SWLOA/LBP/BEAM/DEPTH: 107.58 / 103.10/ 18.20/ 9  MGRT/NRT: 5381 / 2626TOTAL GRAIN/BALE CAP: 348937 CBFH1:104418,4 / H2:132331,1 H3:112187,63HO/3HA HYDRAULIC  HATCHESGEARLESSBOW THRUSTER,170 KWCO2 FITTEDAPP A-B-C FITTED  Best Regard Tuba ARDALIChartering Managerwww.ekmenship.comTel: +90216 324 8888  Fax: +90 216 324 8282Mob: +90 532 012 23 17E-mail: chart@ekmenship.comSkype: tugbaardal@hotmail.com   ",
+            {
+                "entities": [
+                    [
+                        244,
+                        249,
+                        "DRAFT"
+                    ],
+                    [
+                        276,
+                        281,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        292,
+                        297,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        303,
+                        323,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        330,
+                        366,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

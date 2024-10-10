@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "- OPEN E. AFRICA (BEIRA) 15/16 SEPT\r\nTBN 20,500 DWT 1999 BUILT-BOX HOLDS-ABT 836,000 CBM GRAIN CRANES 3X25 MT -ADA-\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        2,
+                        24,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        25,
+                        35,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        41,
+                        51,
+                        "DWT"
+                    ],
+                    [
+                        52,
+                        66,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        95,
+                        109,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

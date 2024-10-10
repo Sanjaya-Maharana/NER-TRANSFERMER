@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Hi,\r\nGd day,\r\nPls pps rated tng for blw.\r\nA/C GLOBAL TRADING AND SHIPPING(GTS)\r\nNEED UMAX/LME/KMX\r\nDEL INDO\r\n1 TCT WITH COKE\r\nLAYCAN 5-10\r\nREDEL 1 SP WCI\r\n3.75ADD\r\nBrgds\r\nRaghav\r\nCommercial Operator\r\nS’hail Shipping and Maritime Services\r\n(As agents for GTS)\r\n14th Floor Qatar Tower, Opp Ezdan Towers\r\nWest Bay, Doha\r\nTel           +974-442 97 407\r\nH/P         +974-336 80 387\r\nSkype      live:.cid.e68064f5aa6b7e21\r\nEmail       raghav@shailship.com\r\nWebsite : www.shailship.com\r\nFollow us:",
+            {
+                "entities": [
+                    [
+                        42,
+                        73,
+                        "COMPANY"
+                    ],
+                    [
+                        99,
+                        107,
+                        "DELIVERY"
+                    ],
+                    [
+                        126,
+                        137,
+                        "LAYCAN"
+                    ],
+                    [
+                        139,
+                        153,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        155,
+                        162,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

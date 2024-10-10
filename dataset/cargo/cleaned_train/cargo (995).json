@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY\r\nF R E S H\r\nACCT CONTI LINES SHIPPING\r\nDELY AFSPS PECEM\r\nLAYCAN 28/31 AUG\r\nTCT WITH STEELS SLABS\r\nREDELY ALTAMIRA\r\nABT 30 DAYS WOG\r\n3.75 ADDRESS HERE\r\nPLSD TO HEAR\r\nB RGDS\r\nWALTER\r\n​​​​\r\nWalter Schrauwen\r\n​Pieter Staes\r\n​+32 3 545 39 00\r\n​+32 3 545 39 03\r\nSneeuwbeslaan 14\r\n​2610 Wilrijk (Antwerp)​\r\n​​​​​chartering@contilines.be\r\ncontilines-group.com\r\nWesley Loeman​\r\n+32 3 545 35 45\r\nBelgium\r\n​BTW BE 0434.759.443\r\nWe've been alerted that some of our clients were victims of invoice fraud attempts.\r\n​We would like to inform you that we have not changed our account numbers recently!\r\n​​Please contact your regular contact by phone to verify the account nr when change request is received.",
+            {
+                "entities": [
+                    [
+                        66,
+                        82,
+                        "LAYCAN"
+                    ],
+                    [
+                        124,
+                        138,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        141,
+                        153,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

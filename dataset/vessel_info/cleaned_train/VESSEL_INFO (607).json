@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 3827654   20/AUG/2024 (TUE)  17:27  (+0300)  SG\r\nTNS Shipbrokers and Agents Ltd (Since 1991)\r\nphone:+359 56 841005/6, fax:+359 56 840299\r\nhome page:www.tns-shipping.com\r\nemail: chart@tns-shipping.com\r\n-/Stilian\r\nGood Day\r\nDirect position:\r\nMV DL MARIGOLD 33K FF Logger\r\nOpen : JEBEL ALI, UAE 20-23 Aug\r\nEST. BOD : VLSFO ABT 600-700 MT / LSMGO ABT 80-100 MT\r\nSteel friendly, AFF1, Grain, Alumina Clean, Amsa, BWTS Fitted\r\nPrefer to Short Period or TCT, V/C to Singapore–Japan Range\r\nRightship 3 Star / GHG B\r\nMV. DL MARIGOLD\r\nSDBC LOGGER, BUILT 2012\r\nFLAG PANAMA, CLASS KR\r\nSUMMER DWT 33,752MT ON 9.816M SSW / TPC 48.831\r\nSUMMER TIMBER DWT 35,220.1 ON 10.116M / TPC 49.049\r\nGRT 23,494 / NRT 11,160MT\r\nLOA 180.0M / BEAM 30.0M\r\nCRANE 4 X 30MT\r\nHATCH COVER : ELECTRO-HYDRAULIC END FOLDING TYPE\r\nHATCH SIZE : NO.1 16.0(L) X 18.4 / 13.7M(B), NO.2-5 19.2(L) X 20.2M(B)\r\nHOLD CAPA  GRAIN  /  BALE\r\nNO.1 :      7,742.8  /  7,559.6\r\nNO.2 :      9,764.7  /  9,635.5\r\nNO.3 :      9,809.6  /  9,666.4\r\nNO.4 :      9,821.3  /  9,676.5\r\nNO.5 :      9,146.4  /  9,031.5\r\n46,284.8 / 45,569.5\r\nDEPTH MOULDED 14.7M\r\nTANK TOP STRENGTH 20MT/M2\r\nHATCH COVER STRENGTH 3.50MT/M2\r\nDECK STRENGTH NO.1 3.64MT/M2 NO.2-5 4.2MT/M2\r\nMECHANICAL VENTILATION, CO2 FITTED\r\nAWWF LADDER EQUIPPED\r\nALL DETAILS ABOUT\r\nSPEED / CONSUMPTION :\r\nAT SEA\r\nBALLAST ABT 12.50 KTS ON ABT 19.0 MT IFO 380CST\r\nLADEN     ABT 12.00 KTS ON ABT 19.0 MT IFO 380CST\r\nIN PORT\r\nIDLE ABT 2.8 MT IFO 380CST + 0.1 MT MGO\r\nWORK ABT 4.8 MT IFO 380CST + 0.1 MT MGO\r\nBUNKER SPEC: ISO 8217 2010\r\nKind regards,\r\nTNS Shipbrokers - Stilian\r\nSkype: stilian_\r\nMob: +359 878 157888\r\nBimco Members (reg. no. 116957)",
+            {
+                "entities": [
+                    [
+                        248,
+                        262,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        278,
+                        299,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        300,
+                        309,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        516,
+                        531,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        546,
+                        556,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        558,
+                        569,
+                        "FLAG"
+                    ],
+                    [
+                        588,
+                        600,
+                        "DWT"
+                    ],
+                    [
+                        643,
+                        655,
+                        "DWT"
+                    ],
+                    [
+                        733,
+                        747,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

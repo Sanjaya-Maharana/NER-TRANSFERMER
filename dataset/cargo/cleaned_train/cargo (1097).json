@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\n Gd day FIRM  DANGJIN, S.KOREA / MUMBAI, INDIASTEEL PLATE 10.000 MTN 10% MOLCO( width 2.5mx length 12 m)L/CAN: 20~23, AUG 2024 PPT!!Term: FILO, CQD BENDSCOMM ; 2.5% adcom pus  FIXING IDEA USD 42 FI/LO Plsd to hearBest regardsIONIAN NAVIGATION & MANAGEMENT Co LtdTEL.:    +30 210 80 10 410  | +30 210 80 10 411FAX:    +30 210 80 10 411MOB.: +30 693 23 99 404SKYPE: ionavi.nikosVat:      EL 098141383  ",
+            {
+                "entities": [
+                    [
+                        16,
+                        32,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        35,
+                        48,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        48,
+                        59,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        60,
+                        69,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        113,
+                        123,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        162,
+                        165,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

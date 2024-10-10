@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nPLS OFFER FOR FLWNG DIRECT/CLOSE\r\nM/V KW -----57K GRABBER -------------WILL OPEN CHITTAGONG ABOUT END AUG / EARLY SEPT\r\nMV KING WIN (EX NAME MV JIN YUN)\r\nBLT: MAY 31, 2012\r\nFLAG: PANAMA, CLASS: RINA\r\nDWT: ABT 56809MT ON 12.80M SSW\r\nLOA: 189.99M BEAM: 32.26M\r\nGRT/NRT: 32964/19142\r\n5 HO/5 HA\r\nGRAIN CAPACITY: 71634.1CBM\r\n4x30MT CRANE + 4x8CBM GRAB（THE GRABS CAPACITY IS ADJUSTABLE TO 10CBM/12CBM）\r\nSPEED/CONS AT SEA\r\nECO SPEED/CONS AT SEA\r\nBALLAST: ABT 12.5 KNOTS ON ABT 24MT LSFO 380CST+ABT 0.1MT LSMGO\r\nLADEN: ABT 12.0 KNOTS ON ABT 25MT LSFO 380CST+ABT 0.1MT LSMGO\r\nAT PORT\r\nIDLE: ABT 3.5MT LSFO 380CST+ABT 0.1MT LSMGO\r\nWORKING: ABT 5.5MT LSFO 380CST+ABT 0.1MT LSMGO\r\nBUNKERS SUPPLIED TO BE IN ACCORDANCE WITH ISO-SPECIFICATIONS:\r\nLSFO 380CST IN ACCORDANCE WITH ISO 8217:2010 RMG380\r\nLSMGO IN ACCORDANCE WITH ISO 8217:2010 DMB\r\nALL DETAILS ABOUT\r\nAll speed and consumption figures are given basis good weather periods of 24 consecutive hours and\r\nconditions defined as maximum Beaufort Scale 4, Douglas Sea State 3 with combined wave and swell\r\nheights not exceeding 1.25 meters,without adverse currents and with vessel on even keel. Although speed\r\nand consumption assessments are to be averaged over the entire period of employment,the first 12 hours\r\nafter commencement/end of sea passages as well as periods exceeding the defined good weather\r\ndefinition herein are expressly excluded and no extrapolation can be made therefrom. It is agreed that\r\nany saving in consumption to be off set against any reduction in speed or vice versa and that any saving\r\nin IFO consumption shall be off set against any increased consumption of MDO/MGO or vice versa.\r\nbunker saved at sea can be offset with more bunker at on/off hire bunker survey.\r\nVessel may consume MDO for M.E. during standby, when manouevering, in/out ports, rivers, crossing\r\nchannels,estuaries etc. and in narrow/shallow waters.\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        254,
+                        269,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        276,
+                        283,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        298,
+                        309,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        319,
+                        329,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        332,
+                        343,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        345,
+                        349,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        351,
+                        363,
+                        "FLAG"
+                    ],
+                    [
+                        378,
+                        394,
+                        "DWT"
+                    ],
+                    [
+                        498,
+                        510,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

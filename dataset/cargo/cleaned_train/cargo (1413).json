@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All,\r\n\r\n \r\n\r\nGday!\r\n\r\n \r\n\r\nPLEASE PROPOSE SUITABLE VSL FOR OUR ORDERS BELOW :\r\n\r\n \r\n\r\nACCT:TONGLI SHPG PTE\r\n\r\nSMX-UMX COAL IN BULK\r\n\r\nDELY : S.KALI,INDONESIA\r\n\r\nREDELY : S.CHINA UPON TO CJK RANGE\r\n\r\nL/CAN : 19-22 AUG 2024\r\n\r\nDURATION ABT 20 DAYS WOG\r\n\r\nADD 3.75%\r\n\r\n \r\n\r\nBrgds/Leta Wang\r\nFor and on behalf of TONGLI SHIPPING PTE.LTD\r\n\r\n8 TEMASEK BOULEVARD #40-02, SUNTEC TOWER THREE SINGAPORE 038988\r\n\r\n \r\n\r\nSE ASIA DIVISION SUPRAMAX SECTION\r\n\r\nEmail:handysupra@tonglishippingpte.com\r\n\r\nMob: 0086-188 1741 6979\r\n\r\nSkype:leta.wang",
+            {
+                "entities": [
+                    [
+                        91,
+                        111,
+                        "COMPANY"
+                    ],
+                    [
+                        123,
+                        135,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        139,
+                        162,
+                        "DELIVERY"
+                    ],
+                    [
+                        166,
+                        200,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        204,
+                        226,
+                        "LAYCAN"
+                    ],
+                    [
+                        230,
+                        254,
+                        "DURATION"
+                    ],
+                    [
+                        258,
+                        267,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

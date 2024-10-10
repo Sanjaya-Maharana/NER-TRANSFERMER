@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Pls propose for:\r\n6-8,000 MT YELLOW CORN\r\nYANGON/ILO ILO OR BACOLOD\r\n1-10 SEP 2024\r\n1000 SHEX EIU/1000 SHINC\r\n2.5% ADCOM + AMS\r\n10-11,000 MT BGD RICE\r\nYANGON/ BELAWAN\r\n1500 SHINC/1000 SHEX EIU BSS 3 HOOKS\r\n1-10 SEP 2024\r\n2.5% ADCOM + AMS\r\n15-20,000 MT BGD RICE\r\nYANGON/EHOLA & TULEAR\r\n1500 SHINC/1500 SHEX EIU\r\n25-31 AUG 2024\r\n2.5% ADCOM + AMS\r\n22-24,000 MT BGD RICE\r\nYANGON/LOME (7-9000) + DAKAR (15000)\r\n20-28 AUG 2024\r\n2.5% ADCOM + AMS\r\n​30,000 MT TRY MORE RICE IN 50 KG LOOSE BAGS\r\nBIN QASIM / CARIBS NOT NORTH OF MARIEL WHERE FREE D/A AT DISPORT\r\n10-25 SEP 2024\r\n2500 WWD SAT PM SHEX / 2000 WWD SAT PM SHEX\r\n3.75 TTL HERE\r\nKind regards\r\nM. Ilyas (mics since 1993)\r\nFor & on behalf of\r\nAMS Shipping Pte Ltd, Spore\r\nAs Agents & Brokers only\r\nPhn: 65-6522-2950\r\nMob: 65-8454-9838\r\nEml: mail@amsshipping.net\r\nSkype: Muhammad.ilyas41\r\nVirus-free.www.avg.com",
+            {
+                "entities": [
+                    [
+                        16,
+                        27,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        111,
+                        120,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        206,
+                        219,
+                        "LAYCAN"
+                    ],
+                    [
+                        221,
+                        231,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        240,
+                        251,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        256,
+                        260,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        296,
+                        305,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        311,
+                        325,
+                        "LAYCAN"
+                    ],
+                    [
+                        327,
+                        337,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

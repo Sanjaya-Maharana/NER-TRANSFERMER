@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nPLEASE ADVISE SUITABLE CARGO FOR OUR BELOW DIRECT TONNAGE.\r\nMV AVON TRADER -79,452 DWT  JAIGARH, WCI 31ST AUG - 03RD SEPT 2024\r\n79,452 DWT @ 14.62m/ BLT 2012 ZHOUSHAN JINHAIWAN / 97,885 CBM/ TPC 70.3\r\nB/L 13/12 KNT ON 27/29 MT + 0.1\r\nBOD ABT 350-400 MT VLSFO AND 73-78 MTS MGO (TO BE RECONFIRMED)\r\nLAST CGOS: IOF/ COAL/ COAL\r\nRS 3/5 - GHG D\r\nPREFER 2-3 LL, SHORT PERIOD UPTO DEC 2024, INTER PG, PG-INDIA, SOUTH AFRICAN COAL, WCI - CHINA.\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        238,
+                        252,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        253,
+                        264,
+                        "DWT"
+                    ],
+                    [
+                        266,
+                        273,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        279,
+                        304,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        306,
+                        316,
+                        "DWT"
+                    ],
+                    [
+                        327,
+                        335,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nMSGNO: 2184321\r\n \r\nplease propose for:-\r\n \r\nMV JIN CHAO (63KDWT/'14) - PORT ELIZABETH – 28/31 AUG 2024\r\n\r\r\n+\r\n\r\r\nMV JIN CHAO (EX HANTON TRADER I)\r\r\n63,469 MTS DWAT ON ABT 13.3M SSW, TPC 62.30 MT\r\r\nBLT 2014, BULK CARRIER, HONG KONG FLAG, CLASS BV\r\r\nLOA 199.90/BEAM 32.26 - 5 HO/HA, GT/NT 36,278/21,607\r\r\n78,929 CBM GRAIN / 73,680 CBM BALE\r\r\n4X35MTS CR + 4X12 CBM GRABS\r\r\nS/C:\r\r\nBALLAST - 14.0KTS(B) ON 29.5MT(B) + 0.1MT LSMGO \r\r\nLADEN - 13.0KTS(L) ON 28.5MT(L) IFO + 0.1MT LSMGO\r\r\nECO (WOG):\r\r\nBALLAST - 13.0KTS(B) ON 23.5MT(B) + 0.1MT LSMGO\r\r\nLADEN - 12.0KTS(L) ON 23.5MT(L) + 0.1MT LSMGO\r\r\nIDLE: GE ABT 1.5 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MT\r\r\nWW: GE ABT 4.0 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MT\r\r\nALL DTLS ABT\r\n\r\r\n+ + +\r\nthanks & regards\r\n \r\nGeorge Lemos\r\nCTS Commercial\r\n8 Cambridge Court | 210 Shepherds Bush Road | London | W6 7NJ | UK\r\nT: +44 7785 376662 - 7584 040187\r\nemail: chartering@ctsom.com\r\nskype: giolems   \r\n \r\nThis email (including all attachments) is confidential and intended  solely for the use of the above addressee(s).If you are not the intended recipient, you must not read, print, retain, copy, distribute, or use\r\r\n any of the information herein. If you receive this message in error, please delete it and immediately notify the sender.  Although we have taken reasonable care to ensure that any attachments to this e-mail are free of viruses, we make no representation and\r\r\n give no warranty in this regard. You should accordingly scan any attachments with appropriate up to date software.\r\n \r\n\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        60,
+                        71,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        129,
+                        140,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        213,
+                        221,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        237,
+                        251,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

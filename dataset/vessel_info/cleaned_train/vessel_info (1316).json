@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM SnC MARITIME SEOUL KOREA 82-2-778-0283 DRY@SNCMARITIME.COM - SS Kang\r\nCLOSE LOCAL OWNEWS HV: -\r\nCOIL + DECK CARGO OK\r\nMV. WESTERN VENTURE (NEW BUILT - DAYANG 63/23) - SCRUBBER FITTED\r\n- OPEN CAOFEIDIAN, N.CHINA 24/28 AUG\r\n- BOD: ABT 800MT HSFO / ABT 50MT VLSFO / ABT 130MT LSMGO\r\n- LAST CGO: SUGAR(CURRENT) - CLINKER - ALUMINA\r\n- TRY ANY UPTO BOP 1ST DEC 2024\r\nMV WESTERN VENTURE (SCRUBBER FITTED)\r\nIMO: 9978767\r\nHULL NO.: DY4158\r\nFLAG HONG KONG / CLASS CCS\r\n2023 NOVEMBER BUILT AT NEW DAYANG SHIPBUILDING\r\nDWT 64,636 MT AT 13.50 M DRAFT (SCANTLING / SUMMER)\r\nGT/NT 36,186 / 21,651\r\nLOA 199.90 M, BEAM 32.26 M, TPC 61.1\r\n5 HOLDS / 5 HATCHES\r\n78,870 CBM GRAIN CAPACITY\r\n4 X 30 SWL DECK CRANES / 4 X 12 CBM GRABS\r\nSCRUBBER FITTED\r\nSPEED & CONSUMPTION:\r\nFULL SPEED:\r\nL/ABT. 13.5 KNOTS ON ABOUT – 26.6 MTS HSFO + 0.1MTS LSMGO\r\nB/ABT. 14.5 KNOTS ON ABOUT - 28.1 MTS HSFO + 0.1MTS LSMGO\r\nADDITIONAL 0.2 MT HSFO CONSUMPTION IN ECA ZONE\r\nECO SPEED:\r\nL/ABT. 12.0 KNOTS ON ABOUT – 18.6 MTS HSFO + 0.1MTS LSMGO\r\nB/ABT. 13.0 KNOTS ON ABOUT – 18.5 MTS HSFO + 0.1MTS LSMGO\r\nADDITIONAL 0.2 MT HSFO CONSUMPTION IN ECA ZONE\r\nPORT CONSUMPTION:\r\nIDLE:\r\n(TIER II) ABT 2.5 MT HSFO + 0.1MT LSMGO\r\n(TIER III) ABT 2.6 MT HSFO + 0.1MT LSMGO\r\nWORKING:\r\n(TIER II) ABT 5.2 MT HSFO + 0.1MT LSMGO\r\n(TIER III) ABT 5.4 MT HSFO + 0.1MT LSMGO\r\nALL DETAILS ABT\r\nVESSEL'S SPEED/ CONSUMPTION ON THE BASIS GOOD WEATHER CONDITIONS, WHICH ARE HEREBY AGREED AS WIND SPEEDS OF BEAUFORT FORCE 4 (MAX 16 KNOTS) AND TOTAL COMBINED (SEA AND SWELL) SIGNIFICANT WAVE HEIGHT CONFINED TO LIMITS OF DOUGLAS SEA STATE 3 (MAX 1,25 METERS) WITH NO ADVERSE CURRENTS. ANY STEAMING DAYS WITH NET ADVERSE CURRENTS ARE NOT TO BE INCLUDED IN THE “GOOD WEATHER” ANALYSIS FOR CALCULATIONS OF A GOOD WEATHER PERFORMANCE SPEED. FAVORABLE CURRENTS ARE NOT TO BE ADJUSTED WHEN EVALUATING SHIP’S PERFORMANCE. ANY PERIODS OF REDUCED SPEED FOR SAFETY PURPOSES WHEN STEAMING OR MANEUVERING IN CONFINED AND /OR CONGESTED WATERS AND /OR APPROACHING OR DEPARTING PORTS OF CALL ARE NOT TO BE CONSIDERED IN THE CALCULATION OF GOOD WEATHER PERFORMANCE SPEED AND ASSOCIATED. VESSEL PERFORMANCE. GOOD WEATHER PERIOD FOR EVALUATION PURPOSES IS FROM NOON TO NOON I.E PERIOD OF 24 CONSECUTIVE HRS AND NOT ANY PART OF IT. ANY GAIN ON THE TIME OVER THE ABOVE AND / OR SAVINGS ON CONSUMPTION BELOW THE ABOVE TO BE OFF-SET AGAINST ANY LOSS ON TIME AND / OR OVER-CONSUMPTION. ALL FIGURES GIVEN BASIS FULL SEA DAYS ONLY AND AS AN AVERAGE OF ALL DAYS SEA PILOT TO SEA PILOT.\r\n+++\r\nB,RGDS / SS Kang (강석산)\r\nDIR : 822 778 0283\r\nMOB : 82 10 8751 5308\r\nDRY@SNCMARITIME.COM\r\nSKYPE : KANGCHO29@HOTMAIL.COM",
+            {
+                "entities": [
+                    [
+                        123,
+                        142,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        191,
+                        215,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        216,
+                        225,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        366,
+                        384,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        404,
+                        416,
+                        "IMO"
+                    ],
+                    [
+                        436,
+                        450,
+                        "FLAG"
+                    ],
+                    [
+                        464,
+                        483,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        512,
+                        525,
+                        "DWT"
+                    ],
+                    [
+                        690,
+                        709,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

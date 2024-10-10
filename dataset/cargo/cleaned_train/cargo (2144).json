@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Pls ppse\r\nMin/Max 7,000 mt NPK in 50kgs bags and in sling bags 1MT (S/F: 1.6wog)\r\nLP: 1SB/SA Hai Phong, Vietnam\r\nDP: 1SBP Mombasa, Kenya\r\nLC: 10-12 Sept, 2024\r\nL/D rate: 1,000 MT PWWD SHINC basic 3 gangs workable\r\nDunnage if any on charterer's acct\r\nSole cargo or Combine in owner's option.\r\nTBN is not workable\r\n2.5%\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        18,
+                        26,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        82,
+                        111,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        113,
+                        136,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        138,
+                        158,
+                        "LAYCAN"
+                    ],
+                    [
+                        170,
+                        178,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        313,
+                        317,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

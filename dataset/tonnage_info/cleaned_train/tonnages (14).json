@@ -1,0 +1,52 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 12:29:21   (GMT +5:30)\r\nREFERΕNCE NO: 17722618 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV  CP SHENZHEN  - SMX/UMX - OPEN BIN QASIM - 3-10 SEP\r\n- BOD 930/110MT\r\n-2*25/DIRTY OK, NO PASSING GOA/ON DECK\r\n\r\nMV “CP Shenzhen”\r\nYear Built    : 2017\r\nFULL LOAD DISPLACEMNT: 75196 .6 MT\r\nDWT: 63539.7 MT\r\nTPC on SSW: 62.3MT/CM\r\nGrain / bale: total abt. 78771.05 / abt. 73680 all in CBM\r\nDeck Crane SWL 30T in hook only x 4 sets \r\nRemote Control Grab SWL 15T (12 cbm) x 4 sets\r\n\r\nSPEED & CONSUMPTION:\r\n\r\nAbout 13.5 knots on about 29.5 mts IFO LADEN \r\nAbout 14.5 knots on about 27.5 mts IFO BALLAST\r\n\r\nEco Speed wog\r\nAbout 11.7 knots on about 22.3 mts IFO LADEN\r\nAbout 12.6 knots on about 22.3 mts IFO BALLAST\r\n\r\nWhile ballasting or deballasting operation, additional 1.5 mts IFO per day.\r\n\r\nConsumption in port:\r\nIdle: about 2.0 mts IFO (1set G/E) + 1.2 mts IFO for boiler in summer or 1.5 mts for boiler in winter\r\nWith cranes working: about 4.0 mts IFO (2set G/E) + 1.2 mt IFO for boiler in summer or 1.5 mts for boiler in winter\r\n\r\nADA\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\n",
+            {
+                "entities": [
+                    [
+                        447,
+                        493,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        605,
+                        700,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        713,
+                        767,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        778,
+                        899,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        926,
+                        1010,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1047,
+                        1128,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

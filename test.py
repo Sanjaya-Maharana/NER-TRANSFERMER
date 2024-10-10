@@ -1,179 +1,103 @@
-import sys
-import json
 import spacy
-import subprocess
-from pathlib import Path
-from flask import Flask, request, jsonify, render_template
-from werkzeug.utils import secure_filename
-from clean import clean_entity_spans
-from convert import combine_json_files, convert_json_to_spacy
+import requests
+# Load the trained model
+nlp = spacy.load("../models/vessel_info/model-best")
 
-app = Flask(__name__)
+url = "http://127.0.0.1:8000/predict/tonnage"
 
-
-UPLOAD_FOLDER = './dataset'
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-
-ALLOWED_EXTENSIONS = {'json'}
-
-
-def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-def download_spacy_model():
-    try:
-        command = [
-            sys.executable,
-            "-m", "spacy", "download", "en_core_web_trf"
-        ]
-        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) as process:
-            for line in process.stdout:
-                print(line, end='')
-
-            for line in process.stderr:
-                print(f"ERROR: {line}", end='')
-
-        returncode = process.wait()
-
-        if returncode == 0:
-            print("Model 'en_core_web_trf' downloaded successfully!")
-        else:
-            print(f"Failed to download 'en_core_web_trf'. Return code: {returncode}")
-
-    except Exception as e:
-        print(f"Error during downloading 'en_core_web_trf': {e}")
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/upload', methods=['POST'])
-def upload_files():
-    if 'model' not in request.form:
-        return jsonify({'error': 'Model not specified'}), 400
-
-    model = request.form['model']
-    if model not in ['tonnage_info', 'vessel_info', 'cargo']:
-        return jsonify({'error': 'Invalid model specified'}), 400
-
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file uploaded'}), 400
-
-    files = request.files.getlist('file')
-    upload_folder = Path(app.config['UPLOAD_FOLDER']) / model / 'train'
-    upload_folder.mkdir(parents=True, exist_ok=True)
-
-    for file in files:
-        if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            file.save(upload_folder / filename)
-
-    return jsonify({'message': f'Files successfully uploaded for model {model}'}), 200
-
-
-@app.route('/train', methods=['POST'])
-def train_model():
-    download_spacy_model()
-    model = request.form.get('model')
-    if model not in ['tonnage_info', 'vessel_info', 'cargo']:
-        return jsonify({'error': 'Invalid model specified'}), 400
-
-    config_path = "./config.cfg"
-    output_path = f"./models/{model}"
-    train_data_path = f"./data/{model}/train.spacy"
-    dev_data_path = f"./data/{model}/dev.spacy"
-
-    train_json_folder = Path(f"./dataset/{model}/train")
-    train_output_folder = Path(f"./dataset/{model}/cleaned_train")
-    test_json_folder = Path(f"./dataset/{model}/test")
-    test_output_folder = Path(f"./dataset/{model}/cleaned_test")
-
-    clean_entity_spans(train_json_folder, train_output_folder)
-    clean_entity_spans(test_json_folder, test_output_folder)
-
-    train_data = combine_json_files(train_output_folder, model)
-    test_data = combine_json_files(test_output_folder, model)
-
-    train_output_path = Path(f"./data/{model}/train.spacy")
-    test_output_path = Path(f"./data/{model}/dev.spacy")
-
-    convert_json_to_spacy(train_data, train_output_path)
-    convert_json_to_spacy(test_data, test_output_path)
-
-    run_spacy_train(config_path, output_path, train_data_path, dev_data_path)
-
-    return jsonify({'message': f'Training started for model {model}'}), 200
-
-
-@app.route('/predict/vessel_info', methods=['POST'])
-def predict_vessel_info():
-    return predict('vessel_info')
-
-
-@app.route('/predict/tonnage_info', methods=['POST'])
-def predict_tonnage_info():
-    return predict('tonnage_info')
-
-
-@app.route('/predict/cargo', methods=['POST'])
-def predict_cargo():
-    return predict('cargo')
-
-
-def predict(model):
-    if 'text' not in request.json:
-        return jsonify({'error': 'No text provided'}), 400
-
-    text = request.json['text']
-    text = text.replace('\n\n', '       ').replace('\n', '  ')
-    print(text)
-    try:
-        nlp = spacy.load(Path(f"models/{model}/model-best"))
-    except Exception as e:
-        return jsonify({'error': f'Failed to load model {model}: {str(e)}'}), 500
-
+def predict_entities(text):
     doc = nlp(text)
-    result_dict = []
-    for ent in doc.ents:
-        result_dict.append({
-            "text": ent.text,
-            "label": ent.label_
-        })
-    return jsonify({"entities": result_dict}), 200
+    entities = [(ent.text, ent.label_) for ent in doc.ents]
+    return entities
 
-def run_spacy_train(config_path, output_path, train_data_path, dev_data_path):
-    try:
-        print(f'Command start executing for model: {output_path}')
-        command = [
-            sys.executable,
-            "-m", "spacy", "train", config_path,
-            "--output", output_path,
-            "--paths.train", train_data_path,
-            "--paths.dev", dev_data_path
-        ]
-
-        print(f'Running command: {" ".join(command)}')
-        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) as process:
-            for line in process.stdout:
-                print(line, end='')
-
-            for line in process.stderr:
-                print(f"ERROR: {line}", end='')
-
-        returncode = process.wait()
-
-        if returncode == 0:
-            print(f"Training completed successfully for model: {output_path}!")
-        else:
-            print(f"Training failed for model: {output_path} with return code: {returncode}")
-
-    except Exception as e:
-        print(f"Error during training for model {output_path}: {e}")
+def predit_entities_api(text):
+    response = requests.post(url, json={"text": text})
+    print(response.status_code)
+    if response.status_code == 200:
+        return response.json()['entities']
+    else:
+        return response.text
 
 
-# if __name__ == '__main__':
-#     app.run(debug=True, host='0.0.0.0')
+# Example usage
+if __name__ == "__main__":
+    example_text = '''
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True, use_reloader=True)
+FROM: ARYACORP PVT. LTD.
+DATE & TIME: 07-10-2024 18:32:59   (GMT +5:30)
+REFERΕNCE NO: 17963979 
 
+
+ATTN CHARTERING DESK
+DEAR SIR
+GOOD DAY
+DIRECT OWNERS VESSEL
+PLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL
+
+/// DO NOT RE-CIRCULATE ///
+
+MV NBA PROSPERITY - SMX - OPEN BEIRA - 25-30 OCT 2024 AGW
+BROB abt 750 mts VLSFO / abt 20 mts LSMGO 
+Can try any direction. 
+MV NBA Prosperity
+Bulk Carrier
+Built: 2010
+Liberia Flag,
+Class: LR
+Deadweight/Draft: 56,907.13 MT (summer) on 12.80 M (summer) / TPC : 58.80 MT
+GRT/NRT: 33,044 / 19,231
+LOA: 189.99 M / LBP: 185.00 M / Beam: 32.26 M
+HO/HA – 5/5
+Grain: 71,634.10 cubic meter
+Hatch Dimensions:
+Hatch #1: 18.86 x 18.26 m
+Hatch #2, #3, #4, #5: 21.32 x 18.26 m
+Hatch Covers: hydraulic/folding
+Hold Dimensions:
+Hold #1: 27.85 x 23.82 x 20.50 m
+Hold #2/4: 28.70 x 23.82 x 20.30 m
+Hold #3: 27.06 x 23.82 x 20.30 m
+Hold #5: 27.05 x 23.82 x 20.30 m
+CARGO HOLDS CO2 FITTED.
+Tank Top Strength: No. 1,3,5 – 25 t/m2, No. 2,4 – 20 t/m2,
+Deck – 1 t/m2, Hatch covers – 2.3 t/m2
+Cargo Gear : Cranes: 4 x 30 Tons
+Grabs : 4 remote electro hydraulic. Lifting capacity – 6-12 M3
+Speed and Consumption
+Ballast: about 12.5 knots on about 25 mt VLSFO and about 0.2 mt LSGO
+Laden: about 12 knots on about 26 mt VLSFO and about 0.2 mt LSGO
+Consumption in Port –
+Gear working: about 5 mt VLSFO + abt 0.2 mt LSGO
+Idle: about 3 mt VLSFO + abt 0.2 mt LSGO
+ADA 
+
+
+PLSD TO HEAR.
+ 
+BEST REGARDS,
+
+TONNAGE DESK:
+
+PG-WCI-ECI-SEAS: 
+Carlton Carlo | Mob: +91 9311 255657  | Skype: cid.971bb208b4e2c3bb
+Arjun Chaudhary | Mob: +91 9311 255656 | Skype: live:.cid.d66bb9d9c752a104 
+
+FEAST- SCHINA :
+Nitin Sharma | Mob: +91 9311 255654  | Skype: mailto:acpl.nitindev@outlook.com
+ 
+AS BROKERS ONLY
+As Agents for Core Shipping Ltd.
+Email: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)
+Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited
+Website: https://www.aryacorp.com
+SHIPBROKING | BUNKERING | AGENCY & REPRESENTATION
+    '''
+    example_text = example_text.replace('  ', ' ').replace('\n', '  ').replace('\t', ' ').replace('  ', ' ').replace(
+        '   ', ' ')
+    print(example_text)
+    # entities = predict_entities(example_text)
+    # print(f"Entities in '{entities}':")
+    # for entity in entities:
+    #     print(f" - {entity[1]} : {entity[0]}")
+    for row in predit_entities_api(example_text):
+        print(f" - {row['label']} : {row['text']}")

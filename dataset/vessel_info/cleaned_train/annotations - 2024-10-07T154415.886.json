@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY !\r\nOUR VESSEL APJ JAI IS OPENING IN PAYRA,BANGLADESH  IN THE LAYCAN  04 SEPTEMBER 2024  – 09 SEPTEMBER 2024\r\nPLEASE PROPOSE SUITABLE CARGO/BIZ\r\nVESSEL DETAILS AS UNDER\r\nMV APJ JAI\r\nFLAG PANAMA.\r\nBLT MAY 11,\r\nHO / HA 5 / 5,\r\nDWT 56594 MT ON 12.8 M,\r\nLOA / BEAM /TPC 189.99/32.26, 58.8 (S)\r\nGT/NT 32987/19231\r\nGRAIN/BALE 71634.09 / 68200.00\r\nSPEED  & BUNKER CONSUMPTION AT SEA\r\nABT 11.50 (B)/ABT 11.00 (L) KNOTS ON ABT 22.00 MT VLSFO (B) / ABT 24.00 (L) MT VLSFO\r\nIN PORT PER DAY\r\nABT 4.00 MT VLSFO IDLE + ABT 0.20 MT LSMGO\r\nABT 5.50 MT VLSFO WORKING + ABT 0.20 MT LSMGO\r\n4 X 30 METRIC TONS SWL CRANES AND 4 X 12CBM REMOTE CONTROLLED GRABS\r\nIF GRABS USED  SWL OF CRANES WILL BE CONSIDERED AS 24 MT\r\nGRABS TO OPERATE WITH 12CBM CAPACITY SUBJECT TO DENSITY OF CARGO.\r\nALL DETAILS ABOUT\r\nALL SPEED AND CONSUMPTION FIGURES ARE AVERAGE FIGURES DURING C/P PERIOD. ALL SPEED AND ALL CONSUMPTION FIGURES ARE TO BE CONSIDERED AS 'ABOUT'.\r\nAT SEA PERFORMANCE FIGURES,ONLY APPLY ON GOOD WEATHER DAYS (OF A MINIMUM 24 CONSECUTIVE HOURS) AND ANY OF THE FOLLOWING DAYS ARE EXCLUDED FROM ANY WARRANTY AS TO THE VESSELS SPEED AND PERFORMANCE:\r\nTHOSE IN WHICH WEATHER CONDITION EXCEEDS EITHER IN  SEABUOY TO SEABUOY IN MODERATE WEATHER UPTO/INCLUDING BEAUFORT 4.DOUGLAS SEA STATE 3 AND SIGNIFICANT WAVE AND SWELL HEIGHT OF 1.25M OR GREATER OR THOSE IN WHICH THERE ARE NEGATIVE INFLUENCES OF SWELL OR THOSE IN WHICH THERE ARE ADVERSE CURRENTS. NO ADVERSE CURRENT. NO FAVORABLE CURRENTS TO BE TAKEN INTO ACCOUNT WHEN CALCULATING THE VESSEL'S PERFORMANCE.\r\nALL DETAILS “ABOUT” WHICH IS UNDERSTOOD TO MEAN A 0.5 KNOTS TOLERANCE AND A 5% ALLOWANCE ON BUNKER CONSUMPTION, BOTH IN VESSEL'S FAVOR. IN THE EVENT THAT ANY SPEED/PERFORMANCE CLAIM IS MADE, OWNERS ARE ENTITLED TO OFFSET THE VALUE OF ANY BUNKER SAVINGS MADE BY CHARTERERS BELOW THE UPPER LIMIT OF THE WARRANTED CONSUMPTION. POSITIVE CURRENTS NOT TO BE CONSIDERED FOR ANALYSING PERFORMANCE.\r\nVLSFO 380 CST CLASS RMG 380 MAX SULPHUR CONTENT 0.50 % / DIESEL CLASS DMA MAX SULPHUR CONTENT 0.10 % , BOTH GRADES AS PER ISO 8217, 2017 OR LATEST EDITION. NO USED LUBRICANTS TO BE PRESENT IN FUEL NO COMINGLING OF DIFFERENT FUEL BATCHES IN TANKS ALLOWED \"VESSEL USE VLSFO /LSMGO AS PER DESCRIPTION. VLSFO/LSMGO IS USED FOR STARTING/STOPPING OF AUX-ENGINES AND AUX-BOILERS. MAIN ENGINE IS CHANGED TO LSMGO WHEN MAINTENANCE IS REQUIRED TO BE DONE ON FUEL SYSTEM ON RARE OCCASIONS M/E IS CHANGED TO LSMGO WHILE MANOEUVRING IN NARROW WATERS.\r\nTHE PARTIES UNDERSTAND AND AGREE THAT WHEN NAVIGATING ANY ECA (EMMISION CONTROL AREA), THE VESSEL IS OBLIGED TO CONSUME LSMGO IN LIEU OF VLSFO AND AS SUCH, THE VESSELS PERFORMANCE SHALL BE AFFECTED. AS A RESULT, NONE OF THE PERFORMANCE WARRANTIES IN THIS C/P RELATING TO THE VESSELS SPEED AND/OR CONSUMPTION SHALL BE APPLICABLE TO PERIODS IN WHICH THE VESSEL IS NAVIGATING ANY ECA; AND ANY PERIOD NAVIGATING ANY ECA SHALL BE EXCLUDED FROM ANY SPEED OR PERFORMANCE CALCULATION.\r\nBest Regards\r\nAmlan Dasgupta\r\nGeneral Manager | Chartering and Operations\r\nApeejay Shipping Limited\r\nApeejay House, 15 Park Street, Kolkata 700016, India\r\nT +91 33 4403 5455 Ext 420 DID + 91 33 4403 5420 M +91 98312 01979 www.apeejayshipping.com\r\n..................................................................................................................................................................................................................................................................\r\nA member organisation of the United for Wildlife Taskforce on the transportation of illegal wildlife products and a signatory to the Buckingham Palace Declaration 2016, to shut down illegal wildlife trafficking. We have a zero tolerance policy regarding illegal wild life trade. Our Policy : apeejayshipping.com/sustainability\r\n..................................................................................................................................................................................................................................................................\r\nPlease also visit us at www.apeejaygroup.com\r\nThis message and any attachment is intended only for the use of the addressee and may contain information that is privileged. If you are not the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please erase all copies of the message and its attachments and notify us immediately. Thank You.\r\nP  Please consider the environment before deciding to print this mail.",
+            {
+                "entities": [
+                    [
+                        34,
+                        61,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        81,
+                        116,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        178,
+                        188,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        190,
+                        202,
+                        "FLAG"
+                    ],
+                    [
+                        204,
+                        214,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        233,
+                        245,
+                        "DWT"
+                    ],
+                    [
+                        613,
+                        622,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

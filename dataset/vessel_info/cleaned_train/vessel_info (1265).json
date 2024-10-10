@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Dear sirs.\r\nPls Offer Suitable cargoes for: of our direct tonnage:\r\nOpen CHITTAGONG End September\r\nAlternatively: Open Shanghai 10/15 October\r\nDirection: WW\r\nATLANTIC RUNNER\r\nHANDY MPP/TWEENDECKER/ COMBINABLE 110 TON ( EACH 60 TON )\r\n2010 BLT\r\nDNV GL CLASS\r\nFLAG: MARSHALL ISLANDS\r\nLOA/BM 179,50 M / 28,00 M\r\nDWT 33,271 on draft 10,8 m\r\nGRT/NRT  22,863 / 10,602\r\n5 HOLDS 5 HATCHES\r\nCONVERTIBLE TO SINGLE DECKER\r\nRegards/ Sen\r\nMARINE BIZ INTERNATIONAL – CHARTERING\r\nINDIA\r\nMobile : +91 988 42 92 32 6\r\nEmail : chartering@marinebiz.in\r\nEmail : mbchartering@gmail.com\r\nSkype :  marinebizz",
+            {
+                "entities": [
+                    [
+                        68,
+                        83,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        84,
+                        97,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        114,
+                        127,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        128,
+                        141,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        234,
+                        242,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        258,
+                        280,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

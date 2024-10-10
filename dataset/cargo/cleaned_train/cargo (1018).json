@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "A/C PILLOS , 2.5PCT ADD PUS\r\n1] 50K COAL CIS/KOREA\r\n50/58K DWT SDBC\r\nOVER AGE OK, GLESS OK\r\nDEL VOSTOCHNY\r\nLCAN 07-11 SEP\r\n1TCT VIA CIS PACIFIC WITH COAL\r\nREDEL KOREA\r\n2] 12~20K CEMENT VIETNAM/KOREA\r\n12~21,000 MT BULK CEMENT\r\n(CARGO SIZE TRY TO MAKE VESSEL INTAKE)\r\nOVERAGE OK\r\nSDBC WITH MIN 25T CRANES TO COVER ALL HATCHES\r\nLOA MAX 180 M\r\nLOAD 1SBP NORTH VIETNAM 10 M\r\nDISCH 1SBP KOREA 9 M\r\nLAYCAN 25 / 31 AUG (TRY BIT LATER)\r\nL/D RATE 10K/5K SHINC\r\nFRT INVITE OWRS FIOS BSS 1/1\r\nCHABE REASONABLE DA\r\n++\r\nBest Regards,\r\nMatina Vlachogianni\r\nRock Marine S.A.\r\n(as brokers only)\r\nEmail: drychart@rockmarine.gr\r\nTel: +30 210 96 89 802\r\nMob: + 30 6977201632\r\nSkype: live:.cid.92134db6dd02628e\r\nIn accordance with the EU GDPR (European Union General Protection Regulation) which has been enforced since May 25th 2018,\r\nwe require your explicit agreement and consent to continue maintaining your contact information with ourselves, and to continue\r\nsending to you our circulars (operation, chartering, sale and purchase) and other relevant information pertaining to the day to day\r\nbusiness of Rock Marine S.A.\r\nIf however you will no longer be interested to receive our future circulars and want us to delete your contact information with ourselves\r\nplease notify us in due course and we will delete all relevant information accordingly. In the meantime, we hereby authorize you to keep\r\nour contact information with yourselves and continue sending us your commercial information related to our business (including but not\r\nlimited to sale and purchase offers and inquiries, cargo and period orders, vessels’ positions etc. ) to foll addresses :drychart@rockmarine.gr",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "COMPANY"
+                    ],
+                    [
+                        13,
+                        23,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        52,
+                        62,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        107,
+                        121,
+                        "LAYCAN"
+                    ],
+                    [
+                        213,
+                        224,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        393,
+                        410,
+                        "LAYCAN"
+                    ],
+                    [
+                        437,
+                        440,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        441,
+                        448,
+                        "DISCHARGE_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

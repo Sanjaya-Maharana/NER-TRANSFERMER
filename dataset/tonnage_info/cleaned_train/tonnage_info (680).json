@@ -1,0 +1,57 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 14:23:51   (GMT +5:30)REFERΕNCE NO: 17678902 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV C HUNNA 61K/12  MUMBAI (WCI) 16-22 AUGUST 2024,2X25MT COILS / DECK CARGO - OKGOA TRANSIT+RED SEA/UKRAINE - OKFLEXI TRADING EXCLUSIONS PREF W/I REGION/INDIA OR TRY SHORT PERIOD OR BOP**********************************************************************   MV C HUNNA (EX ULTRA ROCANVILLE)DWT 61,683 MTS ON 12,8M DRFTBUILT 2012 OSHIMA SHIPBUILDINGGRT/NRT 33,900/20,020GRAIN 76,913 GRAIN/75,312 BALELOA/BEAM 199.98/32.26 MTPC: ABT 60.095 HO/HACRANES: 4 X 30 MT + 4 X 12 CBM GRABSSPEED /CONSUMPTION:LADEN ABT 13.50 KNOTS ON ABT 31.00 MT/DAY IFO380 + 0.1 MT MDO/MGOBALLAST ABT 14.20 KNOTS ON ABT 31.00 MT/DAY IFO380 + 0.1 MT MDO/MGOECO SPEEDBALLAST: ABT 11.50 KT ON ABT 19.00 MT + ABT 0.1MT MDO/MGOLADEN: ABT 11.00 KT ON ABT 20.00 MT + ABT 0.1MT MDO/MGOIN PORT WORKING/IDLE: ABT 5.00 MT / ABT 2.50 MTIT IS UNDERSTOOD THAT EVALUATION OF VESSEL’S PERFORMANCE SHALL BASE ON GOOD WEATHER CONDITION I.E. NOT EXCEEDING BF4 AND DSS3 WITH SIGNIFICANT WAVES HEIGHT UPTO AND INCLUDING 1.25M FOR 24 CONSECUTIVE HOURS FROM NOON TO NOON, SMOOTH AND CALM SEA WITH NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT, MINIMUM 24 HOURS STEAMING TIME. EXTRAPOLATION OF “GOOD WEATHER” PERFORMANCE TO “BAD WEATHER” PERIOD OR TO ENTIRE VOYAGE IS NOT ALLOWED.  ABOUT GIVE ALLOWANCE OF -0.5 KNOT TO SPEED AND +5% TO BUNKER CONSUMPTION.AVERAGE SPEED AND AVERAGE CONSUMPTION TO BE CALCULATED FROM SEA BUOY TO SEA BUOY EXCLUDING PERIODS OF SLOW STEAMING ON CHARTERERS ORDER OR FOR REASONS OF SAFETY OR STANDING BY OR ASSISTING ANOTHER VESSEL IN DISTRESS.THE EFFECTS OF CURRENTS DURING PERIODS OF GOOD WEATHER ARE TO BE EXPRESSLY EXCLUDED FROM THE PERFORMANCE ASSESSMENT.VESSEL MAY BURN SMALL QTYS OF LSMGO WHEN MANEUVERING IN SHALLOW & NARROW WATERS ENTERING/LEAVING PORTS/IN HEAVY WEATHER/CANAL/RIVER/BALLAST/DEBALLAST ETC.IT IS AGREED THAT ANY SAVINGS IN CONSUMPTION TO BE OFFSET AGAINST ANY REDUCTION IN SPEED AND ANY SAVING IN TIME TO BE OFFSET AGAINST ANY EXCESS CONSUMPTION. ADA -ADA-PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: https://www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        542,
+                        563,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        594,
+                        614,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        692,
+                        757,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        757,
+                        824,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        824,
+                        890,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        890,
+                        945,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        948,
+                        992,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

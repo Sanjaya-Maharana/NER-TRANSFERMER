@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL\r\nGOOD DAY!\r\nPLEASE KINDLY PROPOSE RATED VESSEL FOR BELOW CGO ALONG WITH\r\n• BALTIC QUESTIONNAIRE / GA / CAPACITY PLAN\r\n- ACCT : PAN OCEAN CO., LTD.\r\n- ONE (1) TCT WITH P.ROCK\r\n- DELY : CJK\r\n- REDELY : S.KOREA\r\n- DWT : 20~32K (MAX 25 YEARS)\r\n- L/C : 25 – 29  AUG\r\n- ADD COMM 3.75PCT\r\nBEST REGARDS,\r\nDasom Lee (Ellie) / Manager\r\n이다솜 선임\r\nInter-Asia Team / Drybulk division 3\r\nPan Ocean Co.,LTD\r\n(03157) Tower8, 11F, Jong-ro 5-gil, Jongno-gu, Seoul, Korea\r\nTel : +82-2-316-5596 / Mob : +82-10-5026-1926\r\nE-mail : dslee@panocean.com\r\nSkype : sky7917",
+            {
+                "entities": [
+                    [
+                        136,
+                        149,
+                        "COMPANY"
+                    ],
+                    [
+                        186,
+                        196,
+                        "DELIVERY"
+                    ],
+                    [
+                        200,
+                        216,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        226,
+                        232,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        251,
+                        269,
+                        "LAYCAN"
+                    ],
+                    [
+                        273,
+                        289,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

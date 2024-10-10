@@ -1,0 +1,30 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nGood day,  Pls offer for;  Pivdennyi or Odessa or Chornomorsk / Cigading Abt 65.000 mts %10 wheat in bulk 25 Aug – 15 Sep 12000/20000 2,5%\r\n \r\nBest Regards / Mert Ekmekci\r\nHope CharteringE-mail: hope@hopechartering.comMob: +90 542 347 35 63 - Phn: +90 216 999 06 94Skype: mertekmekciiiWeb: www.hopechartering.comAs broker only\r\nIf you prefer not to receive e-mail from us click here.\r\n \r\n",
+            {
+                "entities": [
+                    [
+                        108,
+                        123,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

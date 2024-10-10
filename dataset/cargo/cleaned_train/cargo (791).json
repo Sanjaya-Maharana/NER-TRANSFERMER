@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All,gday!\r\nPls to hear if any suitable vsl for our order below:\r\nACCT:TONGLI\r\nSMX COAL IN BULK\r\nDEL:CHINA-INDONESIA RANGE\r\nRDLY:S.CHINA/CJK,CHINA\r\nLAYCAN BSS LP E KALI:23-27TH AUG 2024\r\nDUR:ABOUT 25DAYS WOG\r\nADD 3.75%\r\nBEST WISHES\r\nStacy Cheng\r\n----------------------------------------------------\r\nTONGLI SHIPPING PTE. LTD. YANTAI CHARTERING DEPT.\r\nFor and on behalf of Tongli shipping pte. Ltd.\r\nOperation Email:  op@tonglishippingpte.com\r\nChartering Email：handysupra@tonglishippingpte.com\r\nDline：+86 0535 6622767 ex 317\r\nMob：+86 155 0535 5575\r\nSkype:stacychengr\r\nWechat: Stacychengrong\r\n------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        87,
+                        99,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        101,
+                        120,
+                        "DELIVERY"
+                    ],
+                    [
+                        128,
+                        150,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        168,
+                        189,
+                        "LAYCAN"
+                    ],
+                    [
+                        191,
+                        207,
+                        "DURATION"
+                    ],
+                    [
+                        209,
+                        221,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        304,
+                        329,
+                        "COMPANY"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 12:31:37   (GMT +5:30)\r\nREFERΕNCE NO: 17722655 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\n01)MV.\r\n\r\n NAZIA JAHAN  (DWT: 58,110 SSW: 12.826 M, Built: 2010 , HOLD: 5H/5H, GRD: 4X30 MT SWL, LOA: 189.99 M),\r\n     Opening Chattogram, Bangladesh 21st August, 2024, Further details as per attached TC description\r\n\r\n \r\n\r\n02) MV.\r\n\r\n JAHAN MONI   (DWT: 55,496, SSW: 12.502 M, Built: 2008, HOLD: 5H/5H, GRD: 4X30 MT SWL, LOA: 190 M),   \r\n     Opening Dammam, Saudi Arabia 23rd August 2024, Further details as per attached TC description\r\n\r\n \r\n\r\n03) MV.\r\n\r\n JAHAN BROTHERS I  (DWT: 58,080 SSW: 12.826 M, Blt: 2010, HOLD: 5H/5H, GRD: 4X31MT SWL, LOA: 189.99 M),\r\n      Opening Pipavav, India 30th August, 2024, Further details as per attached ship's particulars\r\n\r\n \r\n\r\n04) MV  \r\n\r\n AISHA SARWAR   (DWT: 48,265 SSW: 11.735 M, Built: 2000, HOLD: 5H/5H, GRD: 4 X 25M SWL, LOA: 189.33 M)\r\n       Opening Chattogram, Bangladesh 25th August, 2024, Further details as per attached TC description.\r\n\r\n \r\n\r\n05) MV.\r\n\r\n FATEMA JAHAN I  (DWT: 66,604, SSW: 12.925 M, Built: 2015, HOLD: 5H/5H, GRD: 4X31 MT SWL, LOA: 199.99 M\r\n      Opening CJK, China 29th August, 2024, Further details as per attached TC description\r\n\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\n\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        288,
+                        293,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        313,
+                        326,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        484,
+                        492,
+                        "DRAFT"
+                    ],
+                    [
+                        513,
+                        518,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        538,
+                        545,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        737,
+                        742,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        766,
+                        774,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        931,
+                        939,
+                        "DRAFT"
+                    ],
+                    [
+                        1190,
+                        1195,
+                        "HOLD_AND_HATCHES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

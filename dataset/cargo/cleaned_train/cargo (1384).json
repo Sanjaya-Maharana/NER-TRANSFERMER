@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "**                   **\r\nGood day.\r\nPlease offer FIRM for:\r\nPlease see below our firm cargo for your kind ref :\r\n30k cement in Jumbo bag – 2 shipments per month.\r\nl/d port : Hon Gai / Cebu\r\nl/d rate : 6000 pwwd shinc\r\nrate : high 10\r\nLaycan : Mid of Oct,2024\r\n3.75% Comm\r\nLook forward to hearing from you soon.\r\nPlease offer your best.\r\nFOR FURTHER DETAILS, CLARIFICATIONS, PLS CONTACT.\r\nBrgds/ Capt George - As broker & agent only\r\n- mob: ++30 697 2077443 / WhatsApp, 7X24.\r\n- e-mail : seamus@pkt.gr & seamus@otenet.gr\r\n- SKYPE ID : seamus2002\r\n++++ **++++",
+            {
+                "entities": [
+                    [
+                        113,
+                        116,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        163,
+                        188,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        190,
+                        216,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        234,
+                        258,
+                        "LAYCAN"
+                    ],
+                    [
+                        260,
+                        265,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

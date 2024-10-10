@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GD DAY,\r\nFM : YASA SHIPPING / ISTANBUL\r\nPHONE : +90 216 532 92 72\r\nDIRECT : +90 216 492 78 13\r\nFAX : +90 216 341 92 72\r\npls reply to chartering@yasashipping.com\r\nOUR OWN TONNAGE (PLS DO NOT RECIRCULATE)\r\nVIZAG 28/31 AUG\r\nMV YASA SPARROW (Bunkers abt 500/525 mt Lsifo plus abt 130 mt Lsmgo)\r\nMARSHALL’S ISLAND FLG BLT JAN/2013 HYUNDAI VINASHIN\r\nABT 55.442 DWT ON 12,868 M SSW\r\nLOA 187,928 M/BEAM 32.26 M\r\nAHL/CO2/A60 FITTED\r\n5 H/H - 4 X 35T CRANES + 4 X 13,5 CBM GRABS\r\n70.813,5/68.143,5 CBM GR/BL\r\nSPEED (KNOTS) CONSUMPTION(T/DAY)\r\nIN LADEN AT FULL SUMMER DRAFT (12.868 M)\r\n12,0         22,5 MTON VLSIFO + 0,20 MTON LSMGO\r\nIN BALLAST\r\n12,5         22,0 MTON VLSIFO + 0,20 MTON LSMGO\r\nPORT CONSUMPTIONS (T/DAY)\r\nAT PORT 4,0 MT IFO + 0,50 MT MDO GEAR WORKING\r\nIDLE 2,0 MT IFO + 0,20 MT MDO\r\nBOILER (ONLY AT PORT – T/DAY IFO) 1 TONS/DAY\r\nM/E MAY CONSUME MDO DURING MANOEUVERS, DURING NAVIGATION IN CONFINED RESTRICTED WATERS ETC\r\nAA\r\nLOOKING FOR 1 TCT\r\nPLSD TO HEAR.\r\nRGDS/EMRAH IREM (MOBILE + 90 549 526 53 21) + SINEM OZKIZILCIK (MOBILE +90 549 746 50 48)\r\nYASA SHIPMANAGEMENT AND TRADING S.A.\r\nAS MANAGERS ONLY\r\n*This e-mail and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. In order to prevent fraudulent correspondence with the name of our company; If you receive an email that appears from us such as \"YASA Group Companies\" or from affiliates stating a change in bank information, and also if you are in doubt as to whether communication is genuine please do not reply to the mail and contact us immediately. If you transfer money to a wrong account as a result of fake communication, we do not accept responsibility.\r\n**This Supply/Purchase Agreement (Agreement)  is entered into in reliance upon the Seller's personal/corporate performance of the duties imposed. The Seller agrees not to, in whole or in part, assign this Agreement or delegate the performance of its duties without the written consent of Buyer. Further , the Seller confirms it does not have a representative / agent / liaison office / broker / middleman or alike in Turkey . Any such assignment or delegation or representation without the previous written consent of Buyer, at the option of Buyer, shall effect a cancellation of this Agreement. Any consent by Buyer to an assignment shall not be deemed to waive Buyer's right to recoupment from Seller and/or its assigns for any claim arising out of this transaction. All payments for the goods purchased and/or services rendered under this Agreement will be effected by the Buyers directly to the Sellers nominated Bank account as per terms and conditions agreed .",
+            {
+                "entities": [
+                    [
+                        221,
+                        236,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        291,
+                        312,
+                        "FLAG"
+                    ],
+                    [
+                        313,
+                        325,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        348,
+                        358,
+                        "DWT"
+                    ],
+                    [
+                        432,
+                        446,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

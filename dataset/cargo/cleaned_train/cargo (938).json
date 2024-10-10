@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "good day\r\nplease offer for below fully firm:\r\nGulluk/Tianjin\r\n55,000mt +/-5%  blk bauxite\r\n10,000 c/15,000 c\r\nLaycan 15/09-25/09\r\nMax allowed dwt 60,000 mt\r\n3,75 pct\r\nChernomorsk    /WCI, int KANDLA\r\n45/55 k corn sf 49.5 abt\r\n6000xx/6000  xx\r\n5-15. sep .\r\n3.75 pct\r\n---\r\nBest Regards\r\nDevran Kutlu\r\nANG Shipping And Trading LLC\r\nacting as broker only\r\nTel   : +90 533 376 80 54\r\nEmail : chart@angship.com\r\nskype : devrank ( only for urgent matters and reminders.\r\nplease first ask anything about cargoes via email which to be\r\ndefinetely replied in return as occasionally on skype)\r\nPls add  chart@angship.com into your relevant circulation list.",
+            {
+                "entities": [
+                    [
+                        46,
+                        52,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        53,
+                        60,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        62,
+                        70,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        78,
+                        89,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        92,
+                        106,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        108,
+                        127,
+                        "LAYCAN"
+                    ],
+                    [
+                        142,
+                        155,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        157,
+                        161,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        256,
+                        264,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

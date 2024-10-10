@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 22-08-2024 12:47:46   (GMT +5:30)\r\nREFERΕNCE NO: 17731289\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV AFRICAN NIGHTHAWK\r\n2014\r\n40,481\r\nLogger | Grabs\r\nKhalifa, UAE\r\n22-Aug\r\nMV AFRICAN FINCH\r\n2020\r\n37,800\r\nGeared | Logger\r\nChittagong, ECI\r\n03 SEP\r\nMV AFRICAN NIGHTHAWK\r\nBAHAMAS FLAG BUILT 2013\r\nCLASS B.V.   LOGGER\r\nSDWT 40,481 MTS / DRAFT 10.700M / TPC 51.7\r\nWDWT 39,331 MTS / DRAFT 10.477M / TPC 51.6\r\nTDWT 41,635 MTS / DRAFT 10.923M / TPC 51.8\r\nGRT/NRT 24,725 / 13,677\r\nLOA 179.99M/ BEAM 30M\r\n5H/H  CO2 IN HOLDS\r\nHOLDS CAPACITY GRAIN / BALE\r\nH1.  8,778 / 8,510\r\nH2. 11,208 / 10,780\r\nH3. 10,445 / 10,075\r\nH4. 11,208 / 10,780\r\nH5. 9,650 / 9,400\r\nTOTAL GRAIN ABT 51,288 CBM / BALE 49,545 CBM\r\nHOLDS DIMENSIONS:\r\nH1. 28M X 27.80M X 15.40M\r\nH2-5: 28.80M X 27.80M X 15.40M\r\nHATCH DIMENSIONS : H1. 16.80M X 20.80M / H2-5. 19.20M X 20.80M\r\nSTRENGTH OF HATCH COVERS : 3.63 MTS /SQM\r\nFOLDING TYPE HYDRAULIC HATCH COVERS\r\nCRANES 4 X 30 MTS + 4 SMAG GRABS\r\nSPEED + CONS:\r\nLDN  ABT 13.5K ON ABT 22.5 MT VLSFO + 0.1 MT MDO\r\nBLST ABT 14.0K ON ABT 23.2 MT VLSFO + 0.1 MT MDO\r\nECOS (WOG)\r\nLDN  ABT 12K ON ABT 17.2 MT VLSFO + 0.1 MT MDO\r\nBLST ABT 12K ON ABT 15 MT VLSFO + 0.1 MT MDO\r\nIN PORT CONS:\r\nIDLE    2.0 MT VLSFO ALWAYS PLUS 0.1 MT MDO\r\nWORKING 4.0 MT VLSFO ALWAYS PLUS 0.1 MT MDO\r\nALL DETAILS ABOUT\r\n",
+            {
+                "entities": [
+                    [
+                        207,
+                        227,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        281,
+                        297,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        355,
+                        375,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        377,
+                        389,
+                        "FLAG"
+                    ],
+                    [
+                        390,
+                        400,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        423,
+                        438,
+                        "DWT"
+                    ],
+                    [
+                        467,
+                        482,
+                        "DWT"
+                    ],
+                    [
+                        511,
+                        526,
+                        "DWT"
+                    ],
+                    [
+                        1021,
+                        1038,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

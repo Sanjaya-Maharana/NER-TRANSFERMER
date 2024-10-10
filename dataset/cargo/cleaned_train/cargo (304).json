@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 20-08-2024 12:49:03   (GMT +5:30)\r\nREFERΕNCE NO: 17715183\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nACCT DIRECT CHRTS\r\n3-9Sept\r\n55k 10%  Coal\r\nTg Buyut 8k pwwd shinc\r\nDharamtar 10k pwwd shinc\r\nNOR at Loadport on Free Pratique\r\nNOR at Disport ATDN Shinc Bends\r\n12 hrs TT Bends\r\n12 hrs Documentation time at loadport\r\nChabends\r\nAdcom 3.75% pus\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nSiddharth Arya | Voyage Desk\r\nDirect: +91 22 4044 9001\r\nMobile: +91 9821230311\r\nSKYPE ID: asbpl.siddharth@outlook.com\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        228,
+                        235,
+                        "LAYCAN"
+                    ],
+                    [
+                        237,
+                        240,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        246,
+                        250,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        261,
+                        274,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        286,
+                        300,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        435,
+                        446,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 0KSPQ-00 19/08/24 09:04 +03:00\r\n9Kindly propose suitable tonnage for below requirement :\r\n- ACCT AENAV\r\n- REQD SMX-UMX\r\n- DELY SAFR\r\n- 09-11 SEP\r\n- 1 TCT WITH HMLESS BLK FOR DURATION ABT 30-40 DAYS WOG\r\n- RE-DELY SGP-JPN RANGE\r\n- 3.75% ADC\r\nThanks & best regards\r\nNIRAV THAKKAR\r\nMobile: +971 526794495\r\nAtlantic Eastern Navigation DMCC\r\nP.O. Box 337475\r\nDubai\r\nUnited Arab Emirates\r\nTel: +971 4 294 4851\r\nFax: +971 4 294 4852\r\nSkype: nirav.thakkar349\r\nEmail: chartering@aenav.com",
+            {
+                "entities": [
+                    [
+                        103,
+                        113,
+                        "COMPANY"
+                    ],
+                    [
+                        122,
+                        129,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        133,
+                        142,
+                        "DELIVERY"
+                    ],
+                    [
+                        146,
+                        155,
+                        "LAYCAN"
+                    ],
+                    [
+                        185,
+                        208,
+                        "DURATION"
+                    ],
+                    [
+                        216,
+                        231,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        241,
+                        246,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

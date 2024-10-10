@@ -1,0 +1,42 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 13:02:57   (GMT +5:30)REFERΕNCE NO: 17677821 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV FLAT – SMX/UMX – OPENING EAST COAST INDIA O/A - 18-19TH AUGPREFER INDEX LINKED PERIOD / 1 TCTBOD: 450- 500 mts VLSFO and abt 75-85 mts  LSMGO. YANGFAN GROUP CO. - SDARI 64 - BLT 201663.518 MT DWT ON 13.3 M DRFT(EXT)LOA BEAM 199.90 m / 32.26 mPANDI: LONDON PANDIH&M: SWEDISH CLUB IN LADEN13.00 Kn / 25.0 MT including generators + 0.1 MT LSMGO12.00 Kn / 22.0 MT including generators + 0.1 MT LSMGO IN BALLAST13.00 Kn / 22.5 MT including generators + 0.1 MT LSMGO12,0 Kn / 19,5   MT including generators + 0.1 MT LSMGO AT PORT IDLE : ABT 2,5MT VLSFO 380 CST + ABT 0.1MT LSMGOWORKING : ABT 4,5MT VLSFO 380 CST + ABT 0.1MT LSMGOBOILERS: ABT 1 MT VLSFO 380 CST + ABT 0,1 MT LSMGO ALL SPEED/CONSUMPTION FIGURES ARE TO BE CONSIDERED AS ABOUT (+/- 0.5KNOT FOR SPEED AND +/- 5% FORCONSUMPTION) ARE ALWAYS SUBJECT TO GOOD WEATHER WHICH IS DEFINED AS NO ADVERSE CURRENT A/O NEGATIVE INFLUENCE OF SWELL A/O MODERATE SEA, WIND NOT EXCEEDING BEAUFORT FORCE 4 (FOUR) A/O DOUGLES SEA STATE 3 (THREE). PERIODS OF WEATHER EXCEEDING THE ABOVE DESCRIBED GOOD WEATHER CONDITIONS ARE TO BE EXPRESSELY EXCLUDED FROM THE EVALUATION OF VESSELS PERFORMANCE. NO EXTRAPOLATIONS TO BE MADE FOR WEATHER/SEA CONDITIONS OTHER THAN THOSE DESCRIBED ABOVE.CHARTERERS TO SUPPLY FIRST CLASS QUALITY BUNKERS STRICTLY COMPLYING WITH ISO 8217-2005(E), ENABLING MAIN ENGINE AND GENERATOR ENGINES TO OPERATE WITHOUT ANY HARMFULL EFFECTS.BUNKER SPECS : IFO GRADE 380 CST RMG 35 ISO 8217- 2005(E) MDO GRADE DMA/DMB ISO 8217 - 2005(E) VESSEL HAS LIBERTY TO USE MGO WHEN MANOUVERING, PASSING  NARROW STRAITS, CANALS , CONFINED RESTRICTED WATERS AND EXTREMELY COLD WEATHER.IN CASE CHARTERERS SUPPLY LOW SULPHUR MGO (DMA) FOR TRADING TO ECA + EU ZONES THE VISCOSITY TO BE MINIMUM 2-6 CST AT 40 DEGREES CELCIUS. BUNKER TESTING TO BE ORGANIZED BY OWNERS/MANAGERS BUT COST ALWAYS TO BE FOR CHRTS ACCOUNT.ALL DETS ARE ABOUT.PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        396,
+                        407,
+                        "DRAFT"
+                    ],
+                    [
+                        412,
+                        439,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        716,
+                        763,
+                        "PORT_CONS"
+                    ],
+                    [
+                        779,
+                        819,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

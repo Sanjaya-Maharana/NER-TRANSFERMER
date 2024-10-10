@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 14:12:44   (GMT +5:30)\r\nREFERΕNCE NO: 17724309\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nVessel List\r\nVessel\r\nVessel Type\r\nDWT\r\nBuilt\r\nGear\r\nPort (Country)\r\nDate\r\nComments\r\nMV SEAHARMONY\r\nUMX\r\n62,770\r\n2015\r\nCRANES & GRABS\r\nRECALADA (AR)\r\nAug 25-27\r\nMV SEAHEAVEN\r\nUMX\r\n63,244\r\n2024\r\nCRANES & GRABS\r\nDAMMAM (SA)\r\nAug 27-30\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        294,
+                        310,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        313,
+                        319,
+                        "DWT"
+                    ],
+                    [
+                        321,
+                        325,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        358,
+                        367,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        370,
+                        385,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        388,
+                        394,
+                        "DWT"
+                    ],
+                    [
+                        396,
+                        400,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        418,
+                        424,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        431,
+                        440,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

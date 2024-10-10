@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "MSGNO: 2185378\r\nplease propose for:-\r\nMV DELINA (IMABARI 38 /'19) - WEDA, INDONESIA  28-31 AUG\r\nMV DELINA\r\n37,976 MTS DWAT AT 10.54M SSW\r\nIMABARI 2019, BULK CARRIER, LIBERIA FLAG, CLASS NKK\r\nLOA 179.97M / BEAM 29.80M - 5 HO/HA\r\nGRT 23,232 / NRT 12,101\r\nGRAIN / BALE CAP 46,994 / 45,238 CBM\r\n4 X 30 TONS CRANES\r\nS/C: 14.0KTS(B)/13.5KTS(L) ON 18.0(B)/18.0(L) MTS VLSFO\r\nECO (WOG): 12.5KTS(B)/12.0KTS(L) ON 14.0(B)/15.0(L) MTS VLSFO\r\n: 2.5 MT VLSFO AT PORT/IDLE\r\n: 5.0 MT VLSFO WHEN CRANES WORKING\r\n: 0.1 MT LSMGO AT SEA/PORT\r\nALL DETS ABT\r\nthanks & regards\r\nGeorge Lemos\r\nCTS Commercial\r\n8 Cambridge Court | 210 Shepherds Bush Road | London | W6 7NJ | UK\r\nT: +44 7785 376662 - 7584 040187\r\nemail: chartering@ctsom.com\r\nskype: giolems\r\nThis email (including all attachments) is confidential and intended  solely for the use of the above addressee(s).If you are not the intended recipient, you must not read, print, retain, copy, distribute, or use any of the information herein. If you receive this message in error, please delete it and immediately notify the sender.  Although we have taken reasonable care to ensure that any attachments to this e-mail are free of viruses, we make no representation and give no warranty in this regard. You should accordingly scan any attachments with appropriate up to date software.",
+            {
+                "entities": [
+                    [
+                        38,
+                        47,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        74,
+                        83,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        85,
+                        94,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        96,
+                        105,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        107,
+                        117,
+                        "DWT"
+                    ],
+                    [
+                        166,
+                        178,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

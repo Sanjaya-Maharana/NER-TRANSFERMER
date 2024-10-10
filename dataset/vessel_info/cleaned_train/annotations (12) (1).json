@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "\r\nMSGNO: 2184321 please propose for:- MV JIN CHAO (63KDWT/'14) - PORT ELIZABETH – 28/31 AUG 2024+MV JIN CHAO (EX HANTON TRADER I)63,469 MTS DWAT ON ABT 13.3M SSW, TPC 62.30 MTBLT 2014, BULK CARRIER, HONG KONG FLAG, CLASS BVLOA 199.90/BEAM 32.26 - 5 HO/HA, GT/NT 36,278/21,60778,929 CBM GRAIN / 73,680 CBM BALE4X35MTS CR + 4X12 CBM GRABSS/C:BALLAST - 14.0KTS(B) ON 29.5MT(B) + 0.1MT LSMGO LADEN - 13.0KTS(L) ON 28.5MT(L) IFO + 0.1MT LSMGOECO (WOG):BALLAST - 13.0KTS(B) ON 23.5MT(B) + 0.1MT LSMGOLADEN - 12.0KTS(L) ON 23.5MT(L) + 0.1MT LSMGOIDLE: GE ABT 1.5 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MTWW: GE ABT 4.0 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MTALL DTLS ABT+ + +thanks & regards George LemosCTS Commercial8 Cambridge Court | 210 Shepherds Bush Road | London | W6 7NJ | UKT: +44 7785 376662 - 7584 040187email: chartering@ctsom.comskype: giolems    This email (including all attachments) is confidential and intended  solely for the use of the above addressee(s).If you are not the intended recipient, you must not read, print, retain, copy, distribute, or use any of the information herein. If you receive this message in error, please delete it and immediately notify the sender.  Although we have taken reasonable care to ensure that any attachments to this e-mail are free of viruses, we make no representation and give no warranty in this regard. You should accordingly scan any attachments with appropriate up to date software. ",
+            {
+                "entities": [
+                    [
+                        38,
+                        49,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        65,
+                        79,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        82,
+                        91,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        92,
+                        108,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        129,
+                        144,
+                        "DWT"
+                    ],
+                    [
+                        179,
+                        183,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        199,
+                        213,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

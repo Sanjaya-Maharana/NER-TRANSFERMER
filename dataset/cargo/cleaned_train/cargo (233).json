@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Fm: Saigal SeaTrade Mumbai   210824-TANKER087322\r\nDear Prathap,\r\nGood Day!\r\nPlease find Owners terms for Chrtr's review and confirmation.\r\n// //\r\nwe need charterers to confirm:\r\n-  CHARTERER WARRANTS THAT THERE IS NO INVOLVEMENT OF ANY RUSSIAN BASED OR OWNED ENTITY IN ANY CAPACITY AND THAT THE CARGO IS NOT OF RUSSIAN ORIGIN IN FULL OR IN PART.\r\nIN CASE IF IT APPEARS TO BE THERE IS INVOLVEMENT OF RUSSIAN BASED OR OWNED ENTITY OR ANY OTHER SANCTIONED ENTITY, IN ANY CAPACITY OF THE CARGO, OWNERS WILL DISCHARGE BACK THE CARGO TO THE LOADED FACILITY BACK WITH ALL DIRECT OR INDIRECT EXPENSES INCLUDING BUT NOT LIMITED BUNKERS, PORT COSTS (TO BE SETTLED DIRECTLY BY THEM), SHIFTING COSTS IF ANY TO BE FOR CHARTERERS ACCOUNT. ALL TIME DURING LOADING AND DISCHARGING BACK WILL BE CALCULATED DAILY BASIS ON DEMURRAGE RATE REGARDLESS OF THE LAYTIME.\r\nFor KYC clearance following documents are needed:\r\n-  Full style of the Charterers (i.e. Full name, Address, E-mail(s), phone number(s))\r\n- Banking details.\r\n- Document and description of ownership structure (incl. UBO of company)\r\n- Certificate of Incumbency (The Certificate shall indicate the name of the company, address, directors and shareholders.)\r\n- Certificate of registry\r\n- Company presentation\r\n// //\r\nAwaiting yours.\r\nBest Regards,\r\nRevanth B\r\n+91 8099411054\r\nFrom: Tankers-Trinity <tankers@trinity-ship.com>\r\nSent: 8/19/2024 12:35:19 PM\r\nTo: tanker@saigalseatrade.com <tanker@saigalseatrade.com>\r\nCc: Ravindraa- Trinity Ship <Ravindraa@trinity-ship.com>\r\nSubject: CPP-VOYAGE ENQY // LIBYA-SUDAN  // DTD 19TH AUG\r\nDear Revanth,\r\nGood day,\r\nPls find the below enqy from our direct chtrs and offer suitable vsl with owns frt idea,\r\nAcct: Despina trading or Nom\r\nCargo: Gas oil\r\nQty: 30000MT\r\nLoadport: Benghazi,Libya\r\nDischarge port: Port sudan\r\nLaycan: PPT\r\nFrt idea : Chtrs invites owns best\r\nCommission:3.75% ttl\r\nThanks & Best Regards,\r\nPrathap Saminathan\r\nTrinity Ship Brokers Ltd\r\nMOB: +971 58 239 0168\r\nE: tankers@trinity-ship.com\r\nSkype: live:.cid.4554b46acc110d13\r\nW: www.trinity-ship.com\r\nAddress: No.105,Fortune tower,Cluster C,\r\nJumeirah lake towers,Dubai.\r\nBIMCO Member  ID 182184\r\nPlease print this email only if necessary. Go green! It’s good for your business and good for the planet.\r\nTel: +91 22 2421 0505 / Fax: +91 22 2423 1703 (tanker@saigalseatrade.com)\r\nAll business is conducted in accordance with our terms and conditions which can be viewed on our website: www.saigalseatrade.com\r\nThe information contained in this electronic message and any attachments to this message are intended for the exclusive use of the addressee(s)\r\nand may contain proprietary, confidential or privileged information. If you are not the intended recipient, you should not disseminate, distribute\r\nor copy this e-mail. Please notify the sender immediately and destroy all copies of this message and any attachments contained in it.",
+            {
+                "entities": [
+                    [
+                        1741,
+                        1748,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        1750,
+                        1774,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        1776,
+                        1802,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        1853,
+                        1869,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

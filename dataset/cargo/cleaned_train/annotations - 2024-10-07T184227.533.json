@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 073NR-00 28/08/24 11:00 +03:00\r\nFM: FALCON ENTERPRISES INC.\r\n---------------------------\r\nFALCON ENTERPRISES INC.(Since 1998.)\r\n-----------------------------------\r\nContact Details\r\n---------------\r\nPHONE:00302109610173 /Mobile:+30 6944605156 /EMAIL:CHARTERING@FALCONENTERPRISES.GR /Skype id  :thanosso\r\n---------------------------------------------------------------------------------------\r\nPls always insert the vessel's name.. or THANOS in yr text.\r\n----------------\r\nGdday\r\n.. / THANOS - CLOSE CHRTS\r\nAcc CLC\r\nAbt 30/35,000 mt bulk Minerals stw less than deadweight\r\n2 sps Turkey / 1SB Poso Port, Indonesia\r\n5,000 mt sshexeiu / 7,000mt shinc - load/disch\r\nPrompt / Onwards\r\n3.75add+1.25\r\nNo Ideas - Best offers\r\nPlsd to hear .\r\nKind Rgds /Thanos Sofras\r\nAs Agents Only\r\nOn Behalf Of Falcon Enterpises Inc .\r\nEND.",
+            {
+                "entities": [
+                    [
+                        530,
+                        541,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        589,
+                        595,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        598,
+                        622,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        624,
+                        641,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        644,
+                        657,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        690,
+                        697,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

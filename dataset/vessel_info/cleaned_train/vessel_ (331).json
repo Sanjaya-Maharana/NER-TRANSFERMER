@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM SnC MARITIME SEOUL KOREA 82-2-778-0283 DRY@SNCMARITIME.COM - SS Kang\r\nVERY CLOSE LOCAL OWNES HV : -\r\nAUISSIE/NZ OK\r\nMV V DUE 37K DWT OPENING MAJURO, MARSHALL ISLAND O/A 10 - 15 SEPT (UNDER OUR PERIOD CP)\r\n- BOD ABT 550 – 600MT LSFO AND ABT 125 – 130MT LSMGO\r\n- LAST CARGOES: AGGREGATES(CURRENT)/CORN/ALUMINA/COAL/CONC/GYPSUM\r\nMV V DUE\r\nCLASS: RINA\r\nCLASSIFICATION CHARACTERS : C+ HULL, BULK CARRIER, ESP, CSR, BC-A, (HOLD NOS. 2 AND 4 MAY BE EMPTY), GRAB[20], +MACH, AUTO-UMS, MON-SHAFT, INWATERSURVEY, BWM-T, LSF\r\nBUILT 2015 AT AVIC WEIHAI SHIPYARD\r\nFLAG: MALTA\r\nLENGTH OVERALL : 181.00M\r\nLENGTH BETWEEN P.P. : 175.00M\r\nBREADTH (MLD.): 30.00M\r\nDEPTH (MLD.) : 15.20M\r\nDESIGNED DRAFT (MLD.) : 10.10M\r\nSCANTLING DRAFT (MLD.) : 10.60M\r\nDEAD WEIGHT: APPROX. 35,400 MT (AT DESIGNED DRAFT) APPROX. 37,650 MT (AT SCANTLING DRAFT)\r\nNO. OF CARGO HOLDS/HATCHES: FIVE (5)/FIVE (5)\r\nHATCH COVER TYPE DOUBLE SKIN/CLOSED TYPE – ELECTROHYDRAULIC END FOLDING TYPE\r\nHATCH SIZE :\r\nNO1 ABOUT 16.80M X 15.00 M\r\nNO2-5 ABOUT 19.20M X 19.20M\r\nHOLD CAPACITY (GRAIN): ABOUT 49,000 M3.\r\nCRANES: 4X35MT (SELF CONTAINED ELECTROHYDRAULIC SINGLE JIB TYPE)\r\nGRAB FITTED : YES 3X GRABS 10 CUB METERS\r\nMAIN ENGINE TYPE : B&W 5S50ME-B9.3(TIER II) MCR(CMCR) : 6,010 KW X 99 RPM NCR\r\n(CNCR) : 4,710 KW X 91.3 RPM\r\n********\r\n-VESSEL HAVE A60 BULKHEAD INSTALLED - VESSEL IS CO2 FITTED\r\n-VESSEL WILL HAVE THE MEWIS DUCT INSTALLED: YES\r\n-VESSEL WILL HAVE BWTS INSTALLED: YES\r\n-VESSEL CONSTANTS EXCLUDING FW: TO BE ADVISED\r\n-VESSEL DWT UPON DELIVERY TO BE AS PER SCANTLING DRAFT I.E. ABOUT 37650 DWT AT 10,6M\r\n********\r\nB,RGDS / SS Kang (강석산)\r\nDIR : 822 778 0283\r\nMOB : 82 10 8751 5308\r\nDRY@SNCMARITIME.COM\r\nSKYPE : KANGCHO29@HOTMAIL.COM",
+            {
+                "entities": [
+                    [
+                        121,
+                        129,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        130,
+                        137,
+                        "DWT"
+                    ],
+                    [
+                        138,
+                        169,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        174,
+                        186,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        331,
+                        339,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        520,
+                        530,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        556,
+                        567,
+                        "FLAG"
+                    ],
+                    [
+                        1066,
+                        1080,
+                        "CRANES"
+                    ],
+                    [
+                        1554,
+                        1563,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

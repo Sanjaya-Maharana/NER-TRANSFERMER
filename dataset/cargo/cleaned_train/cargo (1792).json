@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All / Oner\r\nGood day,\r\nPls offer firm\r\n- acct ArcelorMittal Logistics Belgium as agents for and obo ArcelorMittal Fos\r\n- sid box highest class & pandi - approved under AM vetting,\r\n- total: chopt 4400/4600 mt hot rolled steel coils 5-30 mt uw\r\n- loadport: 1sb FOS sur Mer, France ArcelorMittal private steel terminal\r\n- disports: 1sb Gemlik\r\n- laycan: 26/27 Aug\r\n- laytime at FOS: 3000 mt pwwd of 24 consec hrs sshinc\r\n- laytime at Gemlik: 2500 mt pwwd of 24 cons hrs sshex fri 5pm mon 8am ntc eiu\r\n-2.5 adcompus\r\nBest regards\r\nOner Tokcan\r\nNautical Bulk Carriers S.A.\r\nVogue Business Center, 6th Floor, Atasehir, Istanbul – Turkey\r\nMob: +90 506 507 4730\r\nTel: +90 216 639 0228\r\nemail: oner.tokcan@nbcarriers.com\r\nSkype: onertokcan",
+            {
+                "entities": [
+                    [
+                        201,
+                        213,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        251,
+                        276,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        325,
+                        345,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        349,
+                        366,
+                        "LAYCAN"
+                    ],
+                    [
+                        504,
+                        517,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

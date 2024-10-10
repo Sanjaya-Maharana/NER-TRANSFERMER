@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 14:11:49   (GMT +5:30)\r\nREFERΕNCE NO: 17724310 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV\r\n\r\n PACIFIC MERIT  63K/18 - OPEN WCI (NAVLAKHI) - 1 - 5 SEPT 2024\r\n \r\n\r\nTRY ANY / TRY SP OR BOP  \r\n\r\n \r\n\r\n********************************************************************** \r\n\r\nMV. PACIFIC MERIT (63K/ 18BLT)\r\n\r\nTYPE: SINGLE DECK GEARED BULK CARRIER, GRAIN FITTED FLAG: HK\r\n\r\nBUILT AND YEAR: 2018 CLASS: CCS\r\n\r\nDWT ABOUT 63,494 MT ON 13.3M SSW TPC ABOUT 62.3\r\n\r\nLOA/BEAM/DEPTH MOULDED: ABOUT 199.9M/ 32.26M/18.5M GRT/NRT: ABOUT 36,449 MT/21,646 MT\r\n\r\nCAPACITY GRAIN/BALE: ABOUT 78,908.6 CBM/ABOUT 73,680 CBM\r\n\r\n5 HATCHES/5 HOLDS: 1) 19.68M X 18.26M, 2-5)22.96M X 18.26 M NO.3 CARGO HOLD DESIGNED AS A WATER BALLAST TANK\r\n\r\nGEAR AND GRAB: 4X30 MT SINGLE DECK CRANE AND 4X12CBM GRAB SPEED/CONSUMPTION:\r\n\r\nBALLAST/ LADEN\r\n\r\nABOUT 14.5/ABOUT 14.0KTS ABOUT 26/ABOUT 28 MT PER DAY IFO RMG 380 CST ON MAIN ENGINE + ABOUT 2.2 MT ON AUX UNDER GOOD WEATHER CONDITION UPTO BEAUFORT FORCE 4\r\n\r\nAND DOUGLAS SEA STATE 3\r\n\r\nGUARANTEED ECONOMY SPEED/CONSUMPTION:\r\n\r\nLADEN: ABT 12.0 KTS ON ABT 21.5 MT IFO 380 BALLAST: ABT 12.8 KTS ON ABT 20.0 MT IFO 380\r\n\r\nINPORT WORKING ABOUT 5.5MT IFO 380 CST/DAY IDEL ABOUT 3.5MT IFO 380CST/DAY NO MDO\r\n\r\nAT SEA AND IN PORT EXCEPT BAD/COLD WEATHER AND/OR ENTERING INTO OR LEAVING FROM PORT OF CALL AND/OR MANEUVERING IN NARROW/SHALLOW/CONGESTED WATER AND/OR\r\n\r\nBALLASTING/DEBALLASTING OPERATIONS. BUNKER GRADE:\r\n\r\nLSIFO ISO8217-2017 RMG380(380CST) OR LATEST MGO ISO8217-2017 DMA OR LATEST BUNKER CAPACITY 100%: ABOUT 2000CBM DIESEL OIL TANKS CAPACITY 100%:110 CBM LSMGO TANKS CAPACITY 100%: 130CBM NO MIXING OF BUNKERS IN ONE TANK.\r\n\r\n-ADA-",
+            {
+                "entities": [
+                    [
+                        556,
+                        561,
+                        "DRAFT"
+                    ],
+                    [
+                        614,
+                        634,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        650,
+                        669,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        700,
+                        718,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        719,
+                        729,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        733,
+                        750,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        929,
+                        992,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1172,
+                        1214,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1215,
+                        1259,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1263,
+                        1305,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1306,
+                        1337,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

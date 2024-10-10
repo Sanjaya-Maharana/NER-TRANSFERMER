@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:13:55   (GMT +5:30)\r\nREFERΕNCE NO: 17699883\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV UNIVERSE KAISA - HDY - OPEN ZHANGJIAGANG , CJK - 24TH- 28TH AUG, 2024\r\nMV. UNIVERSE KAISA\r\nBLT  2004 IMABARI /JAPAN\r\nBUIK CARRIER / LOGGER / CO2 FITTED\r\nDWT 28,388 MT ON 9.778 MTRS (SUMMER)\r\nLOA 169.26 / BEAM 27.2\r\nGRT 16,954 / NRT 10,134\r\n5 HO / 5 HO\r\nGRAIN:37,523 CBM (1,325,110 CBF) / BALE:35,762 CBM (1,262,937 CBF)\r\nCRANES: 4 X 30.5 MTONS\r\nSPEED/CONSUMPTION\r\nBALLAST: ABT 12.5 KNOTS ON ABT 17.0 MT IFO (380CST) + ABT 0.2 MT MGO\r\nLADEN:    ABT 12.0 KNOTS ON ABT 18.0 MT IFO (380CST) + ABT 0.2 MT MGO\r\nIN PORT IDLE: ABT 2.2 MTONS IFO + 0.3 MTONS MGO\r\nIN PORT WORKING: ABT 3.5 MTONS IFO + 1.2 MTONS MGO\r\nSPEED AND CONSUMPTION IS ON BASIS OF THE CONDITION OF MAXIMUM BEAUFORT WIND FORCE 4 AND DOUGLAS SEA STATE 3 AND NO ADVERSE CURRENT.\r\nAN UNDERPERFORMANCE CLAIM CAN ONLY BE SUBMITTED IN RESPECT OF PERIODS DURING WHICH THE VESSEL ENCOUNTERS WEATHER UPTO BEAUFORT 4 AND/OR DOUGLAS SEASTATE 3 (SIGNIFICANT WAVE UP TO 1.25 M MAX N SWELL WAVE UP TO 2 M MAX)  AND NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL\r\nSPEED \"ABOUT\" MEANS 0.5 KNOTS DOWNWARDS AND BUNKER \"ABOUT\" MEANS 5%, UPWARDS IN CALCULATING OVER-CONSUMPTION BUT NO ALLOWANCE IN FUEL UNDER-CONSUMPTION.ALL SPEED AND CONSUMPTION FIGURES ARE AVERAGE FIGURES DURING C/P PERIOD\r\nVESSELS MAIN ENGINE MAY BURN MDO/MGO AND/OR EXTRA IFO IN CASE OF\r\nEMERGENCY OR HILE NAVIGATING/MANEUVERING IN NARROW/SHALLOW/RESTRICTED\r\nWATERS, CANALS, RIVERS, ENTERING/LEAVING PORTS/CANALS, STARTING/STOPPING\r\nTHE ENGINE, BALLAST WATER EXCHANGING, CLEANING VESSEL’S HOLDS,\r\nBALLASTING/DEBALLASTING OPERATION, OR BAD/COLD WEATHER CONDITION ETC.\r\nALWAYS AT THE DISCRETION OF THE MASTER WITH REASONABLE EXCUSE.\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        382,
+                        392,
+                        "DRAFT"
+                    ],
+                    [
+                        403,
+                        425,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        427,
+                        450,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        452,
+                        463,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        465,
+                        497,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        500,
+                        531,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        586,
+                        650,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        656,
+                        715,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        725,
+                        764,
+                        "PORT_CONS"
+                    ],
+                    [
+                        769,
+                        816,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

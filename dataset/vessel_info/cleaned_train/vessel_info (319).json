@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "DIRECT / LOCAL HEAD OWNRS\r\n(our cp)\r\nV BRAVO 56659 DWT 2012 - HOCHIMINH VIETNAM 25-29 AUGUST\r\nLast 3 Cargoes\r\n1. Steels\r\n2. Iron Ore\r\n3. Slag\r\nBunker ROB's on about basis:\r\nVLSFO:   300 - 400  MTons on about basis\r\nLSMGO:    30 - 50    MTons on about basis\r\nM/V V BRAVO\r\n(ex. K. JASPER)\r\n“ALL DETAILS & FIGURES ARE GIVEN ON ABOUT BASIS”\r\nTYPE: DOLPHIN 57K GEARED BULKCARRIER\r\nFLAG: PANAMA\r\nPORT OF REGISTRY: PANAMA\r\nBUILT: 12/01/2012 BY ZHEJIANG ZHENGHE SHIPBUILDING CO.\r\nDEADWEIGHT:\r\n56659.4 MT ON 12.800 M SUMMER SW DRAFT (S)\r\n56659.4 MT ON 13.088 M SUMMER FW DRAFT (F)\r\n58232.7 MT ON 13.067 M TROPICAL SW DRAFT (T)\r\n58232.7 MT ON 13.355 M TROPICAL FW DRAFT (TF)\r\n55088.7 MT ON 12.533 M WINTER SW DRAFT (W)\r\nTPC AT SUMMER DRAFT: 58.8 T/CM\r\nLOA 189.88 mtrs\r\nLBP 184.87 mtrs\r\nMax BREADTH  32.26 mtrs\r\nMax DEPTH 18.00 mtrs\r\nGRT/NRT: 33020 / 19218\r\nSUEZ GRT/NRT: 32285.94 / 31159.04\r\nPANAMA NRT: 33020 / 19218\r\nHATCH DIMENSIONS (LXB):\r\nNo: 1  18.86 x 18.26 m\r\nNo: 2,3,4,5 21.32 x 18.26 m\r\nTANKTOP STRENGTH:\r\nNo 1 C.H.:25.00T/M2\r\nNo 2 C.H.: 20.00 T/M2\r\nNo 3 C.H.: 25.00 T/M2\r\nNo 4 C.H.: 20.00 T/M2\r\nNo 5 C.H.: 25.00 T/M2\r\nHOLD GRAIN CAPACITIES:\r\nHOLD M3CFT\r\nNo 1: 13,009.86   459,438.87\r\nNo 2: 15,333.25   541482.61\r\nNo 3: 14,553.08   513,937.07\r\nNo 4: 15,333.27   541489.32\r\nNo 5: 13,404.64   473380.39\r\nTOTAL: 71,634.09   2529734.01\r\nDRAFTS IN HEAVY/ LIGHT BALLAST:\r\nFORE : 8.083 / 5250MTRS\r\nAFT : 9.883 / 6905 MTRS\r\nMEAN: 8.983 / 6078 MTRS\r\nDECK CRANES: 4 SETS x 36 MT, RADIUS   28 MTRS, OUTREACH  11.87MTRS,\r\nCRANE USE IN SHELTERED WATERS, LIFTING LOAD SLANTINGLY NOT ALLOWED,\r\nNO DRAGGING OF LOADS, NO SLIDING ON HATCH COAMINGS, NO WIRE ROPE\r\nANGLES ALLOWED, MAX MACHINERY SPACE TEMP 45oC.\r\nGRABS: 4 SETS x 12.0/6.0M3, NO CARGO FISHING ALLOWED, AND ARE NOT\r\nNECESSARILY SUITABLE FOR FINE CARGOES.\r\nBALLAST SPEED (In knots / about)\r\nVARIABLE SPEED, CII DEPENDENT, ON DISTANCE AND PORT STAY WHICH NEEDS TO BE AGREED, HOWEVER ALTERNATIVE SPEED OF ABOUT 11.00 KTS AND CONSUMPTION OF ABOUT 20.00 MTONS WITH “HEAVY” HFO 380 CST + 0.1 MTONS LSMGO. IN CASE AGREED CII (BIMCO CII OPERATIONS CLAUSE) DETERIORATES DURING THE CP DUE VOYAGE CONDITIONS CHANGE, AND CHARTERERS FAIL TO INSTRUCT OR TAKE CORRECTIVE ACTIONS TO IMPROVE CII THROUGHOUT THE VOYAGE, MANAGERS HAVE THE RIGHT TO ADJUST SPEED ACCORDINGLY.\r\nLADEN SPEED (In knots / about)\r\nVARIABLE SPEED, CII DEPENDENT, ON DISTANCE AND PORT STAY WHICH NEEDS TO BE AGREED, HOWEVER ALTERNATIVE SPEED OF ABOUT 10.50 KTS AND CONSUMPTION OF ABOUT 21.50 MTONS WITH “HEAVY” HFO 380 CST + 0.1 MTONS LSMGO. IN CASE AGREED CII (BIMCO CII OPERATIONS CLAUSE) DETERIORATES DURING THE CP DUE VOYAGE CONDITIONS CHANGE, AND CHARTERERS FAIL TO INSTRUCT OR TAKE CORRECTIVE ACTIONS TO IMPROVE CII THROUGHOUT THE VOYAGE, MANAGERS HAVE THE RIGHT TO ADJUST SPEED ACCORDINGLY.\r\nPORT CONSUMPTION:\r\nA: CARGO CRANES UNDER OPERATION: ABT 4.50 MT HFO 380 CST + 1,50 MT HFO 380 CST FOR BOILER + 0,1 MT LSMGO\r\nB: IDLE: ABT 3.00 MT HFO 380 CST + 1.50 MT HFO 380 CST FOR BOILER + 0,1 MT LSMGO\r\nbest regards / Giannis Kyriakopoulos\r\nOffice: 0030 210 8066243 / 8064867\r\nmobile: 0030 6988626569\r\nskype : giannos.kyriakopoulos\r\nend vcard\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nUnited Seas Corp.\r\nKonitsis 5 & Kifisias ave,4th floor\r\nMarousi 151-25, greece\r\nTel     : 0030 210 8064867/8066243\r\nEmail   : chartering@unitedseascorp.gr\r\nposition@unitedseascorp.gr\r\nWeb     : www.unitedseascorp.gr\r\nMembers : Bimco.178704,Baltic Exchange,H.S.A,GSSCA\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        45,
+                        54,
+                        "DWT"
+                    ],
+                    [
+                        55,
+                        59,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        62,
+                        79,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        80,
+                        92,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        258,
+                        269,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        376,
+                        388,
+                        "FLAG"
+                    ],
+                    [
+                        416,
+                        433,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        473,
+                        494,
+                        "DWT"
+                    ],
+                    [
+                        1446,
+                        1468,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

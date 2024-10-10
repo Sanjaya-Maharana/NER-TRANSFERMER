@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 12:25:41   (GMT +5:30)\r\nREFERΕNCE NO: 17756697\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nM/V VIMC SUNRISE / DWT 56,057 – Open CJK o/a 10th Sept 2024\r\nBULK CARRIER VIETNAM FLAG BUILT 2006 CLASS NK-VR\r\nLOA/B 189.99/ 32.26 MTRS\r\nSUMMER DRAFT 12.575 MTRS\r\nDWT/GT/NT 56,057/ 31,236/ 18,504\r\n5H/5H CRANES 04 UNIT x 25 MT\r\nCAPA B/G 70,810.7/ 68,083.5 CBM\r\nVSL'S P&I CLUB: GARD\r\n(ALL ABT)\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-ECI - Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nitindev@outlook.com\r\nSeasia-FarEast: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        207,
+                        223,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        226,
+                        236,
+                        "DWT"
+                    ],
+                    [
+                        239,
+                        247,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        252,
+                        266,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        281,
+                        293,
+                        "FLAG"
+                    ],
+                    [
+                        294,
+                        304,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        410,
+                        432,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

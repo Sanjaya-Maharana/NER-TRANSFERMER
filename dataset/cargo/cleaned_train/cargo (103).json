@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "**                   **\r\nGood day.\r\nPlease offer FIRM for:\r\nHave ready for loading.\r\n+60-70 mts the sugar is in bulk.\r\n+Load in Sept.  2034.\r\n+Load 30k / Disch 4k SHinc.\r\n+Free DA at Dischge port.\r\n+Cmmn 5.0% ttl here.\r\n+Grlls vsl is OK.\r\n+Chrtr ready to fix fast.\r\n++the chrtr has fixed vsls before.\r\nLook forward to hearing from you soon.\r\nPlease offer your best.\r\nFOR FURTHER DETAILS, CLARIFICATIONS, PLS CONTACT.\r\nBrgds/ Capt George - As broker & agent only\r\n- mob: ++30 697 2077443 / WhatsApp, 7X24.\r\n- e-mail : seamus@pkt.gr & seamus@otenet.gr\r\n- SKYPE ID : seamus2002\r\n++++ **++++",
+            {
+                "entities": [
+                    [
+                        76,
+                        94,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        100,
+                        116,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        143,
+                        151,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        154,
+                        168,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        204,
+                        208,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

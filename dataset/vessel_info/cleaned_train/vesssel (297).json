@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Coaster Position\r\n----------------\r\n-/Sezgin\r\nPlease offer firm\r\nPosition: Izmir / Spot – Ready to fix\r\nMV Snapper\r\nDWAT 8,100 mts draft 6.82 m\r\nBlt 2008-08  China\r\nClass IR, Ice 1D, SS 08/2028, DD 06/2026\r\nImo:9381407/mmsi :511101439\r\nLoa 108.1 m, Beam 18.2 m\r\nGT/NT 5,599/2,883\r\n3 Ho(boxed)/3 Ha\r\nHold/ Hatch 1: 18.90 m x 15.20/6.60 m x 11.20 m\r\nHold/ Hatch 2: 29.40 m x 15.20 m x 9.10 m\r\nHold/ Hatch 3: 28 m x 15.20/7.70 m x 9.10 m\r\n10,194 cbm grain\r\nGearless\r\nBowthruster\r\nMAN-B&W 7S26MC 3,808 HP\r\nBWTS fitted\r\nIMO fitted\r\nWarm Regards\r\nSezgin Baysak\r\nM:+905326384411 - Whatsapp\r\nT:+902167666665\r\nS:broker.sezgin\r\nwww.sbmchartering.com\r\nSBM Shipping and Trading ltd – Istanbul - sbm@sbmchartering.com\r\nAddress: Akasya Mall Tower A1, F23/116 Uskudar, Istanbul",
+            {
+                "entities": [
+                    [
+                        104,
+                        114,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        116,
+                        130,
+                        "DWT"
+                    ],
+                    [
+                        145,
+                        163,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

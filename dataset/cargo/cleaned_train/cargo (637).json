@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\n\r\n\r\n\r\n\r\n\r\nDear all, GD DAY!PLEASE PROPOSE SUITABLE VSL FOR OUR ORDERS BELOW : ACCT: TONGLI SHPG PTESMX-UMX COAL IN BULKDELY : S.KALI,INDOREDELY : S.CHINA TO CJK RANGEL/CAN : 19-22 AUG 2024DURATION ABT 20 DAYS WOGADD 3.75%  Brgds/Leta WangFor and on behalf of TONGLI SHIPPING PTE.LTD8 TEMASEK BOULEVARD #40-02, SUNTEC TOWER THREE SINGAPORE 038988SE ASIA DIVISION SUPRAMAX SECTIONEmail:handysupra@tonglishippingpte.comMob: 0086-188 1741 6979Skype:leta.wang\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        82,
+                        99,
+                        "COMPANY"
+                    ],
+                    [
+                        111,
+                        123,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        123,
+                        141,
+                        "DELIVERY"
+                    ],
+                    [
+                        141,
+                        170,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        170,
+                        192,
+                        "LAYCAN"
+                    ],
+                    [
+                        192,
+                        212,
+                        "DURATION"
+                    ],
+                    [
+                        216,
+                        225,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

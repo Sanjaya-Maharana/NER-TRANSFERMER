@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 19-08-2024 12:48:33   (GMT +5:30)\r\nREFERΕNCE NO: 17708252\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV. SHINSUNG CLEVER – OPEN TOKYO BAY, JAPAN O/A 20TH AUG’\r\nSEEKING P/CGOS FOR CONTI RANGE OR EN-ROUTE (BAL DWCC ABT 10K / DECK CGOS OK)\r\nMV. SHINSUNG CLEVER\r\nBLT JULY 2014, SAIKI (ONOMICHI) HEAVY INDUSTRIES CO., LTD. (HULL NO. 586), JAPAN\r\nABT 37,084 DWT ON 10.869M SSW – TPC 45.67 MT\r\nGRT / NRT: 22,871 / 12,519 – IMO NO.: 9606039\r\nCLASS NK – NEXT SS/DD DUE JULY 2024\r\nDIMS: 177.85M LOA / 169.90M LBP / 28.60M BEAM / 15.00M DEPTH\r\n5 HO / 5 HA - HOLDS #2/3/4 BOXSHAPED – DOUBLE HULL\r\nHATCH SIZES: NO. 1 (15.2 X 20 M); NO.2 – NO.5 (22.4 X 24)\r\nCRANE 30T X 4\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        228,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        231,
+                        252,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        257,
+                        266,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        346,
+                        365,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        367,
+                        380,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        460,
+                        474,
+                        "DWT"
+                    ],
+                    [
+                        524,
+                        540,
+                        "IMO"
+                    ],
+                    [
+                        752,
+                        765,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

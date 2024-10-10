@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 12:28:36   (GMT +5:30)\r\nREFERΕNCE NO: 17700820\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV ‘DUYEN HAI1 - HDY - OPEN  KAKINADA, EC INDIA - 1/5 SEP 2024\r\n-    CAN TRY ANY INCL CIS PACIFIC\r\nMV ‘DUYEN HAI1’’, SDBC, 28,456MTDWT\r\nON ABT 9.760 M DRAFT,PNM FLAG/BLT 2001,LOA 170\r\nBEAM 27.0, DEPTH 13.80 M,GRT/ NRT 17,433 MT/ 9,829  MT,\r\n5 HO/HA  G/B 37,731.90/36,682.80CBM,CR 4X 30.5 MT SWL,\r\nHATCH SIZE: H1/14.13 X 15.0, H2-5/ 19.20 X 18.0\r\nADA WOG\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        207,
+                        221,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        230,
+                        254,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        257,
+                        269,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        306,
+                        322,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        330,
+                        341,
+                        "DWT"
+                    ],
+                    [
+                        484,
+                        497,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

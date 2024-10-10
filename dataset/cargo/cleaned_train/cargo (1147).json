@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nPLS PPS SUITABLE TNNG FOR OUR BLW FM CGO ACCT:HANSON——PIC Jason57k-64k dwt，deck + hatch ，10mt*3 tiers，max 20yearsdel:cjk-north china rangelaycan:27th August-7th Sept 2024redly:WCSAduration about 80 days wog3.75% addDue to the circulation sent by the agent, pls propose your good candidate to chartering@hansoncarriers.comThanks & Best Regards Jason ShengHanson Carriers Pte Ltd. / 汉信航运有限公司Office Address: Fl 27th, no.118 minsheng rd. Shanghai, 200135, prc. Email: chartering@hansoncarriers.comMobile Phone / Wechat/Whatsapp: +86 18964736515Skype:  live:.cid.e30fefe4ab704ea8",
+            {
+                "entities": [
+                    [
+                        43,
+                        64,
+                        "COMPANY"
+                    ],
+                    [
+                        65,
+                        76,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        140,
+                        172,
+                        "LAYCAN"
+                    ],
+                    [
+                        208,
+                        213,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

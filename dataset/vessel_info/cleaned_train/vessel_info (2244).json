@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Dear Friends & Colleagues\r\nGood day,\r\nDirect from very close owners friends whom we have done plenty of their chartering business over the years.\r\nMV PROJECT A\r\n5595 DWT General Cargo Ship\r\nBuilt: 1997, Imamura, Japan\r\nFlag: Togo\r\nClass INSB, SS & DD: 21/9/2024\r\nLOA/Beam/Draft: 92.0/16.0/7.11\r\nHo/Ha: /2\r\nGrain: 8968\r\nGear: Derrick 1x35.0, Derrick 2x25.0\r\nMain engine: Akasaka A41\r\nBWTS fitted\r\n(All dtls wog)\r\nTrading PG/ Indian Ocean where inspectable by arrangemenets.\r\nSuitable for loading project Cargoes with big holds capacity.\r\nFullest details available here up on reuest.\r\nCan guide you closely on price idea.\r\nBest regards\r\nAhmad Jaohar\r\nShipbroker\r\nS&P - Chartering\r\nUnited JMT Shipbrokers\r\np:+46188432196  m: +46 762575818\r\na:Stora Gatan 2E,  office No. 1501\r\n722 12 Västerås, Sweden\r\nw:www.unitedjmt.co.uk",
+            {
+                "entities": [
+                    [
+                        147,
+                        159,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        161,
+                        169,
+                        "DWT"
+                    ],
+                    [
+                        190,
+                        201,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        213,
+                        222,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 19-08-2024 14:48:05   (GMT +5:30)\r\nREFERΕNCE NO: 17710483\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV DOLCE VITA (OSHIMA 62K DWT/'12) -  OPEN HAZIRA, INDIA  23/27 AUG\r\n+ + +\r\nMV DOLCE VITA\r\nDWT 61,616 MT ON 12.845 M SSW (TPC 60.09)\r\nBLT 2012 AT OSHIMA SHIPBUILDING, LIBERIA FLAG, NKK,\r\nLOA 199.98 M / BEAM 32.26 M / 5 HO/HA\r\nGT : 33922 / NT: 19947\r\n76,913 CBM GRAIN\r\nCRANES 4 X 30T / GRABS 4 X 12 CBM\r\nS/C: 14.0 KTS(B) / 13.5 KTS(L) ON 27.00(B) / 28.50(L) MT VLSFO\r\nECO (WOG) : 12.5 KTS(B) / 12.0 KTS(L) ON 20.00(B) / 21.00(L) MT VLSFO\r\n: 3.0 MT VLSFO AT PORT\r\n: 5.5 MT VLSFO WW\r\n: 0.1 MT LSMGO AT SEA/PORT\r\nALL DETAILS ABOUT\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        209,
+                        222,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        247,
+                        265,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        267,
+                        276,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        285,
+                        298,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        343,
+                        351,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        376,
+                        388,
+                        "FLAG"
+                    ],
+                    [
+                        477,
+                        491,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 13360316   21/AUG/2024 (WED)  11:14  (+0400)  AA\r\nHi Ashish\r\nCan we load the cargo on deck ? please share the PL\r\nBest Regards,\r\nAnup T.Antony\r\nUNITED O7 MIDEAST DMCC\r\n---- as agents only ----\r\nUnit 1401-46 |Swiss Tower| Cluster -Y| Jumeirah Lakes Towers\r\nDubai| United Arab Emirates. P 0 Box 449544\r\nLand Line: +971 (0) 4 559 8755\r\nMobile   : +971 (0) 501052123\r\nEmail    : dubai@united-o7.com\r\n----------- Original Message ----------\r\nFrom : Projects- Trinity (projects@trinity-ship.com)\r\nTo : Projects- Trinity (projects@trinity-ship.com) - Ravindraa- Trinity Ship (Ravindraa@trinity-ship.com)\r\nSubject : 723.565 CBM TUBE BUNDLES - CHENNAI TO TINCAN PORT - 1ST - 10TH SEPT\r\nDate : 21/08/2024 11:09:29 (+04:00)\r\nDear Sir / Ashish\r\nGreetings of the Day !!\r\nPlease propose the firm rate for the cargo below.\r\n+++++++++\r\nCARGO: TUBE BUNDLES\r\nTTL WT: 123.780 MT\r\nTTL VOL: 723.565 CBM\r\nPOL: CHENNAI PORT\r\nPOD: TINCAN PORT, LAGOS, NIGERIA\r\nLAYCAN: 1ST - 10TH SEPTEMBER\r\n2.5% TTL\r\nWe can share the packing list upon the request\r\n+++++++++\r\nPlsd to rcv yr feedback\r\nBest Regards,\r\nAshish Bachchan\r\nTrinity Ship Brokers Ltd\r\nMOB:  +91 9096016301\r\nE: projects@trinity-ship.com\r\nSkype: live:.cid.8e1394c23505ba0a\r\nWechat: ashishbachchan\r\nW: www.trinity-ship.com\r\nBIMCO Member ID: 182184\r\nPlease print this email only if necessary. Go green! It’s good for your business and good for the planet.",
+            {
+                "entities": [
+                    [
+                        891,
+                        903,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        910,
+                        942,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        944,
+                        972,
+                        "LAYCAN"
+                    ],
+                    [
+                        974,
+                        978,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

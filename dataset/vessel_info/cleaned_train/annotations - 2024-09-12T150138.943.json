@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Good Day,\r\nExclusive on our hands, the vessel below is For Sale;\r\nM/V EY PEARL (Ex Lady Nur)\r\nVessel Type Gen Cargo / Open Hatch Box Shaped\r\nIMO 8922278\r\nFlag Saint Kitts & Nevis\r\nDWT 3262\r\nBuilt Year / Place 1991 / Bijlsma Scheepswerf BV\r\nClass Overseas Marine Certification (Omcs)(Non Iacs)\r\nIce Class 1A\r\nSs/Dd 2029-04 2027-04\r\nGrt/Nrt 1999 / 1203\r\nHo/Ha 1/2\r\nGrain / Bale 4519 CBM /\r\nLOA 82.0 M\r\nBeam 12.5 M\r\nDraft 4.95 M\r\nMain Engine 1 × Caterpillar 3606TA 2,203 BHP @ 930 RPM\r\nSpeed Consumption 9 Knots on 2.8mt, idle 0.3mt\r\nTEU 128\r\nCo2 Not Fitted\r\nDangerous Cargo Fitted for IMSBC\r\nGearless\r\nLdt 1008\r\nBwts will be fitted in September.\r\nHolding full details. Can guide on the price.\r\n(All dtls wog)\r\nBest regards\r\nMiss. Aysel ÜNAL\r\nS&P Broker\r\nBridge S&P\r\n(As brokers only)\r\nTel : + 90 216 232 26 65\r\nMobile : +90 532 373 87 64\r\nWeChat: ayselunall\r\nEmail : snp@bridgeship.net\r\nMember of Ship Brokers' Association - TURKIYE\r\nMember of Turkish Chamber of Shipping\r\nwww.bridgeship.net\r\nPlease visit for further company background\r\nThe contents of this email message and any attachments are intended solely for the addressee(s) and may contain confidential and/or privileged information and may be legally protected from disclosure. If you are not the intended recipient, you are hereby notified that any use, dissemination, copying, or storage of this message or its attachments is strictly prohibited.",
+            {
+                "entities": [
+                    [
+                        66,
+                        78,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        141,
+                        152,
+                        "IMO"
+                    ],
+                    [
+                        154,
+                        178,
+                        "FLAG"
+                    ],
+                    [
+                        180,
+                        188,
+                        "DWT"
+                    ],
+                    [
+                        209,
+                        213,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

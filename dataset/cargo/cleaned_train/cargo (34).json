@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "From: Trinity-Ship Brokers <dry@trinity-ship.com>\r\nSent: Thursday, June 6, 2024 12:05 PM\r\nTo: Trinity-Ship Brokers <dry@trinity-ship.com>\r\nSubject: FW: Limestone - 52,500 MT +/- 10% (Mina Saqr - Visakhapatnam / Gopalpur / Paradip / Dhamra / Haldia) - Shipment (December 2020 - June 2021)\r\nFrom: srindia@stevinrock.ae <srindia@stevinrock.ae>\r\nSent: Friday, December 4, 2020 1:49 PM\r\nTo: 'Srinivasan Rajan' <srindia@stevinrock.ae>\r\nSubject: Limestone - 52,500 MT +/- 10% (Mina Saqr - Visakhapatnam / Gopalpur / Paradip / Dhamra / Haldia) - Shipment (December 2020 - June 2021)\r\nDear Sir / Madam,\r\nOn behalf of shipper / charterer Stevin Rock LLC, UAE, we invite owners freight offer for Limestone Mina Saqr - Visakhapatnam / Gopalpur / Paradip / Dhamra / Haldia, as per below details :-\r\n-  a/c Stevin Rock L.L.C.\r\n-  14 x 52,500 mts +/- 10% limestone in bulk (Firm)\r\n-  04 x 52,500 mts +/- 10% limestone in bulk (CHOPTION)\r\n-  Shipment Period :  December 2020 – June 2021\r\n-  2-4 Shipments Per Month (CHOPTION)\r\n-  Max sailing draft 12.80 meters\r\n-  1spb Mina Saqr, UAE / 1/2spb Visakhapatnam / Gopalpur / Paradip / Dhamra / Haldia, India\r\n-  Loadrate : 20,000 MT PWWD FHINC\r\n-  Discharge Rate : 10,000 MT PWWD SASHEX UU\r\n-  12 hrs. TT (Loadport)\r\n-  24 hrs. TT (all disports)\r\n-  NOR office hrs. working days bends (all ports)\r\n-  Demurrage Rate : To be quoted by Owner\r\nCOVID-19 FORCE MAJEURE / QUARANTINE WAITING TIME AT LOAD & DICHARGE PORT TO BE ON OWNERS ACCOUNT.\r\nThe vessel owner, through their agents need to upraise themselves and fulfil / follow all the Regulatory Circular / Notifications\r\nissued  by both India Government and UAE – Federal Transport Authority (FTA) and the Port Authorities, from time to time, with regard\r\nto any change to vessels pre AND POST arrival QUARANTINE RULES.\r\nB/L CLAUSE :  CHARTERER REQUIRE AND OWNERS TO AGREE ISSUANCE OF “FREIGHT PRE-PAID” BILLS OF LADING, WITH FREIGHT TO BE REMITTED WITHIN 5 DAYS FROM RECEIPT OF OWNERS FREIGHT INVOICE.\r\nVessel Particulars\r\nSDBC\r\nIACS\r\n5 HA/HO\r\nGEARED : MIN 4 X 30 TON CRANE\r\nGRABED : MIN 4 X 12 CBM GRAB\r\nAGE : MAX 10 YEARS (15 YEARS SUBJECT TO RECEIVERS APPROVAL)\r\nOther details, as per attached disport terms (no change acceptable) and charterers standard C/P.\r\nFreight (PMT) US$\r\nParadip\r\nVizag\r\nGopalpur\r\nDhamra\r\nOwner to Offer Freight Basis 1/1\r\nOwner to Offer Extra Freight for 2nd Port (Haldia )\r\nOwner to Offer Net 2 Port Freight – Haldia, as 2nd Disport\r\nNote. :  In case Paradip / Visakhapatnam is used as second disport then US$1.00 pmt extra, over 1st port freight.\r\nOwners to offer freight basis single discharge port, with extra freight for 2nd disport as mentioned herein above.\r\nShipper / Charterers look forward to receiving owners freight offer by Monday 7th December 2020, with validity of freight offer up-to 9th December 2020.\r\nKind Regards\r\nSrinivasan Rajan\r\nStevin Rock LLC\r\nMob. : +91 98114 60000\r\nEmail: srindia@stevinrock.ae\r\nWeb: www.stevinrock.ae\r\n--------------------------------------------------------------------------------------------------------\r\nFor more information, please visit our new website www.stevinrock.ae\r\nNotice & Disclaimer: \"Trinity Shipbrokers Limited, UAE acts as Ship Broker Only - This email from dry@trinity-ship.com with attachments are confidential and they are intended only for the intended / authorized recipients of the sender. The information contained in this e-mail and any attachment(s) must not be published, copied, disclosed or transmitted in any form to any person or entity unless expressly authorized by the sender. If you have received this email by mistake / error you are requested to delete it immediately and inform the sender by return e-mail. Trinity Shipbrokers will neither be liable nor responsible for any unauthorized transmission of this e-mail nor for any damage sustained as a result of this e-mail. \"",
+            {
+                "entities": [
+                    [
+                        164,
+                        173,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        1049,
+                        1068,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        1071,
+                        1137,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        1142,
+                        1173,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        1178,
+                        1216,
+                        "DISCHARGE_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

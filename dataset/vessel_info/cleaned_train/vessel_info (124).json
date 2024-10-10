@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 05APE-00 26/08/24 12:04 +03:00\r\n-------------------------------------------------\r\nNavteam S.A.\r\nTel: +302109576103/+302104447570\r\n230, Leoforos Andrea Suggrou\r\nKallithea 176 72 - Greece\r\nhttp://www.navteamsa.com\r\n-------------------------------------------------\r\nGD DAY!\r\nPLEASE PROPOSE FOR BELOW EXCL TONNAGE -  PLS NO RE-CIRCULATION\r\nOPEN  EMED 28-31 AUG\r\nALT, ETA BSEA 1-3 SEPT\r\nMV ABK EAGLE\r\n1999BLT, JAPAN\r\nLOA/LBP/BREADTH MLD/DM: 130.51/123.00/21.00/11.00M\r\nAIR DRAFT: 35M\r\nSDWT 14,026MT AT 8.115, TPC 24.12MT\r\nSUMMER FREE BOARD: 2.923M\r\nS.DISPLACEMENT: 17494.73MT\r\nGRT/NRT 8590/4974\r\nHOLD/HATCH 3/3\r\nHOLD CAPACITY\r\nGRAIN - TTL 18093.73/638978CBF\r\nBALE -  TTL 16.792,26/ 593.017CBF\r\n2 SET - DECK CRANE, SWL: 30MT X 24 MTR.\r\nNO GRABS ON BOARD\r\nNO CRANES WORKING FROM SAME HOLD SIMULTANEOUSLY\r\nNO DECK CARGO ALLOWED\r\n- ADA WOG-\r\nBest Regards\r\nJohn Minopoulos - Navteam S.A\r\nAs Broker Only\r\nSkype: johnminopoulos1\r\nBIMCO Member\r\nFor your orders and positions:  chartering@navteamsa.com\r\nFor postfixing/operations:  ops@navteamsa.com\r\nFor CP execution:  cpdesk@navteamsa.com\r\nFor any other matter:  info@navteamsa.com\r\nConfidentiality Notice:\r\nThis e-mail (including all attachments) may contain confidential or  privileged information, or information that is otherwise exempt from  disclosure. If you are not the intended recipient please immediately notify  the sender by return mail. In such event you should promptly delete it and  should not disclose, copy or distribute it to others.\r\nIn accordance with EU GDPR (European Union General Data Protection Regulation) we require your agreement and consent to continue maintaining your contact information. in the case you do not agree and consent pls reply to above email with 'unsubscribe'.\r\nInternet communications cannot be guaranteed to be timely, secure, error-free or virus-free. Navteam S.A. does not accept any liability for any errors or omissions, and anyone who communicates with us by email is taken to accept these risks. Navteam S.A. does not accept any liability for any loss caused by cyber hacking or other corruptive manipulation of internet systems be it Navteam S.A's or other.",
+            {
+                "entities": [
+                    [
+                        349,
+                        359,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        360,
+                        369,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        395,
+                        407,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        409,
+                        416,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        498,
+                        506,
+                        "DWT"
+                    ],
+                    [
+                        727,
+                        736,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

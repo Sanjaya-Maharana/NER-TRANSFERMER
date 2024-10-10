@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "PLS PPSE\r\n20,000 MT STEEL COILS / PER PC@ 18~25MT / 1100~1200 NBR OF COILS\r\nPOL : TIANJIN, SHANGHAI & LYG IN OO\r\nPOD : BND\r\nLYCN : 20-30 SEPT\r\nFRT ON FILO\r\nNO TIER RESTRICTION\r\nFULLY STACKABLE\r\n1.25% PUS\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        10,
+                        19,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        20,
+                        31,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        76,
+                        105,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        113,
+                        122,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        124,
+                        141,
+                        "LAYCAN"
+                    ],
+                    [
+                        194,
+                        199,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

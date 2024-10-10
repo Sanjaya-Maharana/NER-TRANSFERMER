@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All\r\nPLS PPS SUITABLE VSL FOR OUR BELOW:\r\nACCT DAIFU SGP\r\nSMX/UMX PREFRE UMX\r\nDEL APS N.CHINA INT BOHAI BAY\r\nLYCAN EARLY SEP\r\n1 TCT WITH SLAG TO BANGLADESH OR PG\r\nDURATION 30 DAYS WOG\r\n3.75 ADDCOM\r\nSMX/UMX\r\nDEL S.CHINA/N.VIETNAM RANE\r\nLYCAN EAR SEP\r\n1 TCT WITH CLINKER OR SLAG TO BANGLADESH\r\nDURATION 30 DAYS WOG\r\n3.75 ADDCOM\r\nB.RGDS\r\nTony NI\r\nMobile：+86 13564082445\r\nSkype：swift_tony\r\nEmail:nxd@fz-highton.com",
+            {
+                "entities": [
+                    [
+                        47,
+                        60,
+                        "COMPANY"
+                    ],
+                    [
+                        83,
+                        98,
+                        "DELIVERY"
+                    ],
+                    [
+                        120,
+                        129,
+                        "LAYCAN"
+                    ],
+                    [
+                        168,
+                        188,
+                        "DURATION"
+                    ],
+                    [
+                        190,
+                        201,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

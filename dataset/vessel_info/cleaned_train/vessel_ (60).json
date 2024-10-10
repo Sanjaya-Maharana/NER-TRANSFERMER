@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 00S2P-00 29/03/24 15:14\r\nSIGMA MANAGEMENT\r\nVouliagmenis Ave. 179 & Galinou 24, 16674, Glyfada, Athens, Greece\r\nE-mail: dry@sigma.ltd.cy Tel: +30 210 300 2930\r\nGood day,\r\nPls find blw close position and kindly advise if any interest\r\nMV MEDI BANGKOK  DWT 53,466MT  OPEN DELISKELESI, TR O/A 7 APR 2024\r\nLOOKING FOR FH BIZ.\r\nFH CANDIDATE / GRAIN CLEAN / BLACK SEA OK / RUSSIA OK / RED SEA OK / UKRAINE OK\r\nLAST CARGO: STEEL\r\nBOD: VLSFO 500MTS, LSMGO 50MTS\r\nM/V MEDI BANGKOK\r\nBULK CARRIER\r\nDWT/GRT/NRT :53,466.00/29,986.00/18,486.00 MT\r\nBUILT  :2006\r\nFLAG  :MARSHALL\r\nCLASS  :NK\r\nLOA/BEAM :189.94/32.26 M\r\nDEPTH/DRAFT :17.30/12.303 M (SUMMER)\r\nBALE/GRAIN  :65,526.10/68,927.40 M3\r\nCRANE  :4 x 30 T SWL Electro/Hydraulic cranes - restricted to 24 tons SWL when working grabs\r\nGRAB  :4 x 6/12 cbm  El/Hydraulic controlled\r\nHOLD/HATCH  :5H/5H\r\n(No.1 21.12 x 17.60 M / No.2 21.12 x 17.60 M / No.3 21.12 x 17.60 M / No.4 21.12 x 17.60 M / No.5 21.12 x 17.60 M)\r\nHATCH TYPE  :SINGLE FOLDING TYPE\r\nSTRENGTH\r\nTANKTOP NO.1~5 : 21.43/18.00/23.50/18.00/21.00 T/M2\r\nWEATHER DECK: 2.50 T/M2\r\nHATCH(UPP DECK) : 2.08/1.75 T/M2 (No.1, NO.2~5)\r\nSPEED & CONS\r\n(ECO)\r\nBALLAST: ABT 12.5 KNOTS @ ABT 24.10 MT/DAY LSFO (380CST) + 0.2 MT/DAY MDO\r\nLADEN   : ABT 12.0 KNOTS @ ABT 24.10 MT/DAY LSFO (380CST) + 0.2 MT/DAY MGO\r\n(IN PORT)\r\nABT 2.8 MT/DAY LSFO + ABT 0.5 MT/DAY MDO (IDLE)\r\nABT 5.0 MT/DAY LSFO + ABT 0.5 MT/DAY MDO (WORKING CRANES)\r\nAll details \"about\"\r\nMany Thanks & Kind Regards\r\nDirect\r\nMobile\r\nSkype\r\nPanagiotis (Panos) Kostis\r\n+30 2103002933\r\n+30 6947438992\r\npanagiotis.ko.91\r\nVasilis Alexopoulos\r\n+30 2103002935\r\n+30 6943982754\r\nlive:.cid.8a8301e81ff03b52\r\nChristos Verykios\r\n+30 2103002939\r\n+30 6932010054\r\nchristos.verykios",
+            {
+                "entities": [
+                    [
+                        244,
+                        251,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        261,
+                        273,
+                        "DWT"
+                    ],
+                    [
+                        275,
+                        291,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        300,
+                        310,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        544,
+                        556,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        558,
+                        573,
+                        "FLAG"
+                    ],
+                    [
+                        688,
+                        704,
+                        "CRANES"
+                    ],
+                    [
+                        750,
+                        757,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

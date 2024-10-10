@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "CARGO NAME",
+        "COMPANY ",
+        "LAYCAN",
+        "LOAD PORT",
+        "LOAD RATE",
+        "DISCHARGE_PORT",
+        "ADDESS _COM",
+        "DISCHARGE _RATE ",
+        "CARGO _SIZE ",
+        "DELIVERY ",
+        "RE_DELIVERY",
+        "DURATION ",
+        "TCT"
+    ],
+    "annotations": [
+        [
+            "\r\nA.M.G. Chartering S.r.l.\r\nVia Scarsellini 119 - 16149  Genoa (Italy)\r\nPh +39.010.582245 - Fax  +39.010.585762\r\nEmail: dry@amgchartering.com\r\n\r\n\r\n\r\n\r\ngd day\r\n\r\n\r\n\r\npls offer for:\r\n\r\n\r\n\r\nSOLE CGO ONLY\r\n\r\n\r\n\r\nantwerp/ batam or gresik surabaya in chopt\r\n\r\nLaycan : 1/7 Oct   Via COGH\r\n\r\n5121CBM / 4879 MT Pipe dims 0.62M x 12.2M 4.404MT / pipe TTL pipes 1100 pces\r\n\r\nOne inch dunnage between tiers and MAX tier height will be 10\r\n\r\nLess than 20 yrs old\r\n\r\nGearless OK\r\n\r\nFree in LS and D merchants account / liner Out\r\n\r\n3.75%adcom + PUS\r\n\r\n\r\n\r\nbrgrds\r\n\r\n\r\n\r\nAmbrogio\r\n\r\nmob 0039 335 53 63 313\r\n\r\n\r\n\r\nIF U NEED ASSISTANCE  IN ALL ITALIAN AND SOUTH FRANCE PORTS PLEASE ADDRESS YOUR REQUESTS TO OUR SISTER COMPANY:\r\n\r\n\r\n\r\nMEDOV SRL  - VIA SCARSELLINI 119, 16149 GENOVA  - TEL  +39 010 5490262 - hub.agency@medov.it\r\n\r\n\r\n\r\n\"The information contained in this e-mail and any attachments is \r\n\r\nconfidential and may well also be legally privileged. If you are not \r\n\r\namong the named recipients, please notify sender immediately by reply \r\n\r\ne-mail and then delete this message from your system, do not use the \r\n\r\ncontents for any purpose whatsoever nor disclose them to anyone else.",
+            {
+                "entities": [
+                    [
+                        254,
+                        270,
+                        "LAYCAN"
+                    ],
+                    [
+                        519,
+                        529,
+                        "ADDESS _COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

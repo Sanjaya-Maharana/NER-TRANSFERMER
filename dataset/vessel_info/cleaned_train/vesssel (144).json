@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Good day,\r\nPlease kindly propose suitable business for direct/local lady!!\r\nOPEN BANGKOK 27-30TH AUG\r\nFLEXIBLE CARGO (TRY DIRTY)\r\nCIS OK, TRY ANY FOR TCT / VOY / LEGS\r\nMV.DONG MINH\r\nBLT 1998 IN JAPN\r\nDWT 28500 ON 9.76M DRAFT\r\nPANAMA FLAG\r\nL//B/D:169/27.2/13.6\r\nGRT/NRT: 16800 /10040\r\nCAPACITY: 37600/35765CBM\r\n5H/5H NK CLASS\r\nCRANE 4X25MT\r\nBUNKER CONSUMPTION:\r\nDaily consumption for Main Engine :\r\nSpeed (about)   RPM     Consumption\r\n10      105     16.7\r\n11      110     18.7\r\nDaily consumption auxiliaries (all figures about):\r\nFUEL OIL        MARINE DO           FO AUX BOILER\r\nAt sea: (MT/day)                       abt 0.6mt           abt. 0.6 MT\r\nAt anchorage (idle) (MT/day)  abt. 0.7 MT        abt. 0.6 MT             abt. 1.0 MT\r\nIn port (working) (MT/day)      abt. 1.5 MT       abt. 1.2 MT             abt. 1.0 MT\r\nBest Regards\r\nK.B.Kim (Mobile: 82-10-4918-1612)\r\nMaple Shipping Co. Ltd.\r\n4th  Floor Jeongmoon Building, 39-9 Jamwon-dong Seocho-gu, Seoul, Korea\r\nTel : 82-2-511-7309 / Fax : 82-2-511-7359\r\nE-Mail : maple@mapleship.co.kr / Skype mapleship_kbkim",
+            {
+                "entities": [
+                    [
+                        76,
+                        88,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        89,
+                        100,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        168,
+                        180,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        182,
+                        190,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        200,
+                        209,
+                        "DWT"
+                    ],
+                    [
+                        226,
+                        237,
+                        "FLAG"
+                    ],
+                    [
+                        326,
+                        338,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

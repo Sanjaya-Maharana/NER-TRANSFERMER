@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 11:09:12   (GMT +5:30)\r\nREFERΕNCE NO: 17754940\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV OMISHIMA - SMX/UMX - OPEN CHITTAGONG  ,BANGLADESH - 06 - 10 SEP\r\nExpected ROB : VLSFO  About 1250 MT & LSMGO About 200 MT\r\nPresent Cargo : Limestone\r\nPrevious Cargoes : Steel\r\nPref Voy Biz, Try TCT.\r\nAFF 1\r\nMV OMISHIMA\r\nBUILT/FLAG/BUILT: 2024/PANAMA/IMABARI SHIPBUILDING\r\nDWT/DRAFT       : 63,526MT/13.526M SSW\r\nLENGTH/BEAM : 199.98 M/32.24M\r\nGRT/NRT         : 36,278MT/21,173MT\r\nTPC             : 61.5 SSW\r\nCLASS           : NK\r\nHATCH/HOLD      : 5 HATCH/5 HOLD\r\nHATCHSIZE:\r\n(H1)      18.40M X 18.72M\r\n(H2 - H5) 23.20M X 18.72M\r\nGRAIN CAPA:\r\nHOLD-1 :  14,763.20\r\n2 :  16,742.80\r\n3 :  16,732.80\r\n4 :  16,759.20\r\n5 :  16,200.40\r\nTOTAL 81,198.40 M3\r\nCRANE: 36 MT X 4 SETS\r\nGRAB: 4 GRABS / VOLUME CAPACITY 15~6 M3 (UP TO CARGO)\r\nSPEED/CONSUMPTION\r\n(UNDER THE GOOD WEATHER CONDITION ALWAYS UPTO AND INCLUDING BEAUFORT SCALE 4\r\nAND DOUGLAS SEA STATE 3 WITH NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL.):\r\nAT SEA:\r\nBALLAST: ABOUT 13.8KNOTS ON ABOUT 23.50MT IFO(380CST) AND ABOUT 0.2MT MDO\r\nLADEN  : ABOUT 13.0KNOTS ON ABOUT 23.50MT IFO(380CST) AND ABOUT 0.2MT MDO\r\nECO SPEED/CONSUMPTION (GUIDANCE/REFERENCE ONLY, WOG)\r\nBALLAST: ABOUT 12.30KNOTS ON ABOUT 15.80MT(M/E+AUX) IFO(380CST) AND ABOUT 0.2MT MDO\r\nLADEN  : ABOUT 11.30KNOTS ON ABOUT 15.80MT(M/E+AUX) IFO(380CST) AND ABOUT 0.2MT MDO\r\nIN PORT:\r\nIDLE  ABOUT 2.7MT IFO AND ABOUT 0.2MT MDO\r\nWORKING  ABOUT 4.8MT IFO AND ABOUT 0.2MT MDO\r\nISO 8217 RMG, RMA, DMB\r\nVESSEL HAS LIBERTY TO BURN ADDITIONAL IFO AND/OR MDO WHILE MANOEUVERING, ALSO WHILST IN RESTRICTED OR CONFINED WATERS OR DURING WINTER.\r\nVESSEL ALSO HAS LIBERTY TO BURN LSMGO SHOULD PORT/ AREA NOT ALLOW OPEN LOOP SCRUBBER OPERATION VLSFO NOT TO BE CONSUMED WITHOUT PRIOR AGREEMENT FROM OWNER\r\nADA EXCL BUNKER GRADES\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        220,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        233,
+                        261,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        264,
+                        275,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        419,
+                        430,
+                        "VESSEL_NAME"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

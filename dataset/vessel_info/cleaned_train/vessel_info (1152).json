@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Gd\r\nPls offer cargo to Mediterranean directions ;\r\nMV SENCER 1       open MUMBAI on  30 Aug – 3 Sept\r\nDWT: 2853 mt on 5,35 m draft\r\nBUILT 2004 ,  VANUATU FLAG , BULGARIAN CLASS\r\nGRAIN : 160,164 CBFT\r\nBALE : 156,960 CBFT\r\nBest regards\r\nVolkan Gerez\r\nTURSHIP Maritime Co.\r\nSamsun -Turkey\r\nTel :+90-362-503 40 88\r\nMob:+90-542-484 4025\r\nchartering@turship.net\r\nSkype: tur.ship\r\nwww.turship.net",
+            {
+                "entities": [
+                    [
+                        51,
+                        62,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        69,
+                        80,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        85,
+                        100,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        102,
+                        114,
+                        "DWT"
+                    ],
+                    [
+                        132,
+                        142,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        146,
+                        158,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

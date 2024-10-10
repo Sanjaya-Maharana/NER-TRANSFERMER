@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FM RAIDHO CHARTERING TALLINN\r\nPH 372-6440274 FAX 372-6010210 EMAIL: oleg@raidho.ee\r\nGD AFTN\r\npof\r\n10,000 MTS BULK MINERALS\r\n1 N.VIETNAM / 1 B.SEA\r\n2000 SSHINC / 2000 SSHEX\r\nEND SEPT\r\nPART CARGO OK - GEARED VSL 25 MTS\r\n3.75% TTL\r\nBRGDS/OLEG MUELLER  MOB PH 372-55651742/wap    skype : olegraidho",
+            {
+                "entities": [
+                    [
+                        98,
+                        108,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        126,
+                        135,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        138,
+                        145,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        147,
+                        158,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        161,
+                        171,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        218,
+                        223,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

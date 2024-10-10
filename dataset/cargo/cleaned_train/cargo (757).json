@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Pls find the below enquiry from our direct chtrs.\r\nCargo: Naphtha\r\nQty: 30,000 MT\r\nL/port: Cienfuegos, Cuba\r\nD/port: N. China\r\nL/can: Spot (can try vsl date as well)\r\n2.5% pus\r\nPlease offer suitable vsl with your frt idea.\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        51,
+                        65,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        72,
+                        81,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        83,
+                        107,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        109,
+                        125,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        299,
+                        323,
+                        "COMPANY"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

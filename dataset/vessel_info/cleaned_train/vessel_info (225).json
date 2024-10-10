@@ -1,0 +1,31 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 15751483   19/AUG/2024 (MON)  16:44  (+0200)  DV\r\nVisser & Visser Chartering BV - Vlaardingen (NL)\r\nPhone : +31 10 4115620\r\nAshish / Dirk\r\nRef.: MV HR PEARL - Cape Town / Dar es Salaam 5.000 mt steel billets\r\nas p/c\r\nvessel needs usd 70,-- p mts fiost/l/s/d\r\n2500 mts satnoonshex load/ 1.500 satnnonshex dis - discharge\r\nnon reversible\r\ndemurrage usd 8.250,-- pdpdr / fd\r\nsub approval of chrs.\r\nThanks and best regards\r\nDirk VISSER - ph +31104115620\r\nMob/What's app     +31653143975 / skype  dirk.visservisser\r\n",
+            {
+                "entities": [
+                    [
+                        153,
+                        164,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        193,
+                        201,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

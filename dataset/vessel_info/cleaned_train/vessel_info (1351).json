@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY,\r\nPLEASE PROPOSE SUITABLE CARGOS, FOR OUR TIME CHARTER VESSEL, OPENING WEST COAST OF INDIA:\r\nMT DOLPHIN 8\r\nS.DWT: 20,677 MT @ S.DRAFT 9.79 M\r\nCARGO TANKS: 22,918.7 CUBICS PLUS SLOP TANKS: 841 CUBICS\r\nSEGREGATIONS: 18\r\nTANK COATING: STAINLESS STEEL //// BUILT: 2006\r\nLAST 3 CARGOS:      CHEMS / CHEMS / BENZENE\r\nOPENING WC INDIA  05 – 10 SEPTEMBER\r\nPLS PROPOSE SUITABLE CARGOS\r\nKind Regards,\r\nSaurabh Gupta I Tanker Chartering\r\nCell: +971 50 1009437 I DID: + 971 4 449 6102\r\nEmail: tankers@bainbridgenav.com I Skype: saurabhgupta.bbnav@gmail.com\r\nFollow us on:\r\nCONFIDENTIALITY NOTICE\r\nThis e-mail, and any attachment thereto, are intended only for use by the addressees(s) named herein and may contain legally privileged and/or confidential information. If you are not the intended recipient of this e-mail, you are hereby notified that any dissemination, distribution or copying of this e-mail, and any attachments thereto, is strictly prohibited. If you have received this e-mail in error, please immediately notify the writer of this e-mail and permanently delete the original and any copy of any e-mail and any printout thereof.\r\nGive a thought to environment before printing this communication.",
+            {
+                "entities": [
+                    [
+                        72,
+                        99,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        102,
+                        112,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        123,
+                        132,
+                        "DWT"
+                    ],
+                    [
+                        262,
+                        273,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        320,
+                        336,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        338,
+                        355,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Add \"chartering@skyhishipping.com \"in yr circulation list, pls, thanks !\r\nFm: Skyhi Shipping Co.,Limited ｜｜天好海运有限责任公司\r\nTo:\r\nDear /Bon\r\nAny tnng & frt for flwng cgo ,thanks\r\nDirect Chinese Charterer\r\nAbt 10,000mt  ilmenite ore in bulk\r\nL/p: 1sbp Greenville Liberia,W.Africa\r\n(abt 7.3-7.5m, loa 180m try longer sub port approval)\r\nD/p: 1sbp S.China (intn Qinzhou）\r\n1,500mt/5,000mt shinc be\r\n20th Sept onw\r\nFiost 1/1\r\n2.5pct add pus\r\npart cgo ok\r\npda to be owners acct bends\r\nGeared tnng\r\nBRGDS\r\nMr. Bon Liu (劉幫生)\r\n(as chartering broker only,since 2006)\r\nMob: +86 15021204958 (24hrs)\r\nWechat:  15021204958 or wwshipping\r\nSkype:  chartering@skyhishipping.com  or  chartering_166\r\n-----------------------------------------------------------------------------------------------\r\n｜｜Dry Bulk & Break Bulk, World Wide｜｜\r\nSkyhi Shipping Co.,Limited ｜｜天好海运有限责任公司\r\nEmail:  chartering@skyhishipping.com  ((for cgo/tnng/chartering)\r\nEmail:  ops@skyhishipping.com  (for post fixture note only)\r\n------------------------------------------------------------------------------------------------------------------------------\r\nThis e-mail message and its attachments are for the sole use of the intended recipients and may contain information subject to\r\nlegal restrictions. If you are not the intended recipient you are hereby notified that any unauthorized reading, use,distribution,\r\nprinting, copying or taking any action in regard of the contents of this e-mail message and/or attachments to it are strictly\r\nprohibited.Please notify the sender immediately and destroy all copies of this message and any attachments.\r\n***********************************************************************************************************************",
+            {
+                "entities": [
+                    [
+                        173,
+                        197,
+                        "COMPANY"
+                    ],
+                    [
+                        203,
+                        211,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        235,
+                        272,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        329,
+                        361,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        363,
+                        370,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        371,
+                        384,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        415,
+                        425,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

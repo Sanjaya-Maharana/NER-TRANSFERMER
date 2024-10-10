@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 19-08-2024 10:18:19   (GMT +5:30)REFERΕNCE NO: 17705785 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV. WOOHYUN SKY - OPEN PORT KELANG, MALAYSIA. 21ST – 22ND AUG’.SEEKING CGOS FOR S.E & F.EAST RANGE(VOY’ / TCT OK) ========================================SINGLE DECK LOGGER / BLT 2010 KOREA, KOREA FLAG32,311 mt dwat on 9.826m sswGrt/Nrt 22,927/10,616Loa/Beam 180.82/30m5hoha – 4 x 30mt cranesGrain/Bale 46,178/42,867 cbmabt 12.0(B) – 11.5(L) on abt 20mt IFO + 0.10 MT LSMGOIn port idle/work – Abt 3/5 mt IFO + 0.10 MT LSMGOAll aboutVESSEL HAS LIBERTY TO BURN MGO WHEN MANEUVERING/NAVIGATING IN RESTRICTED, NARROW, SHALLOW WATERS,INCLUDING PASSING CANALS, RIVERS, ENTERING AND LEAVING PORT, AND WHILST BALLASTING, DE- BALLASTING AND EXCHANGING BALLAST.PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        198,
+                        209,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        212,
+                        239,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        240,
+                        251,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        369,
+                        377,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        385,
+                        390,
+                        "FLAG"
+                    ],
+                    [
+                        471,
+                        479,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nPlease propose suitable biz for :\r\n- Open at Mumbai around 20-21 Aug.\r\n- Clean cargo OK, Try any.\r\nMV. SEN TREASURE\r\n- Clean cargo OK, Try any.\r\n2013 BUILT SDBC, PANAMA FLAG\r\n29,029MT DWT, 10.038M SSW, TPC : 40.7\r\nGRT/NRT : 18,462/10,335\r\nLOA/BM/DEPTH : 169.99/27.00/14.20M\r\nGrain 39,995.5 CBM\r\n5/5 H/H, 30t x 4 CRANES\r\nLaden - Abt 13.30 kts on abt 20.0 mt VLSFO(380CST, <0.5% Sulphur) + abt 0.2 mt LSMGO\r\nBallast - Abt 13.60 kts on abt 19.5 mt VLSFO(380CST, <0.5% Sulphur) + abt 0.2 mt LSMGO\r\nIdle abt 2.5 mt VLSFO(380CST, <0.5% Sulphur) + abt 0.2 mt LSMGO\r\nWorking abt 4.0 mt VLSFO(380CST, <0.5% Sulphur) + abt 0.2 mt LSMGO\r\nECO SPEED/CONSUMPTION (FOR REFERENCE ONLY WOG)\r\nBALLAST/LADEN ABT 11.50K/11.00K ON ABT 15.0MT VLSFO(380CST, <0.5% Sulphur) +0.2MT LSMGO\r\nAll details about given in good faith WOG\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        215,
+                        229,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        237,
+                        247,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        277,
+                        293,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        323,
+                        333,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        340,
+                        351,
+                        "FLAG"
+                    ],
+                    [
+                        353,
+                        365,
+                        "DWT"
+                    ],
+                    [
+                        482,
+                        496,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

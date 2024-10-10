@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "AC HARDY\r\nTCT WITH COAL\r\nSMX\r\nDTM BALTIC RUS\r\nREDEL INDIA\r\nLC 03/06 SEPT\r\nADD 3.75\r\nAC HARDY\r\nTCT WITH COAL\r\nDWT 19-30K, LOA MAX 175M\r\nDTM CIS\r\nREDEL SGP-FEAST RGE\r\nLC 28/30 AUG\r\nADD 3.75\r\nBest regards,\r\nJay Lee\r\nMobile: +82 10 5541 5052\r\nSkype: qkwkrehrk\r\nWechat: jay5010309\r\nLucas Yang\r\nMobile: +82 10 7287 3432\r\nSkype: +821072873432\r\nWechat: lucasyang95\r\nJason Park\r\nMobile: +82 10 4539 2967\r\nSkype: live:.cid.c6be115008dda426\r\nWechat: jasonpark_hardy\r\nHardy Corporation\r\n3/F., HARDY Building,\r\nWonhyo-ro 41-gil 52, Yongsan-gu,\r\nSeoul, Republic of Korea 04363\r\nTel: +82 2 6358 7771\r\nFax: +82 2 6358 7773\r\nE-mail: hardy@hardycorp.co.kr\r\nWebsite: www.hardycorp.co.kr",
+            {
+                "entities": [
+                    [
+                        19,
+                        23,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        46,
+                        57,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        59,
+                        72,
+                        "LAYCAN"
+                    ],
+                    [
+                        74,
+                        82,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        85,
+                        95,
+                        "COMPANY"
+                    ],
+                    [
+                        113,
+                        119,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        146,
+                        159,
+                        "DELIVERY"
+                    ],
+                    [
+                        165,
+                        177,
+                        "LAYCAN"
+                    ],
+                    [
+                        179,
+                        187,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

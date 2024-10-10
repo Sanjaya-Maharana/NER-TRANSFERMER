@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nPLEASE PPSE SUITABLE VESSEL FOR BOOKED CARGOES\r\nACCT SGP\r\n1 TCT - 50,000-63,000 DWT\r\nDEL DOLSP PG-WCI-ECAFR\r\nREDEL S.INDIA - E.INDIA - BOB\r\nNEED FULL PG OPTION\r\n30-40 DAYS CHOPT\r\nCARGO BULK , STEEL , CLINKER , BAGGED\r\nLAY CAN SPOT - TRY VSL DATES\r\n2.5% ADDCOM PUS\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        226,
+                        234,
+                        "COMPANY"
+                    ],
+                    [
+                        244,
+                        261,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        263,
+                        272,
+                        "DELIVERY"
+                    ],
+                    [
+                        287,
+                        300,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        370,
+                        385,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        426,
+                        437,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

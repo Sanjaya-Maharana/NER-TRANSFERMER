@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 3845533   27/AUG/2024 (TUE)  10:21  (+0300)  AG\r\nTNS Shipbrokers and Agents Ltd (Since 1991)\r\nphone:+359 56 841005/6, fax:+359 56 840299\r\nhome page:www.tns-shipping.com\r\nemail: chart@tns-shipping.com\r\n-/Antoniya\r\nGood day,\r\nPls ppse for foll dir:\r\nA/C GCOMSL\r\nABT 20,000 MT DWT (SDBC, GEARED) INT 1 TCT VIA HONG KONG WITH LAWFULL HARMLESS BULK CARGO\r\nDLVRY:     APS HONG KONG (CAN TRY DOP)\r\nRDLVRY:  DLOSP 1 SP BANGLADESH\r\nLAYCAN: PPT ONWARDS\r\nCOM:        3.75%. ADDCOM PUS\r\n- PREF. AGE BELOW 20 YRS\r\n- CRANE TO BE 25 TONN CAPICITY\r\n- DUR ABT 20-25 DAYS WOG\r\n- SUB OTHER TERMS\r\nKind regards,\r\nTNS Shipbrokers - Antoniya\r\nSkype: live:.cid.adba817154cf7291\r\nWeChat: wxid_twwaqwr0eao712\r\nMob: +359 899 20 66 88\r\nBimco Members (reg. no. 116957)",
+            {
+                "entities": [
+                    [
+                        256,
+                        266,
+                        "COMPANY"
+                    ],
+                    [
+                        272,
+                        278,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        370,
+                        383,
+                        "DELIVERY"
+                    ],
+                    [
+                        408,
+                        428,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        464,
+                        477,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        543,
+                        565,
+                        "DURATION"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

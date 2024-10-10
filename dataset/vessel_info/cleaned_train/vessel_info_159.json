@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 11:47:03   (GMT +5:30)\r\nREFERΕNCE NO: 17700290\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV DARYA KRISHNA - HDY - OPEN KAKINADA , EC INDIA - 27 - 29 AUG 2024\r\n(alt ETA Bunbury 8-10/Sep)\r\nGteed eco speed / cons.\r\nNo Iran / Iraq / Gulf of Aden / Russia / Black Sea / W. Africa.\r\nNo back haul.\r\nNo bgd rice !\r\nprefer trip FE.\r\nEstimated BOD:\r\nVLSFO (max 0.50 pct Sulphur): abt 700 mt\r\nLSMGO (max 0.10 pct Sulphur): abt 110 mt\r\nLast 10 cargoes : alumina (last) / salt / semi-coke and gens / drydock / wheat.\r\nLast ports: Kakinada (last) / Bunbury / Gresik / Shark Bay / Samarinda / Tianjin / Chengxi (drydock) / Busan (bunkering) / Kobe / Nagoya / Vancouver BC.\r\nMV DARYA KRISHNA\r\n( Box shaped holds 2,3 & 4 )\r\nBuilt 2016 (Namura)\r\nFlag Mashall Islands\r\nClass NK\r\nDwt 34,874 Mt on 9.822 M SSWD\r\nLOA / Beam 179.96 / 30\r\nHolds / Hatches 5 / 5 (BOX-SHAPED)\r\nCranes 4 x 30 MT\r\nGT / NT 21,545 / 11,189\r\nGrain / Bale 44,099 / 42,911 CBM\r\nHatch sizes:\r\nNO. 1: 14.05 X 14.20 M\r\nNOS 2/3/4/5: 20.40 X 20.40 M\r\nTANKTOP STRENGTH: (UNIFORM LOAD)\r\nNO.1   20.47 TONS / SQM\r\nNO.2   11.81 TONS / SQM\r\nNO.3   20.50 TONS / SQM\r\nNO.4   11.81 TONS / SQM\r\nNO.5   16.67 TONS / SQM\r\nTANK TOP DIMENSIONS:\r\nNUMB LENGTH (M) WIDTH - F/A (M)\r\n1 26.30 6.0/26.00\r\n2 28.90 26.00\r\n3 28.90 26.00\r\n4 28.90 26.00\r\n5 27.20 26.00/8.80\r\nSPEED/CONS:\r\nBALLAST: ABT 13.5 K ON ABT 16.20 MT VLSFO 380 CST AND 0.1 MT LSMGO\r\nLADEN: ABT 13.0 K ON ABT 17.2 MT VLSFO 380 CST AND 0.1 MT LSMGO\r\nECO SPEED / CONS\r\nBALLAST: ABT 12.0 K ON ABT 12.0 MT VLSFO 380 CST AND 0.1 MT LSMGO\r\nLADEN: ABT 11.5 K ON ABT 12.8 MT VLSFO 380 CST AND 0.1 MT LSMGO\r\nPORT CONSUMPTION:\r\nIDLE: ABT 1.6 MT VLSFO 380 CST PLUS 0.7MT VLSFO FOR BOILER PLUS 0.2 MT LSMGO\r\nGEAR WORKING / BALLASTING / DEBALLASTING:\r\nABT 2.8 MT VLSFO 380 CST PLUS 0.7 MT VLSFO FOR BOILER PLUS 0.4 MT LSMGO\r\nTPC 48.1mt\r\nA60 Bulkhead fitted\r\nCO2 fitted\r\nAll Dtls About\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        225,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        234,
+                        258,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        261,
+                        277,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        827,
+                        837,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        848,
+                        868,
+                        "FLAG"
+                    ],
+                    [
+                        880,
+                        893,
+                        "DWT"
+                    ],
+                    [
+                        971,
+                        987,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

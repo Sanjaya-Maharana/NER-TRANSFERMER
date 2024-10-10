@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear Sir,\r\nPlease find below the firm enquiry, request you to kindly submit your offer.\r\nCargo: Tank Nitrogen compressed\r\nTotal: 1 Unit Dim: 15 x 2.5 x 2.5 M / 94 CBM / 11 Ton (+/- 5% chopt)\r\nPOL: Mumbai, India\r\nPOD: Southampton, United Kingdom\r\nLaycan: Sept 2024\r\nTerms: FLT hk/hk\r\nNon-Stackable, under deck Only.\r\nFrt should inc. hooking/unhooking, wrip, awrip, thc, baf etc all surcharges, no waiting clause due to congestion/bad weather, and force majeure to be applicable bends.\r\nVessel should be self-geared to load/discharge\r\nComm: 2.5% ttl\r\nSub to further terms & condition\r\nRegards,\r\nShubhangi,\r\nOrhan Shipping Pvt Ltd\r\nMumbai, India\r\n+91-22-26191208/09\r\nmumbai@orhanshipping.com\r\nwww.orhanshipping.com",
+            {
+                "entities": [
+                    [
+                        192,
+                        210,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        212,
+                        244,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        246,
+                        263,
+                        "LAYCAN"
+                    ],
+                    [
+                        533,
+                        543,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

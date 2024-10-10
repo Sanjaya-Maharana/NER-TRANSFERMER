@@ -1,0 +1,37 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 15:46:53   (GMT +5:30)\r\nREFERΕNCE NO: 17725177 \r\n\r\n\r\n \r\n \r\nPlease offer for our  below  Tween  Decker vsl open  Vietnam  … Singapore range 23/25 August\r\n \r\nMV    PUMOS \r\n===========\r\n8,560DWT ON 8.19M DRAFT\r\nBUILT 04/ 1998\r\nFLAG PANAMA  CLASS NKK\r\nGRT 6,178 / NRT 3,057\r\nGR 14,710.83CBM / BL 13,536.22CBM\r\n100.64M/18.8M/13M\r\n2HO/2HA\r\nCRANE: 30TX1, DERRICK 25TX2\r\n \r\n \r\n** SEEKING FOR  AG/ INDIA/ RED SEA   OR EN-ROUTE **\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n\r\nRaj Arya - ARYACORP\r\nAS BROKERS ONLY\r\nAND As agents only  CORE SHIPPING LTD\r\nDirect: +91 124 469 4875\r\nMobile: +91 98212 30309\r\nEmail: fix@aryacorp.com / ops@aryacorp.com\r\nSKYPE: prarya@hotmail.com\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        298,
+                        319,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        321,
+                        354,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        375,
+                        382,
+                        "HOLD_AND_HATCHES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

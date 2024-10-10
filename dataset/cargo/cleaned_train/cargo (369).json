@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 22-08-2024 08:00:31   (GMT +5:30)\r\nREFERΕNCE NO: 17725927\r\nATTN CHARTERING DESK\r\nGOOD DAY\r\nDIRECT CHARTERERS ORDER\r\nPLEASE ADVISE SUITABLE VESSEL FOR FOLLOWING FIRM ORDER\r\nFREIGHT ENQUIRY\r\nPlease quote freight, demurrage, and TCE basis\r\nACC DIRECT CHRTS\r\nQty - 55,000 MT +/-10 PCT COAL\r\nLoad Port - MPT/DBT\r\nLoad Rate - 12,000 MT PDPR\r\nDis port  -OPTION 1- VPT 12k discharge rate\r\nOPTION 2 - Kandla 15k discharge rate\r\nLaycan - 08/11 SEP 2024\r\nNil addcom  pus\r\nPerforming vessel needed by 01 Sep. Performer can't be subbed.\r\nLOA restriction - 190m\r\nVessel open for India and Pakistan disports.\r\nFreight differential to be on open book basis.\r\nECI FD to be basis VPT TCE.\r\nWCI/PAK FD to be basis Kandla TCE.\r\nLoading is from Richards Bay\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nSiddharth Arya | Voyage Desk\r\nDirect: +91 22 4044 9001\r\nMobile: +91 9821230311\r\nSKYPE ID: asbpl.siddharth@outlook.com\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        276,
+                        292,
+                        "COMPANY"
+                    ],
+                    [
+                        294,
+                        309,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        326,
+                        345,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        347,
+                        368,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        375,
+                        392,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        400,
+                        418,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        438,
+                        456,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        458,
+                        481,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

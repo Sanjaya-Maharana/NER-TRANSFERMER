@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL,\r\nKINDLY PROPOSE RATED TONNAGE FOR\r\nXO MIDDLE EAST\r\nSMX/UMX\r\nDEL TO MAKE YANBU\r\nLAYCAN 1/10 SEP\r\n1 TCT W/ CLINKER\r\nREDEL ABIDJAN\r\nDUR ABT 35 DAYS WOG\r\n3.75 ADDCOM\r\nBest Regards,\r\nDia Raofat\r\nSenior Chartering Manager\r\nXO MIDDLE EAST DMCC - www.xoshipping.com\r\nMobile: +971 52 4277 841\r\nConnect:\r\nLinkedIn\r\nCONFIDENTIALITY NOTICE: This\r\ne-mail is intended only for the addressee.\r\nThis email and any attachments may contain privileged and/or\r\nconfidential information.\r\nIf you are not the intended recipient please inform us immediately\r\non the telephone number above,\r\ndestroy this email and any attachments, and do not use, copy,\r\nstore and/or disclose the contents.",
+            {
+                "entities": [
+                    [
+                        89,
+                        104,
+                        "LAYCAN"
+                    ],
+                    [
+                        124,
+                        137,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        139,
+                        158,
+                        "DURATION"
+                    ],
+                    [
+                        160,
+                        171,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

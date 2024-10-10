@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 0LU6Z 27/08/24 12:25 +03:00\r\n-/LEFTERIS\r\nPLS PPSE FOR OUR CLOSE BELOW MV THETIS   +++ EX OUR C/P +++\r\nMV THETIS                         OPEN SALERNO 31 AUG / 3 SEPT\r\n-GRD SELF-TRIMMING BC\r\n-BLT 15\r\n-SDWAT: 63,200 mt at 13.30 m\r\n-FLAG: Liberia / CLASS: BV\r\n-LOA/BREADTH: 199.90/32.26 MTRS\r\n-GT/NT : 35873 / 21216\r\n-GRAIN CAP/BALE CAP:   77,490.8 m3 / 75.554.7 m3\r\n-HO/HA: 5/5\r\nNormal Speed\r\nLaden about 12 knots on about 21 mts VLSFO + 0.1 mts LSMGO\r\nBallast about 12.5 knots on about 21 mts VLSFO + 0.1 mts LSMGO\r\n-GEAR : 4 X 35 MT CRANES\r\n-4 x 15/6 cbm grabs\r\nall dets abt.\r\nRGDS/LEFTERIS NTAGADAKIS\r\nMOB: +30 6932 294832\r\nSKYPE: lkd-posidon\r\nEMAIL: lkd76@hotmail.com\r\nCONFIDENTIALITY :\r\nThe contents of this e-mail message and any attachments are confidential\r\nand are intended solely for the addressee. The information may also be\r\nlegally privileged and confidential. If you have received this communication\r\nin error, please notify us immediately. Any use, disclosure or reproduction\r\nor dissemination of this transmission is strictly prohibited.",
+            {
+                "entities": [
+                    [
+                        113,
+                        122,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        147,
+                        159,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        160,
+                        175,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        217,
+                        226,
+                        "DWT"
+                    ],
+                    [
+                        246,
+                        253,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DIR\r\n20,000 MT RICE IN 50 KG BAGS +/- 10% IN CHOPT\r\nPOL : YANGON, MYANMAR\r\nPOD : DOUALA, CAMEROON (8.2M FW DRAFT RESTRICTION)\r\nL/C : 28 AUG/5 SEP\r\nFRT INV OWNER BEST ON FIOST 1/1\r\nL/R : 500 MT PER HOOK PER DAY SHINC\r\nD/R : 400 MT PER HOOK PER DAY SHEX EIU\r\n1.25% IAC PUS\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        5,
+                        14,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        15,
+                        19,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        52,
+                        73,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        75,
+                        97,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        127,
+                        145,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

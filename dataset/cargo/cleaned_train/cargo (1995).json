@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear Sir,\r\nKindly quote the best for the following:\r\nCargo/Qty: Steel Plates / 4000 MT +/-5% CHOPT\r\nDimension:\r\nThickness(mm): 14.27 mm to 15.88 mm\r\nWidth(mm): 2795 mm to 2800 mm\r\nLength(M): 18.35 M\r\nLaycan:  25th – 30th Aug 2024\r\nLoad port: 1sp, 1sb PICT, Paradip\r\nLoad rate: 750 mt per hook per day, shinc or porata\r\nDisport  : 1 sp, 1 sb, Kandla, Gujrat\r\nDish rate: 750 mt per hook per day, shinc or pro rata\r\nNOR(load/disport): ATDNSHINC bends\r\nTurn time (load/disport) TT 12 HRS EIU shifting time, gangway placement, custom clearance, draft survey & hatch inspection, etc, even if the vessel is on demurrage\r\nComm: 2.5% ttl\r\nSubject to further terms and condition.\r\nNote: Required India flag, if foreign flag then any conversion/reversion, dg shipping charges, any custom duty will be owner account & time. Charters will provide INSA NOC.\r\nRegards,\r\nShubhangi,\r\nOrhan Shipping Pvt Ltd\r\nMumbai, India\r\n+91-22-26191208/09\r\nmumbai@orhanshipping.com\r\nwww.orhanshipping.com\r\n<img src ttp://mailer.orhanshipping.com/misc/pages/email_view_count/~ZHJ5QHRyaW5pdHktc2hpcC5jb21+MTcyNDMyMjU2Mn4zMzg5OF80NTA3Mn4yMDI0MDhfQXV0b3w2NTEzOH5U~\" width \" height \" border \" />",
+            {
+                "entities": [
+                    [
+                        79,
+                        86,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        200,
+                        229,
+                        "LAYCAN"
+                    ],
+                    [
+                        231,
+                        264,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        266,
+                        283,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        320,
+                        356,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        358,
+                        375,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        621,
+                        624,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

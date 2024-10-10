@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY, SIRS & MA'AM.\r\nPLS KINDLY PROPOSE SUITABLE TONNAGE ON BELOW DIRECT ORDER.\r\nA/C SAMJOO MARINE\r\n56K/LME\r\nDELY : APS WESTSHORE (ROBERTS BANK), CANADA\r\nLAYCAN : 4~9/SEP, 2024\r\nREDELY : 1SP SINGAPORE/JAPAN RGE (INT. S.KOREA)\r\nCOAL / 3.75 ADD COMM PUS\r\nBest Regards\r\nK.B.Kim (Mobile: 82-10-4918-1612)\r\nMaple Shipping Co. Ltd.\r\n4th  Floor Jeongmoon Building, 39-9 Jamwon-dong Seocho-gu, Seoul, Korea\r\nTel : 82-2-511-7309 / Fax : 82-2-511-7359\r\nE-Mail : maple@mapleship.co.kr / Skype mapleship_kbkim",
+            {
+                "entities": [
+                    [
+                        85,
+                        102,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        113,
+                        133,
+                        "DELIVERY"
+                    ],
+                    [
+                        158,
+                        180,
+                        "LAYCAN"
+                    ],
+                    [
+                        182,
+                        210,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        238,
+                        251,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        306,
+                        329,
+                        "COMPANY"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

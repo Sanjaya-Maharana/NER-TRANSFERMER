@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Subject: REF- OFFER FIRM FOR VL CALL VZLA\r\nHI\r\ndear\r\nOFFER FIRM FOR VLCC\r\nVESSEL TYPE:VLCC\r\n._  ACC: MYKONOS TRADER\r\n.-  VC LOADING JOSE TERMINAL, VENEZUELA TO DISCHARGE AT DALIAN,CHINA\r\n.- LOADING 1SP JOSE TERMINAL,VENEZUELA\r\n.- DISPORT 1SP DALIAN,CHINA\r\n.- LAYCAN :27/AUGUST TO 04 SEPT 2024\r\n.- CARGO UP TO VESSEL FULL CARGO INT CRUDE OIL MEREY 16 – VOLUME ABT 2.0 MIO BBLS\r\n.- FREIGHT L/S: U$ 11.000.000\r\n10 % PAYMENT IN ADVANCE TO BE PAID IMMEDIATELY UPON CONTRACT HAS BEEN FIXED/SHIP\r\nOWNERS MUST SEND CERTIFICATES AND IF IS DISPONENT OWNER A LETTER OF COLLECT MONEY + CP CHAIN\r\n30 % NOR IN POL\r\n60% UPON BL  WITH 72 H BANKING DAYS.\r\n.-COMM TTL:1.25% PAYABLE TO NWS CHARTERING\r\n.- TOTAL LAYTIME IN RUNNING HOUR: 144 HOURS LOADING SHINC / 72HOURS DISCHARGING SHINC\r\n.- DEMURRAGE PER DAY: U$ 58,000 PDPR\r\nBunker will be cover for OWS\r\nBoth PDA to account of CHARTERER\r\nEND ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\r\nNACOR MILANO\r\nSENIOR BROKER MANAGER\r\nMobile Office: +39 351 930 4587//+39 353 361 2225\r\nWA: +39 351 767 2596\r\n(- As Brokers Only -)  MILAN /ITALY\r\nnmilano@northwestshippingsupply.com\r\nchartering@nortwest.it\r\nSPECIALIST IN BROKERAGE",
+            {
+                "entities": [
+                    [
+                        96,
+                        115,
+                        "COMPANY"
+                    ],
+                    [
+                        124,
+                        145,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        147,
+                        156,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        173,
+                        185,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        190,
+                        225,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        230,
+                        254,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        259,
+                        292,
+                        "LAYCAN"
+                    ],
+                    [
+                        650,
+                        655,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

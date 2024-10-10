@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL,\r\nPLS PROPOSE FIRM /RATED BIZS  FR DIRECT HEAD OWNERS\r\nMV ADVENTURE | 34.487 DWT // BLT 2019 // BOX | TELUK BAYUR, INDO | 21 - 22 AUG.\r\nM/V ADVENTURE ( ECO ENGINE )\r\nBOX / DOUBLE SKIN / LOG FITTED\r\nIMO 9749972\r\nFLAG MARSHALL ISLANDS\r\nDWT 34487\r\nBUILT YEAR / PLACE 2019 - HAKODATE HK, JAPAN\r\nCLASS BV\r\nGRT/NRT 21.574/11.199\r\n5 HO/5 HA\r\nGRAIN / BALE 44.150 / 42.900 (CBM)\r\nLOA 179,97 M\r\nBEAM 30 M\r\nDRAFT 9,82M\r\nCRANE 4 X 30 MTS\r\nECO SPEED/CONSUMPTION AS FOLLOWS FOR REF ONLY WOG.\r\nLADEN ABOUT    12.00 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAY\r\nBALLAST ABOUT 12.50 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAY\r\nPORTS (I) ABT 2.3 MT VLSFO + ABT 0.1 MT LSMGO -(W) ABT 5.0 MT VLSFO + ABT 0.1 MT LSMGO\r\nbest regards / Gersi Sefgjini\r\nOffice: 0030 210 8066243 / 8064867\r\nmobile: 0030 6982009697\r\nskype : live:.cid.564cf274b9274fc5\r\nend vcard\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nUnited Seas Corp.\r\nKonitsis 5 & Kifisias ave,4th floor\r\nMarousi 151-25, greece\r\nTel     : 0030 210 8064867/8066243\r\nEmail   : chartering@unitedseascorp.gr\r\nposition@unitedseascorp.gr\r\nWeb     : www.unitedseascorp.gr\r\nMembers : Bimco.178704,Baltic Exchange,H.S.A,GSSCA\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        64,
+                        76,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        79,
+                        85,
+                        "DWT"
+                    ],
+                    [
+                        93,
+                        101,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        207,
+                        218,
+                        "IMO"
+                    ],
+                    [
+                        220,
+                        241,
+                        "FLAG"
+                    ],
+                    [
+                        243,
+                        252,
+                        "DWT"
+                    ],
+                    [
+                        418,
+                        434,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

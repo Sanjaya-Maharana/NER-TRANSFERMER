@@ -1,0 +1,35 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Untitled document\r\nDear Friends,\r\nPlease kindly share with us your 10k-15k dwt vessels positions where is at EMED-BSEA range for Red Sea direction with laycan 25-30 Aug.\r\nVessel dates may try as well\r\n(Mr.) Anıl YILDIRIM\r\nChartering Desk\r\nLIPSOS BULK CARRIERS DENİZCİLİK VE TİC. A.S\r\nGöztepe Mah. Bagdat Caddesi, Yesilbahar Sk. Omur Apt.\r\nNo: 2 Kat 5 Daire: 31 Kadikoy-Istanbul / Turkiye 34730\r\nPhone: +90 216 7061099\r\nMobile: +90 545 684 50 87\r\nEmail: chartering@lipsosbc.com\r\nWeb: www.lipsosbc.com\r\nFirmamızdan elektronik duyuru almak istemiyorsanız buraya tıklayınız.\r\nIf you prefer not to receive e-mail messages from us click here.",
+            {
+                "entities": [
+                    [
+                        67,
+                        78,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        152,
+                        169,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

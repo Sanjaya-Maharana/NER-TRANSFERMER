@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nTHORESEN - REQUIREMENTS\r\n52-58K DWT,TRY BIGGER\r\nDTM FAREAST\r\nLAYCAN 23-28 AUG, TRY A BIT FLEXI\r\nTCT OR SHORT PERIOD TRY LONGER, 1ST LEG BAGGED/BULK CARGO TO E.MED\r\nNO NEED 2X25 DECK/HATCH\r\n3.75 ADDCOM PUS\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        203,
+                        213,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        239,
+                        255,
+                        "LAYCAN"
+                    ],
+                    [
+                        367,
+                        378,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY!\r\nPLEASE PROPOSE SUITABLE RATED ORDERS FOR THE FOLLOWING TONNAGE:\r\nMV. PAN IVY (32K/ 10BLT) OPEN AT COLOMBO 8/27-9/2\r\nUREA (CURRENT) - UREA\r\nMV. PAN IVY\r\nBUILT SEP 2010\r\nFLAG: REPUBLIC OF PANAMA\r\nCLASS: KR\r\nIMO No.: 9548316\r\nCALL SIGN: 3FLT2\r\nHOLDS/HATCHS 5HO/5HA\r\nBULK CARRIER SELF TRIMMING\r\nSDWT 32,557.3 MTS ON 10.17MTRS\r\nGRT/NRT 20,865 TONS / 11,820 TONS\r\nLOA/BEAM 179.9 / 28.40 MTRS\r\nDEPTH MOULDED : 14.10 MTRS\r\nTPC/SUMMER : 46.0\r\nGRAIN CAPA: 43,460.80 CBM\r\nBALE CAPA: 41,420.07 CBM\r\nHATCH SIZE\r\nNo.1 : L14.40 x W17.60\r\nNo.2, No.3 & No.4 : L20.00 x W19.20\r\nNo.5 : L18.40 x W19.20\r\nCRANES 4 X 30.5MTS\r\nVSL'S TANKTOP STRENGTH : #1H,#2,#3,#4,#5 HOLDS: 20 T/M2\r\nBALLAST/LADEN ABT 12.5 / ABT 11.4 KNOTS\r\nABT 18MT BUNKER GRADES IFO (380 CST) + ABT 0.1MT MDO\r\nPORT CONSUMPTION PER 24 HOURS IDLE/WORKING (METRIC TONS)\r\nF.O   ABT 2.6mts    ABT  4.1mts ( 2sets of G/E running )\r\nD.O   ABT 0.1mts     ABT  0.1mts\r\nALL DETAILS \"ABOUT\"\r\nBEST REGARDS\r\nDasom Lee (Ellie) / Manager\r\n이다솜 선임\r\nInter-Asia Team / Drybulk division 3\r\nPan Ocean Co.,LTD\r\n(03157) Tower8, 11F, Jong-ro 5-gil, Jongno-gu, Seoul, Korea\r\nTel : +82-2-316-5596 / Mob : +82-10-5026-1926\r\nE-mail : dslee@panocean.com\r\nSkype : sky7917",
+            {
+                "entities": [
+                    [
+                        76,
+                        87,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        101,
+                        116,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        117,
+                        125,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        150,
+                        161,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        163,
+                        177,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        179,
+                        203,
+                        "FLAG"
+                    ],
+                    [
+                        216,
+                        232,
+                        "IMO"
+                    ],
+                    [
+                        307,
+                        319,
+                        "DWT"
+                    ],
+                    [
+                        595,
+                        613,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

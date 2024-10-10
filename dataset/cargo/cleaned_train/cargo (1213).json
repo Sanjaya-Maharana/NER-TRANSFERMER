@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR FRIENDS,\r\nGOOD DAY!\r\nFIRM CARGO\r\nNOT FOR CIRCULATION TO OTHER BROKERS/OPERATORS.\r\nACC BAINBRIDGE NAVIGATION\r\nHANDY/HMAX (PREF 2*25)\r\nDELY: DLOSP ECI\r\nLAYCAN: 29-31 AUG 2024 (INTN LP PARADIP, ECI)\r\nFOR 1 TCT, ECI-WCI WITH B/BULK & HARMLESS CARGO (INTN HR COILS & SLABS)\r\nDURATION ABOUT 15 DAYS WOG\r\nREDLY: DLOSP 1 SP WCI (INTN KANDLA,WCI)\r\n3.75%\r\nBest regards\r\nSujan Gaha Thapa I  Chartering\r\nCell: +91 93199 55118 I DID: +91 120 4797335\r\nEmail: chartering@bainbridgenav.com I Skype: live:sujan.bbnav\r\nFollow us on:\r\nCONFIDENTIALITY NOTICE\r\nThis e-mail, and any attachment thereto, are intended only for use by the addressees(s) named herein and may contain legally privileged and/or confidential information. If you are not the intended recipient of this e-mail, you are hereby notified that any dissemination, distribution or copying of this e-mail, and any attachments thereto, is strictly prohibited. If you have received this e-mail in error, please immediately notify the writer of this e-mail and permanently delete the original and any copy of any e-mail and any printout thereof.\r\nGive a thought to environment before printing this communication.",
+            {
+                "entities": [
+                    [
+                        87,
+                        112,
+                        "COMPANY"
+                    ],
+                    [
+                        138,
+                        153,
+                        "DELIVERY"
+                    ],
+                    [
+                        155,
+                        177,
+                        "LAYCAN"
+                    ],
+                    [
+                        228,
+                        249,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        275,
+                        301,
+                        "DURATION"
+                    ],
+                    [
+                        303,
+                        342,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        344,
+                        349,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

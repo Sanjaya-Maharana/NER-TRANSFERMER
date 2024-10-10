@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nGOOD DAY, PLEASE PROPOSE Acct Amex30000 MT +/- 10 pct Coal Mtwara / Port Qasim12000 / 15000 mt pwwd Shinc/fhincEnd august (try vsls dates)3.75% totalVsl max 15 yearsPLEASED TO HEAR    BEST REGARDSGARY CAMPBELLCAMERI MARITIME INC.TEL: +1-514-994-5293SKYPE: GARYC2568  Unsubscribe",
+            {
+                "entities": [
+                    [
+                        27,
+                        36,
+                        "COMPANY"
+                    ],
+                    [
+                        36,
+                        44,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        57,
+                        59,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        61,
+                        67,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        70,
+                        80,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        80,
+                        85,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        89,
+                        95,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        141,
+                        145,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

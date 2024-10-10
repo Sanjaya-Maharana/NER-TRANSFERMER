@@ -1,0 +1,57 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM SnC MARITIME SEOUL KOREA 82-2-778-0283 DRY@SNCMARITIME.COM - SS Kang\r\n\r\n \r\n\r\nCLOSE LOCAL OWNES HV : -\r\n\r\n \r\n\r\n(OPEN Dharamtar, 30th AUG)\r\n\r\n \r\n\r\nTRY 1tct \r\n\r\n \r\n\r\nVSL PARTICULAR:\r\n\r\n=========\r\n\r\nMV\r\n\r\n GLOVIS MAPLE \r\nDWAT 55,705 MT ON 12.868M SSW TPC 57.1\r\nBUILT MAR 2013\r\nFLAG BAHAMAS\r\nGEARED SINGLE DECK BULK CARRIER\r\nGRT/NRT 32,545/18,528\r\nLOA/BEAM 187.88 M/32.26M\r\nCARGO CAPA GRAIN ABT 70,761CBM, BALE ABT 68,290 CBM\r\nCRANES 4X30 .0MT SWL (HOOK MODE) / 24.0MT SWL (GRAB MODE) GRAB 4 GRABS(14CBM)\r\nADA\r\n\r\n \r\n\r\nSPEED/CONS:\r\nABT 13.20 KN ON ABT 26.2 MT IFO (BALLAST)\r\nABT 13.20 KN ON ABT 28.2 MT IFO (LADEN)\r\nIN PORT - ABT 3.0 MT IFO PER DAY IDLE / ABT 4.5 MT IFO PER DAY WORKING\r\n\r\n \r\n\r\nTHE SPEED/CONSUMPTION OF THE VESSEL IS ALWAYS TO BE CONSIDERED AS AVERAGE SPEED/CONSUMPTION IN FULLY BALLAST/ LADEN CONDITION AND UNDER GOOD WEATHER CONDITIONS WHICH FOR THE PURPOSE OF THIS C/P ARE DEFINED AS NO ADVERSE CURRENT, MODERATE SEA, WIND NOT EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3(MEANS SIGNIFICANT WAVE HEIGHT LESS THAN 1.25M) AT THE CONDITION OF CLEAN BOTTOM IN OPEN, CALM AND DEEP SEA CONDITION WITH MINIMUM 24 HOURS STEAMING TIME, WITH EVEN KEEL CONDITION. POSITIVE CURRENT SHALL NOT BE USED IN DIMINISHING VESSEL'S PERFORMANCE. VESSEL HAS LIBERTY TO MDO/DMA WHEN MANUEVERING IN SHALLOW / NARROW / BUSY / ONFINED AND RESTRICTED WATERS, PASSING FROM STRAITS, CANALS, RIVERS, BERTHING / UNBERTHING, IN / OUT PORTS, DURING BAD WEATHER AND HEAVY SWELLS, IF REQUIRED. THE WORD “ABOUT” UNDER THIS FIXTURE AS WEATHER APPLY TO BOTH HER “SPEED(S)” AND “CONSUMPTION” IT IS DEFINED AS A TOLERANCE OF 0.5KT ON “SPEED” AND A TOLERANCE OF 5% ON BUNKER CONSUMPTION.\r\n\r\n \r\n\r\nECO SPEED (WOG, FOR GUIDANCE ONLY):\r\nABT 12.2 KN ON ABT 25.3 MT IFO",
+            {
+                "entities": [
+                    [
+                        240,
+                        247,
+                        "DRAFT"
+                    ],
+                    [
+                        333,
+                        346,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        357,
+                        372,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        385,
+                        425,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        519,
+                        561,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        564,
+                        612,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        618,
+                        685,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

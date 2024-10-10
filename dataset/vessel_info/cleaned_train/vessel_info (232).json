@@ -1,0 +1,71 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nRE: MV GLOVIS MELODY (55K/12)   MUMBAI 24/AUG\r\nMUMBAI, 24th AUG)\r\nTRY 1tct\r\nMV GLOVIS MELODY\r\nDWAT 55,705 MT ON 12.868M SSW TPC 57.1\r\nBUILT NOV 2012\r\nFLAG BAHAMAS\r\nGEARED SINGLE DECK BULK CARRIER\r\nGRT/NRT 32,545/18,528\r\nLOA/BEAM 187.88M/32.26M\r\nCARGO CAPA GRAIN ABT 70,761CBM, BALE ABT 68,290 CBM\r\nCRANES 4X30.0MT SWL (HOOK MODE) / 24.0MT SWL (GRAB MODE) GRAB 4 GRABS(14CBM)\r\nADA\r\nSPEED/CONS:\r\nABT 13.20 KN ON ABT 26.2 MT IFO (BALLAST)\r\nABT 13.20 KN ON ABT 28.2 MT IFO (LADEN)\r\nIN PORT - ABT 3.0 MT IFO PER DAY IDLE / ABT 4.5 MT IFO PER DAY WORKING\r\nTHE SPEED/CONSUMPTION OF THE VESSEL IS ALWAYS TO BE CONSIDERED AS AVERAGE SPEED/CONSUMPTION IN FULLY BALLAST/ LADEN CONDITION AND UNDER GOOD WEATHER CONDITIONS WHICH FOR THE PURPOSE OF THIS C/P ARE DEFINED AS NO ADVERSE CURRENT, NEGATIVE INFLUENCE OF SWELL, MODERATE SEA, WIND NOT EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3(MEANS SIGNIFICANT WAVE HEIGHT LESS THAN 1.25M) AT THE CONDITION OF CLEAN BOTTOM IN OPEN, CALM AND DEEP SEA CONDITION WITH MINIMUM 24 HOURS STEAMING TIME, WITH EVEN KEEL CONDITION. POSITIVE CURRENT SHALL NOT BE USED IN DIMINISHING VESSEL'S PERFORMANCE. VESSEL HAS LIBERTY TO MDO/DMA WHEN MANUEVERING IN SHALLOW / NARROW / BUSY / ONFINED AND RESTRICTED WATERS, PASSING FROM STRAITS, CANALS, RIVERS, BERTHING / UNBERTHING, IN / OUT PORTS, DURING BAD WEATHER AND HEAVY SWELLS, IF REQUIRED. THE WORD “ABOUT” UNDER THIS FIXTURE AS WEATHER APPLY TO BOTH HER “SPEED(S)” AND “CONSUMPTION” IT IS DEFINED AS A TOLERANCE OF 0.5KT ON “SPEED” AND A TOLERANCE OF 5% ON BUNKER CONSUMPTION.\r\nECO SPEED (WOG, FOR GUIDANCE ONLY):\r\nABT 12.2 KN ON ABT 25.3 MT IFO\r\nALL DETAILS ABOUT AND GIVEN IN GOOD FAITH\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        182,
+                        198,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        210,
+                        216,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        217,
+                        223,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        225,
+                        231,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        233,
+                        241,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        254,
+                        270,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        272,
+                        286,
+                        "DWT"
+                    ],
+                    [
+                        318,
+                        326,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        328,
+                        340,
+                        "FLAG"
+                    ],
+                    [
+                        476,
+                        491,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

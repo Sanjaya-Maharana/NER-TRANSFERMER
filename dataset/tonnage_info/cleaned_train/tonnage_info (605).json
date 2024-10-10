@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 13:04:16   (GMT +5:30)\r\nREFERΕNCE NO: 17701553\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV YANGTZE NOVA 47K/13 OPEN DAMMAN 25-30 AUG 2024,\r\nBOD ABT 550/80\r\nSOUTH AFRICA-JAPAN TRADING,NO GOA\r\nMV. YANGTZE NOVA\r\nBULK CARRIER\r\nMARSHALL ISLANDS FLAG\r\n2013 APR BUILT IN JIANGSU EASTERN HEAVY INDUSTRY ,CHINA\r\nCLASSED CCS\r\n47180.14MT DWT ON 10.9M SSW\r\nGRT/NRT 29,235/15,731   TPC 57.7\r\nLOA/BREADTH 189.99M/32.26M\r\n5HA-5HO,\r\nCRANE 4X30T,GRAB 4*12 CBM\r\nTTL HOLD GRAIN CAPA 60579 CBM\r\nNO.1 10,887.7\r\nNO.2 12,906.2\r\nNO.3 12,244.1\r\nNO.4 12,879.9\r\nNO.5 11,661.1\r\nELECTRIC -HYDRAULIC FOLDING TPYE HATCH COVERS HATCH HATCH SIZE\r\nNO.1)18.86X18..26M, NO.2-5)21.32X18.26M\r\nSPEED/CONSUMPTION AS VESSEL TRADING AT OPEN SEA FOR 24 HOURS:\r\nBALLAST : ABT 12.5KNOTS ON ABT 22.5MT VLSFO+0.1MT LSMGO\r\nLADDEN : ABT 12.0KNOTS ON ABT 23.5MT VLSFO+0.1MT LSMGO\r\nIN PORT :\r\nABT 3.1MT VLSFO+0.1MT LSMGO IDLE\r\nABT 5.7MT VLSFO+0.1MT LSMGO BSS CRANE WORKING\r\n“ABT” MEANS AN ALLOWANCE OF +/-0.5KN ON SPEED AND 5PCT ON CONSUMPTION\r\nALL ABOVE SPEED/CONSUMPTIONS ARE GIVEN FROM BEGINNING TO END OF SEA PASSAGE, AT OPEN SEA, NOT EXCEEDING SUMMER DRAFT, UNDER GOOD WEATHER CONDITION NAMELY, 24 CONSECUTIVE HOURS (FROM NOON TO NOON), NO ADVERSE CURRENT, NO NEGATIVE INFLUENCE OF SWELL, BEAUFORT SCALE MAX 4, DOUGLAS SEA STATE 3 (MEANS SIGNIFICANT WAVE HEIGHT LESS THAN 1.25 METRES).\r\nALWAYS EXCLUDING ANY VOYAGE LESS THAN 48 HOURS TRANSIT TIME FROM SEA PILOT TO SEA PILOT, SAILING IN PIRACY AREAS BUT WARRANTIES TO APPLY IN COG, IN CONGESTION, IN REDUCED VISIBILITY, MANEUVERING OR SAILING IN SHALLOW/RESTRICTED WATERS, STRAITS, RIVERS, CANALS, WHEN APPROACHING /ENTERING/LEAVING PORTS AND WHEN LOADED WITH DECK CARGO.\r\nTHE VESSEL HAS LIBERTY TO BURN EXTRA VLSFO/LSMGO IN CASE OF EMERGENCY, EXCHANGING BALLAST WATER AT SEA, HEATING FUEL IN COLD WEATHER, HOLD CLEANING, MAINTENANCE, MANOEUVRING, SAILING IN SHALLOW/NARROW/CONFINED WATERS, STRAITS, RIVERS, CANAL, ENTERING/LEAVING PORTS, IN HEAVY WEATHER CONDITION AND WHEREVER NECESSARY. COST AND TIME (INCLUDING ANY DEVIATION TIME REQUIRED TO MEET SECA REQUIREMENTS AND/OR REGULATIONS IN OPERATION PORTS TO WHICH VESSEL IS BOUND) INCL BALLAST EXCHANGE TO BE FOR CHARTERERS' ACCOUNT.\r\nCHARTERERS TO SUPPLY BUNKERS WITH SPECIFICATIONS IN ACCORDANCE WITH VLSFO (SULFUR 0.5% MAX)\r\nBIMCO 2020 MARINE FUEL SULPHUR CONTENT CLAUSE FOR TIME CAHRTER PARTIES TO BE INCORPORATED INTO THIS CP.\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        464,
+                        485,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        510,
+                        517,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        837,
+                        892,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        894,
+                        948,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        962,
+                        1021,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

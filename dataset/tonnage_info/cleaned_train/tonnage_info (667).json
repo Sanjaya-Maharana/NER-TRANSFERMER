@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 11:23:05   (GMT +5:30)REFERΕNCE NO: 17676125 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELVSL NAME DWTBUILTOPEN PLACE OPEN DATEREMARKBODMV BRIGHT COMET241001998 TUTICORIN  PPT4*25MT CRANE  CIS--PG   BOX350MT/30MTMV. BRIGHT COMET24,111MT DWT ON ABT 9.55M SUMMER DRAFTNK CLASS, PANAMA FLAG, BULK CARRIERBUILT 1998, LOA 160.4M, BEAM 25.79M, DEPTH 13.7M,GRT/NRT 15,888/8,060GRAIN/BALE CAPA 31,958.6/31,285.1CBM,4H/4H, CRANES 4 X 25MTSPEED/COMSUMPTIONBALLAST: ABT 12.5 KNOTS ON LSFO ABT 16MT/DAY + MGO ABT 0.1MT/DAY AT SEALADEN: ABT 11.5 KNOTS ON LSFO ABT 16MT/DAY + MGO ABT 0.1MT/DAY AT SEA PORT CONSUMPTION:IDLE LSFO ABT 1.5 MT/DAY + MGO ABT 0.1 MT/DAYWORKING LSFO ABT 3.5 MT/DAY + MGO ABT 0.1 MT/DAYPLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        352,
+                        356,
+                        "DRAFT"
+                    ],
+                    [
+                        417,
+                        440,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        454,
+                        474,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        474,
+                        510,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        511,
+                        516,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        551,
+                        614,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        620,
+                        683,
+                        "SEA_CONS"
+                    ],
+                    [
+                        708,
+                        753,
+                        "PORT_CONS"
+                    ],
+                    [
+                        753,
+                        801,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 19-08-2024 10:39:41   (GMT +5:30)REFERΕNCE NO: 17705934 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV AMOY DREAM (63878/2017) - ETD KAMIISO, JAPAN O/A - 28-30 AUG AGW WP UCAE TRY ANY, INVITE CHARTERERS IDEAMV AMOY DREAM (EX:  MONA MANX)TYPE: GEARED SINGLE DECK BULK CARRIER BUILT: TSUNEISHI ZHOUSHAN,2017FLAG: HONG KONGSUMMER DEADWEIGHT/DRAFT/TPC:  63,878MT / 13.32M / 61.34MLOA/BEAM:  199.9M / 32.26MGRT/NRT: 35,606 / 21,466GRAIN/BALE (CBM): 79,014.7 / 76,191Tanktop strength (metric tons per m2):Hold #1:     26.9    Hold #2:     18.9    Hold #3:     26.9    Hold #4:     18.9    Hold #5:     26.9    GEARS: 4 SETS X 30MT DECK CRANE + 4 SETS X 13CBM EH GRABS （CRANES: 4X30 MT IN HOOK MODE/4 X 24MT IN GRAB MODE）SPEED/CONS:  BALLAST - ABOUT 14.0KNOTS ON ABOUT 28.0MT LSFO + ABOUT 0.2MT LSMGOLADEN - ABOUT 13.5KNOTS ON ABOUT 28.0MT LSFO + ABOUT 0.2MT LSMGOECO SPEED BALLAST - ABOUT 12.5KNOTS ON ABOUT 17.7MT LSFO + ABOUT 0.2MT LSMGOLADEN - ABOUT 12.0KNOTS ON ABOUT 17.7MT LSFO + ABOUT 0.2MT LSMGOIN PORT: IDLE ABOUT 3.3MT LSFO + ABOUT 0.4MT LSMGOWORKING ABOUT 4.9MT LSFO + ABOUT 0.4MT LSMGO THE SPEED AND CONSUMPTION IS GIVEN UNDER GOOD WEATHER CONDITION OF 24 CONSECUTIVE HOURS FROM NOON TO NOON, WHICH IS NOT EXCEEDING BF4 AND DSS3 (SIGNIFICANT HEIGHT MAX 1.25M), WITH NO ADVERSE CURRENT (FAVOURABLE CURRENT NOT TO BE USED IN DIMINISHING VESSEL’S PERFORMANCE), NO NEGATIVE INFLUENCE OF SWELL, FROM SEA BUOY TO SEA BUOY, AND ALWAYS EXCLUDING BALLASTING/DEBALLASTING OPERATIONS. NO EXTRAPOLATION IS TO BE MADE FOR WEATHER CONDITIONS OTHER THAN THOSE DESCRIBED ABOVE. THE VESSEL SHALL HAVE THE LIBERTY OF USING LSGO FOR STARTING/STOPPING OF MAIN ENGINE, IN/OUT OF PORT, MANEUVERING IN NARROW/SHALLOW WATERS/RIVERS/CANALS, AND FOR GENERATOR ENGINE IN CASE OF LOW-LOAD OPERATIONS.= all details about=PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION",
+            {
+                "entities": [
+                    [
+                        197,
+                        207,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        236,
+                        241,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        248,
+                        261,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        304,
+                        314,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        724,
+                        746,
+                        "CRANES"
+                    ],
+                    [
+                        765,
+                        772,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

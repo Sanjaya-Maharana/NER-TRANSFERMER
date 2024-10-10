@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nTELiX MSG: 06TIY-00 19/08/24 16:07 +03:00FM: FALCON ENTERPRISES INC.---------------------------FALCON ENTERPRISES INC.(Since 1998.)-----------------------------------Contact Details ---------------PHONE:00302109610173 /Mobile:+30 6944605156 /EMAIL:CHARTERING@FALCONENTERPRISES.GR /Skype id  :thanosso---------------------------------------------------------------------------------------Pls always insert the vessel's name.. or THANOS in yr text.----------------Gdday.. / THANOS A/C SIMTRASMAX DELY PGLAYCAN : 1-10 SEPTFOR 1 TCT VIA PG TO MALDIVESREDELY MALDIVES RANGE3.75 ADDCOM  Plsd to hear . Kind Rgds /Thanos SofrasAs Agents Only On Behalf Of Falcon Enterpises Inc .END.",
+            {
+                "entities": [
+                    [
+                        97,
+                        115,
+                        "COMPANY"
+                    ],
+                    [
+                        481,
+                        492,
+                        "COMPANY"
+                    ],
+                    [
+                        503,
+                        521,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

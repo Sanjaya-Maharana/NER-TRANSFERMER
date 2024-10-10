@@ -1,0 +1,26 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GD\r\nPlease offer firm for:\r\nAbt 3100 mt Corn, SF abt 49’ wog\r\nIzmail / EC Greece or Crete chopt\r\n1000x be\r\nSpot\r\n1.25% ttl here pus\r\nFrt idea and acc available on request\r\nFirm / cargo ready at port\r\nMax draft 4.80m\r\nBest Regards\r\nCapt. K. Kordi\r\nMarketing Desk\r\nLIPSOS BULK CARRIERS DENİZCİLİK VE TİC. A.S\r\nGöztepe Mah Caddesi, Yesilbahar Sk. Omur Apt.\r\nNo: 2 Kat 5 Daire: 31 Kadikoy-Istanbul / Turkiye 34730\r\nPhone      : +90 216 7061099\r\nMobile    : + 90 530 253 1139\r\nEmail         : Marketing@lipsosbc.com\r\nWeb          : www.lipsosbc.com",
+            {
+                "entities": [
+                    [
+                        32,
+                        39,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

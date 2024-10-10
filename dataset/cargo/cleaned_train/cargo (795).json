@@ -1,0 +1,35 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL\r\nGD DAY\r\nPLEASE INDIC/OFFER FIRM FOR BELOW CARGO\r\n50000 MTS 10 PCT BULK CLINKER\r\nTUBAN + GRESIK / CHITTAGONG\r\n12000 , 10000 / 4000\r\n01/10 SEPT\r\nTTL 2.5 PCT PUS\r\nPleased to hear\r\nThanks & Brgds\r\nCapt Dhani\r\nPhone Cell/Whatsapp : +62-857.48132400\r\nDirect id : unishipco@gmail.com\r\nPT. UNISHIPCO MARITIME CO LTD - CHARTERING DEPT\r\n~~~~~~~~ MARITIME HIGH QUALITY SERVICES ~~~~~~~~~~\r\nTelp : +62-857.48132400  and  +62.35.359 5500 Fax : +62.35.359 5505\r\nMobile phone Cell : +62-857.48132400\r\nWebsite : http://www.uniship.synthasite.com\r\nMain email id : unishipco@gmail.com   ///  http://uniship.synthasite.com/\r\nChartering : unishipchartering@gmail.com  // unishipco.chartering@gmail.com\r\n| Ship Chartering | Ship Operations | Ship Agency | Bulk & Bags Cargoes |\r\n| Tankers | Heavylift | Project parcels | RORO | IMO class | Bunkering |\r\n| Sales & Purchase | Commodity Trader and Ships brokers |\r\nServices in Trust, and Your Trust is Our Successfully”",
+            {
+                "entities": [
+                    [
+                        59,
+                        68,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        76,
+                        88,
+                        "CARGO_NAME"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 11:49:19   (GMT +5:30)\r\nREFERΕNCE NO: 17755865\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV SAND TOPIC (ONOMICHI 61) OPEN: SANTOS. BRAZIL ON/AROUND 09/10TH SEPT\r\nLAST 6 CARGOES: SULPHUR / COAL/POTASH/IRON ORE LUMPS/CLINKER/MANG OREBOD ABOUT 950-1000  MT LSFO AND ABOUT 175-185 MT LSMGO\r\nM/V AL JIMI (IMABARI 63) OPEN: MESAIEED, QATAR ON/AROUND 4TH/5TH SEPT\r\nLAST 6 CARGOES: ALUMINA / SUGAR / CLINKER / SULPHUR/ ALUMINA / MANGANESE OREBOD ABOUT 950 MT LSFO AND ABOUT 100-150 MT LSMGO\r\nM/V AL YASAT II (STX 57) OPEN: TAMATAVE, MADAGASCAR ON/AROUND 10TH SEPT\r\n-          LAST 6 CARGOES: SULPHUR/PETCOKE/COAL/SULPHUR/ Metcoke/Coal\r\n-          BOD ABOUT 875-925 MT VLSFO / ABOUT 80-100 MT LSMGO\r\nM/V BUTINAH  (STX 57) OPEN: OBI ISLAND, INDONESIA ON/AROUND 07/08TH SEPT.\r\nLAST 3 CARGOES: SULPHUR/COAL/SULPHURBOD ABOUT 700-750 MT LSFO AND ABOUT 140-150 MT LSMGO\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-ECI - Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nitindev@outlook.com\r\nSeasia-FarEast: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        207,
+                        220,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        235,
+                        255,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        266,
+                        278,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "- Rotterdam SPOT/PPT\r\n- LOOKING FOR BIZ TOT THE MED OR PG DIRECTION\r\n- TRY ANY DIR\r\n- AWAITING YOUR RATED PROPOSALS PLEASE\r\nMV. LEGEND\r\nDWT (SUMMER): 23,800 MTS BUILT: 2010 IMO: 9587865 CLASS: NKK FLAG: ST KITTS GEAR: 4X30T LOA/BEAM/DRAFT: 159M/24.0/9.41M 5HA/HO, GRAIN/BALE: 37,505/35,836 CBM -ADA-\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        240,
+                        249,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        250,
+                        255,
+                        "DRAFT"
+                    ],
+                    [
+                        256,
+                        261,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        264,
+                        293,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

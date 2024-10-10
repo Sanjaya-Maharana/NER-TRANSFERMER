@@ -1,0 +1,73 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "DISCHARGE_PORT",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DISCHARGE_RATE",
+        "LOAD_RATE",
+        "DEMURRAGE"
+    ],
+    "annotations": [
+        [
+            "gd day URGENT - Chrtrs will fix today - need firm offers till 4pm CET today As panel brokers for Holcim Shipping we kindly request your indications (frt and demurrage) for: - Account Holcim Shipping PTE - 50,000 mt 10% moloo Bulk PetCoke - Oxbow Texas City Terminal/Milaki - 18,000 SSHINC/7,000 SSHINC - EU ETS to be for Owners' acct (pls advise the calculated ETS value when offering) - 8/14 JUNE - Gncn 3,75% adcom + 1,25% Autochartering Angel Arnaudas Av. Drassanes,6 - Ed. Colon, pl. 16 08001 Barcelona P +34 933 010 258 M +34 619 701 329 Skype: autoangel Email: angel@autochartering.com (please copy here for fast reading) www.autochartering.com",
+            {
+                "entities": [
+                    [
+                        113,
+                        128,
+                        "COMPANY"
+                    ],
+                    [
+                        132,
+                        145,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        146,
+                        154,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        158,
+                        184,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        190,
+                        206,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        214,
+                        218,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        221,
+                        227,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        246,
+                        252,
+                        "LAYCAN"
+                    ],
+                    [
+                        255,
+                        266,
+                        "DEMURRAGE"
+                    ],
+                    [
+                        269,
+                        316,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

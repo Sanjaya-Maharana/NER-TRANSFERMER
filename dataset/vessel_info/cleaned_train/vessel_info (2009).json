@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Good Day,\r\nExclusive on our\r\nhands, the vessel below is For Sale;\r\nM/V ONE DAY (Ex Tong Da)\r\nVessel Type Bulk Carrier / Singledecker\r\nIMO 9363261\r\nFlag Belize\r\nDWT 3265\r\nBuilt Year / Place 2006 / Rongcheng Haida Shipbuilding\r\nClass Overseas Marine Certification (Omcs)(Non Iacs)\r\nSs/Dd 2029-09 2027-04\r\nGrt/Nrt 1970 / 1068\r\nHo/Ha 1/1\r\nHold Size 48x10x7.5m\r\nHatch Size 38.4x9.0m\r\nGrain / Bale 3850 CBM / 3700 CBM\r\nLOA 79.99 M\r\nBeam 13.6 M\r\nDraft 5.7 M\r\nMain Engine 1 × MAN 8L23/30 1,468 BHP @ 825 RPM\r\nGearless\r\nBwts Fitted\r\nShe is trading Med/Black Sea. She can give prompt delivery by arrangement.\r\nHolding full details.\r\nCan guide on the price.\r\n(All dtls wog)\r\nBest regards\r\nMiss. Aysel ÜNAL\r\nS&P Broker\r\nBridge S&P\r\n(As brokers only)\r\nTel : + 90 216 232 26 65\r\nMobile : +90 532 373 87 64\r\nWeChat: ayselunall\r\nEmail : snp@bridgeship.net\r\nMember of Ship Brokers' Association - TURKIYE\r\nMember of Turkish Chamber of Shipping\r\nwww.bridgeship.net\r\nPlease visit for further company background\r\nThe contents of this email message and any attachments are intended solely for the addressee(s) and may contain confidential and/or privileged information and may be legally protected from disclosure. If you are not the intended recipient, you are hereby notified that any use, dissemination, copying, or storage of this message or its attachments is strictly prohibited.",
+            {
+                "entities": [
+                    [
+                        134,
+                        145,
+                        "IMO"
+                    ],
+                    [
+                        147,
+                        158,
+                        "FLAG"
+                    ],
+                    [
+                        160,
+                        168,
+                        "DWT"
+                    ],
+                    [
+                        170,
+                        193,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

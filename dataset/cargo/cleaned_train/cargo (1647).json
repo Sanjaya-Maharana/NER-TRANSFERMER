@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\nG'DAY ALL / HANSON ISTANBUL;FULLY FIRM & BOOKEDA/C HANSON CARRIERS\r\nUMAX/PMAX\r\n1 TCT VIA BSEA TO PG(NO I/I)/JAPAN RANGEDUR VIA SUEZ ABT 50 DAYS WOG\r\nL/C: END AUG/BEG SEPT\r\n3,75% ADDCOM\r\n \r\nAlt can try 2/3 llegs or short/long period for the right vesselRouting via suez or cogh\r\n",
+            {
+                "entities": [
+                    [
+                        53,
+                        82,
+                        "COMPANY"
+                    ],
+                    [
+                        136,
+                        147,
+                        "DURATION"
+                    ],
+                    [
+                        153,
+                        174,
+                        "LAYCAN"
+                    ],
+                    [
+                        176,
+                        188,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

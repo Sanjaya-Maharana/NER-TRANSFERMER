@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Untitled document\r\nDear Friends,\r\nPlease offer firm for;\r\nCARGO AND QUANTITY:  IOC/52KMT\r\nLaycan: ppt\r\nL port: 1 PG\r\nD port : North Port/China\r\nL rate: 8000 MTPD\r\nD rate :15000 MTPD\r\n(Mr.) Anıl YILDIRIM\r\nChartering Desk\r\nLIPSOS BULK CARRIERS DENİZCİLİK VE TİC. A.S\r\nGöztepe Mah. Bagdat Caddesi, Yesilbahar Sk. Omur Apt.\r\nNo: 2 Kat 5 Daire: 31 Kadikoy-Istanbul / Turkiye 34730\r\nPhone: +90 216 7061099\r\nMobile: +90 545 684 50 87\r\nEmail: chartering@lipsosbc.com\r\nWeb: www.lipsosbc.com\r\nFirmamızdan elektronik duyuru almak istemiyorsanız buraya tıklayınız.\r\nIf you prefer not to receive e-mail messages from us click here.",
+            {
+                "entities": [
+                    [
+                        112,
+                        140,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        144,
+                        159,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        163,
+                        181,
+                        "DISCHARGE_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "TO: ALL FRIENDSFM: COSCO SHIPPING BULK / AS AGENT ONLYRE: TONNAGE / CARGO OPEN LIST    CARGO LIST=======================  ORDER 1 PIC: MR ZHANGWEI & MS JOVIACCT REFINED SUCCESS LIMITEDSDBC DWT 38K-SMXMAX 20 YRS, 4X30 MT CRANES, MIN 4 X12 CBM GRABSDELY TM WMED INT DJEN DJEN-ANNABALC 25 AUG 2024 ONWARDSTCT INT BULK CLINKER TO CARIBSREDLY 1 SP ITN CARIBS3.75 ADDCOM PLUSCAN TRY PERIOD     BALTIC + CONTI+ W.MED TONNAGE======================NIL    E.MED+B.SEA+RED SEA TONNAGE=======================MV SHENG JI HAI DWT 56965 MT OPEN ALIAGA O/A 19 AUG 2024, CAN TRY ANY BIZ,",
+            {
+                "entities": [
+                    [
+                        156,
+                        184,
+                        "COMPANY"
+                    ],
+                    [
+                        280,
+                        294,
+                        "LAYCAN"
+                    ],
+                    [
+                        353,
+                        364,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 22-08-2024 11:57:21   (GMT +5:30)\r\nREFERΕNCE NO: 17730257\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV SHANG YUAN MEN -  (43K DWT LOGGER) – OPEN ABIDJAN - O/A 11TH SEPT 2024\r\nMV SHANG YUAN MEN – open Abidjan o/a 11th Sept.\r\nTYPE: BULK CARRIER FULLY LOG FITTED\r\nBLT: 1995 AT JAPAN / CLASS: BV / FLAG: PANAMA\r\nDWT / DRAFT: ABT 43,125MT / ABT 11.24M TPC 49.1\r\nGT/NT: ABT 24,550 / ABT 14,450\r\nLOA / BEAM (MOULDED): ABT 185.00M / ABT 30.50M\r\nCAPACITIES: BALE / GRAIN: ABT 53,240M3 / ABT 54,290M3\r\nHOLDS / HATCHES: 5/5\r\nSIZE OF HATCHES: 1)18.86M X 18.26M  2-5)21.32M X 18.26M\r\nHATCHCOVERS: HYDRULIC FOLDING TYPE\r\nCRANES: 25MT X 4 SETS\r\nGRABS: 10CBM X 4 SETS REMOTE MECHANICAL TYPE\r\nIN PORT:\r\nIDLE: ABT 2.0 MTS VLSIFO + ABT 0.1 MTS LSMGO\r\nWORKING:ABT 4.0 MTS VLSIFO + ABT 0.1 MTS LSMGO\r\nAT SEA:\r\nBALLAST:ABT 11.5 KNOTS ON ABT 19.0 MTS VLSIFO RMG380 AND 0.1 MTS LSMGO\r\nLADEN:ABT 11.5 KNOTS ON ABT 20.0 MTS VLSIFO RMG380 AND 0.1 MTS LSMGO\r\nALL DETAILS ABOUT\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        207,
+                        224,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        229,
+                        236,
+                        "DWT"
+                    ],
+                    [
+                        247,
+                        259,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        266,
+                        280,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        282,
+                        299,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        302,
+                        314,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        319,
+                        329,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        368,
+                        377,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        401,
+                        413,
+                        "FLAG"
+                    ],
+                    [
+                        432,
+                        440,
+                        "DWT"
+                    ],
+                    [
+                        714,
+                        730,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

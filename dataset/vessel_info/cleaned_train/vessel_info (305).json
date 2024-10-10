@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\r\nTELiX MSG: 0ZTWK-00 19/08/24 08:27 +03:00\r\n\r\n\r\nEXCL====MV JIN CHAO (63KDWT/'14) - PORT ELIZABETH – 28/31 SEPT 2024+MV JIN CHAO (EX HANTON TRADER I)63,469 MTS DWAT ON ABT 13.3M SSW, TPC 62.30 MTBLT 2014, BULK CARRIER, HONG KONG FLAG, CLASS BVLOA 199.90/BEAM 32.26 - 5 HO/HA, GT/NT 36,278/21,60778,929 CBM GRAIN / 73,680 CBM BALE4X35MTS CR + 4X12 CBM GRABSS/C: BALLAST - 14.0KTS(B) ON 29.5MT(B) + 0.1MT LSMGO LADEN - 13.0KTS(L) ON 28.5MT(L) IFO + 0.1MT LSMGOECO (WOG): BALLAST - 13.0KTS(B) ON 23.5MT(B) + 0.1MT LSMGOLADEN - 12.0KTS(L) ON 23.5MT(L) + 0.1MT LSMGOIDLE: GE ABT 1.5 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MTWW: GE ABT 4.0 MT / BOILER ABT 2.0 MT + LSMGO 0.1 MTALL DTLS ABT+\r\nBest Regards,\r\r\n  Justin Adumekwe\r\r\n  Chartering Dept.\r\r\n  Mobile: +971 56 538 4575\r\r\n  Email: chartering@drydelmaritime.com\r\r\n  Skype: justin.adumekwewww.drydelshipping.com\r\n\r\n\r\r\n  \r\r\n\r\n\r\r\n  \r\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\r\nEMAIL - DISCLAIMER\r\r\nThis message, as well as any attachments, may contain confidential information\r\r\nand maybe legally privileged. If you are not the intended recipient, please\r\r\npromptly inform the sender, delete this email from your system and destroy any\r\r\ncopies of it. Any other unauthorized access or unauthorized forwarding, copy\r\r\ncreation, publication or any other action in this connection is prohibited.\r\r\nEmail transmission cannot be guaranteed to be secure or error-free. Therefore,\r\r\nthe genuineness or completeness of the information contained in this message,\r\r\nthe statements set forth above are not legally binding. Furthermore, high\r\r\nquality systems are used to ensure that this message is virus free. However,\r\r\nsince transmission is not secure and masquerading technologies are often used\r\r\nby third parties, we cannot be held responsible or liable for any damages\r\r\ncaused by such technologies and/or viruses.\r\n\r\n\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        63,
+                        71,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        73,
+                        83,
+                        "DWT"
+                    ],
+                    [
+                        123,
+                        131,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        202,
+                        206,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        222,
+                        236,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

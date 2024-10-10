@@ -1,0 +1,67 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "SEATRANS CHARTERING  S.A.\r\n15/08/2024-21:15:47 / REF:733705\r\nEst.1999\r\nE-mail: chartering@seatranschartering.gr\r\nMv Xin Chun Xiao 46946 /10.9/2013 open Abu Dhabi,UAE 24th Aug iagw wp wog,\r\nprefer sgp-jp rge.\r\nRightship 5 star,\r\nNo HBI, No iran,\r\nsulphur and salt ok\r\nMv Xin Chun Xiao\r\nFlag/Class:P.R.C/CCS\r\nBUILT/SHIPYARD:2013 ,NEW YANGZI SHIPBUILDING CO., LTD, CHINA\r\nType: Bulk Carrier\r\nIMO/Class No 9628037/13V0360\r\nOwners: NingBo ChunTai Shipping Co.,Ltd\r\nLOA/Beam (Mtrs): 189.99/32.26\r\nDepth Moulded/LBP (Mtrs): 15.49/185.00\r\nDwt 46946.66mt sdwt on 10.9m ssw tpc 57.7\r\nGRT/NRT: / 29304/15757\r\nSuez Grt/Nrt:29929.36/26355.88\r\nPanama Grt/Nrt: /24330\r\nA60 Bulkhead\r\nHatch/Hatch: 5 HO/HA\r\nHatch Dimensions (M) BREADTH FWD BREADTH AFT LENGTH\r\nNo.1 18.26 18.26 18.86\r\nNo.2-5 18.26 18.26 21.32\r\nHatch cover Type: folding type.\r\nCapacity Grain (cft) Grain (cbm) Bale (cft) Bale (cbm)\r\nHold No.1 382574.4 10833.3 355657.5 10071.1\r\nHold No.2 453500.4 12841.7 432989.6 12260.9\r\nHold No.3 430231.5 12182.8 410776.7 11631.9\r\nHold No.4 452575.1 12815.5 432106.7 12235.9\r\nHold No.5 409749.0 11602.8 380921.7 10786.5\r\nTotal 2128630.4 60276.1 2012452.2 56986.3\r\nClear Tank top space (Length * Breadth) Hold\r\nNo.1 M*M fore/aft: 27.88*10.72/23.68 m\r\nNo.2 M*M fore/aft: 28.7*23.82/23.82 m\r\nNo.3 M*M fore/aft: 27.06*23.82/23.82 m\r\nNo.4 M*M fore/aft: 28.7*23.82/23.82 m\r\nNo.5 M*M fore/aft: 27.06*23.82/14.36 m\r\nCargo permissible load:\r\nTank top No.1: 25t/m2\r\nTank top No.2: 20t/m2\r\nTank top No.3: 25t/m2\r\nTank top No.4: 20t/m2\r\nTank top No.5: 25t/m2\r\nWeather deck: 4.5t/m2\r\nHatch covers: 2.2t/m2\r\nAustralian ladder: FITTED\r\nCO2: FITTED\r\nHold ventilation: FITTED\r\nCement/Grain feeder holes: FITTED.\r\n( 700 MM DIAMETER.PORTALS ARE ON PORT CORNER AND TARBOARD CORNER OF THE HATCH COVER.)\r\nCranes: 4 X30mt (power 380v and 50hz)\r\nSwl of cranes with grabs+cargo: 24mt (I.e.grab wt+cgo wt 24mt max)\r\nOutreach: EACH 28M\r\nCrane outreach from shipside: 11.87 m\r\nGrabs: (radio remote control) 4X12 cub mtrs SWAG- Peiner selfweight: 12t min/max 8-12cbm\r\nBallast capacity: Maximum 28467.2cbm including hold No.3 (12182.8cbm)\r\nFresh water capacity: 454.3 CBM\r\nTanker Capa:\r\ntank for IFO 1326.8M3*0.85 1127M3,TOTAL 4 TANKS;\r\ntank for MGO 186.7M3*0.85 158M3, TOTAL 3 TANKS,\r\nConstant excluding fresh water: About 450T\r\nBallast/Deballast Rate/Hr :Nominated pumps capacity:760M3/H×0.25MPa×2sets\r\nP&I Club: CPI\r\nHull & Machinery Insured Value: CPI\r\nMain Engine: MAN 6S46MC8-Tier2 / 8,280kw x 136.0rpm\r\nAuxiliaries: CME-MAN 5L23/30H, 650kw X 720rpm\r\nSPEED AND CONSUMPTION ARE VALID ONLY UP TO AND INCLUDING BEAUFORT FORCE 4 (11-16 KNOTS) AND TOTAL COMBINED (SEA AND SWELL) SIGNIFICANT WAVE HEIGHT CONFINED TO LIMITS OF DOUGLAS SEA STATE 3 (0.5-1.25 METRES) WITH NO ADVERSE CURRENTS.\r\nIT IS UNDERSTOOD THAT THE TIME DURING WHICH THERE IS BAD WEATHER WITH WIND EXCEEDING BEAUFORT FORCE 4 AND/OR DOUGLAS SEA STATE 3 UNDER OPPOSING CURRENT WILL NOT BE TAKEN INTO CONSIDERATION FOR THE CALCULATION OF THE PERFORMANCE.\r\nECO SPEED AND CONSUMPTION:\r\nAT SEA\r\n(BALLST) ABT 13KTS ABT. 21.0 MT IFO 380CST+ 0.1 MT LSMGO\r\n(LADEN) ABT 12KTS ABT. 22.0 MT IFO 380CST+ 0.1 MT LSMGO\r\nIN PORT: (IDLE) ABT. 2.5 MT IFO 380CST + 0.1 MT LSMGO\r\n(WORKING using crane) ABT.4.5 MT IFO 380CST + 0.1 MT LSMGO\r\nAdditional 1mt ifo per day in port for boiler in cold weather.\r\nABOUT IS UNDERSTOOD TO MEAN 0.5KNOTS DOWNWARDS ALLOWANCE THE SPEED AND 5% UPWARDS ALLOWANCE INTHE CONSUMPTION.\r\nConstantine(Costas)N.Benetos,Cell:+30 6945 150 237, Skype: CNBenetos\r\nBest Regards/STC S.A. - As Brokers Only\r\n[Message sent via SOFTWAY Communicator]",
+            {
+                "entities": [
+                    [
+                        460,
+                        489,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        554,
+                        559,
+                        "DRAFT"
+                    ],
+                    [
+                        574,
+                        596,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        603,
+                        628,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        681,
+                        688,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        3013,
+                        3069,
+                        "SEA_CONS"
+                    ],
+                    [
+                        3071,
+                        3126,
+                        "SEA_CONS"
+                    ],
+                    [
+                        3131,
+                        3181,
+                        "PORT_CONS"
+                    ],
+                    [
+                        3183,
+                        3241,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

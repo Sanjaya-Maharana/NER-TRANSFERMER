@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 19-08-2024 13:13:58   (GMT +5:30)\r\nREFERΕNCE NO: 17708821\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV PU SHENG 6 / DWT 28,233 / GLESS - HDY -  OPEN KOH SI CHANG, THAILAND - 19-20TH AUG 2024\r\nTCT OR VC OK\r\nPREFER TO CHINA DIRECTION\r\nRUSSIA OK\r\nMV PU SHENG 6\r\nGearless Bulk Carrier\r\nPanama Flag, Blt 2010\r\nClass OMCS\r\n28,233mts dwat on 10.55m ssw\r\nGrain/Bale Capacity: 33,554.981cbm\r\nLoa/Beam/Depth 162.80m/25.60m/14.60m\r\nGrt/Nrt 17,106/9,049\r\nGH/4H\r\nGearless\r\nSpeed/Cons:\r\nLaden - about 10.5knots on about 14.5mt IFO + 1.3mt MGO\r\nBallast - about 11.0knots on about 14.5mt IFO + 1.3mt MGO\r\nIn port: about 1.3mt MGO\r\n-ADA-\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        207,
+                        220,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        223,
+                        233,
+                        "DWT"
+                    ],
+                    [
+                        251,
+                        278,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        281,
+                        297,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        351,
+                        364,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        389,
+                        400,
+                        "FLAG"
+                    ],
+                    [
+                        402,
+                        410,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

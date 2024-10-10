@@ -1,0 +1,31 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Doc-No. 177413053   15/AUG/2024 (THU)  17:39  (+0800)  DWH\r\nHowe Robinson Partners – S&P Dept.\r\nDear SNP friends/Raymond,\r\nKEEN SELLERS ! CAN GUIDE YOU LATEST FIXING PRICE AGAINST NAMED INTERESTS!\r\nPLS DO NOT RE-CIRECULATE!!\r\nitinerary update:\r\nD)YOKOHAMA: 18-21/AUG\r\nL)KIMITSU: 21-23/AUG\r\nL)TOKAI: 25-26/AUG\r\nL)NAGOYA: 26-27/AUG\r\nD)SINGAPORE: 07-08/SEP\r\nD)PORT KELANG: 09-10/SEP\r\nD)JAKARTA: 13-14/SEP\r\nfrom Very close local owners to whom i SOLD MOST of their vsls can develop below 2013 Japan blt 12k tween decker\r\n\" M.V. Aquila Glory \" - (ex ' Apollo Neo ')\r\nDWT 12,000 on 8.30m Built 13 SHIN KOCHI\r\nFlag SNG, Class NK - SS 6/2028 DD 6/2026\r\nL.O.A. 123.80m / Beam 19.60m / L.B.P. 116.00m / Depth 13.60m\r\nG.T. 8,974 / N.T. 3,664, Grain 19,000 / Bale 17,100cbm\r\nMAN-B&W 6L35MC 5,304 BHP 210 RPM\r\n13.2kn\r\nGEARED C 2x30.7\r\nprompt delivery by arrangement in FE\r\nbest\r\nRaymond Ding\r\nHowe Robinson Partners/ SNP\r\nTel:86-21-2310-0031\r\nMob:86-15902123487\r\nEmail: raymond.ding@howerob.com / snp@howerobinson.com\r\nSkype: raymond_dmu\r\nLondon:    +44 20 7488 3444     Singapore: +65 6506 1900\r\nBergen:    +47 5561 1700        Shanghai:  +86 21 2310 0188\r\nHamburg:   +49 40 2263 0830     Hong Kong: +852 3555 1000\r\nCopenhagen:+45 3317 0706        Tokyo:     +81 3 3583 9768\r\nGibraltar: +350 200 754 80      Dubai:     +97 145 816 200\r\nHouston:   +1 203 274 1415      New Delhi: +91 124 464 6946\r\nNew York:  +1 201 430 2415      Geneva:    +41 22 596 77 98\r\nAthens:    +30 211 199 8139\r\nAll business is conducted in accordance with our Terms and Conditions which can be viewed on our website: www.howerobinson.com\r\nOur Privacy Policy can be viewed at www.howerobinson.com/privacy-policy\r\nThis e-mail and any attachments are believed to be free from viruses but it is your responsibility to carry out all necessary virus checks. Howe Robinson Partners accepts no liability for any damage caused by any virus transmitted by this e-mail.\r\nDisclaimer\r\nThe information contained in this communication from the sender is confidential. It is intended solely for use by the recipient and others authorized to receive it. If you are not the recipient, you are hereby notified that any disclosure, copying, distribution or taking action in relation of the contents of this information is strictly prohibited and may be unlawful.\r\nThis email has been scanned for viruses and malware, and may have been automatically archived by Mimecast Ltd, an innovator in Software as a Service (SaaS) for business.   Providing a safer and more useful place for your human generated data.   Specializing in; Security, archiving and compliance. To find out more Click Here.",
+            {
+                "entities": [
+                    [
+                        562,
+                        572,
+                        "DWT"
+                    ],
+                    [
+                        591,
+                        611,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

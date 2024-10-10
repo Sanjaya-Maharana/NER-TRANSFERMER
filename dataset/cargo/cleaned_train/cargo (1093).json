@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\n200824-REF112893   8/20/2024 8:57 AM  -/ SAAD OUR CLOSE & LOCAL CHARTS GUIDANCE HERE *FIXED THEIR LAST HERE*HARMONY BULKERS - BOOKED CARGOES MENU *SUBS FORMALITY*1)BOOKEDAcc Harmony BulkersDwt  : 48k-60k dwt - Max 18 yrsDely : CJK /Spore-Seasia RangeTct   : via Indo to WcIndia with coalLcan : 28 Aug - 01 Sep Bss EkaliDur  : Abt 25-30 dys wogRdly : WCIndia  Adcom: 3.75% pastus  2)BOOKEDAcct Harmony Bulker   Dwt 51,000 - 62,000mts   Del Salalah   Laycan 1-10 SEP   For single trip with bulker gypsum   Dur 25-30 days Wog   Redel S.E.Asia (intn. Vietnam)   3.75% addcom pastus only-ALT CAN TRY SP OR 2-3 LL FOR THE RIGHT CANDIDATES.End Best regardsSaad ZubairChartering Manager  International Cooperation of Shipbrokers ApsNordkajen 2DK – 6000 Kolding.VAT no. 39181746 Mobile phone/WhatsApp: +92-3218200636Skype: icshipbrokers@gmail.comWeb: www.icshipbrokers.comEmail: bulkers@icshipbrokers.com (dry cargo chartering 15001-64000 dwat)pmaxcapes@icshipbrokers.com (dry cargo chartering 64001-200000 Dwat)postfixing@icshipbrokers.com (postfixing & invoicing) All our activities are subject to our Terms and Conditions of Business.",
+            {
+                "entities": [
+                    [
+                        172,
+                        183,
+                        "COMPANY"
+                    ],
+                    [
+                        296,
+                        311,
+                        "LAYCAN"
+                    ],
+                    [
+                        328,
+                        340,
+                        "DURATION"
+                    ],
+                    [
+                        368,
+                        373,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        412,
+                        434,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        451,
+                        465,
+                        "LAYCAN"
+                    ],
+                    [
+                        497,
+                        502,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        506,
+                        520,
+                        "DURATION"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

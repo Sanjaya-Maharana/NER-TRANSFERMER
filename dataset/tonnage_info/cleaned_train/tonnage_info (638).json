@@ -1,0 +1,37 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 16-08-2024 12:57:58   (GMT +5:30)\r\nREFERΕNCE NO: 17701370\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV TENROU MARU - SMX - OPEN CHITTAGONG - 21-22TH  AUG\r\nPREFER ECI - CHINA\r\nVessel’s Description\r\nMV Tenrou Maru\r\n57,593MTDWT on Summer sea draft of 12.818M\r\nBuilt: Feb, 2016 Shipyard: TSUNEISHI Heavy Industries (CEBU), Inc.\r\nFlag: Ile of man Flag Class: NK\r\nGross/Net tonnage: 32,540/19,282 LOA/Beam/Depth: 189.99M / 32.296M / 18.018M\r\n5Hatches No.1： 18.00L (m) x 17.00B (m) No.2 to No.4： 20.93L (m) x 18.6B (m) No.5： 20.70L (m) x 18.6B (m)\r\nType of hatch covers: Folding type Cranes: 4 x 30MTcap (30mt x 18.5/min and max slewing radius:26)\r\nM/E: Mitsui Man B & W 7S50ME-B9.3 MCO 8,470kW x 90.0rpm CSO 6,510kW x 90.7rpm\r\nBunker Tank Cap: 1,975.00m3 (100%) for F.O.T. / 164.6m3(100%) for D.O.T Basis MT for 85% of tank capacity due to safety allowance as follows;\r\nNo.1 F.O.T. (P/S): abt.558m3 No.2 F.O.T. (P/S): abt.587.69m3 No.3 F.O.T. (P/S): abt.533m3 No.\r\n1 D.O.T. (S): abt.72.5m3 No.2 D.O.T. (S): abt.67.44m3 Fresh water tanks: 300.00m3 (100%) / 255.00MT(85%) Cement holes are fitted on each hatch cover. (Total 10 holes/ship) A-60 insulation is fitted. Hold Co2 not fitted.\r\n4 Grabs Fitted.\r\nNo Deck Cargo 1 Tank top Uniform Load： No.1\r\nCargo Hold：25.3 t/m2 No.2 Cargo Hold：18.3 t/m2 No.3 Cargo Hold：25.3 t/m2 No.4 Cargo Hold：18.3 t/m2 No.5\r\nCargo Hold：25.3 t/m2 Hot Coil： 15mt x 2.0 tiers x 1.5m width with 4dunnages 20mt x 1.5 tiers x 1.5m width with 4dunnages 25mt x 1.0 tier x 1.5m width with 4dunnages\r\n-All figures ‘about’\r\n～Speed / Consumption\r\nAt Sea\r\nBallast: about 14.00 knots under good weather conditions up to and including BF4 and Douglas sea state 3\r\nLaden: about 13.50 knots under good weather conditions up to and including BF4 and Douglas sea state 3\r\nLaden/Ballast: about. 26.1m/t (VLSFO)\r\nNo LSMGO at sea but vessel may use LS when entering/leaving port, maneuvering and in narrow, shallow or congested waters, rivers, straits, canal, when ballasting /de-ballasting, heating fuel in cold weather, familiarization, maintenance and others in case of need.\r\nBunker Consumption at most reduced speed ：(WOG)\r\n(MCR 45%, RPM 87 )\r\nBallast: about 12.00 knots\r\nLaden: about 11.50 knots\r\nLaden/ballast: about 16.2m/t (VLSFO)\r\nVessel’s slow steaming subject to the vessel to run at full speed for minimum 1 hour every day. Daily running at CSO for 1 hour has been taken into account for fuel oil consumption calculation. Above condition are considered for vessel in good weather condition and without guarantee bases.\r\nIn Port\r\nLoading: about 5.0 m/t(VLSFO) + about 0.5 m/t (LSMGO)\r\nIdle : about 2.0 m/t(VLSFO) + about 0.5 m/t (LSMGO)\r\nall details about, wog.\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        357,
+                        364,
+                        "DRAFT"
+                    ],
+                    [
+                        464,
+                        498,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        516,
+                        533,
+                        "LOA_BEAM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

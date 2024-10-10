@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 11:32:01   (GMT +5:30)REFERΕNCE NO: 17676285 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV VIMC MIGHTY - DWT 22,625 - OPEN LANQIAO, CHINA -  ON/ABT 21ST/AUG 2024M/V VIMC MIGHTYBULK CARRIER- VIETNAM FLAG - BUILT 2007 CLASS NK & VRLOA/BM 153.2 / 26 MTRSSUMMER DRAFT 9.5 MTRSDWT/GT/NT 22,625/ 14,851 / 7,158;5H/5H CRANES 04 UNIT x 25 MTCAPA B/G 28,964.42 / 29,156.72 CBM;VSL'S P&I CLUB: GARD(ALL ABT )---ada--PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: https://www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        335,
+                        352,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        364,
+                        373,
+                        "DRAFT"
+                    ],
+                    [
+                        396,
+                        410,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        411,
+                        416,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        448,
+                        473,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

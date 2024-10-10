@@ -1,0 +1,76 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "19, AUGUST 2024\r\nDEAR COLLEAGUES, PLS ASSIST IN FINDING BIZ FOR OUR OPEN TONNAGE AND CARGO AS BELOW:\r\nOPEN TONNAGE\r\nMV OCEAN SUCCESS, 17K, DAMMAM IST WK SEPT     MV JIA RUN DWT 56K 4X36T, EGYPT OOA 26 AUGMV AL HADBHAA 17K, EAST AFRICA OOA 10 SEPTMV HAJ M 22K YAMEN OOA 23 AUGXIN HAI TONG 56K, CONSTANTA, IST WEEK SEPT38K, RED SEA, MID SEPT, FHAUL\r\nOPEN CARGO\r\nKARACHI- COMOROS IS, BAGGED RICE 6000 TONS PC OK 10-15 SEPT 10-15000 OO, WIRE RODS, BAHODOPI, TO COLOMBO + CHENNAI CFR LO PPT OWRDS MAX 1.9 TONS UWBEST REGARDS,\r\nOBAID ASIM\r\nAZTAM SHIP BROKERS (AS BROKERS ONLY)\r\nSKYPE: aztam.shipbrokers\r\nWECHAT: wxid_f8izjitxrtgw12\r\nWHATSAPP: +92 321 201 4901\r\nE: DRYCARGO@AZTAMSHIPBROKERS.COM\r\nPLEASE INCLUDE DRYCARGO@AZTAMSHIPBROKERS.COM IN YOUR CIRCULATIONS\r\nCLICK HERE TO UNSUBSCRIBE The contents of this e-mail message and any attachments are confidential and are intended solely for the addressee. The information may also be legally privileged and confidential. If you have received this communication in error, please notify us immediately. Any use, disclosure or reproduction or dissemination of this transmission is strictly prohibited.",
+            {
+                "entities": [
+                    [
+                        116,
+                        132,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        162,
+                        172,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        173,
+                        180,
+                        "DWT"
+                    ],
+                    [
+                        188,
+                        193,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        198,
+                        200,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        207,
+                        217,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        223,
+                        234,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        239,
+                        241,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        249,
+                        254,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        259,
+                        264,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        269,
+                        271,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

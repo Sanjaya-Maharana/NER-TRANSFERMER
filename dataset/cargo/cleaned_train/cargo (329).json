@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "......Forwarded Mail........\r\nAll/Diego, Mathew , Saaed\r\nGood morning ,\r\nWe are open with below firm cargo.\r\nPls note due to Eid holidays next week.  Offers/indications to be submitted latest\r\nWednesday 19nd\r\nJune Cob time Abu dhabi\r\nAcct Emirates Steel\r\n20.000 mts +/- 5% in chopt,  Steel beams  (as per intend packing list attached)\r\nLaycan: 13/17 July\r\nMina Zayed / Algeria ( Djen djen or Bjeaia in chopt) + Egypt ( Abu Qir ) + Tunisia (Sousse or Bizerte in chopt)+ Morocco (Casablanca)\r\nLoading rate: Mina zayed abu dhabi@\r\n600 tons pwwd per workable crane\r\nsshex eiu or shinc . Pls advise differential.\r\nDischarge rates:\r\nEgypt @\r\n600 tons pwwd per workable crane fshex\r\neiu.\r\nAlgeria@\r\nLiner out under hook\r\nTunisia@\r\nLiner out under hook\r\nMorocco@ Liner out under hook\r\nFreight bss 1/4\r\nRotation in OO or Geo rotation\r\nAgents at load: West oceanic\r\noperation@wosa.ae\r\nAgents at Egypt:\r\noperations@margroupegypt.com ,  agency@margroupegypt.com.\r\nRest of terms/details as per attached proforma cp here attached.\r\n2.5% address commission\r\n* Pls rate via Suez or Coh\r\n* Part cargo okay\r\n* MPP,OH/Box , Semi/Box\r\n* When offering named tonnage , pls sent GA plan+BQ\r\nPls note we will circulate order via SCH (Supply Chain HUB) system also.\r\nB.Regards,\r\nDiego , Mathew , Saaed",
+            {
+                "entities": [
+                    [
+                        255,
+                        265,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        284,
+                        295,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        336,
+                        354,
+                        "LAYCAN"
+                    ],
+                    [
+                        356,
+                        489,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        528,
+                        554,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        611,
+                        660,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        1018,
+                        1041,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

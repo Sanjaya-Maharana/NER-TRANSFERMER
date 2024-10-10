@@ -1,0 +1,52 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "Dear ALL\r\nGood day\r\nPls pps -\r\nMV XHT22 - 2011  -  56779 DWT 4X30MT CRANE   - OPEN CONSTANTA, ROMANIA 1-8 SEP.\r\nBOD : ABT 400-450 MT FOR VLSFO ,  ABT 60-70 MT FOR LSMGO\r\nLAST FIVE CGO : COAL/IRON ORE/PHOSPHATE/UREA/GENERAL CGO\r\nClass :  NK\r\nDWT/DRAFT:  56779 MT ON 12.8 M SSW\r\nGRT/NRT: 32,919 /19,132\r\nGEARS : CRANES: 4X30 MT  TTS ELECTROHYDRAULIC\r\nGRABS: 4X12CBM\r\nSPEED AND CONSUMPTION FIGURES:\r\nLADEN ABT 12KTS ABT 22.5MT IFO+ABT 0.1MT LSMGO / BALLAST ABT 12KTS ABT 21.50MT IFO+ABT 0.1MT LSMGO\r\nABOVE CONSUMPTIONS INCLUDE MAIN ENGINE AND AUX.ENGINE CONSUMPTIONS.\r\nCONSUMPTION IN PORT (IN ECA PORT CONSUMPTIONS WILL BE IN LSMGO)\r\nDAILY CONSUMPTION BASIS GEARS WORKING: ABT4.50MT LSFO + 0.1 MT LSMGO\r\nIDLE (ANCHORED/STANDBY): 2.0MT LSFO + ABT 0.1MT LSMGO\r\nADDITIONAL 4.5 MT VLSFO DAILY FOR BALLAST/DEBALLAST\r\nADDITIONAL 1.50MT IFO 380CST DAILY FOR BOILER CONSUMPTION WITH TEMPERATURE LESS THAN 10 DEGREE CENTIGRADE.\r\nAda WOG\r\n--\r\nThanks and Best Regards,\r\nAJAY TOMAR\r\n(Mob) +919694778595 | ? skype  live:.cid.c17772f29e052d01\r\nPrime Oceanic Shipping Pvt Ltd ,India.\r\nwww.primeoceanic.com",
+            {
+                "entities": [
+                    [
+                        265,
+                        271,
+                        "DRAFT"
+                    ],
+                    [
+                        277,
+                        300,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        397,
+                        443,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        446,
+                        495,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        661,
+                        699,
+                        "PORT_CONS"
+                    ],
+                    [
+                        727,
+                        784,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

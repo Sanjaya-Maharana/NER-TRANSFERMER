@@ -1,0 +1,18 @@
+{
+    "classes": [
+        "CARGO NAME",
+        "COMPANY ",
+        "LAYCAN",
+        "LOAD PORT",
+        "LOAD RATE",
+        "DISCHARGE_PORT",
+        "ADDESS _COM",
+        "DISCHARGE _RATE ",
+        "CARGO _SIZE ",
+        "DELIVERY ",
+        "RE_DELIVERY",
+        "DURATION ",
+        "TCT"
+    ],
+    "annotations": []
+}

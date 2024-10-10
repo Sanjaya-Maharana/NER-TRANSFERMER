@@ -1,0 +1,47 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\n\r\nTEL: 0091-44-26542962/69\r\n\r\nEMAIL: chartering@exoduschartering.info\r\n\r\n---------------------------------------------------------------\r\n\r\n \r\n\r\n \r\n\r\nGOOD DAY\r\n\r\n \r\n\r\nDIRECT\r\n\r\n \r\n\r\nM/V\r\n\r\n HPC VISION   DWT 28,338 MTS ON 9.819M DRFT  OPEN SOHAR 24 AUG\r\nBULKER/SINGLE DECK – PANAMA FLAG\r\nDWT 28,338 MTS ON 9.819M DRFT\r\nJAPAN BUILT 2010 . CLASS NK\r\nGRT 17,002, NRT 10,158\r\nLOA 169.37 , BEAM 27.2M, DEPTH 13.6M\r\nHOLDS 5, HATCHES 5.\r\nHATCH COVER: FOLDING TYPE\r\nGRAIN 37,320.63 M3, BALE 35,742.83 M3\r\n4 X 26T CRANES. electro hydraulic cranes\r\nBWTS FITTED\r\nAll details are ‘about \r\n \r\n\r\n \r\n\r\nB.RGDS / MANUEL\r\n\r\nMOB: 91-9840446665,\r\n\r\nAS BROKERS ONLY\r\n\r\nE. & O. E.\r\n\r\nAll details about and given in good faith.\r\n\r\nSKYPE: manuel13291",
+            {
+                "entities": [
+                    [
+                        341,
+                        352,
+                        "DRAFT"
+                    ],
+                    [
+                        383,
+                        405,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        407,
+                        430,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        445,
+                        464,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        493,
+                        530,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

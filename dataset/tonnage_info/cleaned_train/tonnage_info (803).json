@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 12:36:19   (GMT +5:30)REFERΕNCE NO: 17677279 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV EVGENIA K                                                                                  OPEN OPEN IN KING ABDULLAH PORT 15-17 AUG - ALT PORT SAID 18-20 AUGMV METSOVO                                                                                   OPEN NIIHAMA 23-25 AUGMV EVGENIA K        ABT 63500 MT ON 13.418 M SSW AMSA COMPLIANTSDBC - BLT 2019 IMABARI (SHIN KASADO)MAJURO FLAG, CLASS NKTPC: ABT 61.4LOA 199.98 M / BEAM 32.24 MGRAIN/BALE: 80,500 / 76,200 CBMCRANES 4 X 30.5T + 4 X GRABS5 HO/HA - TPC 61.4CO2/AHL/A60SPEED&CONSUMPTION :B/L ABT 14.5/14.0 KNOTS ON ABT 29 MT IFO INCL. GENERATORB/L ABT 12.00 KNOTS ON ABT 17.5 MT / 19.5 MT INCL. GENERATORSADA MV METSOVO     STEEL OKLAST 5:  COPPER CONCS / CORN / PETCOKEBOD: ABT 800/65TSUNEISHI HEAVY INDUSTRIES CEBU BUILT 201557,500 MT TYPE BULK CARRIER AT 12.818M TPC 57.80CLASS: BUREAU VERITAS / NS (CSR, BC-XII, GRAB 20, PSPC-WBT) (ESP) (IWS) (BWTS) MNS, M0IMO NO: 9708942 4*30 MT CRANE+4 X 14 CUB.MTR ELECTRO HYDRAULIC SMAG PEINER WITH SPILL PLATES DOWN TO 6 CUBIC METRES FOR HEAVY CARGO.GRT/NRT: 32540/19282 /// GRAIN/BALE:72087/69573 CBMSPEED/CONBALLAST:14.5 KTS AT 26.9MT12 KTS AT 16.0MTLADEN:14.1 KTS AT 27.40MT11.5 KTS AT 17.00MTIN PORT: 5.9MT FOR WORKING/ 3MT FOR IDLINGADAPLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: https://www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        506,
+                        514,
+                        "DRAFT"
+                    ],
+                    [
+                        604,
+                        631,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        631,
+                        662,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        690,
+                        697,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        738,
+                        774,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        796,
+                        838,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1243,
+                        1263,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        1268,
+                        1294,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        1311,
+                        1345,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1346,
+                        1391,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1393,
+                        1420,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

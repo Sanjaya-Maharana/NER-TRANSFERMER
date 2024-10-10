@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 10:16:14   (GMT +5:30)\r\nREFERΕNCE NO: 17754204\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV INGWAR SELMER (58/11) - OPEN HAZIRA, WCI - SPOT\r\n+++++\r\nMV INGWAR SELMER\r\nBLT 2011 DAYANG - MI FLAG\r\n58,018 ON 12.95M SSW – 71,551.40 CBM GRAIN - HO/HA 5\r\nLOA 189.99M BEAM 32.26M - 4 CRANES X 36 MT SWL + 4 X 12 CBM GRAB\r\nGROSS TON - 32,839 T - NET TON - 19,559 T\r\n++ AHL/GRAIN/A60/CO2 FTD\r\nB - ABT 12.30 KNOTS ON ABT 24.6 MT VLSFO + ABT 0.1 MT LSMGO\r\nL - ABT 11.80 KNOTS ON ABT 24.6 MT VLSFO + ABT 0.1 MT LSMGO\r\nIN PORT CONSUMPTION:\r\nIDLE : ABT 2.5 MT VLSFO + ABT 0.1 MT LSMGO\r\nWORKING :- ABT 5.0 MT VLSFO + ABT 0.1 MT LSMGO\r\nADA\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        209,
+                        225,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        236,
+                        247,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        268,
+                        284,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        286,
+                        294,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        304,
+                        311,
+                        "FLAG"
+                    ],
+                    [
+                        313,
+                        319,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

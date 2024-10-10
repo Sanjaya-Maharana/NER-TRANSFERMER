@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear All/Oscar\r\nPLEASE KINDLY PROPOSE TONNAGE FOR BELOW FIRM CARGO:\r\nACCT: TONGLI TIANJIN\r\nDWT: SMX-UMX,MAX 20YEARS\r\nCARGO:COAL\r\nDELY: TO MAKE PALEMBANG\r\nREDELY:WCI\r\nLAYCAN :5-10 SEPETMBER\r\nDURATION :ABT 25 DAYS WOG\r\nADD COMM: 3.75%\r\nTRY 2/3LLS FOR RIGHT CANDIDATE\r\nBest regards\r\nMR.WANG NING/OSCAR\r\nFor and on behalf of TONGLI SHIPPING PTE.LTD\r\n8 TEMASEK BOULEVARD #40-02，SUNTEC TOWER THREE SINGAPORE 038988\r\nINDIA OCEAN DIVISION\r\nSkype: wangoscar8\r\nM.p : 18649185805\r\nEmail: tianjin1@tonglishippingpte.com\r\npanamax@tonglishippingpte.com",
+            {
+                "entities": [
+                    [
+                        117,
+                        127,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        129,
+                        152,
+                        "DELIVERY"
+                    ],
+                    [
+                        154,
+                        164,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        166,
+                        188,
+                        "LAYCAN"
+                    ],
+                    [
+                        190,
+                        215,
+                        "DURATION"
+                    ],
+                    [
+                        217,
+                        232,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "**                   **\r\nGood day.\r\nPlease offer FIRM for:\r\nWe have  vsl 37dwt, blt 1998 for diesel.\r\nTC period 6+6 Months.\r\nLport: BANDAR ABBAS\r\nDport: FUJAIRAH, UAE\r\nLay can: SPOT\r\nPRICE IN HANDS.\r\nTtl Com: 3.75% ttl here.\r\nCan offer you a 37k mt dwt handy for this job.\r\nPse cfm such size is suitable to chrrs.\r\nPlease could you advise chrrs name with some background.\r\nIf ok fm your side, trying to start negos tomorrow.\r\nplsd hearing\r\nLook forward to hearing from you soon.\r\nPlease offer your best.\r\nFOR FURTHER DETAILS, CLARIFICATIONS, PLS CONTACT.\r\nBrgds/ Capt George - As broker & agent only\r\n- mob: ++30 697 2077443 / WhatsApp, 7X24.\r\n- e-mail : seamus@pkt.gr & seamus@otenet.gr\r\n- SKYPE ID : seamus2002\r\n++++ **++++",
+            {
+                "entities": [
+                    [
+                        73,
+                        78,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        126,
+                        138,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        146,
+                        166,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        204,
+                        214,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        242,
+                        252,
+                        "CARGO_SIZE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

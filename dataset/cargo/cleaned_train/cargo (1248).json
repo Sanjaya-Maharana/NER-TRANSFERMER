@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "AMMENDED / PLEASE OFFER FIRM FOR\r\nPOL: Djen Djen (Algeria)\r\nPOD: Marsa El Brega (Libya)\r\nmin 8500 / max\r\n9500 cbm in chopt,Oilfield Rig equipment\r\np/l is available. partly stackable /\r\nfully on deck ok .\r\nloading 7 wwdays fshex / disch 7 wwdays fshex\r\neiu\r\nchabe\r\nlaycan 01-05 September. ( not earlier / not later )\r\ngcn 2,50\r\nttl comm\r\nvessel must be geared but over age is ok.\r\nt&c available for firm interest.\r\nWITH BEST REGARDS,\r\nDENIZ ALTINGUL\r\nKAF MARINE\r\nCHARTERING/MERSIN\r\nAS BROKER ONLY.\r\nTEL : +90-324-2390234 (direct)\r\nMOB:\r\n+90-533-3926999\r\nEMAIL: DALTINGUL@KAFMARINE.COM\r\nSKY P:\r\nALTINGULDENIZ\r\nMEMBER OF SHIPBROKERS''ASSOCIATION - TURKEY",
+            {
+                "entities": [
+                    [
+                        34,
+                        58,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        60,
+                        87,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        264,
+                        286,
+                        "LAYCAN"
+                    ],
+                    [
+                        321,
+                        325,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

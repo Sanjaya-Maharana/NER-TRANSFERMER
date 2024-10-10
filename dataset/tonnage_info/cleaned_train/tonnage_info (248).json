@@ -1,0 +1,32 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 0G7XT-00 28/08/24 11:57 +03:00\r\nGd day\r\nDIRECT/CLOSE\r\n-----------------\r\nMV LIVERPOOL STRAIT   -   OPEN BRAZIL,  CABEDELO 12-13 SEPT\r\n---------------------------------------------------------------------------------\r\n2013 PORTUGAL FLAG\r\n37.452 MTDWT ON 10,4 MTRS\r\nLOA/BEAM: 186,96/28,60 MTRS\r\n5 HO/HA - 4 X 30 TS CR + 4X15 CBM GRABS\r\n49.687 CBM / 47.948 CBM GR/BL\r\n13 (B) / 13 (L) ON ABT 22 MT / 24 MT + 0.1 MDO\r\nPORT: 2.7 MT (I) / 3.5 MT ( W )\r\n+++\r\nPlease ppse / offer firm .\r\nBest regards\r\nEmmanouil Papanikolaou\r\n----------------------------------------------\r\nM :  +30 693 614 2797 | S : e.papanikolaou |\r\n---------------------------------------------------\r\nWAMAR MARITIME CO.\r\nKyprou 2 & Kolokotroni 14 Str.\r\n14562 Kifisia, Greece\r\nTel.: +30 210 8083133\r\nEmail :  chartering@wamarmaritime.com\r\n--------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        275,
+                        299,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        304,
+                        311,
+                        "HOLD_AND_HATCHES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

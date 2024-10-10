@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 27-08-2024 16:17:08   (GMT +5:30)\r\nREFERΕNCE NO: 17751880\r\nATTN CHARTERING DESK\r\nGOOD DAY\r\nDIRECT CHARTERERS ORDER\r\nPLEASE ADVISE SUITABLE VESSEL FOR FOLLOWING FIRM ORDER\r\nACC DIRECT CHRTS\r\n40,000 MTS 10% MOLOO IRON ORE\r\nNARVIK / GHENT  ( NO LIGHTENING )\r\n6 - 11 SEP\r\nSCALE / 25,000 SHINC\r\n4 HRS TT / 12 HRS TT EIU\r\n0.5% ILOW\r\n2.5 ADDCOMM PUS\r\n++\r\nACC DIRECT CHRTS\r\n56,000 MTS 10% MOLOO COAL (2 GRADES BELOW)\r\nDBCT / GIJON\r\n15 / 24 SEPT\r\nSCALE / 20,000 SHINC\r\n12 HRS / 12 HRS TT EIU BENDS\r\n2.5 ADDCOMM PUS\r\nGRADE 1: 20,000 MTS 10% MOLOO COAL\r\nGRADE 2: 36,000 MTS 10% MOLOO COAL\r\nPLSD TO HEAR.\r\nBEST REGARDS\r\nSamir Charania - Aryacorp | Voyage Charter Desk\r\nDirect: +91 22 4044 9009\r\nMobile: +91 98212 30313\r\nSkype: live:.cid.3aa10fe1fc195ae\r\nAS BROKERS ONLY\r\nAND As agents for CORE SHIPPING LTD\r\nEmail: fix@aryacorp.com  ( Chartering ) / ops@aryacorp.com ( Operations)\r\nWebsite: www.aryacorp.com\r\nFollow us on LinkedIn:https://www.linkedin.com/company/arya-corp-private-limited/\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        211,
+                        227,
+                        "COMPANY"
+                    ],
+                    [
+                        229,
+                        243,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        250,
+                        254,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        295,
+                        305,
+                        "LAYCAN"
+                    ],
+                    [
+                        387,
+                        403,
+                        "COMPANY"
+                    ],
+                    [
+                        405,
+                        419,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        426,
+                        428,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        529,
+                        540,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

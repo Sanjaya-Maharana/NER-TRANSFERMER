@@ -1,0 +1,26 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "16, AUGUST 2024 (2)\r\nDEAR COLLEAGUES, PLS ASSIST IN FINDING BIZ FOR OUR OPEN TONNAGE AND CARGO AS BELOW:\r\nOPEN TONNAGE\r\nMV JERSEY SPIRIT 35K DAR ES SALAAM OOA 10TH SEPMV CENDA 47K SPOT JUBAIL, PGMV DOGAN, 38K, INDO WATERS OOA 25 AUGMV HAJ M 22K YAMEN OOA 23 AUGMV ATA M 52K, PORT SAID, OOA 18 AUGMV JOHNY 93K GIBRALTER OOA 19 AUGXIN HAI TONG 56K, CONSTANTA, IST WEEK SEPT38K, RED SEA, MID SEPT, FHAUL\r\nOPEN CARGO\r\nKARACHI- COMOROS IS, BAGGED RICE 6000 TONS PC OK 10-15 SEPT 10-15000 OO, WIRE RODS, BAHODOPI, TO COLOMBO + CHENNAI CFR LO PPT OWRDS MAX 1.9 TONS UW15000 TONS BAGGED RICE KARACHI – PHIL, MID SEPTPPMX – KMAX, TO MAKE COLOMBIA, PPT OWRDS, REDEL S BRAZILBEST REGARDS,\r\nOBAID ASIM\r\nAZTAM SHIP BROKERS (AS BROKERS ONLY)\r\nSKYPE: aztam.shipbrokers\r\nWECHAT: wxid_f8izjitxrtgw12\r\nWHATSAPP: +92 321 201 4901\r\nE: DRYCARGO@AZTAMSHIPBROKERS.COM\r\nPLEASE INCLUDE DRYCARGO@AZTAMSHIPBROKERS.COM IN YOUR CIRCULATIONS\r\nCLICK HERE TO UNSUBSCRIBE The contents of this e-mail message and any attachments are confidential and are intended solely for the addressee. The information may also be legally privileged and confidential. If you have received this communication in error, please notify us immediately. Any use, disclosure or reproduction or dissemination of this transmission is strictly prohibited.",
+            {
+                "entities": [
+                    [
+                        120,
+                        136,
+                        "VESSEL_NAME"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

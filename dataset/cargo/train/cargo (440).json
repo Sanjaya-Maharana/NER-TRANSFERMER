@@ -1,0 +1,30 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE"
+    ],
+    "annotations": [
+        [
+            "DATE:15TH MAY 2024 REF: IBC/PK/001 == HAVE FOLL TO FIX: ACCT RINL: 75,000 MT (GOONYELLA/ GOONYELLA C) 10% MOLOO.COAL IN BULK ON FOB (TRIMMED) BASIS(BRAND: ‘GOONYELLA / GOONYELLA C’ COKING COAL; SELLER: M/S BHP). LOADPORT :DTA, NEWPORT NEWS OR NS PIER 6, NORFOLK, USA AT CHARTERER (RINL)’S OPTION. LOAD RATE: FOR ‘HPCT’ & ‘APCT’: FOR ‘DBCT’:​ VESSEL SIZE DWT IN MT) LOAD RATE (MT/WWD 65,001 – 69,999 30,000 70,000 – 79,999 40,000 80,000 & above 45,000 DISCHARGEPORT: GANGAVARAM PORT (GPL) OR VISAKHAPATNAM PORT (VPT), AT CHARTERER (RINL)’S OPTION. DISCHARGE RATE: 40,000 MT FOR GPL (23,000 MT FOR VPT) PWWD OF 24 CONSECUTIVE HOURS. LAYCAN: 10-19 JUNE’24. 2.50% ADCOM + 1.25% TO INTERBULK REPLY BY 1230 HOURS IST THURSDAYI.E 16TH MAY 2024",
+            {
+                "entities": [
+                    [36, 39, "COMPANY"],
+                    [46, 61, "CARGO_SIZE"],
+                    [103, 140, "CARGO_NAME"],
+                    [182, 215, "LOAD_PORT"],
+                    [233, 280, "LOAD_RATE"],
+                    [366, 401, "DISCHARGE_PORT"],
+                    [421, 451, "DISCHARGE_RATE"],
+                    [464, 478, "LAYCAN"]
+                ]
+            }
+        ]
+    ]
+}

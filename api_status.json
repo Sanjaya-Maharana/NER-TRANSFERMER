@@ -1,0 +1,25 @@
+{
+    "timestamp": {
+        "timestamp": "2024-09-17 12:02:19"
+    },
+    "tonnage": {
+        "count": 2,
+        "last_called": "2024-10-08 10:47:24"
+    },
+    "cargo": {
+        "count": 181,
+        "last_called": "2024-10-08 10:46:58"
+    },
+    "theoceann": {
+        "count": 21,
+        "last_called": "2024-10-08 18:15:42"
+    },
+    "translate": {
+        "count": 18,
+        "last_called": "2024-10-08 11:26:09"
+    },
+    "thor": {
+        "count": 13,
+        "last_called": "2024-10-08 16:53:00"
+    }
+}

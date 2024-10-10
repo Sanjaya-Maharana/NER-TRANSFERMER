@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear Ravindraa ji,\r\nGood Day.\r\nIt was pleasure meeting you in BHP Exhibition Mumbai and hope you are doing well.\r\nWe are working on a firm Break Bulk Shipment from Chennai Port and Mumbai Port to Tincan Port, Lagos Nigeria, please provide us the best Sea Freight charges from both the POL along with the firm sailing scheduled for the given shipment details below :\r\nPOL         : CHENNAI PORT\r\n: MUMBAI PORT\r\nPOD         : TINCAN PORT, LAGOS, NIGERIA\r\nLAYCAN      : 1st  - 10th  SEPTEMBER\r\nPACKING LIST\r\nTUBE BUNDELS\r\nSr. No.\r\nPACKAGE NO.\r\nDESCRIPTION\r\nTYPE OF PACKAGE\r\nQTY\r\nLength\r\n(mtr)\r\nWidth (mtr)\r\nHeight (mtr)\r\nGROSS WEIGHT (MT)\r\nCBM\r\n1\r\n01 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n2\r\n02 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n3\r\n03 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n4\r\n04 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n5\r\n05 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n6\r\n06 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.700\r\n3.930\r\n1.810\r\n15.450\r\n90.339\r\n7\r\n07 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.760\r\n3.930\r\n1.810\r\n15.495\r\n90.766\r\n8\r\n08 OF 08\r\nTube Bundles\r\nSteel Crate\r\n1\r\n12.760\r\n3.930\r\n1.810\r\n15.585\r\n90.766\r\nTOTAL\r\n8\r\n123.780\r\n723.565\r\nLooking forward to hear from you.\r\nThank You.\r\nWarm Regards\r\nThingujam Bipinchandra Singh | Director\r\nPh: +91 – 9136009073  | +91 - 8837251568 |\r\nRegaSys Logistics India Pvt Ltd  | Corporate Office: Plan S Business Park, 6th Floor, Office No. 601. Opp.DY Patil Stadium, MIDC Industrial Area, Nerul, Navi Mumbai, Maharashtra - 400706 | E-Mail: bipin.t@regasysgroup.com  | Website: www.regasysgroup.com | GST : 27AANCR1049N1ZU | CIN – U50120MH2023PTC412835\r\nFrom: Projects- Trinity <projects@trinity-ship.com>\r\nSent: Tuesday, August 13, 2024 5:47 PM\r\nCc: Projects- Trinity <projects@trinity-ship.com>; Ravindraa- Trinity Ship <Ravindraa@trinity-ship.com>\r\nSubject: TRINITY SHIP BROKERS DIRECT OWS PROJECT VESSEL'S OPEN POSITION\r\nDear Sir / Ashish\r\nGreetings of the Day !!\r\nCLOSE & DIRECT //\r\nM/V TBN 1 AT MERSIN 22-25 AUGUST\r\n8.000 DWCC / TWEEN / MPP\r\nIMO1 FITTED / GEARED 2 X 150 T\r\nFIXED PORTS: LAGOS + TEMA + OTHER PORTS ON INDUCEMENT\r\nLOOKING FOR EN-ROUTE PROJECTS, IMO CONTAINERS ON DECK ONLY.\r\nM/V TBN 2 AT ISKENDERUN 25-30 AUGUST\r\n5.400 DWCC / SID / BC\r\nAPP B FITTED / GEARED 2 X 30 T\r\nLOOKING FOR BAGGED MINERALS, STEELS, PROJECTS UNDER/ON DECK DIR WEST AFRICA.\r\n++\r\nM/V TBN 3 AT EAST MED 05-15 SEPTEMBER\r\n2.200 DWCC / SID / MPP\r\nIMO1 FITTED / GEARLESS\r\nFIXED PORTS: DAKAR + DOUALA + OTHER PORTS ON INDUCEMENT\r\nLOOKING FOR EN-ROUTE PROJECTS, IMO CONTAINERS UNDER/ON DECK.\r\n++\r\nM/V TBN 4 OR SUB AT MARMARA 18-22 AUGUST, AT ADRIATIC 25-30 AUGUST\r\n4.600 DWCC / SID / MPP\r\nIMO1 FITTED / GEARLESS\r\nLOOKING FOR PART CARGOES DIR EAST AFRICA, FIXED PORTS MOMBASA + DAR ES SALAAM\r\nBest Regards,\r\nAshish Bachchan\r\nTrinity Ship Brokers Ltd\r\nMOB:  +91 9096016301\r\nE: projects@trinity-ship.com\r\nSkype: live:.cid.8e1394c23505ba0a\r\nWechat: ashishbachchan\r\nW: www.trinity-ship.com\r\nBIMCO Member ID: 182184\r\nPlease print this email only if necessary. Go green! It’s good for your business and good for the planet.",
+            {
+                "entities": [
+                    [
+                        382,
+                        406,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        424,
+                        451,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        453,
+                        489,
+                        "LAYCAN"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

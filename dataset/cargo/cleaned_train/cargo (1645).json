@@ -1,0 +1,24 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            " Gd dayFIRM AND FIXABLE  Mombasa / Durban5 vehicles wth dimsL.cruiser : 4.7 x 1.9 x 2.13m / uw 2285 kgsL.cruiser: 5.3 x 1.8 x 2m / uw 2480 kgsBuss: 5.2 x 2m x 2.2m / uw 3600 kgsToyota: 5.3 x 1.8 x 1.9m / uw 2350 kgsTractor: 3.2 x 1.6 x 2.1m / uw 1230 kgs1 trailer dims 2,52 x 1,25 x 1m. uw 300kgs.2 x 20' soc. (non imo) 6,06 x 2,44 x 2,59m. uw abt 3,2 tons each.3 x 20' soc( imo 1 ammunition) 6,06m x 2,44m x 2,59m. / uw between 3-8 tonsLaycan end Aug / Sept.Liner h-h termsContainers on deck acceptable.Comm 2.5% pus ttl hereBest regardsIONIAN NAVIGATION & MANAGEMENT Co LtdTEL.:    +30 210 80 10 410  | +30 210 80 10 411FAX:    +30 210 80 10 411MOB.: +30 693 23 99 404SKYPE: ionavi.nikosVat:      EL 098141383 ",
+            {
+                "entities": []
+            }
+        ]
+    ]
+}

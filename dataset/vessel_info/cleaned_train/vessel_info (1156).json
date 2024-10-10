@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "​280824-FMASSOUH-037248​09:04:13 UTC​\r\nGood day\r\nPlease PPSE suitable cargo\r\nopen in PHILIPPINE  30 AUG\r\nprefer towards PG\r\nMV Forever Happy\r\nBC 44,183 DWT / BLT 04/1997 / FLAG: SKN / CLASS: PHRS\r\nLOA: 181.50 M / BEAM: 30.50 M / DEPTH: 16.40 M\r\nGRT: 24,953 / NRT: 14,272\r\nSDWT: 44,183 / DRAFT: 11.67 M SW / TPC: 48.90\r\n5 HO / 5 HA MCGR TYPE STEEL FOLDING HYDRAULICALLY OPERATED\r\nCRANES: 4 X 30 T / GRABS: 4X10 CBM\r\nCUBIC CAPACITIES IN CBM INCL. HATCH SPACE\r\nGRAIN        BALE\r\n1)             9,011   /    9,024\r\n2)            11,262   /   11,264\r\n3)            11,157   /   10,903\r\n4)            11,256   /   11,260\r\n5)             9,992   /    9,926\r\nTOTAL IN CBM: 52,680   /   52,379\r\nTOTAL IN CFT: 1,860,372 / 1,849,753\r\nAUSTRALIAN LADDERS FITTED / HOLDS NOT CO2 FITTED / NATURAL VENTILATION\r\nBEST REGARDS\r\nF. Massouh\r\nS GLOBAL PARTNERS FZE\r\nA1-102 A – BLDG A 1\r\nAL HAMRA INDUSTRIAL ZONE – FZ\r\nRAK – UAE\r\nTel : + 971 439 997 67\r\nMOB : +971 56 90 494 90 ( CALL + WHATSAPP)\r\nEmail: chartering@sgp.ae\r\nSKYPE: live:.cid.6badee35f5d8c232",
+            {
+                "entities": [
+                    [
+                        77,
+                        95,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        97,
+                        103,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        124,
+                        140,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        145,
+                        155,
+                        "DWT"
+                    ],
+                    [
+                        162,
+                        169,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        172,
+                        181,
+                        "FLAG"
+                    ],
+                    [
+                        379,
+                        395,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "Ref : PS-CHRS-22.08.2024-8:35:27 From: Speed Logistics Marine  / Viacheslav, Petr Good day, MV MINOAN SEA 81/16 - OPENING KRISHNAPATNAM 04-07 OF SEPT   CAN TRY ANY, PREFER COASTAL MV MINOAN SEA == -FLAG : LIBERIA -IMO NO :  9623544 -VSLS CALL SIGN : 5LPB3 -BUILT :  2016 -TYPE : SDBC , GLESS -CLASSIFICATION SOCIETY : ABS -P+I : GARD -SUMMER DWT / DRAFT : ABT 81,502 MTS / 14.45M SW -GRT/NRT : 45,148/26,916 -LOA : 229.00 M -BEAM : 32.26 M -DEPTH MOULDED : 20.20 M -GRAIN CAPACITY : ABT 97,035 CBM INCL HATCH SPACE -HO/HA : 7/7 - SIDE ROLLING HATCH COVERS -ALTERNATIVE LOADING : HOLDS 2,4,6 MAYBE EMPTY -CO2 FITTED : YES -BREAKDOWN OF HOLD CAP : NO1: 13082.3 NO2: 14064.5 NO3: 14102.7 NO4: 14125.0 NO5: 14107.2 NO6: 14122.0 NO7: 13431.4 -TPC ON SUMMER DRAFT : ABT 73.60 MT -HATCH DIMENSIONS : H1: 14.08 x 13.20 x 2.57 mtrs H2: 15.84 x 14.40 x 2.57 mtrs H3: 15.84 x 14.40 x 2.57 mtrs H4: 15.84 x 14.40 x 2.57 mtrs H5: 15.84 x 14.40 x 2.57 mtrs H6: 15.84 x 14.40 x 2.57 mtrs H7: 15.84 x 14.40 x 2.57 mtrs -  SPEED AND CONSUMPTION, AS DESCRIBED, ONLY APPLICABLE DURING PERIODS OF  GOOD  WEATHER  DAYS OF 24 CONSECUTIVE HRS WITH SMOOTH SEA BEAUFORT SCALE  4  AND  BELOW/DOUGLAS  SEA  STATE  3.0  (WIND  DRIVEN WAVES A/O COMBINATION  OF  SAME  WITH  SWELL  NOT MORE THAN 1.25 METERS) WITHOUT SWELL  AND/OR  OCEAN  CURRENTS  HAVING  A  NEGATIVE EFFECT ON VESSEL'S WARRANTED SPEED. - BALLAST: ABT 13.50 KNTS @ ABT 31.00 MT VLSFO + ABT 0.20 MT LSMGO - LADEN  : ABT 13.00 KNTS @ ABT 34.00 MT VLSFO + ABT 0.20 MT LSMGO ECO SPD/CONS : - BALLAST: ABT 12,00 KNTS @ ABT 25.50 MT VSLFO + ABT 0,20MT LSMGO - LADEN  : ABT 11,50 KNTS @ ABT 26.50 MT VLSFO + ABT 0,20MT LSMGO - PORT CONSUMPTION IDLE:  ABT 4.5 MT VLSFO + ABT 0.20 MT LSMGO - PORT CONSUMPTION WORKING: ABT 5.5 MT VLSFO + ABT 0.2 MT LSMGO FAVOURABLE CURRENTS NOT TO BE TAKEN INTO CONSIDERATION ON VSL'S PERFORMANCE ANALYSIS. - IN COLD CLIMATES A/O BALLAST/DEBALLAST : ADDITIONAL 1.5 MT VLSFO/D -  VSL  ENTITLED  TO  USE LSMGO AT NARROW/SHALLOW WATERS/CANALS/RIVERS RESTRICTED/BUSY  WATER  AREAS/ENGINE  STARTING-STOPPING  AND OPERATING UNDER LOW LOAD. - BUNKER SPECIFICATIONS: IFO RMG 180 OR 380 TO ISO 8217-2017 SPECS OR SUBSEQUENT AMNDMTS MGO DMA TO ISO 8217-2017 SPECS OR SUBSEQUENT AMNDMTS. SULPHUR CONTENT AS PER STATUTORY REQUIREMENTS - BWTS FITTED ALL DETAILS ABOUT AND GIVEN IN GD FAITH Best Regards Viacheslav Kushnarenko Speed Logistics  Marine Ltd mob:+30-697-192-38-72 mob:+38-050-395-77-72 e-mail: pmx@slmbulk.com skype: Viacheslav Kushnarenko Warmest regards, Petr Sidorowskiy (as agents only) for and on behalf of ==================================== Speed Logistics Marine Mob     : +30 697 1926307 Mob     : +38-066-295-95-34 E-mail  : pmx@slmbulk.com Skype   : sidorowskiypetro ====================================  ",
+            {
+                "entities": [
+                    [
+                        373,
+                        379,
+                        "DRAFT"
+                    ],
+                    [
+                        383,
+                        407,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        408,
+                        439,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        465,
+                        497,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        515,
+                        527,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        1377,
+                        1441,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1446,
+                        1506,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1524,
+                        1589,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1594,
+                        1653,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1660,
+                        1716,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1721,
+                        1782,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

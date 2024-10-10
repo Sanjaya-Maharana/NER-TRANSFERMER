@@ -1,0 +1,62 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "day(idlen) 2.4mt/day(working\r\n\r\n/wing,gd day!\r\n \r\nPls pps suitable biz for our below:\r\n\r\nMV\r\n\r\n SUNNY ROUTE    DWT 13K   OPEN KAMSAR,GUINEA END OF AUG\r\n\r\n\r\nMPP COMBINE TO 60MT                                         \r\n\r\nPANAMA FLAG,KR CLASS， 2006 BLT.\r\n\r\nDWT/GRT/NRT  13,567.44/9,090/4,550MT.ON SUMMER DRAFT 9.03MTRS.\r\n\r\nG/B CAPA 19,886.21/18,918.04, \r\n\r\nLOA /LBP/BM/DM  128.61 M/120.00M / 20 / 13.60,\r\n\r\nTWN DECK.STL BOTTOM. \r\n\r\n2 CRANE30.70Tx2Sets;     2     DERRIC 26.00 T x 2Sets, \r\n\r\nP.N.I COVERED.CLASS COVERED\r\n\r\nCARGO HATCH   : \r\n\r\nA).UPPER DECK TYPE:  SINGLE PULL  HATCH SIZE :  NO. 1    32.25  X  13.50 M    /     NO. 2.   32.25  X  13.50 M \r\n\r\n\r\n B). 2ND DECK TYPE: PONTOON TYPE NONTIGHT STEEL HATCH COVER HATCH SIZE : NO.1  25.5MX14.5M/ 6.75 M X10.5M     NO.2.     3M X 10.5M /29.25MX14.5M\r\n\r\nSPEED  12.5_ KTS BALLAST .   11.5 KTS  FOR  LADEN\r\n\r\n( SPEED AND CONSUMPTION UNDER GOOD WEATHER CONDITION UPTO BEAUFORT SCALE FORCE 4/DOUGLAS STATE OF SEA 3 WITHOUT ADVERSE CURRENT)\r\n\r\nBUNKER CONSUMPTION:\r\n\r\nF.O (AT SEA):        ABT 13MT/DAY (LADEN)ABT 12.5MT/DAY(BALLAST)\r\n\r\nF.O(PORT& IDLE):     ABT 0.5MT/DAY\r\n\r\nMGO(AT SEA)        ABT 1.2MT/DAY(LADEN&BALLAST)\r\n\r\nMGO(PORT):        ABT 1.4MT/DAY(IDLEN)   ABT 2.4MT/DAY(WORKING)\r\n\r\nABOUT MEANS -0.5 KNOT ON SPEED AND +5% ON CONSUMPTION.\r\n\r\nBasis good weather conditions, no adverse current, no negative influence of swell and not exceeding Beaufort Scale Force 4 and Douglas Sea State Scale 3\r\n\r\nVessel may consume MDO for main engine when steaming in shallow, confined waters, manoeuvering in/out port(s), transiting canals and also has liberty to consume auxiliary engine when starting, stopping and working with low load\r\n\r\nNo commingling of IFO is allowed.\r\n\r\n\r\n\r\nWing\r\nTOP OCEAN INTERNATIONAL SHIPPING PTE. LTD.\r\nAdd: Rm.3010 Rainbow Building, No.23 Renmin Road, Zhongshan District, Dalian China\r\nMob:+86-13621735992\r\nMail: chartering@top-ocean.com.cn \r\nSkype:394984534@qq.com",
+            {
+                "entities": [
+                    [
+                        278,
+                        291,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        302,
+                        313,
+                        "DRAFT"
+                    ],
+                    [
+                        321,
+                        349,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        371,
+                        379,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        390,
+                        392,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        1034,
+                        1073,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1100,
+                        1150,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1180,
+                        1210,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.DATE & TIME: 12-08-2024 12:22:53   (GMT +5:30)REFERΕNCE NO: 17677046 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV APJ KAIS - SMX - OPEN DANDONG, CHINA - 15 AUGUST 2024 - 17 AUGUST 2024 MV APJ KAISBLT 2009, CHINAFLAG INDIAN.HO / HA 5 / 5,DWT 56725 MT ON 12.80 M(S),LOA / BEAM /TPC  189.99/32.26, 58.8(S),GT/NT 32957/19231GRAIN/BALE 71634.09/68,200, 4 X 30 METRIC TONS SWL CRANES AND 1 X 14 CBM AND 3 X 12CBM REMOTE CONTROLLED GRABSIF GRABS USED  SWL OF CRANES WILL BE CONSIDERED AS 24 MTGRABS TO OPERATE WITH 12CBM CAPACITY SUBJECT TO DENSITY OF CARGO.  MAX SPEED AND FUEL CONSUMPTION AS FOLLOWS.:BALLAST : ABT 12.50 KNOTS ON ABT 25 MT/DAY VLSFOLADEN :    ABT 12.00 KNOTS ON ABT 27 MT /DAY VLSFONO MDO AT SEA. ECO SPEED AND FUEL CONSUMPTION AS FOLLOWS:BALLAST : ABT 11.50 KNOTS ON ABT  23 MT/DAY  VLSFOLADEN : ABT 11.0 KNOTS ON  ABT 25 MT/DAY VLSFONO  MDO AT SEA IN PORT IDLE  VLSFO ABT 3.00  MT/DAY+ MDO ABT 0.20  MT/DAY &IN PORT WORKING VLSFO ABT  4.50 MT/DAY+MDO ABT 0.20  MT/DAY. ALL DETAILS ABOUT  ALL SPEED AND CONSUMPTION FIGURES ARE AVERAGE FIGURES DURING C/P PERIOD. ALL SPEED AND ALL CONSUMPTION FIGURES ARE TO BE CONSIDERED AS 'ABOUT'. AT SEA PERFORMANCE FIGURES,ONLY APPLY ON GOOD WEATHER DAYS (OF A MINIMUM 24 CONSECUTIVE HOURS) AND ANY OF THE FOLLOWING DAYS ARE EXCLUDED FROM ANY WARRANTY AS TO THE VESSELS SPEED AND PERFORMANCE:THOSE IN WHICH WEATHER CONDITION EXCEEDS EITHER IN  SEABUOY TO SEABUOY IN MODERATE WEATHER UPTO/INCLUDING BEAUFORT 4.DOUGLAS SEA STATE 3 AND SIGNIFICANT WAVE AND SWELL HEIGHT OF 1.25M OR GREATER OR THOSE IN WHICH THERE ARE NEGATIVE INFLUENCES OF SWELL OR THOSE IN WHICH THERE ARE ADVERSE CURRENTS. NO ADVERSE CURRENT. NO FAVORABLE CURRENTS TO BE TAKEN INTO ACCOUNT WHEN CALCULATING THE VESSEL'S PERFORMANCE.  ALL DETAILS “ABOUT” WHICH IS UNDERSTOOD TO MEAN A 0.5 KNOTS TOLERANCE AND A 5% ALLOWANCE ON BUNKER CONSUMPTION, BOTH IN VESSEL'S FAVOR. IN THE EVENT THAT ANY SPEED/PERFORMANCE CLAIM IS MADE, OWNERS ARE ENTITLED TO OFFSET THE VALUE OF ANY BUNKER SAVINGS MADE BY CHARTERERS BELOW THE UPPER LIMIT OF THE WARRANTED CONSUMPTION. POSITIVE CURRENTS NOT TO BE CONSIDERED FOR ANALYSING PERFORMANCE. VLSFO 380 CST CLASS RMG 380 MAX SULPHUR CONTENT 0.50 % / DIESEL CLASS DMA MAX SULPHUR CONTENT 0.10 % , BOTH GRADES AS PER ISO 8217, 2017 OR LATEST EDITION. NO USED LUBRICANTS TO BE PRESENT IN FUEL NO COMINGLING OF DIFFERENT FUEL BATCHES IN TANKS ALLOWED \"VESSEL USE VLSFO /LSMGO AS PER DESCRIPTION. VLSFO/LSMGO IS USED FOR STARTING/STOPPING OF AUX-ENGINES AND AUX-BOILERS. MAIN ENGINE IS CHANGED TO LSMGO WHEN MAINTENANCE IS REQUIRED TO BE DONE ON FUEL SYSTEM ON RARE OCCASIONS M/E IS CHANGED TO LSMGO WHILE MANOEUVRING IN NARROW WATERS. THE PARTIES UNDERSTAND AND AGREE THAT WHEN NAVIGATING ANY ECA (EMMISION CONTROL AREA), THE VESSEL IS OBLIGED TO CONSUME LSMGO IN LIEU OF VLSFO AND AS SUCH, THE VESSELS PERFORMANCE SHALL BE AFFECTED. AS A RESULT, NONE OF THE PERFORMANCE WARRANTIES IN THIS C/P RELATING TO THE VESSELS SPEED AND/OR CONSUMPTION SHALL BE APPLICABLE TO PERIODS IN WHICH THE VESSEL IS NAVIGATING ANY ECA; AND ANY PERIOD NAVIGATING ANY ECA SHALL BE EXCLUDED FROM ANY SPEED OR PERFORMANCE CALCULATION.PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION----------------------------------------------------------------------------------This email including its attachments (if any) is confidential and intended for theabove mentioned recipients only. If you have received this email in error, pleasedelete the email and notify the sender immediately. Unauthorised use of the contentsof this email may be unlawful and is prohibited.We have taken reasonable care to ensure this email and its attachments are free ofviruses, however, please use up to date virus scan software to carry out your ownchecks. We accept no liability for any viruses contained in this email or its attachments.---------------------------------------------------------------------------------- ",
+            {
+                "entities": [
+                    [
+                        306,
+                        319,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        336,
+                        343,
+                        "DRAFT"
+                    ],
+                    [
+                        346,
+                        376,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        386,
+                        403,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        403,
+                        429,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        678,
+                        727,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        727,
+                        783,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        833,
+                        884,
+                        "SEA_CONS"
+                    ],
+                    [
+                        884,
+                        930,
+                        "SEA_CONS"
+                    ],
+                    [
+                        948,
+                        1003,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1008,
+                        1064,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

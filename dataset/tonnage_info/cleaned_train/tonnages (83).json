@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 15:25:56   (GMT +5:30)\r\nREFERΕNCE NO: 17724913 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV\r\n\r\n MINA  LONDON                                                                           OPEN TARRAGONA O/A 22 AUG\r\nMV FORMENTERA                                                                             OPEN ESCOUMINS 29-30 AUG\r\n\r\n\r\n\r\n\r\nMV MINA LONDON        \r\nBLT 2010 – MARSHALL ISLAND FLAG– DNV GL – BOX\r\n\r\nIMO 9489974\r\n34,900 ON 10,00 SSW – 1,591,350 CUFT GRAIN – HO/HA 5/5\r\nLOA 185,2 – BEAM 30,0 – 4 X 30,0 CR – TPC 48,8\r\nGT 23,548 / NRT 10,838\r\nSPEED-BUNKERS CONSUMPTION AT SEA:  \r\nBALLAST ABT 12 / 13 KNOTS ON ABT 20.5 / 21.5 MT / DAY VLSFO + 0.1MT LSMGO  \r\nLADEN ABT 12 / 12.5 KNOTS ON ABT 22.5 / 23.5 MT / DAY VLSFO + 0.1MT LSMGO  \r\nPORT CONSUMPTION: WORKING 4.8MT / DAY VLSFO, IDLE 2.9MT / DAY VLSFO + 0.1MT LSMGO  \r\nSPEED/CONSUMPTION UNDER GOOD WEATHER/SMOOTH SEA UPTO/INCLU  \r\nBEAUFORT SCALE 4 AND DOUGLAS SEA STATE 3, EVEN KEEL NO ADVERSE  \r\nNEGATIVE CURRENTS/SWELL  \r\nADA  BOD:  ABT 1300 MT VLSFO / ABT 110 MT LSMGO\r\n\r\nLAST CARGOES: BARLEY (CURRENT) /  SUGAR / FERTS\r\n\r\n \r\n\r\nMV FORMENTERA   \r\n\r\nSD/ST DOUBLE HULL OPENHATCH/BOX (2,3,4) BC\r\n'DANISH FLG BLT 9/2015\r\nCLASS LR HIGHEST, ICE 1C\r\n38568 MDWT ON 10,50 M SSW / TPC 53,9\r\n37389 MDWT ON 10,28 M WSW\r\nGRAIN/BALE 50903,87/47202,00 CBM\r\n5 HH 4/30 MTS SWL CR\r\nLOA/BEAM 179,95 /32,00\r\nGT/NT 25546/13048\r\nITF/CO2/AHL/A60/2X25 COILS/ELVENT/DECKCGO OK\r\nTT STRENGTHS 25 MTS/M2    \r\nABT 14 KN ON ABT 23,5(L)/21,5(B) MTS VLSFO + 0,1 MTS LSMGO\r\nABT 13 KN ON ABT 19,0(L)/16,5(B) MTS VLSFO + 0,1 MTS LSMGO\r\nABT 12 KN ON ABT 15,5(L)/13,5(B) MTS VLSFO + 0,1 MTS LSMGO\r\nPCI/PCW ABT 2,5/5,0 MTS VLSFO + 0,1 MTS LSMGO\r\nVSL MAY BURN LSMGO WHEN MANOUVERING/TRADING NARROW WATERS\r\nBOILER CONSUMPTION UPTO 1,5 MTS VLSFO/LSMGO WHEN M/E NOT RUNNING   ABOVE SPEED/CONSUMPTION ARE UNDER GOOD WEATHER WHICH IS DEFINED AS MAX BEAUFORT FORCE 4 AND DOUGLAS SEA STATE 3, AND NO ADVERSE CURRENT/NEGATIVE INFLUENCE OF SWELL ABOVE SPEED/CONSUMPTION ARE UNDER GOOD WEATHER WHICH IS DEFINED AS MAX BEAUFORT FORCE 4 AND DOUGLAS SEA STATE 3, AND NO ADVERSE CURRENT/NEGATIVE INFLUENCE OF SWELL\r\nADA\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n",
+            {
+                "entities": [
+                    [
+                        592,
+                        601,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        604,
+                        624,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        651,
+                        673,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        707,
+                        781,
+                        "SEA_CONS"
+                    ],
+                    [
+                        789,
+                        862,
+                        "SEA_CONS"
+                    ],
+                    [
+                        866,
+                        947,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1113,
+                        1151,
+                        "BOD"
+                    ],
+                    [
+                        1379,
+                        1386,
+                        "DRAFT"
+                    ],
+                    [
+                        1448,
+                        1470,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        1472,
+                        1489,
+                        "GRT_AND_NRT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

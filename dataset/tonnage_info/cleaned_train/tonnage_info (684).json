@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\n\r\n\r\n\r\n\r\n\r\nDoc-No. 3800129   12/AUG/2024 (MON)  12:20  (+0300)  DG TNS Shipbrokers and Agents Ltd (Since 1991)phone:+359 56 841005/6, fax:+359 56 840299home page:www.tns-shipping.comemail: chart@tns-shipping.com  / Mike good day,   Pearl Ivy clean fixed here. Left with:  Mv Adventure  34.487 dwt - 2019 blt – Box – Open Telukbayur / Indo 19 / 21 Aug  M/V ADVENTURE ( ECO ENGINE )=============BOX / DOUBLE SKIN / LOG FITTEDIMO 9749972FLAG MARSHALL ISLANDSDWT 34487BUILT YEAR / PLACE 2019 - HAKODATE HK, JAPANCLASS BVGRT/NRT 21.574/11.1995 HO/5 HAGRAIN / BALE 44.150 / 42.900 (CBM)LOA 179,97 MBEAM 30 MDRAFT 9,82MCRANE 4 X 30 MTSECO SPEED/CONSUMPTION AS FOLLOWS FOR REF ONLY WOG.LADEN ABOUT    12.00 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAYBALLAST ABOUT 12.50 KNOTS - CONSUMPTION: FO 15.00 MT/DAY, GO 0.10 /MT/DAYPORTS (I) ABT 2.3 MT VLSFO + ABT 0.1 MT LSMGO -(W) ABT 5.0 MT VLSFO + ABT 0.1 MT LSMGOBOD  ABT 350 MTS LSFO ABT 140 MT LSGO    Kind regards,TNS Shipbrokers - Mike Skype: tns.dgWe Chat: Mike-TNSMob:+359 878 470804Bimco Members (reg. no. 116957)    \r\n",
+            {
+                "entities": [
+                    [
+                        519,
+                        540,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        540,
+                        549,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        549,
+                        583,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        583,
+                        604,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        604,
+                        615,
+                        "DRAFT"
+                    ],
+                    [
+                        706,
+                        780,
+                        "SEA_CONS"
+                    ],
+                    [
+                        783,
+                        828,
+                        "SEA_CONS"
+                    ],
+                    [
+                        828,
+                        873,
+                        "PORT_CONS"
+                    ],
+                    [
+                        876,
+                        914,
+                        "PORT_CONS"
+                    ],
+                    [
+                        915,
+                        951,
+                        "BOD"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

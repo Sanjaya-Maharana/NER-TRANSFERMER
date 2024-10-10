@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            ".\r\n- / STRATOS\r\nPls ppse fr foll close positions:\r\nMV DENSA PUMA - open Salvador 27-29 AUG\r\nSD/BC Vietnam built 2013\r\nMalta flag\r\n36,722mt dwat on 10.918 tpc 46.09\r\n47,808 cbm grain / 45,423 cbm bale\r\n5hh, 4 x 30mt cranes + grabs\r\ngt 22,709 / nt 12,326\r\n186.40m loa / 27.80m beam\r\nSpeed and consumption\r\nBallast about 12.5 knots on 17.0mt ifo + 0.1mt mgo\r\nLaden about 11,5 knots on 17.0mt ifo + 0.1mt mgo\r\nPort cons:\r\nIdle abt 3.5mt ifo rmg 380\r\nWork abt 4.5mt ifo rmg 380\r\nADA\r\nBest regards,\r\nEfstratios Varamilis\r\nfor ALLEGIANT Handy\r\n",
+            {
+                "entities": [
+                    [
+                        51,
+                        64,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        67,
+                        80,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        81,
+                        90,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        112,
+                        116,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        118,
+                        128,
+                        "FLAG"
+                    ],
+                    [
+                        130,
+                        143,
+                        "DWT"
+                    ],
+                    [
+                        206,
+                        221,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

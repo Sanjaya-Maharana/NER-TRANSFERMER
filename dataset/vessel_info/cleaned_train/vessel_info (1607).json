@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "// EXCLUSIVE //\r\nOPEN SALALAH PPT\r\nM/V HAI PHUONG 87\r\nDWT 32,816MTS ON 10.15M DRAFT\r\nBULKER/SINGLE DECK\r\nVIETNAM FLAG / CLASS NK&VR\r\nCHINA BUILT 2009\r\nGRT 20767 / NRT 12116\r\nLOA/BEAM/DEPTH 179.9/28.4/14.1M\r\nHOLDS 5 / HATCHES 5\r\nHATCH COVER: MCGREGOR, HYDRO FOLDING TYPE\r\nGRAIN 43127 / BALE 41402CBM\r\n4 X30MTS CRANES\r\nADA\r\n-no GOA passing\r\nBest Regards\r\nHuseyin Turgut\r\ndir +6562483117\r\nmob +6596165388",
+            {
+                "entities": [
+                    [
+                        35,
+                        52,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        54,
+                        67,
+                        "DWT"
+                    ],
+                    [
+                        105,
+                        117,
+                        "FLAG"
+                    ],
+                    [
+                        139,
+                        149,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        300,
+                        315,
+                        "VESSEL_NAME"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "DEAR SIRS,\r\nOPEN MUKALLA 24-29 AUG\r\nPREF PG/RED SEA/MED/BLACK SEA\r\nNO INDIA/EAFR\r\nI/I OK\r\nM/V HAJ MOHAMMED\r\nGENERAL CARGO VESSEL\r\nPANAMA FLAG – DARAMON OF CLASS\r\nIMO NO : 9044011/ CALL SIGN : T8A3766\r\nGRT 13696 / NRT 7781 - BUILT 1992 JAPAN\r\nDWT 22763 MTS draft 9.11M\r\nLOA : 157. 50 M / BEAM : 25.00M/ DEPTH : 5.40 M\r\nGRAIN / BALE CAPA : 29,301.271 / 999,3541 no\r\n4 HO / 4 HA\r\nCRANE 4*30TONS SWL\r\nP&I CLUB MS AMLIN MARINE N.V\r\nADA.\r\nOPEN BOSASO 29-31 AUG\r\nONLY VOYAGE\r\nPREF MED DIRECTION\r\nI/I OK\r\nMV ADONNIS\r\nTYPE:GENERAL CARGO/ TWEEN-DECK\r\nBOX HOLDS\r\nBUILT:1999/ JAPAN\r\nFLAG: PALAU\r\nCLASS: KR\r\nDWT/GRT/ NRT: 11478/7816/3670 MTS\r\nL/B/D: 109.3/ 19.8/13.8M\r\nDRAFT: 9.2M\r\n2H/2H\r\nHATCH TYPE:HYDRAULIC\r\nG/B: 15654.55M3/ 14811.65M3\r\nCRANES 2 X 30 TONS + DERRICKS 2 X 30 TONS\r\nBest Regards\r\nSen\r\nMARINE BIZ INTERNATIONAL – CHARTERING\r\nINDIA\r\nMobile : +91 988 42 92 32 6\r\nEmail : chartering@marinebiz.in\r\nEmail : mbchartering@gmail.com\r\nSkype :  marinebizz\r\nGDPR NOTICE :This message is not 'SPAM' and sent only within the\r\nshipping stakeholders, if this message is irrelevant to your business or\r\nyou do not\r\nwish to receive any further Newsletter from us, please reply REMOVE.",
+            {
+                "entities": [
+                    [
+                        12,
+                        24,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        25,
+                        34,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        130,
+                        141,
+                        "FLAG"
+                    ],
+                    [
+                        162,
+                        179,
+                        "IMO"
+                    ],
+                    [
+                        224,
+                        234,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        242,
+                        255,
+                        "DWT"
+                    ],
+                    [
+                        433,
+                        444,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        445,
+                        454,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        497,
+                        507,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        727,
+                        745,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

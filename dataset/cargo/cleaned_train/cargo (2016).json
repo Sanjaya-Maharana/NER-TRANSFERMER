@@ -1,0 +1,35 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Need owner firm offer with vsl dtls valid for 48 hrs with detention rates 7 pcs of packages of dismantled pump and parts 10% molchop (max 37 mt)1sbp Masan / 1sbp Dubai25-30 AugCQD at bendsFrt owner best on FLT hh bss 1/1Under deckPartial stackable2.5% pus PL attachedNo frt idea on hand Regards / K Y Lee–Chartering Director__________________________________Vera Logistics Co., Ltd. Korea[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]#Email : kylee@veralogistics.net#Skype : mrleeky8 *WeChat : Kyu-YangLee#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081  ",
+            {
+                "entities": [
+                    [
+                        167,
+                        176,
+                        "LAYCAN"
+                    ],
+                    [
+                        247,
+                        255,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

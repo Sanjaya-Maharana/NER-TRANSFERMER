@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "**                   **\r\nGood day.\r\nPlease offer FIRM for:\r\nLooking for a tanker  20.000 DWT  for MAZUT.\r\nTrading IRAN to PG.\r\nLPORT: B.ABBAS\r\nDPORT: UAE, SHARJA – AJMAN, mainly.\r\nLaycan End of August.\r\nTtl cmmn here 3,75%\r\nLook forward to hearing from you soon.\r\nPlease offer your best.\r\nFOR FURTHER DETAILS, CLARIFICATIONS, PLS CONTACT.\r\nBrgds/ Capt George - As broker & agent only\r\n- mob: ++30 697 2077443 / WhatsApp, 7X24.\r\n- e-mail : seamus@pkt.gr & seamus@otenet.gr\r\n- SKYPE ID : seamus2002\r\n++++ **++++",
+            {
+                "entities": [
+                    [
+                        82,
+                        92,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        127,
+                        141,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        143,
+                        161,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        180,
+                        200,
+                        "LAYCAN"
+                    ],
+                    [
+                        217,
+                        222,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

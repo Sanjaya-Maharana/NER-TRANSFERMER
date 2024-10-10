@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "ACCT BROWNFIELD NAV\r\n42K-UMX\r\nDTM CJK PPT ONWARDS\r\nREDEL PAK--WCI RANGE\r\n1TCT WITH BULK FERTS DUR ABT 35DAYS WOG\r\n3.75% ADC PUS\r\n++\r\nBest Regards,\r\nMatina Vlachogianni\r\nRock Marine S.A.\r\n(as brokers only)\r\nEmail: drychart@rockmarine.gr\r\nTel: +30 210 96 89 802\r\nMob: + 30 6977201632\r\nSkype: live:.cid.92134db6dd02628e\r\nIn accordance with the EU GDPR (European Union General Protection Regulation) which has been enforced since May 25th 2018,\r\nwe require your explicit agreement and consent to continue maintaining your contact information with ourselves, and to continue\r\nsending to you our circulars (operation, chartering, sale and purchase) and other relevant information pertaining to the day to day\r\nbusiness of Rock Marine S.A.\r\nIf however you will no longer be interested to receive our future circulars and want us to delete your contact information with ourselves\r\nplease notify us in due course and we will delete all relevant information accordingly. In the meantime, we hereby authorize you to keep\r\nour contact information with yourselves and continue sending us your commercial information related to our business (including but not\r\nlimited to sale and purchase offers and inquiries, cargo and period orders, vessels’ positions etc. ) to foll addresses :drychart@rockmarine.gr",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "COMPANY"
+                    ],
+                    [
+                        51,
+                        71,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        83,
+                        93,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        94,
+                        108,
+                        "DURATION"
+                    ],
+                    [
+                        114,
+                        127,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

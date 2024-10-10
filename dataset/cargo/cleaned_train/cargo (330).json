@@ -1,0 +1,55 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "......Forwarded Mail........\r\nGood day,\r\nPls offer for:\r\n50,000-60,000 wmt Bauxite ore in bulk\r\nTeluk Ramunia,Johor,Malaysia /\r\nFangcheng or Longkou or Huanghua ,China\r\n8000 wmt pwwd shinc /\r\n20000 wmt pwwd shinc\r\n25/30\r\nJuly\r\n1.25% ttl\r\nMaximum 20 years old vessel\r\nFrt: invite owner best offer on fiost bss 1/1\r\nBrgds / Yigit SAKIR\r\nAs Brokers Only\r\nMobile/Whatsapp: +905423148873\r\nDirect line: +902124385046\r\nSkype: yigitsak Wechat: LRS1903\r\nchartering@transoba.com.tr\r\nA registered member (145263) of BIMCO",
+            {
+                "entities": [
+                    [
+                        57,
+                        74,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        75,
+                        94,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        96,
+                        124,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        128,
+                        167,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        215,
+                        224,
+                        "LAYCAN"
+                    ],
+                    [
+                        227,
+                        232,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

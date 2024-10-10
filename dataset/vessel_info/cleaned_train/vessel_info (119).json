@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Ref: KP-CHRS 28-08-2024-10:36:01 AM%\r\n/ Oleksii + Konstantin\r\nGood day,\r\nMV GREEN K-MAX 4 80K DWT / 20 - OPEN IJMUIDEN ON ABT 07-08 SEPT\r\nTRY ANY\r\nTYPE : GEARLESS - SINGLE DECK - SELF TRIMMING BULK CARRIER\r\nSUMMER DWT : ABT 80,856.6 MT DWT ON 14.450 M - TPC   ABT 71.7\r\nBUILT : MARCH 2020\r\nSHIPYARD : COSCO SHIPPING HEAVY INDUSTRY ZHOUSHAN\r\nFLAG : LIBERIA FLAG\r\nLOA / BEAM : 229.0 M / 32.26 M\r\nHO/HA : 7/7\r\nGRT/NRT : ABT 44076 / ABT 27310\r\nHOLD GRAIN CAPACITY : ABT 96828.3 CMB\r\nBREAKDOWN PER HOLD (CBM)\r\nHOLD NO.1 : 12,495.20\r\nHOLD NO.2 : 14,928.90\r\nHOLD NO.3 : 14,465.70\r\nHOLD NO.4 : 12,827.80\r\nHOLD NO.5 : 13,945.80\r\nHOLD NO.6 : 13,889.40\r\nHOLD NO.7 : 14,275.50\r\nTOTAL : ABT 96,828.30\r\nAUSTRALIAN HOLDS LADDER FITTED\r\nSPEED AND CONSUMPTION:\r\nBALLAST: ABT 14.5 KTS ON ABT 25.6 MT LSIFO\r\nLADEN: ABT 13.3 KTS ON ABT 27.0 MT LSIFO\r\nECO:\r\nBALLAST: ABT 13.8 KTS ON ABT 22.7 MT LSIFO\r\nLADEN: ABT 12.3 KTS ON ABT 22.7 MT LSIFO\r\nECO2:\r\nBALLAST: ABT 13.0 KTS ON ABT 20.3 MT LSIFO\r\nLADEN: ABT 11.7 KTS ON ABT 20.3 MT LSIFO\r\nPORT CONSUMPTION: ABT 4.4 MT LSIFO (380 CST)\r\nSPEED AND CONSUMPTION IN GOOD WEATHER AND SMOOTH SEA UP TO AND INCLUDING BEAUFORT\r\nSCALE FORCE 4 / DOUGLAS SEA SCALE 3 (1.5 M COMBINED) NO ADVERSE CURRENTS NO NEGATIVE\r\nINFLUENCE OF SWELL ABOUT IS UNDERSTOOD TO MEAN 5% DOWNWARDS IN THE SPEED AND 5%\r\nUPWARDS IN THE CONSUMPTION. ANY GAIN ON TIME OVER THE ABV AND/OR CONSUMPTION BELOW\r\nTHE ABV TO BE OFF-SET AGAINST LOSS ON TIME AND/OR CONSUMPTION IF ANY.\r\nSPEED NOT TO BE DEBITED DUE TO FAVORABLE CURRENTS.\r\nVESSEL WILL BURN IFO AND/OR MGO WHILE EXCHANGE BALLAST WATER AT SEA.\r\nVESSEL MAY CONSUMES MGO WHILE MANOEUVERING IN SHALLOW/NARROW WATER, TRANSITING THE CANAL\r\nAND ENTERING /LEAVING THE PORTS/STARTING/STOPPING THE ENGINE AND WHILE BALLASTING / DE-BALLASTING OPERATIONS.\r\nBUNKERS SPECIFICATION (ISO 8217/2010 E).\r\nALL ABOUT\r\nBest Regards\r\nKonstantin Petrov\r\n***********************************************\r\nSpeed Logistics Marine Ltd\r\nmob: +30-698-150-44-58\r\n+38-093-902-39-77 (WhatsApp)\r\ne-mail: pmx@slmbulk.com\r\nskype: live:petrovkostyantyn\r\n***********************************************",
+            {
+                "entities": [
+                    [
+                        73,
+                        89,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        90,
+                        93,
+                        "DWT"
+                    ],
+                    [
+                        105,
+                        118,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        126,
+                        136,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        341,
+                        355,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

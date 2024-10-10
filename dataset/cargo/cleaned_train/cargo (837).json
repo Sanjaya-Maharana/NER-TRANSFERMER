@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Good day,\r\n/// BOOKED ///\r\nACCT SLM\r\nPMX/KMX TRY PPMX\r\nDTM RICHARDS BAY 05/14 SEPT\r\nTCT WITH COAL\r\nVIA RBCT TO INDIA (INT WCI)\r\nADD 3.75% PUS\r\nOR VOYAGE RELET\r\nVOYAGE TERMS UPON REQUEST\r\nPLS PROPOSE APS RATED TONNAGE\r\nBrgds / Yigit SAKIR\r\nAs Brokers Only\r\nMobile/Whatsapp: +9054231488 73\r\nDirect line: +902124385046\r\nSkype ID: yigitsak Wechat: LRS1903\r\nchartering@transoba.com.tr",
+            {
+                "entities": [
+                    [
+                        27,
+                        35,
+                        "COMPANY"
+                    ],
+                    [
+                        72,
+                        82,
+                        "LAYCAN"
+                    ],
+                    [
+                        128,
+                        137,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

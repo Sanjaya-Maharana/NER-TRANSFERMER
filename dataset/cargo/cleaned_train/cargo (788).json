@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "CROSS MERIDIAN SHIPPING\r\n***** ***** *****\r\nLINER TERMS HOOK TO HOOK\r\nPART CARGO OKAY\r\nPlease advise your best freight for:\r\nCargo: DAP in bulk + 50Kgs empty bags\r\nQuantity: 8,000MT 10% moloo\r\nLoad: Ras Al Khair, 1 day fhex eiu\r\nDisch: Umm Qasr, 2 days fhex eiu\r\nLaycan: end Aug/ early Sep 2024\r\nComm: 2.50% total\r\nBrgds\r\nSangeeth\r\nCROSS MERIDIAN SHIPPING\r\nTel: +91 759 887 4731\r\nMobile: +91 900 330 4731\r\nSkype: tvsangeeth\r\nEmail: chart@crossmeridian.in\r\nWebsite: https://crossmeridian.in\r\n***** ***** *****\r\nThis is an email broadcast related to Commercial Shipping (shipbroking) business and is not spam.\r\nIf you do not wish to receive similar emails, please reply to this message with subject UNSUBSCRIBE",
+            {
+                "entities": [
+                    [
+                        6,
+                        23,
+                        "COMPANY"
+                    ],
+                    [
+                        125,
+                        143,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        164,
+                        181,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        199,
+                        211,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        229,
+                        244,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        263,
+                        294,
+                        "LAYCAN"
+                    ],
+                    [
+                        296,
+                        307,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "- CLOSE/DIR LOCAL\r\n- CJK 28/30 AUG.\r\n- TRADING CIS/N.VIET RGE\r\n- PREFER DIRTY CGO LIKE CIS COAL\r\nMV. ROSE\r\n47,305 DWT ON 11.769M DRAFT SSW\r\nKOREA FLAG - OITA JAPAN 2002 BLT\r\nCLASS KR TPC 51.4\r\nLOA/LBP/BEAM 189.90/181/31 M\r\nGT/NT 27,306/ 15,810\r\n5/5 HO/HA\r\nGRAIN/BALE : 60,769.9 CBM GRAIN or 2,145,996 CFT / 58,785 CBM BALE\r\nCYLINDER FOLDING TYPE HATCH COVERS – (MACGREGOR–KAYABA)\r\n4 X 30 MT CRANES\r\nSPEED/CONS :\r\nABT 13 KNOTS(B)/12 KNOTS(L) WITH OR WITHOUT FAVORABLE CURRENTS ON ABT 22.5 MTS(B) LSFO/23.5 MTS(L) LSFO + ABT 0.20 MTS LSMGO 0.1% SULPHUR CONTENT ON AN EVENKEEL CONDITION AND UNDER GOOD WEATHER CONDITIONS OF WINDS NOT EXCEEDING BEAUFORT SCALE FORCE 3, AND COMBINED SEA AND SWELL CONDITION NOT EXCEEDING 1.25 METERS – WITH NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL.\r\nAT SEA VESSEL CONSUMES ADDITIONAL 1.5 MTS LSFO FOR THE DIESEL GENERATORS AND WHEN PUMPING OUT CARGO HOLD BILGE WATER OR EXCHANGE BALLAST WATER VESSEL CONSUMES ADDITIONAL LMGO.\r\nIN PORT : IDLE : ABT 2.5 MTS LSFO 380 CST OR LSMGO 0.1% SULPHUR CONTENT + 0.20 MTS LSMGO 0,1% SULPHUR CONTENT + BOILER ABT 1 MTS LSFO 380 CST OR LSMGO 0.1% SULPHUR CONTENT\r\nWORKING : ABT 3.5 MTS MTS LSFO 380 CST OR LSMGO 0.1% SULPHUR CONTENT + 0.20 MTS LSMGO 0.1% SULPHUR CONTENT + BOILER ABT 1 MTS LSFO 380 CST OR LSMGO 0.1% SULPHUR CONTENT\r\nWHILST MANOUEVERING/NAVIGATING IN SHALLOW WATERS, CROSSING CANALS, NARROW STRAITS... ETC… VESSEL CONSUMES MGO INSTEAD OF LSFO.\r\nBUNKER SPECS:\r\nFUEL GRADE: LSFO 380CST RMG / LSMGO DMA\r\nLSFO (S < 0.5%) AND LSMGO(S<0.1%): ISO 8217:2017 or 2010\r\nVISTCOSITY FOR LSFO TO BE OVER 30\r\nBUNKERING IS NOT ALLOWED IN ANY CIS PORTS.\r\nADA\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        97,
+                        105,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        107,
+                        117,
+                        "DWT"
+                    ],
+                    [
+                        140,
+                        150,
+                        "FLAG"
+                    ],
+                    [
+                        164,
+                        172,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        381,
+                        397,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

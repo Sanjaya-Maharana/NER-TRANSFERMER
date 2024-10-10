@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR SIR/MADAM,\r\nA/C: OPL\r\nCRC 3-24 MT/COIL\r\nMIN/MAX 6600 / 6900 MT\r\nPOL: PHU MY, VN\r\nPOD1: NORTH KLANG, MY 5600 MT\r\nPOD2: PENANG, MY 1100 MT\r\nL/C: 16-18 SEP 24\r\nSOLE OR PART CGO IS ACCEPTABLE\r\nLILO H/H\r\n2.5%\r\nDEADLINE FOR OFFER: 1700 VN TIME 29TH AUG 24\r\n+\r\nBest regards\r\nNguyen Hong Son (Mr. John)\r\nManager of Chartering Dept.\r\nT:   +84 24 7300 2225 | M: +84 913 210 566\r\nE:   son.nguyen5@opl.vn | Website: http://opl.vn | Skype: 0913210566\r\nA:   Head office: 5Ath Floor, Century Tower, 458 Minh Khai Str., Hai Ba Trung Dist., Hanoi, Vietnam\r\nHo Chi Minh office: 12A FL., Vincom Dong Khoi, 72 Le Thanh Ton & 45A Ly Tu Trong Str., Dist. 1,\r\nHCM City, Vietnam\r\nWCA ID: 116226   |  FMC No. 612419037",
+            {
+                "entities": [
+                    [
+                        69,
+                        84,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        86,
+                        107,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        143,
+                        160,
+                        "LAYCAN"
+                    ],
+                    [
+                        204,
+                        208,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 0C54W-00 21/08/24 11:19\r\nGood day,\r\nOur close owners,\r\nopen Djibouti 28-31 Aug\r\nlooking for cargo to east/west africa or med/ black sea. NO PG/INDIA\r\nno tc - only voyage\r\nMV Phospherus nh\r\nType:General Cargo/ Tween-Deck\r\nBuilt:1996/ Japan\r\nFlag: Belize\r\nClass: ICS\r\nDwt/Grt/ Nrt: 9445/6364/2979 Mts\r\nL/B/D: 100.7/ 18.6/13.4m\r\nDraft: 9.2m\r\n2h/2h\r\nHatch Type:Hydraulic\r\nG/B: 14442.27m3/ 12893.02m3\r\nCranes 2 X 15 Tons + Derrick 1 X 10 Tons\r\nBest Regards,\r\nFilippos Papayannopoulos\r\nSkype: filip_pap\r\nAlma Navigation S.A - Greece\r\n97 Akti Miaouli Str., 18538 Piraeus\r\nT: +302104290990 W: almanavigation.gr",
+            {
+                "entities": [
+                    [
+                        66,
+                        79,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        80,
+                        89,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        182,
+                        198,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        245,
+                        254,
+                        "FLAG"
+                    ],
+                    [
+                        408,
+                        426,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

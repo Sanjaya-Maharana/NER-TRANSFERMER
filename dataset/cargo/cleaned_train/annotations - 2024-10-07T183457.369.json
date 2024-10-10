@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "REF     : MA-EM-2024-08-28-001\r\nATTN    : CHARTERING DESK\r\nGOOD DAY,\r\nDEAR ALL / AMIN\r\nKINDLY PPS SUITABLE VESSEL’S FOR FOLLOWING FIRM\r\n1)\r\nabt 25.000m tons bagged rice 25/50 sf abt 46\r\nLoading fm hcm – Vietnam\r\n2 dischg  intention  Nacala +Beira\r\nLoad rate 1500 -Dischg 1500 sat noon\r\nLyacan spot\r\n3.75%IAC\r\n2)\r\n28000 10 pct moloo – bagged rice 25/50 sf abt 46\r\nBin Qasim for 2 ports west Africa intention Cotonou , Lome\r\nLoad 3000 – dischg 1200 Saturday 12 till Monday 0800 Eiu both ends\r\nLaycan 10-15 sept 2024\r\n3.75%IAC\r\nPls offer bais  free d/a at disch ports\r\n3)\r\nOchamchire 6.6m draft /Beira\r\n8000t-10000mt AN in bb (IMO 5.1 / UN2067) 1,1x1,1x1,1m/1t max 6 tier\r\n10/15 Sept\r\n1500x/1500x\r\n2.5%\r\n4)\r\n5000 MT Guar Meal as Part or sole cargo\r\nConakry / Brake\r\n1000 MT SHINC / 1500 MT SHINC\r\nLaycan Spot onwards\r\n3.75%IAc\r\n5)\r\n5000-7000 cement in bulk\r\nEgypt med-libya\r\n1500-1000\r\nVsl dates\r\n2.5%\r\n6)\r\n5000 mts Urea in Big Bags 0.82*0.82*1.6 m / 6 tiers\r\nTrabzon/Orlivka\r\n1000/1000\r\nLc 03.09-04.09.24\r\n2.5%\r\n7)\r\n3600-3700 mts Corn SF 52 WOG\r\nChornomorsk / ECG or Creete chopt\r\n1500/1500\r\nLc SPOT\r\n2.5%\r\n8)\r\n7000 mts Rye SF 50-52 WOG\r\nChornomorsk / Spanmed\r\n2000/1500\r\nLc 01.09-05.09\r\n2.5%\r\nMAX 30 y.o. candidate\r\nKINDY UPDATES OUR EMAIL CHARTERING@SARTANSHIP.COM  IN YOUR MAILING LIST….\r\n---\r\nRGDS /  AMIN\r\nSARTAN SHIPPING & TRADING\r\nMOB +92 335 325 8288\r\nMOB +971 58 290 0118\r\nEMAIL : CHARTERING@SARTANSHIP.COM\r\nHTTPS://SARTANSHIP.COM/\r\nWECHAT: MAQASIM1988\r\nSKYPE: DRYBULK11@OUTLOOK.COM\r\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\r\nIF THE CONTENT OF THIS MESSAGE IS NOT RELEVANT TO YOUR BUSINESS THEN,\r\nPLEASE REPLY WITH ‘UNSUBSCRIBE’ IN THE SUBJECT IN ORDER TO REMOVE YOUR\r\nADDRESS FROM OUR LIST.\r\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --",
+            {
+                "entities": [
+                    [
+                        197,
+                        210,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        233,
+                        246,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        248,
+                        262,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        264,
+                        275,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        299,
+                        304,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        423,
+                        432,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        435,
+                        446,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        491,
+                        513,
+                        "LAYCAN"
+                    ],
+                    [
+                        515,
+                        520,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

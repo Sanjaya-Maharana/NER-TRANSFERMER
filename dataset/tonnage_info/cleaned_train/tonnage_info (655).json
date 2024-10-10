@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 12:38:00   (GMT +5:30)\r\nREFERΕNCE NO: 17722858 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV  TAN ZHOU LUN  - 58K DWT -  OPEN MUMBAI - O/A 22-23 AUG 2024 \r\nBOD: ABT 490MT/55MT\r\nLAST 5 CARGOS:STEELS/ IRON ORE / AGGREGATES / SLAG / IRON ORE \r\nRS 5 , PG/JPN RANGE CAN DO S.AFR\r\n\r\n\r\nMV TAN ZHOU LUN\r\nBUILD 2015 .02, BOHAI SHIPBUILDING HEAVY LADUSTRY CO., LTD\r\nSDBC, CHINA FLAG\r\nCLASS CCS\r\nDWT/DRAFT: 58053.7/12.8M SSW\r\nGRT/NRT: 33738/19656\r\nTPC: 60.837MT AT SUMMER DRAFT\r\nLOA/LBP/BREADTH/DEPTH/DRAFT:199.94/194.00/32.26/18.00/12.80M\r\n5H/5H\r\nGRAIN CAPACITY:\r\nNO.1 CAPA 12334.8CBM\r\nNO.2 CAPA 16427.0CBM\r\nNO.3 CAPA 15224.1CBM\r\nNO.4 CAPA 15224.1CBM\r\nNO.5 CAPA 13567.5CBM\r\nTTL 72777.5CBM\r\n\r\nHATCH COVERS(L X B):\r\nNO.1: 17.22 X 16.8M\r\nNO.2: 24.6 X 16.8M\r\nNO.3 TO NO.5: 22.14 X 16.8M\r\n\r\n\r\nHOLD DIMENSIONS:\r\nNO.1: 29520 X (6800+24000)\r\nNO.2: 34440 X 24000\r\nNO.3: 31980 X 24000\r\nNO.4: 31980 X 24000\r\nNO.5: 31980 X (8520+24000)\r\n\r\nDECK CRANES: 4 X 30 MT ELECTRO HYDRAULIC CRANES WITH 4 X 12CBM GRABS\r\nSTRENGTH: TANK TOP: 24.5MT/M2 FOR HATCH NO.1,3,5, 18MT/M2 FOR HATCH NO. 2,4.\r\n\r\nAVERAGE SPEED/CONSUMPTION\r\nAT SEA(FULL):\r\nBALLAST ABT 13.5KN ON ABT 28MTS LSIFO 380CST+ABT 0.1MT LSMGO\r\nLADEN ABT 12.5KN ON ABT 29MTS LSIFO 380CST + ABT 0.1MT LSMGO\r\n\r\nAT SEA(ECO):\r\nBALLAST ABT 12.5KN ON ABT 22.0MTS LSIFO 380CST + ABT 0.1MT LSMGO\r\nLADEN ABT 12.0KN ON ABT 23.0MTS LSIFO 380CST + ABT 0.1MT LSMGO\r\n\r\nIN PORT:\r\nIDLE ABT 3.0MTS LSIFO 380CST + ABT 0.1MT LSMGO\r\nWORK ABT 5.0MTS LSIFO 380CST + ABT 0.2MT LSMGO\r\n\r\nTHE SPEED AND CONSUMPTION IS GIVEN BSS 24 CONSECUTIVE HOURS FROM NOON TO NOON, SEA BUOY TO SEA BUOY, UNDER GOOD WEATHER CONDITIONS NOT EXCEEDING BF4 AND DSS 3 (SIGNIFICANT HEIGHT MAX 1.25M) WITH NO ADVERSE CURRENT OR NEGATIVE INFLUENCE OF SWELL, AND ALWAYS EXCLUDING BALLASTING / DEBALLASTING OPERATIONS.\r\n\r\nTHE VESSEL HAS LIBERTY TO BURN EXTRA LSMGO/LSIFO IN CASE OF EMERGENCY OR WHILE NAVIGATING / MANEUVERING IN NARROW / SHALLOW / RESTRICTED / CONGESTED CANALS, RIVERS, WATERS OR POOR VISIBILITY AREAS OR STANDBY, ENTERING / LEAVING PORTS / CANALS, STARTING / STOPPING THE ENGINE, BALLAST WATER EXCHANGING, CLEANING VESSEL'S HOLDS, BALLASTING/DE-BALLASTING OPERATION, OR AT LOW LOAD AND/OR BAD/COLD WEATHER CONDITION ETC.\r\n\r\nADA\r\n\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\n",
+            {
+                "entities": [
+                    [
+                        530,
+                        535,
+                        "DRAFT"
+                    ],
+                    [
+                        541,
+                        561,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        622,
+                        628,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        656,
+                        661,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        690,
+                        700,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        1203,
+                        1292,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1297,
+                        1357,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1365,
+                        1437,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1441,
+                        1503,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1511,
+                        1561,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1565,
+                        1611,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

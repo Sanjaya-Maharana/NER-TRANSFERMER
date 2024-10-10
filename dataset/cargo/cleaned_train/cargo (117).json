@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "xianglong shipping company\r\nPLS ONLY REPLY TO: JINGYINSHU@VIP.163.COM\r\nACCT:XIANGLONG\r\nNEED 25-30K VLS\r\nFROM SGP TO VN\r\nLAYCAN:2-5TH SEP\r\nADD:3.75%\r\nMS WANG\r\nskype：xiangshunshipping\r\nE-MAIL:jingyinshu@VIP.163.com TEL0086-0535-6601417\r\nMEL:0015165773752\r\nXIANGLONG SHIPPING COMPANY LTDRM 601,UNIT B,NO.-199 HUAN SHAN ROAD ,YANTAI CITY,CHINA\r\nFax: 0535-660653\r\nPIC.\r\nMobile Phone\r\nEmail\r\nskype\r\nJason Wang\r\n+86 13605357589\r\njingyinshu@vip.163.com\r\nwang.xianjun79\r\nchartering@xianglongshipping.com\r\nAs a chartering person,I was fed up of junk emails\r\nThanks for ShippingMail,no more junk messages kill my precious time!\r\nTry this nice program at http://www.shippingmail.com",
+            {
+                "entities": [
+                    [
+                        92,
+                        98,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        120,
+                        136,
+                        "LAYCAN"
+                    ],
+                    [
+                        138,
+                        147,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 5EA8F 19/08/24 13:13 +03:00\r\nJOIN MARITIME INC. - GREECE - TEL:+30 210 9850800 - FAX:+30 210 9844801\r\nE-MAIL : chartering@joinmaritime.com\r\n-/MF\r\nGD DAY\r\nPLS PPOSE FOR BELOW LOCAL SUPRA\r\nOpen Jorf Lasfar 24-25 aug\r\n-------------------------\r\nMV Maro K\r\n------\r\n58,117 mts dwat at 12.826m ssw,tpc 57.46 mt/cm\r\nbuilt 2010 by Tsuneishi, bulk carrier Panama flag,\r\nclass KR\r\nloa 189,99/beam 32,26 - gt/nt 32,287/19,458\r\n5 ho/ha - gr/bl 72,689/70,122 cbm\r\n4x30tons cranes\r\ns/c: abt 12 kts on abt 28mt vlsfo + 0.5 mt lsmgo\r\nin port: idle abt 3.5mt vlsfo + 1mt lsmgo / working abt 5mt vlsfo + 1mt lsmgo\r\nAll dets abt\r\nBRGDS\r\nMICHAEL FLOROS\r\nJOIN MARITIME INC.\r\nMOB: 0030 6942556220\r\nSKYPE: M_FLOROS",
+            {
+                "entities": [
+                    [
+                        198,
+                        214,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        215,
+                        224,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        253,
+                        262,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        320,
+                        330,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        358,
+                        369,
+                        "FLAG"
+                    ],
+                    [
+                        462,
+                        477,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

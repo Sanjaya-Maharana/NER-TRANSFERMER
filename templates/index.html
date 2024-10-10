@@ -3,65 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Call Stats</title>
+    <title>NER Annotator</title>
     <style>
+        /* General styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            color: #333;
         }
         .container {
-            width: 80%;
-            margin: 50px auto;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #007BFF;
         }
-        table {
+
+        /* Styling the buttons for classes */
+        .class-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .class-btn:hover {
+            opacity: 0.9;
+        }
+        .class-btn-red { background-color: #ff4d4d; }
+        .class-btn-blue { background-color: #007BFF; }
+        .class-btn-green { background-color: #28a745; }
+        .class-btn-yellow { background-color: #ffc107; }
+        .class-btn-gray { background-color: #6c757d; }
+
+        /* Annotations section */
+        textarea {
             width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 18px;
-            text-align: left;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
         }
-        table th, table td {
-            padding: 12px 15px;
+
+        /* Annotation progress and tools */
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
         }
-        table th {
-            background-color: #007BFF;
-            color: white;
+
+        .toolbar button {
+            padding: 10px;
+            font-size: 16px;
+            margin-left: 10px;
         }
-        table tr {
-            border-bottom: 1px solid #dddddd;
+
+        /* Remove button for classes */
+        .remove-btn {
+            margin-left: 10px;
+            color: red;
+            cursor: pointer;
         }
-        table tr:nth-of-type(even) {
-            background-color: #f3f3f3;
+
+        /* Annotation list */
+        .annotation-list {
+            list-style: none;
+            padding: 0;
         }
+
+        .annotation-list li {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            margin: 5px 0;
+            background-color: #f9f9f9;
+            border-left: 5px solid #007BFF;
+        }
+
+        /* File import */
+        #file-input {
+            margin-bottom: 20px;
+        }
+
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>API Call Statistics</h1>
-        <h2>Server Start Time: {{ stats['timestamp']['timestamp'] }}</h2>
-        <table>
-            <tr>
-                <th>API Name</th>
-                <th>Call Count</th>
-                <th>Last Called Time</th>
-            </tr>
-            <tr>
-                <td>Tonnage </td>
-                <td>{{ stats['tonnage']['count'] }}</td>
-                <td>{{ stats['tonnage']['last_called'] or 'Never Called' }}</td>
-            </tr>
-            <tr>
-                <td>Cargo </td>
-                <td>{{ stats['cargo']['count'] }}</td>
-                <td>{{ stats['cargo']['last_called'] or 'Never Called' }}</td>
-            </tr>
-        </table>
+        <h1>NER Annotator</h1>
+
+        <!-- Toolbar with file import and save buttons -->
+        <div class="toolbar">
+            <input type="file" id="file-input" accept=".txt" />
+            <button onclick="importFile()">Import Text</button>
+            <button onclick="saveAnnotations()">Save Annotations</button>
+        </div>
+
+        <!-- Text area to input or display the text -->
+        <textarea id="annotation-text" rows="10"></textarea>
+
+        <!-- Entity classes as buttons -->
+        <div id="entity-buttons">
+            <button class="class-btn class-btn-red" onclick="selectEntityClass('VESSEL_NAME')">VESSEL_NAME</button>
+            <button class="class-btn class-btn-blue" onclick="selectEntityClass('IMO')">IMO</button>
+            <button class="class-btn class-btn-green" onclick="selectEntityClass('DWT')">DWT</button>
+            <button class="class-btn class-btn-yellow" onclick="selectEntityClass('BUILD_YEAR')">BUILD_YEAR</button>
+            <button class="class-btn class-btn-gray" onclick="selectEntityClass('FLAG')">FLAG</button>
+        </div>
+
+        <!-- Displaying current annotations -->
+        <ul id="annotation-list" class="annotation-list"></ul>
+
+        <!-- Hidden input for new entity class -->
+        <input type="text" id="new-entity-class" placeholder="New Entity Class" />
+        <button onclick="addNewEntityClass()">Add Entity Class</button>
     </div>
+
+    <script>
+        let selectedEntityClass = '';
+        let annotations = [];
+
+        // Selecting an entity class
+        function selectEntityClass(entity) {
+            selectedEntityClass = entity;
+            alert('Selected Entity Class: ' + entity);
+        }
+
+        // Add annotation
+        function annotate() {
+            const text = window.getSelection().toString();
+            if (text && selectedEntityClass) {
+                annotations.push({ text: text, type: selectedEntityClass });
+                updateAnnotationList();
+            } else {
+                alert('Please select text and an entity class.');
+            }
+        }
+
+        // Update annotation list display
+        function updateAnnotationList() {
+            const list = document.getElementById('annotation-list');
+            list.innerHTML = '';
+            annotations.forEach((ann, index) => {
+                const listItem = document.createElement('li');
+                listItem.innerText = `${ann.text} - ${ann.type}`;
+                const removeBtn = document.createElement('span');
+                removeBtn.innerText = ' [X]';
+                removeBtn.className = 'remove-btn';
+                removeBtn.onclick = () => removeAnnotation(index);
+                listItem.appendChild(removeBtn);
+                list.appendChild(listItem);
+            });
+        }
+
+        // Remove an annotation
+        function removeAnnotation(index) {
+            annotations.splice(index, 1);
+            updateAnnotationList();
+        }
+
+        // Add a new entity class dynamically
+        function addNewEntityClass() {
+            const newClass = document.getElementById('new-entity-class').value;
+            const btn = document.createElement('button');
+            btn.innerText = newClass;
+            btn.className = 'class-btn';
+            btn.onclick = () => selectEntityClass(newClass);
+            document.getElementById('entity-buttons').appendChild(btn);
+        }
+
+        // Import text from a file
+        function importFile() {
+            const fileInput = document.getElementById('file-input');
+            const file = fileInput.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('annotation-text').value = e.target.result;
+                };
+                reader.readAsText(file);
+            } else {
+                alert('No file selected.');
+            }
+        }
+
+        // Save annotations
+        function saveAnnotations() {
+            const text = document.getElementById('annotation-text').value;
+            fetch('/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text: text, annotations: annotations })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            });
+        }
+    </script>
 </body>
 </html>

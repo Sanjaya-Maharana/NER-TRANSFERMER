@@ -1,0 +1,75 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nFROM: ARYACORP PVT. LTD.DATE & TIME: 20-08-2024 11:57:17   (GMT +5:30)REFERΕNCE NO: 17714715 ATTN CHARTERING DESKGOOD DAYDIRECT CHARTERERS ORDER  PLEASE ADVISE SUITABLE VESSEL FOR FOLLOWING FIRM ORDER   ACCT DIRECT CHRTSLYCN: 3/9 SEPT55K 10PCT BLK COALTANJUNG BUYUT / DHARAMTAR8K / 10K L/D SHINC3.75% ADC  PUSPLS RATE BSS FULL DRAFTPLSD TO HEAR. BEST REGARDS,Siddharth Arya | Voyage DeskDirect: +91 22 4044 9001Mobile: +91 9821230311SKYPE ID: asbpl.siddharth@outlook.comAS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION",
+            {
+                "entities": [
+                    [
+                        8,
+                        25,
+                        "COMPANY"
+                    ],
+                    [
+                        205,
+                        222,
+                        "COMPANY"
+                    ],
+                    [
+                        222,
+                        236,
+                        "LAYCAN"
+                    ],
+                    [
+                        236,
+                        239,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        250,
+                        254,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        255,
+                        267,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        270,
+                        279,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        280,
+                        281,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        284,
+                        287,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        297,
+                        302,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

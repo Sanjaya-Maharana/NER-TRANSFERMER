@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "K/A CHARTERING DESK Can u please check & quote your best O/F rates on Non-stackable basis (under deck loading).. Cargo is ready to move.. Ennore to\r\nK/A CHARTERING DESK\r\nCan u please check & quote your best O/F rates on Non-stackable basis (under deck loading)..\r\nCargo is ready to move..\r\nEnnore to Jeddah No of package : 2\r\nGross weight : 200 ton\r\nCargo dimension :\r\n1350 x 240 x 330 (cm) :- 100 ton\r\n1350 x 240 x 330 (cm) :- 100 ton\r\n++\r\nPlease propose a suitable vessel.\r\n• Total about 1067.48 of catamaran boats\r\n• POL: Male\r\n• POD: Jeddah or Yanbu\r\n• Laycan: Cargo is ready to move\r\n• Ttl Comm: 2.5%\r\n• Subject to other terms and conditions\r\n• End\r\nCargo dimension :\r\n16.89 x 6.16 x 5.13 (m) :- 20 ton / Each\r\n++++\r\nThanks\r\nBEST REGARDS\r\nDeepak Kumar. S\r\nMobile : +91 8870038324 (Whatsapp Available)\r\nAnother CTC\r\nPremnath. V\r\nMobile : +91 98403 04615 (Whatsapp Available)\r\nM/s. TERA Projects & Shipping Pvt. Ltd.,\r\nNo:86,2nd Floor, Moore street,Mannady, Chennai – 600 001, INDIA.\r\nTele/Fax: +91 44 3500 3303 ; +91 44 4500 6035;\r\nOffices: Singapore & Malaysia (H.O.)\r\nEmail: Projects / Heavy Lift - Cargo Logistics : projects@teraship.com\r\nEmail: Vessel fixing for Project / Bulk Cargo : chartering@teraship.com\r\n©2024 TERA Projects & Shipping Pvt Ltd., INDIA | Chennai 600001, INDIA\r\nWeb Version   Forward   Unsubscribe\r\nPowered by\r\nGoDaddy Email Marketing ®",
+            {
+                "entities": [
+                    [
+                        520,
+                        529,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        533,
+                        553,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        595,
+                        605,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

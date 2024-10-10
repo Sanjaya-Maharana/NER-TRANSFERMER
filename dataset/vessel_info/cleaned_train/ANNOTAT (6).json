@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "MSGNO: 2191239\r\nplease propose for:-\r\nMV PERIDOT 57K '12 grabber OPENING CAPE TOWN 02 / 04 SEPT\r\nMV PERIDOT\r\n56723 MT DWT ON 12.80 M SSWAD\r\nBLT 2012-PANAMA FLAG-4X36MT CRANES\r\nGRAB FITTED\r\nOWISE FULL DETS AS PER NEW ATTACHMENT\r\nALL DETS ‘ABOUT’\r\nVSL CAN DO 2X25 COILS AND DECKCGO\r\n+++\r\nthanks & regards\r\nGeorge Lemos\r\nCTS Commercial\r\n8 Cambridge Court | 210 Shepherds Bush Road | London | W6 7NJ | UK\r\nT: +44 7785 376662 - 7584 040187\r\nemail: chartering@ctsom.com\r\nskype: giolems\r\nThis email (including all attachments) is confidential and intended  solely for the use of the above addressee(s).If you are not the intended recipient, you must not read, print, retain, copy, distribute, or use any of the information herein. If you receive this message in error, please delete it and immediately notify the sender.  Although we have taken reasonable care to ensure that any attachments to this e-mail are free of viruses, we make no representation and give no warranty in this regard. You should accordingly scan any attachments with appropriate up to date software.",
+            {
+                "entities": [
+                    [
+                        38,
+                        48,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        49,
+                        52,
+                        "DWT"
+                    ],
+                    [
+                        65,
+                        82,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        83,
+                        95,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        97,
+                        107,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        109,
+                        121,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

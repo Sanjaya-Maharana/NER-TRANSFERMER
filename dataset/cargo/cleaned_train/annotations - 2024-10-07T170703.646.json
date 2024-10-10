@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "AC HARDY OR NOM\r\nLME/KMX, MIN HATCH SIZE 12M\r\nTCT WITH COAL\r\nDEL INDO(INT. TABONEO)\r\nREDEL FEAST RGE (INT. S.KOREA)\r\nLC 15/20 SEPT\r\nADD 3.75\r\nBest regards,\r\nJay Lee\r\nMobile: +82 10 5541 5052\r\nSkype: qkwkrehrk\r\nWechat: jay5010309\r\nLucas Yang\r\nMobile: +82 10 7287 3432\r\nSkype: +821072873432\r\nWechat: lucasyang95\r\nJason Park\r\nMobile: +82 10 4539 2967\r\nSkype: live:.cid.c6be115008dda426\r\nWechat: jasonpark_hardy\r\nHardy Corporation\r\n3/F., HARDY Building,\r\nWonhyo-ro 41-gil 52, Yongsan-gu,\r\nSeoul, Republic of Korea 04363\r\nTel: +82 2 6358 7771\r\nFax: +82 2 6358 7773\r\nE-mail: hardy@hardycorp.co.kr\r\nWebsite: www.hardycorp.co.kr",
+            {
+                "entities": [
+                    [
+                        61,
+                        69,
+                        "DELIVERY"
+                    ],
+                    [
+                        85,
+                        115,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        117,
+                        130,
+                        "LAYCAN"
+                    ],
+                    [
+                        132,
+                        139,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

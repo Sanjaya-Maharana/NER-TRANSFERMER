@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "LDC RICE ORDER UPDATE FOR 23 JUl, PLS SKPYE PIC FOR QUICK FEEDBACK:\r\n///NEW, TBN OK ////\r\n39,000-41,000MT BAGGED RICE,SF 46-47 WOG\r\nKOHSICHANG,THAILAND/1 SP WEST AFRICA(10.20M SW)\r\n10-17/AUG\r\n2K/1.5K SATPMSHEX EIU\r\nFREE DA AT DISPORT\r\n3.75% ADC\r\nTRY TCT VIA OPERATOR\r\nFULL DETAILS/EXACT DISPORTS ARE AVAILABLE AGANST REQUEST/NAMED CANDIDATE.\r\nCAN GUIDE PDA/PORT RESTRICTION ETC FOR OWNER’S QUICK CALCULATION. THANK\r\nLaysan Zhang\r\nFreight Merchant - Rice\r\nMobile: +86 139 1020 9384 |Skype: Laysan2@Hotmail.com  pls do not use whatsapp as not workable here\r\nPhone: +8610 5869 3650 | Email: Laysan.zhang@ldc.com\r\nLDC (China) Trading Company Limited\r\nPacific Century Place,Tower A, 24F, 2A Gongtibeilu, Chaoyang District, Beijing,P.R.China 100020\r\nCONFIDENTIAL\r\nThis message and any attachments (the \"Message\") are confidential and intended solely for the addressee(s). If you are not the intended recipient, any use, copying or dissemination is strictly prohibited. If you are not the intended recipient, please notify the sender immediately by return and delete this original Message and any copies from your system. E-mails are susceptible to alteration. Louis Dreyfus Company BV and its subsidiaries and other affiliates shall not be liable if the Message is altered, changed or falsified.\r\nThis is an environment friendly email. Please do not print it unless it is really necessary.",
+            {
+                "entities": [
+                    [
+                        90,
+                        105,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        106,
+                        117,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        181,
+                        190,
+                        "LAYCAN"
+                    ],
+                    [
+                        235,
+                        244,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

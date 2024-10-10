@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDear Day, \r\n \r\nWe have firm cargo from direct shipper need to find the suitable vessel with detail as below :\r\n \r\nLoad : Phu My\r\nPOD : Casablanca\r\nPlywood\r\nPallet: 1220x2440x1000 mm, 2000kg/pallet\r\nVolume:3000-3500CBM  \r\nLaycan: Mid of Aug to First, September,2024\r\nRate request :\r\r\nAROUND 130$ LILO or FLT  \r\nPleased to hear from you soon.\r\nComm: 1.25%\r\r\n\r\n \r\n\r\n·                    \r\r\nPacking - Pallet: 1220x2440x1000 mm, 02ton/pallet\r\n\r\n·                    \r\r\nVolume:3000CBM \r\n\r\nYes, we' direct with shipper\r\n \r\n \r\nThis factory has lot of cargoes for Med, Europe and US through bulk shipments but the inquiry always around 3500-5000cbm for each.\r\r\n\r\n \r\n \r\n \r\n \r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\nBest Regards\r\n\r\nCapt. K. Kordi\r\n\r\nMarketing Desk\r\n\r\nLIPSOS BULK CARRIERS DENİZCİLİK VE TİC. A.S\r\nGöztepe Mah Caddesi, Yesilbahar Sk. Omur Apt.\r\r\nNo: 2 Kat 5 Daire: 31 Kadikoy-Istanbul / Turkiye 34730 \r\n\r\n \r\n\r\nPhone    :\r\n+90 216 7061099 \r\nMobile   : + 90 530 253 1139\r\r\n\r\nEmail      :\r\nMarketing@lipsosbc.com           \r\r\n          \r\nWeb       :\r\nwww.lipsosbc.com\r\n\r\n \r\n\r\n  \r\n\r\n \r\n\r\n\r\n\r\n\r\n \r\n \r\n\r\n\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        146,
+                        169,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        237,
+                        280,
+                        "LAYCAN"
+                    ],
+                    [
+                        358,
+                        369,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

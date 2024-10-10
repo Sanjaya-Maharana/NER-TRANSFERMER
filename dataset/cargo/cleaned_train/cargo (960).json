@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 09ZJ4 01/04/24 05:46 +02:00\r\nOPTIMA INTERNATIONAL SHIPBROKING SERVICES SA\r\nTEL: +8621 5885 2977\r\nchartering: charteringchina@optimashipbroking.com\r\noperations: operationschina@optimashipbroking.com\r\n-/MOHAN\r\nGD,\r\nCLOSE CHRTRS HV:\r\nACC: ACCT WEALTH LAND SHIPPING\r\nREQ: SMAX/UMAX\r\nDEL: N.CHINA RGE\r\nL/C:  PPT UPTO 5TH APR\r\nFOR 1TCT WITH STEELS/GENERALS\r\nREDEL: 1SP WEST AFRICA , INCL NIGERIA\r\n3.75% ADD PUS\r\nNEED 2X25 MTS COILS\r\nNEED DECK+HATCH LOADING OPTION\r\nCAN TRY SINGLE TRIP OR 2-3 LLEGS OR PERIOD\r\nMohan Kasarla , Optima Shanghai\r\nTel:+86-21-58852977\r\nMob:+86-15001045860\r\nAs Brokers Only\r\nThis e-mail (including any attachments) may be confidential and privileged.\r\nIt is intended solely for the use of the named recipient(s). If you are not\r\nthe intended recipient, you may not copy, forward, disclose or otherwise use\r\nthis e-mail or any of its attachments. If you have received this e-mail in\r\nerror, please notify us.",
+            {
+                "entities": [
+                    [
+                        247,
+                        271,
+                        "COMPANY"
+                    ],
+                    [
+                        290,
+                        306,
+                        "DELIVERY"
+                    ],
+                    [
+                        308,
+                        330,
+                        "LAYCAN"
+                    ],
+                    [
+                        363,
+                        400,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        402,
+                        411,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

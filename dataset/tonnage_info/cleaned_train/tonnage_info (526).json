@@ -1,0 +1,32 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "DEAR SIRS\r\nGOOD DAY\r\nPLS OFFER FIRM FOR OUR DIRACT BELOW LADY, PREFER EAST MED DIRECTION\r\nMV: TBN AT TARRAGONA ON 21-22 AUGUST\r\nBLT: 1976 – BULK CARRIER\r\nDWT: 6258 MT\r\nGR/BL: 245940/241240 CBF\r\n2 HO/2 HA\r\nCLASS: CAPITAL REGISTER OF SHIPPING\r\nPANDI: MS AMLIN\r\nPLSD TO HEAR\r\nBEST REGARDS\r\nISMAIL\r\nSLACO | CHARTERING AND BROKERS\r\nALJAMA ALALI BULDING BULD JEEM\r\nFLOOR 3 FLAT NO 16 - 17\r\nMISURATA -LIBYA\r\nT: 00218 51 2 620 350\r\nM/WP: 00218 91 368 6321\r\nW: WWW.LIBSHIP.LY\r\nE: chartering@libship.ly\r\n--\r\nYou received this message because you are subscribed to the Google Groups \"chartering SLACO LTD\" group.\r\nTo unsubscribe from this group and stop receiving emails from it, send an email to chartering-sla-ltd+unsubscribe@googlegroups.com.\r\nTo view this discussion on the web visit https://groups.google.com/d/msgid/chartering-sla-ltd/DB7PR05MB5511E17D49625BDA6B0EE708EC802%40DB7PR05MB5511.eurprd05.prod.outlook.com.",
+            {
+                "entities": [
+                    [
+                        169,
+                        188,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        194,
+                        200,
+                        "HOLD_AND_HATCHES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

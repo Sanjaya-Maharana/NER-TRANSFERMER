@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "AKSON BOSA Chartering +90 216 4673700 bosa@bosaship.com\r\n- BAR-210824-REF6641253 12:55 21/08/2024\r\nPLS ADV YR PROPOSALS TO OUR BELOW DIR / CLOSE TNG\r\nMV TRUE MARINER      38,239\r\nDWT    2011 BLT    4X30\r\nBOXY\r\nMARGHERA  BEG SEPTEMBER\r\nMV TRUE MARINER          MARGHERA\r\nBEG SEPTEMBER\r\nFLAG :  BARBADOS CLASS NK\r\nL.O.A.  :  179.97M\r\n2011BLT  SID - BOXY\r\nDEAD WEIGHT AND DRAFT   (SUMMER) : 38,239MT / 10.536M\r\nNUMBER OF HATCHES/HOLDS :  5 HATCHES / 5 HOLDS\r\nHOLD CAPACITY                    :     GRAIN              47,125.65M3\r\n:                         BALE\r\n45,369.11M3\r\nCARGO GEAR :                         30.5MT\r\nAll speed/consumption are given basis good weather\r\ncondition & ABT for 12 consecutive hours, winds up to Beaufort 4/total combined (sea and swell) significant wave height confined to limits of maximum 1.5\r\nmetres, currents can/will be factored in upon voyage\r\nevaluation to reflect the true performance of\r\nthe vessel.\r\nFULL SPEED MAX SAFE RBM  ( 110-115RPM)\r\n------------------------------------------------------------\r\nLaden : Full Laden\r\nSpeed : 12.0 knots\r\nMain engine : 26 mt/day\r\nAux engine : 1.7mt/day\r\nBoiler : 0 mt/day\r\nBallast : Full Ballast/Heavy Ballast\r\nSpeed :  12.5  knots\r\nMain engine : 26.0mt/day\r\nAux engine : 1.7 mt/day\r\nBoiler : 0 mt/day\r\nECO SPEED MINIMUM  SAFE RBM ( 97-100RPM)\r\nLaden : Full Laden\r\nSpeed : 11.0 knots\r\nMain engine : 17 mt/day\r\nAux engine : 1.7 mt/day\r\nBoiler : 0 mt/day\r\nBallast : Full Ballast/Heavy Ballast\r\nSpeed : 11.5 knots\r\nMain engine : 17 mt/day\r\nAux engine : 1.7 mt/day\r\nBoiler : 0 mt/day\r\nIn port –\r\nIdle with one Aux engine : 2.0 mt/day\r\nWorking Aux engines : 5 mt/day\r\nBoiler use in port : 1.2 mt/day\r\nAA\r\nbest regards / Adnan Turkes + Gozde Turkes\r\noffıce - 90 216 467 37 00\r\nfax    - 90 216 467 37 10\r\nADNAN MOB :   90 532 237 2383\r\nGOZDE  MOB    90 538 632 0210\r\nmail   bosa@bosaship.com\r\n( general )\r\nskype  : adnanbosa FOR ADNAN\r\nskype  : gozdeturkes FOR GOZDE",
+            {
+                "entities": [
+                    [
+                        150,
+                        165,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        172,
+                        181,
+                        "DWT"
+                    ],
+                    [
+                        186,
+                        194,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        235,
+                        268,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        285,
+                        301,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

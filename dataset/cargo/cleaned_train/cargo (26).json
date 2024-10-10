@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "PLEASE PPSE FOR FLLWNG\r\nPOL: TANJUNG-BUTON,Indonesia.\r\nPOD: JEBEL ALI ,UAE.\r\nCargo: 6000 tons Paper reels. uw 1ton. dims hight abt 2700mm x dia 1150mm\r\nfully stackable / no tier restrictions ( loading in vertical poss)\r\nLaycan: 15-25 September\r\nLoading rate: 1000 MT PWWD SSHINC.\r\nDischarging rate: Liner out hook\r\ngcn 2,5% ttl comm\r\nvessel holds must be box type / over age ok.\r\nChrts agent at loadport:\r\nPT.MANDALA SAMUDERA ABADI\r\nRuko Megah Enggano Blok B No.9 M\r\nTanjung Priok Jakarta 14310 Indonesia\r\nMP / Whatsapp: 082112999890\r\nPIC : Capt Herman\r\nEmail: herman@citradermagaperkasa.com\r\nOwner's agent at pod.\r\nWITH BEST REGARDS,\r\nDENIZ ALTINGUL\r\nKAF MARINE CHARTERING/MERSIN\r\nAS BROKER ONLY.\r\nTEL : +90-324-2390234 (direct)\r\nMOB: +90-533-3926999\r\nEMAIL: DALTINGUL@KAFMARINE.COM\r\nSKY P: ALTINGULDENIZ\r\nMEMBER OF SHIPBROKERS''ASSOCIATION - TURKEY",
+            {
+                "entities": [
+                    [
+                        24,
+                        52,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        55,
+                        74,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        84,
+                        93,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        220,
+                        243,
+                        "LAYCAN"
+                    ],
+                    [
+                        245,
+                        278,
+                        "LOAD_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

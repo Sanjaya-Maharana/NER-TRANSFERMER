@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "GOOD DAY,\r\nPLS OFFER FIRM FOR OUR HOME TONNAGE POSITIONS AS FOLLOWS:\r\nOPEN AT WEST ITALY 04/07 SEPTEMBER\r\nMV LADY DARYA\r\n5000 DWCC @ 6,42 M DRAFT\r\nEX BARIZO\r\nPANAMA FLG,BLT 2000,STL FLRD,SD\r\nGEARLESS , DOUBLE SKINNED\r\nDWT: 5296 /GRT: 2999 / NRT: 1714\r\nLOA/LBP:94.99/90,25 BEAM:13.17 DM:7,16 M\r\nGR/BL: 216587 CUBFT,\r\nAPPX B; BOW-TRUSTER FITTED\r\n1 HO; 2 BULKHEAD / 1 HA PONTOON TYPE\r\nNearly boxshaped (62 m w/o narrowing)\r\nHold : 67 X 11 X 8,4 m\r\nLONDON PANDI, RINA CLASSED\r\nALL DETS ABT WOG\r\nEND\r\nBRGDS\r\nFatih OZTEN\r\nGN GROUP CORPORATION-ISTANBUL\r\nTel :   +90 216 325 08 00\r\nMOB : +90 553 591 29 71\r\nSkype: fatih.ozten",
+            {
+                "entities": [
+                    [
+                        70,
+                        88,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        89,
+                        104,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        106,
+                        119,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        121,
+                        130,
+                        "DWT"
+                    ],
+                    [
+                        158,
+                        168,
+                        "FLAG"
+                    ],
+                    [
+                        169,
+                        177,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        218,
+                        227,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

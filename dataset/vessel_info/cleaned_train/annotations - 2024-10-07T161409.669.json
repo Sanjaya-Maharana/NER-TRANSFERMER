@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nPLS PPS SUITABLE BIZ FOR OUR FLWG DIRECT TONNAGE:\r\nMV TOP FORTUNE (63270DWT/2019) WILL OPEN MANAUS, BRAZIL O/A 04TH SEPT,\r\nOR ALTERNATIVE ETA FAZENDINHA O/A 06TH SEPT\r\nOR ALTERNATIVE ETA SANTOS O/A 14TH SEPT\r\nOR ALTERNATIVE ETA SWPASS O/A 15TH SEPT\r\nVSL'S DESCR AS PER ATTACHED.\r\n*BOD ABT 800 MTS VLSFO / 220 MTS MGO (BSS DOP FAZENDINHA)\r\n*GRAIN CLEAN\r\n*PREF FH, CAN TRY ANY\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If you are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        229,
+                        243,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        265,
+                        284,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        289,
+                        298,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "classes": [
+        "CARGO NAME",
+        "COMPANY ",
+        "LAYCAN",
+        "LOAD PORT",
+        "LOAD RATE",
+        "DISCHARGE_PORT",
+        "ADDESS _COM",
+        "DISCHARGE _RATE ",
+        "CARGO _SIZE ",
+        "DELIVERY ",
+        "RE_DELIVERY",
+        "DURATION ",
+        "TCT"
+    ],
+    "annotations": [
+        [
+            " \r\n\r\nACC MULTIMAX DMCC\r\n\r\nSUPRA/ULTRA\r\n\r\nDELY: APS KANLDA\r\n\r\nLAYCAN: 14 TO 18 AUG ( TRY EARLY)\r\n\r\nFOR 1 TCT VIA WCI TO CHINA, WITH BULK & HARMLESS CARGO (SALT IN BULK)\r\n\r\nDURATION ABOUT 25-30 DAYS WOG\r\n\r\nREDLY: DLOSP 1 SP CHINA \r\n\r\n3.75%\r\n\r\nSUB TERMS\r\n\r\n \r\n\r\n++\r\n\r\n \r\n\r\nACC MULTIMAX DMCC\r\n\r\nSUPRA/ULTRA\r\n\r\nDELY:WEST AFRICA \r\n\r\nLAYCAN: 18/22 Aug\r\n\r\nFOR 1 TCT VIA WEST AFRICA INTENTION TO FULL CHINA, WITH BULK & HARMLESS CARGO (MANGANESE ORE IN BULK)\r\n\r\nDURATION ABOUT 45 DAYS WOG\r\n\r\nREDLY: DLOSP 1 SP CHINA \r\n\r\n3.75%\r\n\r\nSUB TERMS\r\n\r\n\r\n\r\n+\r\n\r\n\r\n \r\n\r\n \r\n\r\nACC MULTIMAX DMCC\r\n\r\nSUPRA/ULTRA\r\n\r\nDELY: APS QUELIMANE \r\n\r\nLAYCAN: 21 TO 25 AUG \r\n\r\nFOR 1 TCT VIA EAFR TO CHINA, WITH BULK & HARMLESS CARGO (ILMENITE SAND IN BULK)\r\n\r\nDURATION ABOUT 55 DAYS WOG\r\n\r\nREDLY: DLOSP 1 SP CHINA \r\n\r\n3.75%\r\n\r\nSUB TERMS\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nThanks & Best Regards \r\nShubham Negi \r\n\r\nChartering Manager\r\n\r\nMultimax Shipping DMCC \r\n2308, JBC-02, Jumeirah Lakes Towers \r\nDubai, UAE \r\nTel         : +971-43991678\r\nMob      : +971-527764434\r\n\r\nSkype    : live:.cid.ab7b259996d9f07f \r\nE-mail   : bulk.dubai@multimaxshipping.com    \r\nWeb      : www.multimaxshipping.com",
+            {
+                "entities": [
+                    [
+                        9,
+                        33,
+                        "COMPANY "
+                    ],
+                    [
+                        61,
+                        81,
+                        "LAYCAN"
+                    ],
+                    [
+                        102,
+                        107,
+                        "TCT"
+                    ],
+                    [
+                        204,
+                        227,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        232,
+                        237,
+                        "ADDESS _COM"
+                    ],
+                    [
+                        274,
+                        298,
+                        "COMPANY "
+                    ],
+                    [
+                        306,
+                        322,
+                        "DELIVERY "
+                    ],
+                    [
+                        327,
+                        344,
+                        "LAYCAN"
+                    ],
+                    [
+                        352,
+                        357,
+                        "TCT"
+                    ],
+                    [
+                        483,
+                        506,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        511,
+                        516,
+                        "ADDESS _COM"
+                    ],
+                    [
+                        558,
+                        582,
+                        "COMPANY "
+                    ],
+                    [
+                        594,
+                        616,
+                        "DELIVERY "
+                    ],
+                    [
+                        622,
+                        634,
+                        "LAYCAN"
+                    ],
+                    [
+                        643,
+                        648,
+                        "TCT"
+                    ],
+                    [
+                        752,
+                        775,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        780,
+                        785,
+                        "ADDESS _COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

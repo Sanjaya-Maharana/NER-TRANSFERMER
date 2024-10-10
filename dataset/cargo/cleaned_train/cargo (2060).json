@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nGood day ,--------/ Shubham Please propose suitable vessel for below :-  +++++FULLY FIRM +++Acct Multimax Shipping DmccNeed Supra/Ultra 1 Tct with SaltDel WCILaycan SPOT TO 30TH augRedl full china or koreaDuration 30-35 days wog3.75 %+++++Acct Multimax Shipping DmccNeed Supra/Ultra 1 Tct with agreegatesDel wci or pgLaycan 27th - 3rd septRedl MaleDuration 25-30 days wog3.75 %Thanks & Best RegardsShubham Negi Chartering ManagerMultimax Shipping DMCC2308, JBC-02, Jumeirah Lakes TowersDubai, UAETel         : +971-43991678Mob      : +971-527764434Skype    : live:.cid.ab7b259996d9f07fE-mail   : bulk.dubai@multimaxshipping.com  Web      : www.multimaxshipping.com",
+            {
+                "entities": [
+                    [
+                        95,
+                        116,
+                        "COMPANY"
+                    ],
+                    [
+                        175,
+                        182,
+                        "LAYCAN"
+                    ],
+                    [
+                        208,
+                        226,
+                        "DURATION"
+                    ],
+                    [
+                        230,
+                        236,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        242,
+                        263,
+                        "DURATION"
+                    ],
+                    [
+                        319,
+                        341,
+                        "LAYCAN"
+                    ],
+                    [
+                        351,
+                        369,
+                        "DURATION"
+                    ],
+                    [
+                        373,
+                        379,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

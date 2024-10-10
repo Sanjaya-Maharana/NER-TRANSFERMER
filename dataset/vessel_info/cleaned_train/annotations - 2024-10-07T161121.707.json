@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL/CAROLINE,\r\nGOOD DAY.\r\nPLS KINDLY PROPOSE SUITABLE CARGO ORDER FOR OUR BELOW OPEN TONNAGE\r\n1）MV QUEEN LAND 74K/98 OPEN BEILUN O/A 31-1ST SEP, CIS OK, INDO OK\r\n2）MV ZHONG XIN YUAN YANG 93K/10 OPEN BAHODOPI O/A 4-8TH SEPT\r\nEND\r\nCaroline Ma\r\nSeacon Shipping (Qingdao) Co., Limited (As Agent Only)\r\nADD: Rm 1703, Zijing No.371 Hai Yan North Road, Yingzhou District, Ningbo\r\nSkype: caroline12777@hotmail.com  |    Mobile: +86 18016345659\r\nEmail: caroline@seacon.com\r\nshipping.qd@seacon.com\r\nwww.seacon.com\r\n*********************************************************************************************************************\r\nIf you are not the intended recipient, please immediately notify the sender and destroy it (and any attachments)\r\nwithout using, copying, storing and/or disseminating to any person.Thank you.",
+            {
+                "entities": [
+                    [
+                        104,
+                        114,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        115,
+                        121,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        122,
+                        133,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        138,
+                        148,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        167,
+                        191,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        192,
+                        198,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        199,
+                        212,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        217,
+                        227,
+                        "OPEN_DATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

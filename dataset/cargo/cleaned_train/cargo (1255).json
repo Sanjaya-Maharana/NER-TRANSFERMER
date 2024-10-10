@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL\r\nGOOD DAY!\r\nPLEASE KINDLY PROPOSE\r\nA\r\nRATED VESSEL FOR CGO ALONG WITH THE FOLLOWING INFORMATION.\r\n• BALTIC QUESTIONNAIRE / GA / CAPACITY PLAN\r\n• FULL DESC INCL HOLD DIMENSIONS / FLAT TANKTOP DIMENSIONS / TANKTOP STRENGTH\r\n- ACCT : PAN OCEAN CO., LTD\r\n- ONE (1) TCT FROM\r\nKOREA TO WCI DUR\r\nABT 45 DAYS WOG WITH STEEL PRODS\r\n-\r\nL.HANDY TO SMX (MAX 20 YEARS, CRANE MIN 30MT)\r\n- L/C :  27–28\r\nAUG, 2024 BASED ON\r\nS.KOREA\r\n(INT.POHANG)\r\n- REDELY : WCI\r\n- 3.75 ADD COMM.\r\nBEST REGARDS\r\nDasom Lee (Ellie) / Manager\r\n이다솜\r\n선임\r\nInter-Asia Team / Drybulk division 3\r\nPan Ocean Co.,LTD\r\n(03157) Tower8, 11F, Jong-ro 5-gil, Jongno-gu, Seoul, Korea\r\nTel : +82-2-316-5596 / Mob : +82-10-5026-1926\r\nE-mail :\r\ndslee@panocean.com\r\nSkype : sky7917",
+            {
+                "entities": [
+                    [
+                        240,
+                        258,
+                        "COMPANY"
+                    ],
+                    [
+                        294,
+                        312,
+                        "DURATION"
+                    ],
+                    [
+                        385,
+                        406,
+                        "LAYCAN"
+                    ],
+                    [
+                        443,
+                        455,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        459,
+                        472,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

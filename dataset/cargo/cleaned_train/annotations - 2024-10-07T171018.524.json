@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL\r\nGOOD DAY!\r\nPLEASE KINDLY PROPOSE A RATED VESSEL FOR FULLY BOOKED CGO ALONG WITH THE FOLLOWING INFORMATION.\r\n• BALTIC QUESTIONNAIRE / GA / CAPACITY PLAN\r\n• FULL DESC INCL HOLD DIMENSIONS / FLAT TANKTOP DIMENSIONS / TANKTOP STRENGTH\r\n- ACCT : PAN OCEAN CO., LTD\r\n- ONE (1) TCT\r\n- VIETNAM TO PG DUR 35 DAYS WOG WITH STEEL PRODS\r\n- DWT :  28~32K PREFER BOX TYPE  ( MAX 25 YEARS, CRANE MIN 30MT)\r\n- L/C :  11–13 SEP, 2024 BASED ON VIETNAM (INT.SON DUONG)\r\n- 25X2 COIL LOADING\r\n- REDELY : PG\r\nBEST REGARDS\r\nDasom Lee (Ellie) / Manager\r\n이다솜 선임\r\nInter-Asia Team / Drybulk division 3\r\nPan Ocean Co.,LTD\r\n(03157) Tower8, 11F, Jong-ro 5-gil, Jongno-gu, Seoul, Korea\r\nTel : +82-2-316-5596 / Mob : +82-10-5026-1926\r\nE-mail : dslee@panocean.com\r\nSkype : sky7917",
+            {
+                "entities": [
+                    [
+                        244,
+                        269,
+                        "COMPANY"
+                    ],
+                    [
+                        302,
+                        317,
+                        "DURATION"
+                    ],
+                    [
+                        338,
+                        351,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        404,
+                        426,
+                        "LAYCAN"
+                    ],
+                    [
+                        484,
+                        495,
+                        "DISCHARGE_RATE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

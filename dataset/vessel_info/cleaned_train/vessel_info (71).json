@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "MV.SAPPHIRE  X, 56K DWT     OPEN MOMBASA 27/28TH AUG\r\nBOD: VLSFO 1050MT, MGO 150MT\r\nETA RBAY 4TH SEPT\r\nETA PE 5TH SEPT\r\nPREFER WCI OR SGP/JPN RANGE\r\nMV.SAPPHIRE  X\r\nFlag:                     PANAMA\r\nDate built:                    Sept,2012\r\nIMO number:               9621132\r\nClass of vessel:                    LR\r\nLOA(meters):                189.99m\r\nExtreme breadth (meters):          32.27m\r\nDepth moulded (meters):           18m\r\nSummer:        DWAT (MT):   56,734.7 Draft (m):       12.8M     TPC 58.8\r\nWinter:          DWAT (MT):   55,164.04Draft (m):       12.533M TPC 58.8\r\nTropical:     DWAT( MT): 58,318.74 Draft(m):     13.067M\r\nInternational:  Gross:     32987     Net: 19236\r\n5H/5H\r\nGrain Cubic (m3)      Bale Cubic(m3)\r\nHold #1: 13075.25 13009.88\r\nHold #2: 15410.30 15333.25\r\nHold #3: 14626.21 14553.08\r\nHold #4: 15410.32 15333.27\r\nHold #5: 13472.00 13404.64\r\nTTL 71994.08 /71634.12\r\nCRANE:4 X 30TON,GRAB: 4X12CBM RADIO REMOTE CONTROAL TYPE.\r\nSPEED/CONSUMPTION\r\nABT12.0(LADEN) ON ABT 24.0MT VLSFO 380CST+ ABT 0.1MT LSMDO PER DAY OF 24 CONSECUTIVE HOURS\r\nABT12.0(BALLAST) ON ABT 22.0MT VLSFO 380CST+ ABT 0.1MT LSMDO PER DAY OF 24 CONSECUTIVE HOURS\r\nPORT CONSUMPTION PER 24 HOURS IDLE/WORKING( METRIC TONS):\r\nIDLE: ABT 2.5MTS VLSFO +ABT 0.1MTS LSMDO\r\nWORKING:     ABT 5.0 MTS VLSFO + ABT 0.1MTS LSMDO\r\nRegards\r\nChristian Friedrich\r\nphone +49 40450143141\r\nmob +49 15110604640\r\nH. VOGEMANN GMBH - Hallerstrasse 40 - 20146 Hamburg - Germany\r\nRegistered in Hamburg - HRB 17249 - MD F. Jensen, L. Rudebec k",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        16,
+                        23,
+                        "DWT"
+                    ],
+                    [
+                        28,
+                        40,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        41,
+                        52,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        165,
+                        197,
+                        "FLAG"
+                    ],
+                    [
+                        204,
+                        239,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        241,
+                        274,
+                        "IMO"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

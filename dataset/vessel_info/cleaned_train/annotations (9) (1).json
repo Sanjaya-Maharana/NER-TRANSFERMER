@@ -1,0 +1,76 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "\r\nFROM: ARYACORP PVT. LTD.DATE & TIME: 19-08-2024 10:52:26   (GMT +5:30)REFERΕNCE NO: 17706093 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELMV.'HONGSHENG 7' DWT 22700MT[S/D] - OPEN PENANG, MALAYSIA - 5-10TH/SEP.[TRADE W/I RED SEA/EAST AFRICAN/PG/FAR EAST RANGE, CLASS 9, NEED CHINA OR NEARBY DIRECTION]. MV.'NEW FAIRY' DWT 24262MT[S/D] - OPEN BELAWAN, INDONESIA OA - MID SEP.[TRADE W/I RED SEA/EAST AFRICAN/PG/FAR EAST RANGE, CLASS 9].MV. 'HONGSHENG 7'BULK CARRIER, SINGLE DECKER, 4H/4HBLT OCT/2009 IN CHINA, HONGKONG FLAG, CLASS BVDWT 22,700 MT ON 9.8M, LOA/DEPTH/BREADTH 159.40/14/24.4MGRT 15,847 / NRT 7954, GRAIN CAPA 30554.69 CBM/30401.9CBMCRANE 3*25MT, HATCH COAMING HEIGHT: 1.8MHYDRAULIC COLLAPSE TYPE,HATCH SIZE: H1: 21*13M / H2-H4: 21*15MCONSUMPTION:LSFO 180CST ABT 13MT/DAY+ MGO ABT 1.2MT/DAY, SPD ABT 10.5KTMGO ABT 1.2MT/DAY IDLE AT PORTMGO ABT 2.0MT/DAY FOR VSL'S CRANE OPERATIONALL DETAILS ABOUT MV. 'NEW FAIRY'BULK CARRIER, SINGLE DECKER, 4H/4HBLT JAN/2011 IN CHINA, CLASS RINA, HONGKONG FLAGDWT 24262MT ON 10.4M SSWLOA/BM/DEPTH: 159.9/24.4/14.20M, GRT 15599/NRT 8183CAPA ABT 29039 CBMHATCHCOVER: FOLDING TYPE, HATCH SIZE NO.1-4 19x16MCRANE 3x25MTCONSUMPTION:LSFO 180CST ABT 13MT/DAY+ MGO ABT 1.2MT/DAY, SPD ABT 10.5KTMGO ABT 1.2MT/DAY IDLE AT PORTMGO ABT 2.0MT/DAY FOR VSL'S CRANE OPERATIONALL DETAILS ABT.PLSD TO HEAR. BEST REGARDS,Tonnage Desk:PG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.comECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb Seasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104AS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION",
+            {
+                "entities": [
+                    [
+                        232,
+                        253,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        256,
+                        267,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        360,
+                        373,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        375,
+                        386,
+                        "DWT"
+                    ],
+                    [
+                        394,
+                        417,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        423,
+                        431,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        546,
+                        554,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        565,
+                        578,
+                        "FLAG"
+                    ],
+                    [
+                        707,
+                        713,
+                        "CRANES"
+                    ],
+                    [
+                        1018,
+                        1026,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        1049,
+                        1057,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

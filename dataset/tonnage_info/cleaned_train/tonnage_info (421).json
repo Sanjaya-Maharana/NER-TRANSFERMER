@@ -1,0 +1,72 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "- / MATINA\r\nPLS PPSE FIRM / RATED BIZ\r\nMV ATAYAL STAR.       16,811 MT DWT / BLT 2012.         ++ A60 / C02 / AUST HL-WWF / GRAIN FITTED ++\r\n..... OPEN BRINDISI S P O T\r\n---------------------------------\r\n- M/V ''ATAYAL STAR''\r\nSINGLEDECK LOG/BULK CARRIER\r\nA60 / CO2 / AUST HL-WWF / GRAIN FITTED\r\nPANAMA FLAG / BUILT 2012 (MURAKAMI)\r\n16,811 MT DWAT ON 8.44M SSW\r\n722,255 CBF GR / 714,627 CBF BL\r\n3 HOLDS / 3 HATCHES\r\nHATCH SIZES: 1)   22.40 X 13.50 M\r\n2-3) 23.80 x 13.50 M\r\n3 X 30 MT CRANES\r\nLOA/BEAM 135.01 M /23.00 M\r\nGT/NT 9991/5604\r\nBALLAST ABT 12 KNOTS ON ABT 14.80MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nLADEN ABT 11.5 KNOTS ON ABT 14.80MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nECO WOG:\r\nBALLAST ABT 11 KNOTS ON ABT 11.70MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nLADEN ABT 10.5 KNOTS ON ABT 11.70MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nPORT CONS:\r\nIDLE: ABT 2.0 MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nWKNG: ABT 3.2 MT VLSIFO PLUS ABT 0.1MT LSMGO\r\nBUNKER SPECS: LSIFO AND LSMGO BOTH IN ACCORDANCE WITH ISO 8217:2017 OR 2012\r\nOR 2010\r\nNO MIXING OF BUNKERS, MAX 80 PCT FILLING OF BUNKER TANK CAPACITY\r\nALL DETAILS ABOUT\r\n++\r\nBest Regards,\r\nMatina Vlachogianni\r\nRock Marine S.A.\r\n(as brokers only)\r\nEmail: drychart@rockmarine.gr\r\nTel: +30 210 96 89 802\r\nMob: + 30 6977201632\r\nSkype: live:.cid.92134db6dd02628e\r\nIn accordance with the EU GDPR (European Union General Protection Regulation) which has been enforced since May 25th 2018,\r\nwe require your explicit agreement and consent to continue maintaining your contact information with ourselves, and to continue\r\nsending to you our circulars (operation, chartering, sale and purchase) and other relevant information pertaining to the day to day\r\nbusiness of Rock Marine S.A.\r\nIf however you will no longer be interested to receive our future circulars and want us to delete your contact information with ourselves\r\nplease notify us in due course and we will delete all relevant information accordingly. In the meantime, we hereby authorize you to keep\r\nour contact information with yourselves and continue sending us your commercial information related to our business (including but not\r\nlimited to sale and purchase offers and inquiries, cargo and period orders, vessels’ positions etc. ) to foll addresses :drychart@rockmarine.gr",
+            {
+                "entities": [
+                    [
+                        352,
+                        357,
+                        "DRAFT"
+                    ],
+                    [
+                        396,
+                        415,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        492,
+                        518,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        520,
+                        535,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        537,
+                        600,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        602,
+                        665,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        677,
+                        740,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        742,
+                        805,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        817,
+                        862,
+                        "PORT_CONS"
+                    ],
+                    [
+                        865,
+                        909,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

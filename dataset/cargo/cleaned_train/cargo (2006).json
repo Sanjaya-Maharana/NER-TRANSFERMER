@@ -1,0 +1,40 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nDIR LOCAL AC 40/58,000 DWT SD GEARED / MAX 25 YRSDEL : CIS (ITN. VOSTOCHNY)6 / 9 SEP 20241TCT WITH HARMLESS CGO (ITN. COAL IN BULK)REDEL : 1SP S. KOREA (ITN. DONGHAE)DUR ABT 7/12 DAYS3.75% Regards / K Y Lee–Chartering Director__________________________________Vera Logistics Co., Ltd. Korea[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]#Email : kylee@veralogistics.net#Skype : mrleeky8 *WeChat : Kyu-YangLee#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081 ",
+            {
+                "entities": [
+                    [
+                        15,
+                        28,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        172,
+                        184,
+                        "DURATION"
+                    ],
+                    [
+                        185,
+                        190,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

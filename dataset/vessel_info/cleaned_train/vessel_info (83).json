@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Home Tonnage\r\n--------------\r\ntbn , dwcc 3000 , 1982 , 13300 cbft , Box , open hatch\r\nwill open Tripoli lebanon 30/31-8-2024\r\nInterest cargo to Marmara / black sea\r\n***\r\nTbn , dwcc 3900 ton , 1991 , Phoenix Class , 158 000 Cbft , Box , Open hatch   , draft 6.26 m Imo fitted   , Dangerous good fitted . Imo , Container fitted . appendix b Hold dimm 52.20 x 10.20 x 8.30\r\nHatch 52.20 x 10.40\r\nP&I Thomas Miller , H&M\r\nOpen Bizerte - Tuniss   29/30-8-2024\r\ncan Be interest to West Africa up to Dakar or Morocco\r\n***\r\nShallow draft\r\nTbn , Dwcc 5500 , fully Box , Korean Iacs Sierra Leone   flag , Loa 106 m , draft 6.15 m ,\r\nbreadth 15 m , grain / bale 260 000 Cbft    ,   2 Hold, gearless , built 1994 Bow thruster Fitted / Double Skin .\r\nOpen Trieste - Italy    on 27-8-2024\r\n***\r\nTbn , Dwcc 6000 Ton , Barbados Flag , Iacs , built 1998 , Pontoon Hatch cover , Box , Draft 6,93 m LOA 92.91 / BEAM 17.20 / DEPTH 9.00 M 2 HO/2 HA , G/B 7300 / 7014 CBM .\r\nHATCH SIZE POOTOOM : NO 1 27,30 M X 10,20 M / NO2 : 28,00 X 10,20 HOLD SIZE NO 1 : 35,0 M X 11,4 M X 6,90 M HOLD SIZE NO 2 : 35,0 M X 11,4 M X 6,90 M )\r\nGEAR: CRANE 2 x 15 TON , DERRICKS 2 x 10 T\r\nOpen Manfredonia - italy on 2/5-9-2024\r\nAny Direction   !\r\n***\r\nEnd\r\nRassoula Maritime\r\nTripoli - Lebanon\r\nTel : +961-6-432546\r\nFax : +961-6-433223\r\nmob : +961-3-949061\r\nSkype : Rassoula\r\nAndroid Application : Rassoula Maritime\r\nE-mail : Chartering@rassoula.com\r\nWeb Site : www.rassoula.com\r\nDon't Hesitate to Ask for best Proforma DA in All Lebanese Ports .\r\nEmail : agency@rassoula.com\r\nDon't Hesitate to Ask for best Proforma DA in Istanbul Straight   .\r\nEmail : Istanbul@rassoula.com\r\nCONFIDENTIALITY / DISCLAIMER NOTICE :\r\nThis e-mail and any attachments may contain confidential and privileged\r\ninformation. If you are not the intended recipient, please notify the sender\r\nimmediately by return e-mail, delete this e-mail and destroy any copies. Any\r\ndissemination or use of this information by a person other than the intended\r\nrecipient is unauthorized and may be illegal. Rassoula's Maritime Co.\r\nor its employees are not responsible for any auto-generated spurious .\r\nUnsubscribe projects@trinity-ship.com from this list:\r\nhttps://rassoula.us13.list-manage.com/unsubscribe?u 9952a7128c5ace30bdbf9e23e&id 3d06551694&t b&e 2f9b40a2c9&c dd42f5b528",
+            {
+                "entities": [
+                    [
+                        91,
+                        111,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        112,
+                        124,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        176,
+                        189,
+                        "DWT"
+                    ],
+                    [
+                        192,
+                        196,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

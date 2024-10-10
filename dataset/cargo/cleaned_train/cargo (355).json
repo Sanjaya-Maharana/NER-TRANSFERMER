@@ -1,0 +1,70 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "LDC RICE ORDER UPDATE FOR 21 AUG, PLS SKPYE PIC FOR QUICK FEEDBACK:\r\n///REMAIN OPEN, READY TO MOVE ////\r\n25-28,000MT 10% MOLOO BULK RICE,SF 45 WOG,TRY TCT VIA OPERATOR\r\nRIO GRANDE,BRAZIL(31FEETS FW)/1-2 SP WEST AFRICA(10.20M SW)\r\n25 AUG-5 SEP\r\n5K/1.5K SATPMSHEX EIU BOTH ENDS\r\nFREE DA AT DISPORT\r\n3.75% ADC\r\n(PIC: LZ)\r\nMIN/MAX 25,000MT BAGGED RICE,SF 47 WOG\r\nKOHSICHANG,THAILAND/2-3 SP WEST AFRICA(9.5M SW)\r\n15-30 SEP\r\n2K/1.5K SATPMSHEX EIU BOTH ENDS\r\nFREE DA AT DISPORT\r\n3.75% ADC\r\n(PIC: MY)\r\nFULL DETAILS/EXACT DISPORTS ARE AVAILABLE AGANST REQUEST/NAMED CANDIDATE.\r\nCAN GUIDE PDA/PORT RESTRICTION ETC FOR OWNER’S QUICK CALCULATION. THANK\r\nLDC RICE Freight Desk\r\nMa Yunwei (Mr) Mobile: +65 9154 2572 | Email:\r\nyunwei.ma@ldc.com|Skype: live:ma_yun_wei\r\nLaysan Zhang(Mr)  Mobile: +86 139 1020 9384  | Email:\r\nLaysan.zhang@ldc.com |Skype:\r\nLaysan2@Hotmail.com\r\nCONFIDENTIAL\r\nThis message and any attachments (the \"Message\") are confidential and intended solely for the addressee(s). If you are not the intended recipient, any use, copying or dissemination is strictly prohibited. If you are not the intended recipient, please notify\r\nthe sender immediately by return and delete this original Message and any copies from your system. E-mails are susceptible to alteration. Louis Dreyfus Company BV and its subsidiaries and other affiliates shall not be liable if the Message is altered, changed\r\nor falsified.\r\nThis is an environment friendly email. Please do not print it unless it is really necessary.",
+            {
+                "entities": [
+                    [
+                        105,
+                        116,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        127,
+                        136,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        244,
+                        246,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        247,
+                        251,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        297,
+                        306,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        408,
+                        417,
+                        "LAYCAN"
+                    ],
+                    [
+                        419,
+                        421,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        422,
+                        426,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        472,
+                        481,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

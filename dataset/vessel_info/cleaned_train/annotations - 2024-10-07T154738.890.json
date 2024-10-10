@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "WITHMARE CO., LTD,\r\nTEL : +82 2 6956 0788\r\nE-MAIL : fix@withmare.com\r\nHJ KIM : M) +82 10 4819 3649 / (Skype & Wechat) : kimhyunjik\r\n--- / HJ\r\nOPEN CHITTAGONG, BANGLADESH O/A 05TH/10TH SEPT 2024\r\nFLEXIBLE CARGO/TRADING (PREFER CLEAN CGO) / LAST CGO : WHEAT\r\nGEAR & GRAB FITTED\r\nRIGHTSHIP APPROVED\r\nEST BUNKER ROB VLSFO ABT 1250 ~ 1300MT / LSMGO ABT 280-285MT\r\nMV QC ISABELLA\r\nSHIPYARD/BLT IMABARI,JAPAN/2024\r\nFLAG/CLASS PANAMA/NK\r\nLOA/BREADTH/DEPTH 199.98M/32.00M/19.30M\r\nDWT/DRAFT 63,425MT/13.50MT\r\nGRT/NRT 36,312MT/21,151MT\r\nGRAIN/BALE 81,115.96M3/76,683.99M3\r\n5HO/5HA\r\nHATCH SIZE:\r\nNO.1    : 18.40 M (L) X 18.72 M (B)\r\nNO.2-5  : 23.20 M (L) X 18.72 M (B)\r\nTANK TOP STRENGTH:\r\nNO.1, 3 & 5 HOLD : 23 MT/M2\r\nNO.2 & 4 HOLDS   : 15 MT/M2\r\nCRANE : 4SETS X 35MT\r\nGRAB  : 4SETS(MAX 15M3)\r\nHOT COIL LOADING : 1.63M DIA X 2.0M WIDTH X 25T X 2 TIERS WITH 6 RAW DUNNAGES PER 1 COIL\r\nELECTRICAL VENTILATION/CO2 FITTED/A-60 FITTED\r\nSPEED/CONS\r\nAT SEA\r\nBALLAST : ABT 13.8KTS / VLSFO ABT 23.5MT + LSMGO ABT 0.2MT\r\nLADEN   : ABT 13.0KTS / VLSFO ABT 23.5MT + LSMGO ABT 0.2MT\r\nIN PORT\r\nIDLE    : VLSFO ABT 2.7MT + LSMGO ABT 0.2MT\r\nWORKING : VLSFO ABT 4.8MT + LSMGO ABT 0.2MT\r\nADA/WOG\r\nBEST REGARDS / HJ",
+            {
+                "entities": [
+                    [
+                        142,
+                        169,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        174,
+                        188,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        348,
+                        357,
+                        "DWT"
+                    ],
+                    [
+                        359,
+                        373,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        375,
+                        406,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

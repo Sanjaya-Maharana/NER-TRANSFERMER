@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Good day,\r\nOPEN MARMARA 17-20 AUG, GRAIN CLEAN\r\nMV FLOURISH (ex ADVANCE)\r\n-Vssl under period with our close disponent Owns\r\n-Rus/GOA/Ven ok\r\n-Can try 6/8 mos period\r\n-No Ukr\r\nSHIP'S TYPE : GEARED BULK CARRIER\r\nYEAR BUILT/YARD :20/11/2007 - MITSUI ENGINEERING& SHIPBUILDING CO.LTD\r\nFLAG : LIBERIA PORT OF REGISTRY : MONROVIA –\r\nOFF. NUMBER: 18391 CALL SIGN : D5PL9\r\nCLASS : NK TYPE : BULK CARRIER TYPE-A\r\nIMO NUMBER : 9442225\r\nDEADWEIGHT (AT) : 55.638 MT AT THE SCANTLING DRAFT OF 12.57M SW\r\nGT / NT : 31,236 MT / 18,516 MT\r\nHOLDS/HATCHES : 5/5\r\nGRAIN CAPACITY : 70,855.3m3 LOA/BEAM : 189.99 M / 32.26 M\r\nDEPTH MOULDED : 17.90 M GEAR (CRANES) : 4 SETS X 30 MT SWL\r\nGRABS : 4 sets x 12 cbm\r\nSPEED/CONSUMPTION:\r\nB/L ABT 12.8/12.3K ON ABT 22 MT VLSFO\r\nIN PORT\r\nIDLE : ABT 2.7 MT VLSFO\r\nGEAR WORKING: ABT 5.2 MT VLSFO\r\nADA\r\nBrgds / Yigit SAKIR\r\nAs Brokers Only\r\nMobile/Whatsapp: +9054231488 73\r\nDirect line: +902124385046\r\nSkype ID: yigitsak Wechat: LRS1903\r\nchartering@transoba.com.tr",
+            {
+                "entities": [
+                    [
+                        11,
+                        23,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        24,
+                        33,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        215,
+                        237,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        281,
+                        295,
+                        "FLAG"
+                    ],
+                    [
+                        404,
+                        424,
+                        "IMO"
+                    ],
+                    [
+                        426,
+                        450,
+                        "DWT"
+                    ],
+                    [
+                        634,
+                        658,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

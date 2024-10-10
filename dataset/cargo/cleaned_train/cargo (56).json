@@ -1,0 +1,75 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL\r\nGD!\r\nACCT: XIANGLONG\r\nSMX\r\nNCN-BDESH\r\nEAR SEP\r\n3.75%\r\nXIANGLONG SHIPPING CO., LTD\r\nMS. DOREEN GUO\r\nMP: +86 17686021767\r\nWECHAT/QQ: 82815680\r\nSkype: XIANGSHUN2012\r\nEmail: chartering@xianglongshipping.com\r\nSmx/Umx, grabber\r\nDel to make East Kalimantan, Indonesia\r\nLaycan 8-12 Sep\r\nCoal in bulk\r\nRedly 1sp WCI\r\nDuration abt 30 days wog\r\n3.75% Add com\r\nTCT or try 2-3llgs.\r\nXIANGLONG SHIPPING CO., LTD\r\nMR. SUMMER WANG\r\nMP: +86 189 0216 8635\r\nWechat: sxg791023\r\nSkype: jianhangde122@hotmail.com\r\nEmail: charteringsgp@xianglongshipping.com\r\nA/C XIANGLONG\r\nNEED SMX /UMX VSL\r\nCOAL  IN BULK FROM SOUTH KALIMANTAN TO PHILIPINES(INT SARANGANI)\r\nLAYCAN 10- 15TH OF SEPT  BSS LOADING PORT\r\n3.75%TTL\r\nJason Wang\r\nMP: +86 13605357589\r\nWECHAT: +8613605357589\r\nEMAIL: chartering@xianglongshipping.com\r\nSKYPE: wang.xianjun79\r\n------------------------------------------------------------------------------------------------------------------------------\r\nXIANGLONG SHIPPING CO., LTD\r\nAS AGENT ONLY\r\nMS. DOREEN GUO\r\nMP: +86 17686021767\r\nWECHAT/QQ: 82815680\r\nSkype: XIANGSHUN2012\r\nEmail: chartering@xianglongshipping.com",
+            {
+                "entities": [
+                    [
+                        232,
+                        270,
+                        "DELIVERY"
+                    ],
+                    [
+                        272,
+                        287,
+                        "LAYCAN"
+                    ],
+                    [
+                        289,
+                        301,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        303,
+                        316,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        318,
+                        342,
+                        "DURATION"
+                    ],
+                    [
+                        344,
+                        353,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        546,
+                        558,
+                        "COMPANY"
+                    ],
+                    [
+                        558,
+                        559,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        646,
+                        669,
+                        "LAYCAN"
+                    ],
+                    [
+                        689,
+                        694,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

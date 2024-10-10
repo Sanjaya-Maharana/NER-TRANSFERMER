@@ -1,0 +1,77 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "Dear Sir / Atish\r\n\r\n \r\n\r\nGreetings of the Day !!\r\n\r\n \r\n\r\nCLOSE & DIRECT //\r\n\r\nMV\r\n\r\n ZH CHANG XING  61,205 MT BLT 2014 OPEN LIANYUNGANG 29-30 AUG 2024\r\n \r\n\r\nMV\r\n\r\n APJ SHIRIN  56,556 MT BLT 2012 OPEN YANGPU,CHINA 26-31 AUG 2024\r\n \r\n\r\nMV\r\n\r\n AMOY DREAM  63,878 MT BLT 2017 OPEN KAMIISO 28-30 AUG 2024\r\n \r\n\r\nMV. ZH CHANG XING \r\n\r\nBuilt 2014\r\n\r\nBuilding Yard : Nantong COSCO KHI\r\n\r\nGeared Bulk Carrier\r\n\r\nDwat: 61.205on 13,04 m ssw draft\r\n\r\nTPC: 60,40\r\n\r\nLOA 199,90 mtrs\r\n\r\nBEAM 32,24 mtrs\r\n\r\nGRT / NRT (International): 34612 / 20240\r\n\r\n5 holds / 5 hatches, hydraulic-folding hatchcovers\r\n\r\n4 x 35 mts electro-hydraulic cranes\r\n\r\nGrab fitted with 4 x 12 cbm\r\n\r\nTotal: 77.546,300 CBM grain / 74.157,60 CBM bale\r\n\r\nTanktop strength:\r\n\r\nNo 1,5: 23,00 mt per sqm\r\n\r\nNo 2,4: 16,50 mts per sqm\r\n\r\nNo 3: 24,50 mts per sqm\r\n\r\n\r\nSpeed/Consumption:\r\n\r\n\r\nBallast abt 14.00 knots on abt 27.00 MT plus abt 2.00 MT for aux eng. IFO 380cst\r\n\r\nLaden abt 13.50 knots on abt 27.50 MT plus abt 2.00 MT for aux eng. IFO 380cst\r\n\r\nPort consumption: idle abt 3.50 MT IFO 380cst / working abt 5.50 MT IFO 380cst\r\n\r\n\r\nECO speed/consumption - always on WOG basis:\r\n\r\n\r\nBallast  : Abt 13.00 kn on abt 20.50 MT plus abt 2.00 MT for aux eng. IFO 380cst\r\n\r\nLaden :  Abt 12.00 kn on abt 22.00 MT plus abt 2.00 MT for aux eng. IFO 380cst\r\n\r\n\r\nAdd 0.10 MT MGO per day to all of the above\r\n\r\n\r\nVessel has the right to burn mdo while maneuvering in/out of ports and navigating in narrow waters, rivers, channels etc.\r\n\r\n\r\nSpeed and consumption figures are ‘about’ which is applicable to both and jointly to speed And consumption (specifically meaning 0.5 knots for speed and 5pct for consumption), and Both speed and consumption are always calculated only from beginning sea passage to end Sea passage, excluding any voyage up to 48 hours duration, and both speed and consumption\r\n\r\nare always subject to good weather conditions for a period of 24 consecutive hours up to Beaufort scale force 4 and Douglas Sea State 3, with combined wave and swell heights not to exceed 1.25 M, no adverse currents, without negative influence of swell, clean bottom, even keel and excl voyages of less than 48 hours.\r\n\r\n\r\nPeriods exceeding the above agreed mentioned good weather conditions and terms are the be Expressly excluded when vessel’s speed evaluation is conducted, no other extrapolation will Be allowed ,EXTRAPOLATION OF “GOOD WEATHER” PERFORMANCE FOR “BAD WEATHER” PERIODS IS NOT ALLOWED . Always subject to good quality of bunkers as agreed herein.\r\n\r\n\r\nALL FUELS SUPPLIED SHALL BE HOMOGENOUS AND OF QUALITY SUITABLE FOR BURNING IN THE VESSEL'S ENGINES AND AUXILIARIES AND TO CONFORM TO ISO 8217:2017(E) SPECIFICATIONS (AND ANY AMENDMENTS THERETO) OF QUALITY RMG380 FOR IFO 380CST AND DMA FOR LSMGO. NO MIXING OF FUELS IS ALLOWED.ULO (USED LUBRICATION OIL) OR OTHER WASTE PRODUCTS ARE STRICTLY NOT PERMITTED AND NOT TO BE INCLUDED IN THE FUELS SUPPLIED. LSMGO SUPPLIED TO HAVE MAX SULPHUR CONTENT OF 0.1%.OWS HAS THE RIGHT TO SET OFF THE SPEED LOSS AGAINST THE BUNKER SAVED,VICE VERSE.\r\n\r\nCharterers are not allowed to mix different supplies of IFO, or MDO, in the same bunker tanks, however charterers are allowed to mix different supplies of LSMGO in the same bunker tanks (provided same grade).\r\n\r\nAll details about\r\n\r\n \r\n\r\n ",
+            {
+                "entities": [
+                    [
+                        417,
+                        424,
+                        "DRAFT"
+                    ],
+                    [
+                        456,
+                        482,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        490,
+                        530,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        534,
+                        553,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        665,
+                        706,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        841,
+                        897,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        925,
+                        996,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1007,
+                        1052,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1060,
+                        1089,
+                        "PORT_CONS"
+                    ],
+                    [
+                        1143,
+                        1219,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        1232,
+                        1317,
+                        "SPEED_AND_CONSUMPTION"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

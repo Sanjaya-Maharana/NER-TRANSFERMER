@@ -1,0 +1,66 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "++This is NOT spam/junk emails if you do not want to receive, pls inform us with the sub \"unsubscribe\" ++\r\nFrom: AN HAI TRANSPORT TRADE & SERVICE CO., LTD\r\nTo: Chartering Desk,\r\nPlease kindly arrange suitable cagoes for our below vsls:\r\n3/ MV AN HAI STAR - DWT:11,595.70 MT- IACS/SD - GEAR (1X20, 1x25MT & 1X20MT) – OPEN CHITAGONG, BANGLADESH O/A 16 - 20 SEPTEMBER, 2024\r\n(TRADING AREA: PERSIAN GULF TO FAR EAST RANGE EXCLUDE IRAN, IRAQ, N.KOREA, RUSSIA, NO RED SEA)\r\nVessel detail as below:\r\nMV AN HAI STAR\r\n(LOGGER, GENERAL DRY CARGO, BULK CARGO TYPE)\r\nBuilt 2002, Callsign : HOJG; P&I WOE  - NK CLASS - FLAG PANAMA;\r\nDWT 11,595.70; GT/NT 6,683 / 4494;\r\nLOA 118M; LBP 110 M; BREADTH 19,6M; DEPTH 11M; DRAFT 8.389M;\r\nCARGO GEAR: DERRICK 1SETX20MT  - CRANE: 1SETX20MT, 1 SET X 25MT; 3 HO/3 HA - G/B: 15,251CBM /14,428 CBM.\r\nP&I: W.O.E CLUB ADA, WOG\r\nPlease hear!\r\nRegards\r\nPham Ngoc Vy (Mr. Pham) – Chartering & Operation\r\nPrivate email: biz@seadragonshipping.com\r\nHp:  +84 984 107939  (Zalo, Watsapp/ Wechat)\r\nSkype: PHAMNGOCVY\r\nAN HAI TRANSPORT TRADE & SERVICE CO., LTD\r\nAdd: No.110, Lot 17 Extended, Trung Hanh 5, Dang Lam Ward, Hai An District, Hai Phong City, Viet Nam\r\nTel : +84 225 8830218 | Fax: +84 225 8830218\r\nEmail: vypham@anhaishipping.com.vn",
+            {
+                "entities": [
+                    [
+                        240,
+                        254,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        257,
+                        274,
+                        "DWT"
+                    ],
+                    [
+                        316,
+                        342,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        347,
+                        370,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        493,
+                        507,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        555,
+                        565,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        606,
+                        617,
+                        "FLAG"
+                    ],
+                    [
+                        620,
+                        633,
+                        "DWT"
+                    ],
+                    [
+                        751,
+                        767,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

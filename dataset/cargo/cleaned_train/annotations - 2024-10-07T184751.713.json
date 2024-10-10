@@ -1,0 +1,45 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "FROM:  NIRAL TRANService,\r\nTALLINN , ESTONIA\r\nPH:+372 6464584\r\nE-MAIL: NIRAL@NIRAL.EE\r\n(PLEASE COPY YOUR REPLY TO NIRALTRANSERVICE@GMAIL.COM)\r\nSKYPE: SEDOV84 (CHAT ONLY)\r\n---------------------------------\r\nPLOFFER FOR\r\nTC period enquiry:\r\nContainer carrier, preferably cellular\r\nAbout 600-700 TEUS\r\nPeriod: 3+3+3+3 chopt\r\nLaycan: 15-30 September\r\nTrading area: Black - Med Sea\r\n(Exclusion war and like war countries, but including Israel)\r\nDelivery: dlop any Black/Marmara Sea - East Med\r\nRedelivery: dlop within trading area\r\n3.75 pct ttl\r\nPLSD TO HEAR.\r\nBRGDS / NIRAL TRANService.\r\n(PLEASE COPY YOUR REPLY TO NIRALTRANSERVICE@GMAIL.COM)\r\nNOTICE - this e-mail is sent as circular to shipbroking community, so in case you have received\r\nit by mistake or not willing to receive further circulars,please send reply with subject \"refuse\".\r\n-----------------------------------------------------------------------------\r\nPLEASE MAKE SURE THAT WE ARE ON YOUR MAILING-LISTS:\r\nNIRAL@NIRAL.EE",
+            {
+                "entities": [
+                    [
+                        322,
+                        345,
+                        "LAYCAN"
+                    ],
+                    [
+                        440,
+                        487,
+                        "DELIVERY"
+                    ],
+                    [
+                        489,
+                        525,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        527,
+                        535,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

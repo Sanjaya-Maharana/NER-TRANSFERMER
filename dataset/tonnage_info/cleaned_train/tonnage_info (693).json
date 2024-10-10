@@ -1,0 +1,42 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "\r\n\r\n\r\n\r\nUntitled document\r\n\r\n\r\nGOOD DAY,  PLS OFFER FIRM FOR OUR HOME TONNAGE POSITIONS AS FOLLOWS:\r\nOPEN AT ISKENDERUN 16/19 AUGUST \r\nMV LADY AYAN  4900 DWCC @ 6,42 M DRAFT-PANAMA FLG,BLT 2000,STL FLRD,SD GEARED , DOUBLE SKINNED-DWT: 5168 /GRT: 2999 / NRT: 1714 LOA/LBP:94.99/90,25 BM:13.17 DM:7,16 M-GR/BL: 216655 CUBFT, APPX B; BOW-TRUSTER FITTED-1 HO; 2 BULKHEAD / 1 HA PONTOON TYPE NEARLY BOXSHAPED (62 M W/O NARROWING)-HOLD : 67 X 11 X 8,4 M THE LONDON P&I, RINA CLASSED\r\n-ALL DETS ABT\r\nEND\r\nPlsed to hear\r\nBRGDS\r\nFatih OZTEN GN GROUP CORPORATION-ISTANBUL Tel :   +90 216 325 08 00 MOB : +90 553 591 29 71\r\n\r\n\r\n",
+            {
+                "entities": [
+                    [
+                        241,
+                        262,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        271,
+                        276,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        283,
+                        291,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        302,
+                        321,
+                        "GRAIN_AND_BALE"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

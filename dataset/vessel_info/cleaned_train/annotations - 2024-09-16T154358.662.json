@@ -1,0 +1,71 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Dear Sir / Atish\r\nGreetings of the Day !!\r\nCLOSE & DIRECT //\r\nMV KS CAMELLIA DWT 36,169.60 MT BLT 2015 OPEN SUSAKI, JAPAN 01st – 06th SEP, 2024\r\n- FULLY FITTED LOGGER\r\n- SCRUBBER FITTED\r\n- PKE/SALT/SCRAP OK\r\n- 25MT X 2 TIER + ON DECK CARGO OK\r\nMV KS CAMELLIA\r\nBUILD : 2015.11 / SHIKOKU, JAPAN\r\nFLAG : PANAMA\r\nCLASS : KR\r\nTYPE : BULK CARRIER / LOG FITTED\r\nSDWT : 36169.60 METRIC TONNES\r\nSDRAFT : 10.125 METRES\r\nLOA : 179.8 METRES\r\nBEAM : 30.4 METRES\r\nHOLDS/HATCHES : 5 / 5 (2/3/4 BOX SHAPED)\r\nGRAIN / BALE 44724.61CBM / 43429.75 CBM\r\nTPC : 48.18 MT\r\nGRT / NRT : 22522 / 11365\r\nCRANES : 4 x 31.2MT\r\nSPEED/CONS : (B) ABT 13.5 KN ON ABT 20.7MT FO + 0.2 MT/DAY MGO\r\n(L) ABT 12.7 KN ON ABT 20.7MT FO + 0.2 MT/DAY MGO\r\nIN PORT\r\nIDLE : ABT 1.6 M/T FO + ABT 0.9 M/T MGO/DAY\r\nWORKING : ABT 4.1 M/T FO + ABT 0.9 M/T MGO/DAY\r\nECO (ALWAYS WOG FOR REFERENCE ONLY)\r\nBALLAST : ABT 12.0 KNOTS ON ABT 15.0 M/T FO + 0.2 M/T MGO/DAY\r\nLADEN : ABT 11.5 KNOTS ON ABT 15.5 M/T FO + 0.2 M/T MGO/DAY\r\nBest regards\r\nRavindra Porwal\r\nMob : +971 553725425\r\nSkype: live:.cid.b2c866bf3a143afe\r\nAshish Bachchan\r\nMob :  +91 9096016301\r\nSkype: live:.cid.8e1394c23505ba0a\r\nAtish Wajage\r\nMob :  +91 73049 43020\r\nSkype: live:.cid.820cdb34dd3f69d5\r\nFeel free to connect with us !!\r\nFor Dry : dry@trinity-ship.com\r\nProjects: projects@trinity-ship.com\r\nTankers : tankers@trinity-ship.com\r\nWebsite: www.trinity-ship.com\r\nBIMCO Member  ID 182184\r\nPlease print this email only if necessary. Go green! It’s good for your business and good for the planet.\r\nNotice & Disclaimer: \"Trinity Shipbrokers Limited, UAE acts as Ship Broker Only - This email from dry@trinity-ship.com with attachments are confidential and they are intended only for the intended / authorized recipients of the sender. The information contained in this e-mail and any attachment(s) must not be published, copied, disclosed or transmitted in any form to any person or entity unless expressly authorized by the sender. If you have received this email by mistake / error you are requested to delete it immediately and inform the sender by return e-mail. Trinity Shipbrokers will neither be liable nor responsible for any unauthorized transmission of this e-mail nor for any damage sustained as a result of this e-mail. \"",
+            {
+                "entities": [
+                    [
+                        62,
+                        76,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        77,
+                        93,
+                        "DWT"
+                    ],
+                    [
+                        98,
+                        102,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        103,
+                        121,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        122,
+                        143,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        244,
+                        258,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        260,
+                        275,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        288,
+                        297,
+                        "FLAG"
+                    ],
+                    [
+                        355,
+                        370,
+                        "DWT"
+                    ],
+                    [
+                        576,
+                        595,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

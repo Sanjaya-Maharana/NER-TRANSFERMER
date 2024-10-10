@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 28-08-2024 11:10:56   (GMT +5:30)\r\nREFERΕNCE NO: 17755001\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV DARYA DIYA - SMX/UMX - OPEN CJK (NB – New Dayang) - 11 – 16 SEP 2024\r\nNot Period Candidate\r\nNo Iran / Iraq / Russia / Black Sea\r\n(Revised the speed/cons)\r\nMV Darya Diya\r\nBuilt Sep 2024 (NewDayang ship building co ltd )\r\nFlag: Majuro\r\nClass: BV\r\nDwt 64650.0 MT ON 13.50 M SSWD\r\nLOA / Beam 199.90 M / 32.26 M\r\nHolds / Hatches 5 / 5\r\nHatch sizes:\r\nNo-1 15.770 x 18.580 M\r\nNo-2   22.410 X 18.580 M\r\nNo-3   22.410 X 18.580 M\r\nNo-4   22.410 X 18.580 M\r\nNo-5   22.410 X 18.580 M\r\nTANKTOP STRENGTH:\r\nHold No-1: 25t/m2\r\nHold No-2: 20t/m2\r\nHold No-3: 25t/m2\r\nHold No-4: 20t/m2\r\nHold No-5: 25t/m2\r\nCO2 FITTED IN HOLDS: YES\r\nAWWF LADDERS FITTED: YES\r\nCranes 4 x 30.5 MT\r\nGT / NT 36172/21651 t\r\nGrain 78865.9 CBM (INCLUDING HATCH) / Bale 74138.3 CBM\r\nTPC: LOADED 61.1 MT/cm, LIGHT 11710.0 MT.\r\nA60 BULKHEAD BUILT:\r\nCO2 FITTED IN HOLDS:  Yes\r\nAWWF LADDERS FITTED: Yes\r\nSpeed Cons:\r\nNORMAL\r\nBALLAST: ABT 13.5 K ON ABT 19.0 MT VLSFO(max 0.5 pct sulphur) 380 CST + 0.1 MT LSMGO\r\n(max 0.1 pct sulphur)\r\nLADEN: ABT 13 K ON ABT 20.5 MT VLSFO (max 0.5 pct sulphur) 380 CST + 0.1 MT LSMGO\r\n(max 0.1 pct sulphur)\r\nECO\r\nBALLAST: ABT 12 K ON ABT 14.5 MT VLSFO (max 0.5 pct sulphur) 380 CST + 0.1 MT LSMGO\r\n(max 0.1 pct sulphur)\r\nLADEN: ABT 11.5 K ON ABT 15.5 MT VLSFO (max 0.5 pct sulphur) 380 CST + 0.1 MT LSMGO (max 0.1 pct sulphur)\r\nPORT CONSUMPTION:\r\nIDLE: ABT 2.5 MT VLSFO (max 0.5 pct sulphur) 380 CST PLUS 0.1 MT LSMGO (max 0.1 pct sulphur)\r\nGEAR WORKING / BALLASTING / DEBALLASTING: ABT 4.2 MT IFO 380 CST PLUS 0.1 MT LSMGO\r\n(max 0.1 pct sulphur)\r\n(All details are about and subject to final confirmation from shipyard)\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        222,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        235,
+                        243,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        264,
+                        280,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        367,
+                        380,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        388,
+                        396,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        432,
+                        444,
+                        "FLAG"
+                    ],
+                    [
+                        457,
+                        471,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

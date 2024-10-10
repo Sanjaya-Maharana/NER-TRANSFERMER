@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "EXODUS CHARTERING SERVICES., INDIA\r\nTEL: 0091-44-26542962/69\r\nEMAIL: chartering@exoduschartering.info\r\n---------------------------------------------------------------\r\nGOOD DAY\r\nMV JOHNNY CASH         -    KRISHNAPATNAM, EC INDIA 03/06 SEPT\r\nPNMX 75149MTS ON 14.217M BLT 2007 CHINA -MARSHALL ISLANDS FLAG L/B\r\n225M/32.26M   7H/H   GLESS   GR 89938.96 CBM SPEED ABT 12 KNOTS / ADA\r\nMV EAGLE                     -             ZHOUSHAN, CHINA (EX DD)    04/07 SEPT\r\nBC   58018 MTS ON 12,95 BUILT 2010 CHINA - LLOYS REGISTER -MARSHALL ISLANDS\r\nFLAG\r\n5 H/H CR 4X36 MTS + GRABS:   4X 6.5 -18 M3 - GR 71549.3 CBM /L/B:189,99 M\r\n/32,26 M\r\nCO2/A60 FITTED - 2X25MTS COILS - DECK CARGO- SPEED ABT 12 KNTS / ADA\r\nMV PAPA JOHN          -          PIPAVAV, WC INDIA   26/28 AUG\r\nBC 56543 MTS ON 12.80M / BLT 2010 / MARSHALL ISLANDS FLAG 5HOHA 4CRx35MT +\r\nGRABS GR 71,634 CBM L/B:189.99/32.26M\r\nA60/CO2 FITTED / 2X25MTS COILS / DECK CARGO/ SPEED ABT 12 KNTS / ADA\r\nB.RGDS / MANUEL\r\nMOB: 91-9840446665,\r\nAS BROKERS ONLY\r\nE. & O. E.\r\nAll details about and given in good faith.\r\nSKYPE: manuel13291\r\nThis is email broadcast to shipbroking & shipping community and not spam. If\r\nyou are not interested please notify us in return with subject \"remove us\"\r\n*Treat hyperlinks and attachments if any in this email with caution.*",
+            {
+                "entities": [
+                    [
+                        178,
+                        192,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        267,
+                        275,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        282,
+                        304,
+                        "FLAG"
+                    ],
+                    [
+                        413,
+                        400,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        522,
+                        543,
+                        "FLAG"
+                    ],
+                    [
+                        701,
+                        713,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        790,
+                        798,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        801,
+                        822,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

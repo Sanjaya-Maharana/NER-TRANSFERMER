@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "CLOSE/DIR LOCAL\r\n10,000 MT SILICA SAND IN BULK 10% MOLOO\r\n*NEED GEARED SHIP\r\nL/P : QUANG MINH, VIET\r\nD/P : INCHEON\r\nL/C : 10/13 SEPT.\r\nL/R : 3 DAYS PWWD SHINC\r\nD/R : 3 DAYS PWWD SHIN\r\n2.5%\r\nRegards / K Y Lee–Chartering Director\r\n__________________________________\r\nVera Logistics Co., Ltd. Korea\r\n[Dry Bulk/Heavy-Project/Tanker/RoRo/S&P/Container Chartering & Brokerage]\r\n#Email : kylee@veralogistics.net\r\n#Skype : mrleeky8 *WeChat : Kyu-YangLee\r\n#Mobile/WhatsApp : +82 10 3515 2582 *Fax : +82 50 4137 1081",
+            {
+                "entities": [
+                    [
+                        17,
+                        26,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        83,
+                        99,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        101,
+                        114,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        116,
+                        132,
+                        "LAYCAN"
+                    ],
+                    [
+                        184,
+                        188,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

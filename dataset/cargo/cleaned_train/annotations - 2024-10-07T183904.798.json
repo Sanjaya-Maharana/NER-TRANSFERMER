@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Dear colleagues\r\nGood day\r\nPlease offer firm for below firm cargo:\r\nCargo: abt 5000 mt of galvanized steel in coils\r\nWeight 8-10 tons, L—1255 mm, H- 1500mm max, W— 1000mm\r\nSOLE or PC in OO\r\nLoading port:  1-2 SB at Tianjin, China\r\nLoading rate: CQD\r\nLaycan Prompt, try vessels dates\r\nDischarging port: 1 SB at Reni port, Ukraine (max Arrival draft 7m FW bss Sulina)\r\nDischarging rate: 1000 mt pd shinc\r\nBoffers inv\r\n2.5 pct add pus\r\nWCYP?\r\nThanks & Best regards\r\nAleksey Petrukhin\r\nAs Brokers only\r\nEmail chartering@map-chartering.com\r\nTel + 37127162286 (Viber & WhatApp)\r\nSkype a.petrukhin\r\nWeChat: wxid_kqzchsewc6l622\r\nP.S. Please send Your tonnage daily positions to - Chartering@map-chartering.com",
+            {
+                "entities": [
+                    [
+                        79,
+                        86,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        190,
+                        229,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        284,
+                        325,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        367,
+                        391,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        416,
+                        427,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "PLS ADD IN YR CIRCULATION LIST AND REPLY TO:chartering@gngroup.com.tr\r\nGOOD DAY,\r\nPLS OFFER FIRM FOR OUR HOME TONNAGE POSITIONS AS FOLLOWS:\r\n01 SEPTEMBER OPEN AT HAIFA\r\nMV LADY HATICE  EX SQUAMISH\r\nDWCC 18500 MTS AT 8.49M DRAFT\r\nPANAMA FLAG SID - BOXLIKE -BUILT 2009 JAPAN -DWT /GRT/NRT 18930/11767/6023\r\nLOA/LBP/BEAM 139,92/132,48/25 M- D.M.11,50M -4HO/4HA GRAIN/BALE: 762.340/737.837 CBFT\r\nGEARED; APP.B/B -THE JAPAN P&I, CLASS: RINA -ALL DETS ABT WOG\r\n--\r\nBRGDS\r\nHUSEYIN OLGUN\r\nGN GROUP CORPORATION-IS TANBUL\r\nTel : 0090 216 325 08 00\r\nFax : +90 216 339 88 99\r\nMOB : 0090 5534049126\r\nWWW.GNGROUP.COM.TR\r\nEmail : chartering@gngroup.com.tr\r\nSKYPE:KAPTANOLGUN1",
+            {
+                "entities": [
+                    [
+                        141,
+                        153,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        154,
+                        167,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        169,
+                        183,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        198,
+                        212,
+                        "DWT"
+                    ],
+                    [
+                        229,
+                        240,
+                        "FLAG"
+                    ],
+                    [
+                        262,
+                        266,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

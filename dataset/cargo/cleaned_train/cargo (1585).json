@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "A/C SIMTRA – 28K DWT REQUIREMENT FOR S.KALI INDONESIA TO ECI \r\n\r\n \r\n\r\nPls pps suitable vsl for our flwg requirement\r\n\r\nA/C SIMTRA\r\n\r\nabt 28k dwt, prefer grabber, non grabber ok\r\n\r\nDely South Kalimantan\r\n\r\n17/20 aug\r\n\r\nFor 1 TCT via Indonesia to ECI with Coal in bulk, 25/30 dwog\r\n\r\nRedely ECI\r\n\r\n3.75 add",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "COMPANY"
+                    ],
+                    [
+                        119,
+                        129,
+                        "COMPANY"
+                    ],
+                    [
+                        180,
+                        201,
+                        "DELIVERY"
+                    ],
+                    [
+                        205,
+                        214,
+                        "LAYCAN"
+                    ],
+                    [
+                        254,
+                        266,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        282,
+                        292,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        296,
+                        304,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

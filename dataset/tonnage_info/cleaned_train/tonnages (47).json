@@ -1,0 +1,57 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 22-08-2024 11:40:42   (GMT +5:30)\r\nREFERΕNCE NO: 17729819 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV  STAR  MONICA - SMX/UMX - OPEN CAMPHA, VIETNAM - 30 - 31 AUG\r\nEST BOD HSFO ABT 1000/11000 MTS / LSMGO ABT 250/300 MTS\r\nTRY ANY INCLUDING PERIOD\r\n\r\nM/V\r\n\r\n STAR MONICA \r\nBLT 2015 - JMU - CLASS B.V.\r\nCO2/A60 FTD - SCRUBBER FITTED\r\n60,935 MT DWAT ON 13.03 SSW DRAFT/TPC: 60.26\r\nLOA/BM: 198 / 32.26 M - GRAIN : 77,239 CBM\r\n5 HO/HA - C 4 X 30 MT + E/H GRABS\r\nB ABT 12.00K ON ABT 17.2 MT HSFO 380 CST + 0.2 MT LSMGO\r\nL ABT 12.00K ON ABT 19.5 MT HSFO 380 CST + 0.2 MT LSMGO\r\nCONS IN PORTS THAT SCRUBBERS CAN BE USED:\r\nIDLE: ABT 2.2 MT HSFO + ABT 1.0 MT LSMGO\r\nWORK: ABT 6.2 MT HSFO + ABT 1.0 MT LSMGO\r\nCONS IN PORTS THAT SCRUBBERS CANNOT BE USED:\r\nIDLE: ABT 2.1 MT LSMGO + ABT 1.0 MT LSMGO FOR BOILER\r\nWORK: ABT 5.8 MT LSMGO + ABT 1.0 MT LSMGO FOR BOILER\r\nADA\r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n",
+            {
+                "entities": [
+                    [
+                        494,
+                        515,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        518,
+                        536,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        538,
+                        545,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        730,
+                        770,
+                        "PORT_CONS"
+                    ],
+                    [
+                        772,
+                        806,
+                        "PORT_CONS"
+                    ],
+                    [
+                        860,
+                        912,
+                        "PORT_CONS"
+                    ],
+                    [
+                        914,
+                        966,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

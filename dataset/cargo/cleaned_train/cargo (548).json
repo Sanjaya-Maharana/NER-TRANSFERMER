@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "DEAR ALL / RAM\r\nGOOD DAY\r\nKINDLY PPS SUITABLE VSL FOR OUR REQUIREMENT.\r\n// BOOKED CARGO //\r\nA/c Shreyas (Coastal Cargo)\r\ndwt :28k- 34 k\r\nCargo – Steel\r\nLaycan – End week of Aug-2024\r\nDel – ECI\r\nRe-Del- WCI\r\n20-25 Days WOG\r\n3.75% ADD Com\r\nBEST REGARDS\r\nSKYPE ID : live:.cid.f11d7194c9e9a489\r\nRamkrishna Bhattacharjee​​​​Deputy Manager, Chartering | M: + 91 79801 02122 / 76050 22001 E: ramkrishna.b@transworld.com www.transworld.com\r\nEverest House, Room No 1G,\r\n1st Flr, 46C Jawaharlal Nehru Road,\r\nNr. Birla Planetarium, Kolkata, 700071, India",
+            {
+                "entities": [
+                    [
+                        92,
+                        103,
+                        "COMPANY"
+                    ],
+                    [
+                        126,
+                        135,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        152,
+                        181,
+                        "LAYCAN"
+                    ],
+                    [
+                        183,
+                        192,
+                        "DELIVERY"
+                    ],
+                    [
+                        194,
+                        205,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        207,
+                        217,
+                        "LAYCAN"
+                    ],
+                    [
+                        223,
+                        232,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

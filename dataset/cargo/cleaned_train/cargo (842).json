@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "End Aug // 23-25k cement in sling bag ex Hongai / Bataan + Batangas End Aug // 23-25k cement in sling bag ex Hongai / Bataan + Batangas\r\nCan't read or see images? View this email in a browser\r\nTHIS IS NOT SPAM MAIL. IF YOU DO NOT WANT TO RECEIVE, PLS INFORM US WITH SUB “UN-SUB” OR CLINK “UN-SUB’ BUTTON\r\n/Mathew,\r\nPls propose for:\r\nVIETNAM >>> PHILLIPPINES\r\n23,000 – 25,000mt cement in sling bag\r\nHongai / Bataan + Batangas\r\n30 Aug – 2 Sept\r\n7,000 / 3,500\r\nTtlcom 2.5%\r\nBrgds\r\nMathew,\r\nTlmarineco\r\nHanoi, Vietnam\r\nSkype: seaman2390 / Wechat: Tlmarineco\r\nChartering:  Fix@thanglongmarine.com; handy@thanglongmarine.com\r\n~~~~~AS BROKERS ONLY ~~~~~\r\nThis email was sent by fix@thanglongmarine.com to dry@trinity-ship.com\r\nNot interested? Unsubscribe | Manage Preference   | Interested Subscribe\r\nTLMARINECO | HAIPHONG CITY - VIETNAM",
+            {
+                "entities": [
+                    [
+                        79,
+                        85,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        86,
+                        105,
+                        "ADDRESS_COM"
+                    ],
+                    [
+                        359,
+                        376,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        426,
+                        441,
+                        "LAYCAN"
+                    ],
+                    [
+                        465,
+                        469,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

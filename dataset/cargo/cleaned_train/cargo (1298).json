@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Good day,\r\nPls offer for\r\nIntake 21.500/23.500 mts HMS 1&2, sf 68’\r\nGuanta, Venezuela / Iskenderun, Turkey\r\nLaycan 30 Aug / 02 Sept.\r\nl/d 4.000 mts sshinc / 6.000 mts sshinc\r\nFree D/A at loadport\r\n1,25% ttl here (nil addcom)\r\nPlsd to hear.\r\nBrgds,\r\nIREM SHIPPING - ISTANBUL\r\nSemih ALTAY\r\nAs Brokers only\r\nI work home-office so incase  needed pls call  me on my mobile. Thanks.\r\nTel. +90-212-890 5734\r\nEmail. chartering@iremshipping.com\r\nWebsite: www.iremshipping.com\r\nMobile.+90-532-253 9311\r\nSkype: Semih Altay",
+            {
+                "entities": [
+                    [
+                        88,
+                        105,
+                        "DISCHARGE_PORT"
+                    ],
+                    [
+                        108,
+                        131,
+                        "LAYCAN"
+                    ],
+                    [
+                        134,
+                        154,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        157,
+                        173,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        197,
+                        202,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

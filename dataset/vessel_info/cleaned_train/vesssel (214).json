@@ -1,0 +1,46 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 19-08-2024 13:10:45   (GMT +5:30)\r\nREFERΕNCE NO: 17708772\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nMV FLAT – UMX – OPENING VIZAG, INDIA O/A - 20-21st AUG\r\nPREFER INDEX LINKED PERIOD / 1 TCT\r\nNO FH / NO BAGGED RICE\r\nBOD: 450- 500 mts VLSFO and abt 75-85 mts  LSMGO.\r\nYANGFAN GROUP CO. - SDARI 64 - BLT 2016\r\n63.518 MT DWT ON 13.3 M DRFT(EXT)\r\nLOA BEAM 199.90 m / 32.26 m\r\nPANDI: LONDON PANDI\r\nH&M: SWEDISH CLUB\r\nIN LADEN\r\n13.00 Kn / 25.0 MT including generators + 0.1 MT LSMGO\r\n12.00 Kn / 22.0 MT including generators + 0.1 MT LSMGO\r\nIN BALLAST\r\n13.00 Kn / 22.5 MT including generators + 0.1 MT LSMGO\r\n12,0 Kn / 19,5   MT including generators + 0.1 MT LSMGO\r\nAT PORT IDLE : ABT 2,5MT VLSFO 380 CST + ABT 0.1MT LSMGO\r\nWORKING : ABT 4,5MT VLSFO 380 CST + ABT 0.1MT LSMGO\r\nBOILERS: ABT 1 MT VLSFO 380 CST + ABT 0,1 MT LSMGO\r\nALL SPEED/CONSUMPTION FIGURES ARE TO BE CONSIDERED AS ABOUT (+/- 0.5KNOT FOR SPEED AND +/- 5% FORCONSUMPTION) ARE ALWAYS SUBJECT TO GOOD WEATHER WHICH IS DEFINED AS NO ADVERSE CURRENT A/O NEGATIVE INFLUENCE OF SWELL A/O MODERATE SEA, WIND NOT EXCEEDING BEAUFORT FORCE 4 (FOUR) A/O DOUGLES SEA STATE 3 (THREE). PERIODS OF WEATHER EXCEEDING THE ABOVE DESCRIBED GOOD WEATHER CONDITIONS ARE TO BE EXPRESSELY EXCLUDED FROM THE EVALUATION OF VESSELS PERFORMANCE. NO EXTRAPOLATIONS TO BE MADE FOR WEATHER/SEA CONDITIONS OTHER THAN THOSE DESCRIBED ABOVE.CHARTERERS TO SUPPLY FIRST CLASS QUALITY BUNKERS STRICTLY COMPLYING WITH ISO 8217-2005(E), ENABLING MAIN ENGINE AND GENERATOR ENGINES TO OPERATE WITHOUT ANY HARMFULL EFFECTS.\r\nBUNKER SPECS : IFO GRADE 380 CST RMG 35 ISO 8217- 2005(E) MDO GRADE DMA/DMB ISO 8217 - 2005(E) VESSEL HAS LIBERTY TO USE MGO WHEN MANOUVERING, PASSING  NARROW STRAITS, CANALS , CONFINED RESTRICTED WATERS AND EXTREMELY COLD WEATHER.IN CASE CHARTERERS SUPPLY LOW SULPHUR MGO (DMA) FOR TRADING TO ECA + EU ZONES THE VISCOSITY TO BE MINIMUM 2-6 CST AT 40 DEGREES CELCIUS. BUNKER TESTING TO BE ORGANIZED BY OWNERS/MANAGERS BUT COST ALWAYS TO BE FOR CHRTS ACCOUNT.\r\nALL DETS ARE ABOUT.\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n",
+            {
+                "entities": [
+                    [
+                        209,
+                        222,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        225,
+                        245,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        252,
+                        263,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        407,
+                        415,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        417,
+                        430,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

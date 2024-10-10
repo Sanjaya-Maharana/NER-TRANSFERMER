@@ -1,0 +1,41 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "DEAR SIRS,\r\nPLS ADD IN YOUR CIRCULATION LIST AND REPLY TO: chartering@gngroup(.)com(.)tr\r\nGOOD DAY,\r\nPLS OFFER FIRM FOR OUR HOME TONNAGE POSITIONS AS FOLLOWS:\r\nSPOT AT BOURGAS\r\nMV LADY LEYLA\r\nDWCC 10700 MTS AT 8.04 M DRAFT\r\nPANAMA FLAG, SID, BLT 1995 TUZLA\r\nDWT /GRT/NRT 11285/7255/4445\r\nLOA/LBP/BEAM 134,45/123,96/18M -D.M.10,60M\r\n4HO/4HA GRAIN/BALE: 505.000/496.000 CBFT\r\nAPP-B/BOW-TRUSTER FITTED\r\nTHE LONDON P&I, CLASS: N.K.K.\r\nALL DETS ABT WOG\r\nWAITING YOURS\r\n--\r\nBRGDS\r\nMUSTAFA SILAN\r\nGN GROUP CORPORATION-ISTANBUL\r\nTel : +90 216 325 08 00\r\nFax : +90 216 325 02 66\r\nMOB : +90 553 294 09 58\r\nSKYPE: mustafasilan53",
+            {
+                "entities": [
+                    [
+                        177,
+                        190,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        192,
+                        206,
+                        "DWT"
+                    ],
+                    [
+                        224,
+                        235,
+                        "FLAG"
+                    ],
+                    [
+                        242,
+                        250,
+                        "BUILD_YEAR"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

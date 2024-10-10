@@ -1,0 +1,76 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 27-08-2024 14:04:50   (GMT +5:30)\r\nREFERΕNCE NO: 17750571\r\nATTN CHARTERING DESKDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\nSMAX & ULTRAS\r\nAFRICAN BUZZARD\r\n2014\r\n66,652\r\nGeared | Grabs\r\nKattupalli, ECI\r\n27-Aug\r\nalt, Singapore\r\n02-Sep\r\nalt, S.Africa\r\n12-Sep\r\nAFRICAN KITE\r\n2013\r\n61,413\r\nGeared | Grabs\r\nDurban, S.Africa\r\n10-Sep\r\nAFRICAN SETO\r\n2012\r\n61,422\r\nGeared | Grabs\r\nDharamtar, WCI\r\n10-Sep\r\nMV AFRICAN BUZZARD\r\nSCRUBBER FITTED\r\nMESS66   BULK CARRIER\r\nBLT SEPT 2014 MITSUI TAMANO., JAPAN\r\nIMO: 9720225    CLASS:NKK  FLAG :PANAMA\r\nZONE   DWT       DRAFT        TPC\r\nSUMMER 66652     12.925       66.4\r\nWINTER 64867     12.656       66.3\r\nTROPICAL 68438   13.194       66.5\r\nFRESH WATER 66645 13.218      66.5\r\nTRP FRESH WATER 68392 13.487  66.6\r\nLIGHT DISPLACEMENT   11,472\r\n$B!G!G(BSTRENGTHENED FOR HEAVY CARGO LOADING WHERE HOLDS NOS.2 AND 4 MAY BE EMPTY$B!G!G(B.\r\nLOA  :    ABT. 199.99 / LBP  192.90 M\r\nBEAM :    ABT. 36.05 M\r\nDEPTH:    ABT. 18.45 M\r\nGRT :    ABT. 38,203 / NRT  21,630\r\nSUEZ GRT 38,366.4 /  SUEZ NRT 35,219.74\r\nPANAMA NRT 31,606 (FITTED FOR NEW PANAMA CANAL)\r\nDIST FT #1HATCH TO STERN - 180.2M\r\nKTM: 47.12 / KEEL HATCH TOP 21.21M\r\nHOLD CUBIC     :GRAIN    BALE\r\nNO.1 HOLD    14,382 M3   13,740\r\nNO.2 HOLD    17,509 M3   16,774\r\nNO.3 HOLD    17,521 M3   16,711\r\nNO.4 HOLD    17,504 M3   16,778\r\nNO.5 HOLD    16,184 M3   15,686\r\nTOTAL    GRAIN - 83,102 CBM / BALE 79,691 CBM\r\nGRAIN      2,934,701 CUFT / BALE  2,814,263 CUFT\r\nFLAT FLOOR DIMENSIONS:\r\n#1 -   27.28 X 11.06 / 28.2 - AREA 558.43CBM\r\n#2-4 29.04 X 28.22 - AREA 820.66 CBM\r\n#5     29.94 X 28.22/11,9  - AREA 548.56 CBM\r\nHATCH COVER    :    ELECTRO-HYDRAULIC DRIVEN HATCH COVER, FOLDING TYPE FORE/AFT.\r\nHOLD NO.    LENGTH    BREADTH\r\nNO.1    18.48 M    X    20.6 M\r\nNO.2-5    21.12 M    X    20.6 M\r\n(NO CARGO PERMITTED ON HATCH/ DECK)\r\nWEATHER DECK 4MT2 / BETWEEN HATCH 2.5MT2\r\nTANK TOP STRENGTH FOR POINT LOADING$B!J(BNOT UNIFORM MEASUREMENT$B!K(B\r\nNO.1 + 4 HOLD :   226 KN/M2 (23.0 TON/M2)\r\nNO.2 + 5 HOLD :   235 KN/M2 (24.0 TON/M2)\r\nNO.3 HOLD :   265 KN/M2 (27.0 TON/M2)\r\nA DISTANCE FROM THE WATER LINE TO TOP OF HATCH COAMING AT EACH HOLD MID-POINT IS SHOWN BELOW ;\r\nNO.1 HOLD : 15.88M\r\nNO.2 HOLD : 15.44M\r\nNO.3 HOLD : 14.97M\r\nNO.4 HOLD : 14.51M\r\nNO.5 HOLD : 14.05M\r\nTHE GREATER CLEARANCE CAN BE ALSO MADE WITH ADDITIONAL BALLASTING OPERATION.\r\nCRANES : 4 X ABT. 30 .5MT  – OUTREACH FROM SHIPRAIL ABT. 10 M UNDER NORMAL WORKING CONDITION\r\nUSEABLE SUBJECT TO TYPE OF CARGO, VOLUME CAPACITY OF THE GRAB, CARGO DENSITY AND ANGLE OF REPOSE\r\nRADIO CONTROL MECHANICAL TYPE GRABS (MAX 12M3) OR EQUIVALENT X 4SETS BY $B!H(BTOBU JUKOGYO$B!I(B, GRABS SUITABLE\r\nCONSTANT ABT 277 EXCL FW\r\nSPEED / CONS:\r\nLADEN  13.5 KN ON ABT 31.4 MT IFO + 0.2 MT MDO\r\nBALLAST 14.1 KN ON ABT 31.4 MT IFO + 0.2 MT MDO\r\nECOS (WOG):\r\nLADEN ABT 11.5 KN ON ABT 22.5 MT IFO + 0.2 MT MDO\r\nBALLAST ABT 12.0 KN ON ABT 21.5 MT IFO + 0.2 MT MDO\r\nIN-PORT CONS:\r\nIN-PORT CONS:\r\nIDLE IFO 2.8MT / MDO 0.8MT MDO ; WORKING IFO 4.8MT / 0.8MT MDO\r\nIN ECA ZONE 5.6 MT MGO WORKING / 3.6 MT MGO IDLE\r\nALL DETAILS ABOUT\r\n-----------------------------------------------------------\r\nMV AFRICAN KITE\r\nBLT MARCH 2013 IMABARI SHIPBUILDING JAPAN\r\nSDBC DBL BOTTOM\r\nCLASS NKK FLAG BAHAMS REGISTER NASSAU\r\nDEADWEIGHT ALL TOLD (METRIC TONS)\r\nDWAT (MT) DRAFT (M) TPC\r\nSUMMER 61,413 13.010 61.4\r\nWINTER 59,751 12.739 61.3\r\nTROPICAL 63,077 13.281 61.4\r\nFRESH 61,411 13.304 59.9\r\nT. FRESH 63,035 13.575 60.0\r\n5 HO / 5 HA\r\nLOA/BEAM ABT 199.98 M/32,24 M\r\nLBP ABT 195 MOULDED DEPTH 18.6M\r\nINTʼL GRT: 34,800 / NRT: 20,209\r\nPANAMA CANAL TONNAGE: 28,819\r\nSUEZ CANAL TONNAGE 35,753 GRT / 32,947 NT\r\nGRAIN GRAIN BALE BALE\r\nEXCL HATCHWAYS INCL HʼWAYS EXCL HʼWAYS INCL HʼWAYS\r\nNO 1- 13,626.99 M3 14,129 12,821 13,324\r\nNO 2- 15,387.41 M3 16,020 14,541 15,174\r\nNO 3- 15,377.41 M3 16,010 14,411 15,045\r\nNO 4- 15,403.95 M3 16,037 14,558 15,192\r\nNO 5- 14,842.17 M3 15,475 14,182 14,815\r\nTOTAL -74,637.93 M3 77,674 70,514 73,551\r\nDISTANCE FROM KEEL TO HIGHEST POINT OF THE VESSEL 46.77 M\r\nTT UNIFORM NO.1 23.6MT #2/4 17.9MT #3/5 23.8MT\r\nHATCH SIZE NO.1 18.4M X 18.72M NO 2/5 23.2MX 18.72M\r\nELECTRO HYDRAULIC HATCH COVERS FOLDING TYPE.\r\nCRANES 4 X 30.5 MT OUTREACH ABT 9.8M\r\n4 X TOBU GRABS X 12/6 CBM (12 CBM FOR COAL AND 6CBM FOR ORES)\r\nSPEED / CONS\r\nBALLAST ABT 14.0 KTS ON ABT 26.0 MT IFO (RMG380) +0.1MT MGO\r\nLADEN ABT 13.4 KTS ON ABT 28.7 MT IFO (RMG380) +0.1MT MGO\r\nBALLAST ABT 13.0 KTS ON ABT 22.0 MT IFO (RMG380) +0.1MT MGO\r\nLADEN ABT 13.0 KTS ON ABT 25.5 MT IFO (RMG380) +0.1MT MGO\r\nECO / SLOW SPEED (WOG)\r\nBALLAST ABT 12.5 KTS ON ABT 20.0 MT IFO (RMG380) +0.1MT MGO\r\nLADEN ABT 12.0 KTS ON ABT 20.5 MT IFO (RMG380) +0.1MT MGO\r\nWORKING ABT 5.5MT IFO + 0.1MT MGO/ IDLE ABT 1.8 MT IFO +0.1MT MGO\r\nALL DETAILS ABOUT\r\n-----------------------------------------------------------\r\nMV AFRICAN SETO\r\nPANAMA FLG CRND/GRB BC BLT 2012, IMABARI\r\n61,422 MT DWT ON 13.01 M SSW / TPC 61.4\r\nGT/NT 34,794/20,209\r\n199.98 M LOA, 32.24 M BEAM\r\n77,674 CBM GRN (14129/16020/16010/16037/15475)\r\n73,551 CBM BLE (13324/15174/15045/15192/14815)\r\n5HOHA: H1:18.72 X 19.04 M, H2-H5:23.52 X 19.04 M\r\n4 X 30.7 MT CRANES (OUTREACH BEYOND SHIP SIDE 9.8 MTRS)\r\nPLUS 4 GRABS SUITABLE FOR CARGOES SUBJCT TO DENSITY OF THE CARGO,ANGLE OF REPOSE AND WEIGHT OF GRAB.\r\nSPEED AND CONS:\r\nLDN  ABT 13.5 KN ON ABT 32.0 IFO PLUS ABT 0.1 MGO\r\nBLST ABT 14.0 KN ON ABT 32.0 IFO PLUS ABT 0.1 MGO\r\nECOS (WOG)\r\nLDN  ABT 12.0 KN ON ABT 22.5 IFO PLUS ABT 0.1 MGO\r\nBLST ABT 12.5 KN ON ABT 22.5 IFO PLUS ABT 0.1 MGO\r\nIN PORT CONS:\r\nIDLE    ABT 2.1 IFO PLUS ABT 0.1 MGO\r\nWORKING ABT 5.4 IFO PLUS ABT 0.1 MGO\r\nALL DETAILS ABOUT\r\nPLSD TO HEAR.\r\nBEST REGARDS,\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: mailto:acpl.nitindev@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 9311255657  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9311255656 | Skype: live:.cid.d66bb9d9c752a104\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: mailto:fix@aryacorp.com (Chartering) |  mailto:ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: https://www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\r\n----------------------------------------------------------------------------------\r\nThis email including its attachments (if any) is confidential and intended for the\r\nabove mentioned recipients only. If you have received this email in error, please\r\ndelete the email and notify the sender immediately. Unauthorised use of the contents\r\nof this email may be unlawful and is prohibited.\r\nWe have taken reasonable care to ensure this email and its attachments are free of\r\nviruses, however, please use up to date virus scan software to carry out your own\r\nchecks. We accept no liability for any viruses contained in this email or its attachments.\r\n----------------------------------------------------------------------------------",
+            {
+                "entities": [
+                    [
+                        479,
+                        489,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        539,
+                        552,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        576,
+                        588,
+                        "IMO"
+                    ],
+                    [
+                        603,
+                        615,
+                        "FLAG"
+                    ],
+                    [
+                        659,
+                        664,
+                        "DWT"
+                    ],
+                    [
+                        2413,
+                        2438,
+                        "CRANES"
+                    ],
+                    [
+                        3198,
+                        3208,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        3215,
+                        3229,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        4869,
+                        4879,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        4909,
+                        4917,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        4928,
+                        4941,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

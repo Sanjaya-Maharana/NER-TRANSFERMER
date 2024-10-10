@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Attn: Chartering Desk\r\nGood day\r\nA/C SIMTRA – SMAX/UMAX REQUIREMENT FOR ECI TO CHINA\r\nPls pps suitable vsl for our flwg requirement\r\nA/C SIMTRA\r\nSUPRAMAX/ULTRAMAX BELOW 20 YRS\r\nDELY ECI\r\nFOR 1TCT VIA ECI TO N.CHINA WITH IRON ORE FINES IN BULK\r\nABT 30 DWOG\r\n30Aug /01 Sept DOP\r\nREDELY N.China\r\n3.75 ADD\r\nThanks & Regards,\r\nVEDANT PAL\r\nSIMTRA INTERNATIONAL LLC\r\nCell: +91 9867680448\r\nSkype live: .cid.ce87f31587f54228\r\nEmail:  chartering@simtragroup.com\r\nPravin S Pawar\r\nEmail – pravin@simtragroup.com\r\nchartering@simtragroup.com\r\nSkype – pravin.pawar28\r\nMob - +919867024182\r\nIndrajit Chauhan\r\nSkype: ipchauhan11",
+            {
+                "entities": [
+                    [
+                        33,
+                        43,
+                        "COMPANY"
+                    ],
+                    [
+                        133,
+                        143,
+                        "COMPANY"
+                    ],
+                    [
+                        178,
+                        213,
+                        "DELIVERY"
+                    ],
+                    [
+                        220,
+                        242,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        244,
+                        255,
+                        "DURATION"
+                    ],
+                    [
+                        257,
+                        271,
+                        "LAYCAN"
+                    ],
+                    [
+                        277,
+                        291,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        293,
+                        301,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

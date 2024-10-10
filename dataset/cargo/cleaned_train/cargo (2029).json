@@ -1,0 +1,50 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nSEATRANS CHARTERING S.A. 22/08/2024-15:38:37 / REF:740696-CNBEst.1999E-mail: chartering@seatranschartering.gr     Offer for the same on or before 26 Aug 2024.  50K OR 70K Dolomite LumpsPG / ECINDIALaycan b/w 05-10 Sep 202410K/8K SHINCComm 2.5% PUS     Constantine(Costas)N.Benetos,Cell:+30 6945 150 237, Skype: CNBenetosBest Regards/STC S.A. - As Brokers Only [Message sent via SOFTWAY Communicator] ",
+            {
+                "entities": [
+                    [
+                        162,
+                        172,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        210,
+                        224,
+                        "LAYCAN"
+                    ],
+                    [
+                        224,
+                        227,
+                        "LOAD_RATE"
+                    ],
+                    [
+                        228,
+                        235,
+                        "DISCHARGE_RATE"
+                    ],
+                    [
+                        241,
+                        249,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

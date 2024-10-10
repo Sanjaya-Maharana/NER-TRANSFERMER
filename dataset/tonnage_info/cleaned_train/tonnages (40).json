@@ -1,0 +1,62 @@
+{
+    "classes": [
+        "LOA_BEAM",
+        "SEA_CONS",
+        "PORT_CONS",
+        "BOD",
+        "DRAFT",
+        "HOLD_AND_HATCHES",
+        "GRT_AND_NRT",
+        "SPEED_AND_CONSUMPTION",
+        "GRAIN_AND_BALE"
+    ],
+    "annotations": [
+        [
+            "FROM: ARYACORP PVT. LTD.\r\nDATE & TIME: 21-08-2024 10:56:58   (GMT +5:30)\r\nREFERΕNCE NO: 17720794 \r\n\r\n\r\nATTN CHARTERING DESK\r\nDEAR SIR\r\nGOOD DAY\r\nDIRECT OWNERS VESSEL\r\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\r\n\r\nMV  GRAMPUS ACE   DWT 32503 MT - OPEN ZHOUSHAN, CHINA EX DD AROUND 1- 4TH SEP, 2024.\r\n (hold clean, semi-box, a60 fitted, bod abt 400/48mts)\r\nlast five: copper concs(recent)/alumina/bagged ammonium nitrate/granite block/petcock\r\n\r\nMV GRAMPUS ACE\r\nSGP FLAG  2011  BUILT SDBC\r\nDWT: 32,503MT DWT ON 10.17M SSW\r\nGRT 20,969 / NRT 11,798\r\nLOA 179.90M / BEAM 28.40M\r\n5HA5HO, CRANE 4X30T\r\nGRAIN CAPA 43,477.4CBM\r\nBLALLASTING ABT 12K/ABT 17.2MT  IFO 380CST+0.1MT  MGO(WOG)\r\nLADEN ABT 11.2K/ABT 17.6MT IFO 380CST+0.1MT MGO(WOG)\r\nIDLE: FO/ 2.7 MT + DO/ 0.1 MT\r\nWORKING: FO/ 4.5 MT + DO/ 0.1 MT\r\nADA  \r\n\r\nPLSD TO HEAR.\r\n \r\nBEST REGARDS,\r\n\r\nTonnage Desk:\r\nPG-WCI-Rsea-Safr: Nitin Sharma | Mob: +91 9311255654  | Skype: acpl.nithin@outlook.com\r\nECI-Seasia: Carlton Carlo | Mob: +91 77360 02067  | Skype: cid.971bb208b4e2c3bb\r\nSeasia-FarEast: Arjun Chaudhary | Mob: +91 9667006958 | Skype: live:.cid.d66bb9d9c752a104\r\n\r\nAS BROKERS ONLY\r\nAs Agents for Core Shipping Ltd.\r\nEmail: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)\r\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\r\nWebsite: www.aryacorp.com\r\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION",
+            {
+                "entities": [
+                    [
+                        512,
+                        518,
+                        "DRAFT"
+                    ],
+                    [
+                        524,
+                        547,
+                        "GRT_AND_NRT"
+                    ],
+                    [
+                        549,
+                        574,
+                        "LOA_BEAM"
+                    ],
+                    [
+                        576,
+                        582,
+                        "HOLD_AND_HATCHES"
+                    ],
+                    [
+                        597,
+                        619,
+                        "GRAIN_AND_BALE"
+                    ],
+                    [
+                        625,
+                        670,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        681,
+                        728,
+                        "SPEED_AND_CONSUMPTION"
+                    ],
+                    [
+                        736,
+                        797,
+                        "PORT_CONS"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

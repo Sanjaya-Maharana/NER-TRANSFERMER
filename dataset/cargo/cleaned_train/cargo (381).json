@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Attn: Chartering Desk\r\nGood day\r\nA/C SIMTRA –  ABT 9K DWT REQUIREMENT VIA INDONESIA TO WCI\r\nPls pps suitable vsl for our flwg BOOKED requirement\r\nflwg booked\r\nA/C SIMTRA\r\nABOUT 9k DWT\r\n25 AUGUST/5 SEPT\r\nDELY /INDONESIA\r\nFOR 1 TCT VIA INDONESIA TO WCI WITH STEEL, CRC, 20/25 DWOG\r\nREDELY WCI INTN MUMBAI OR NORTH\r\n3.75 ADD\r\nTHANKS AND BEST REGARDS\r\nSachin Salvi\r\nSIMTRA INTERNATIONAL LLC\r\nsachin@simtragroup.com\r\nchartering@simtragroup.com\r\nMob - +919819159919",
+            {
+                "entities": [
+                    [
+                        33,
+                        43,
+                        "COMPANY"
+                    ],
+                    [
+                        51,
+                        57,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        159,
+                        169,
+                        "COMPANY"
+                    ],
+                    [
+                        177,
+                        182,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        185,
+                        201,
+                        "LAYCAN"
+                    ],
+                    [
+                        203,
+                        218,
+                        "DELIVERY"
+                    ],
+                    [
+                        313,
+                        321,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "TELiX MSG: 5EF3D 20/08/24 07:35 +03:00\r\nJOIN MARITIME INC. - GREECE - TEL:+30 210 9850800 - FAX:+30 210 9844801\r\nE-MAIL : chartering@joinmaritime.com\r\n-/MF\r\nGD DAY\r\nCLOSE HEAD OWNERS\r\nOpen Douala 29 Aug/5 Sept\r\n------------------------------------\r\n* 2X25 OK\r\n* STRENGTHENED\r\n* DECK CARGO OK\r\n* GRAIN CLEAN\r\n* CO2 - A60\r\n* VOYAGE/TIME CHARTER\r\nDESCR ASF:\r\nMV VANTAGE REEF\r\n-----------------\r\nDWT 29,262 MT ON 10.058M SSW BUILT 2010\r\nBULK CARRIER STRENGTHENED FOR HEAVY CARGOES\r\nLIBERIA FLAG - CLASS NK\r\nGRT: 18,493 MT / NRT: 10,335 MT\r\nLOA/BEAM 169.99M/27.00M\r\n5 HOLDS / 5 HATCHES\r\nNO TANDEM OPERATION ALLOWED\r\nTT STRENGTH 20MT/SQM IN ALL HOLDS\r\nSHIP CRANES: 4 x 30 MT SWL\r\nGRAIN/BALE: 39,988 CBM / 39,296 CBM\r\nCO2 FITTED - A60 FITTED\r\nLADEN:          ABT 12,5 KT ON ABT 19,0 MT VLSFO ABT 0,2 MT MGO\r\nBALLAST:       ABT 13,0 KT ON ABT 18,5 MT VLSFO ABT 0,2 MT MGO\r\nIN PORT: IDLE ABT 2,5 MT VLSFO + ABT 0.2 MT LSMGO\r\nWORKING:         ABT 3.3 MT VLSFO + ABT 0.2 MT LSMGO\r\nAW YRS\r\nBRGDS\r\nMICHAEL FLOROS\r\nJOIN MARITIME INC.\r\nMOBILE: +30 6942 556 220\r\nSKYPE: M_FLOROS",
+            {
+                "entities": [
+                    [
+                        184,
+                        195,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        196,
+                        209,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        356,
+                        371,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        392,
+                        405,
+                        "DWT"
+                    ],
+                    [
+                        421,
+                        431,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        478,
+                        490,
+                        "FLAG"
+                    ],
+                    [
+                        651,
+                        668,
+                        "CRANES"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

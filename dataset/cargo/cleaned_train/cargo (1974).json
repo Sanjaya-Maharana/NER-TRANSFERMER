@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "Fm: LION MARITIME\r\nRE: Accnt Lion Maritime// Handy order  fr 1/2 llgs via  Bsea\r\n/ Alexander\r\nGd,\r\nPls revert with your open rated vessels fr our below intermed order via Bsea pls  indicate fr:\r\n-Handy\r\n-20 years max/geared\r\n-30-38000 dwt/sd/bc\r\n-Accnt Lion Maritime -\r\ntct of 1/2 llgs  1st trip via  Bsea with grains\r\ndely  Canakkle  rnge\r\nl/c 03 -10 Sept\r\nRedly : Med/ Cont range\r\nAdd comm 3,75  pct\r\n---\r\nBEST REGARDS\r\nAlexander Prozhugan\r\n(As Agent Only)\r\nFor and on behalf of\r\nLion Maritime\r\nHeadoffice Tel : +39 389 904 4762\r\nMob +380 50 316 6055\r\nE-Mail : chartering@lionmaritime.com\r\nskype : prozhugan1",
+            {
+                "entities": [
+                    [
+                        23,
+                        44,
+                        "COMPANY"
+                    ],
+                    [
+                        225,
+                        244,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        246,
+                        266,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        319,
+                        339,
+                        "DELIVERY"
+                    ],
+                    [
+                        341,
+                        356,
+                        "LAYCAN"
+                    ],
+                    [
+                        358,
+                        381,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        383,
+                        401,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

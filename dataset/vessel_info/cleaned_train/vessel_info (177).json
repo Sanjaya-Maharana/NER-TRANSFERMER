@@ -1,0 +1,61 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "MV ARIETTA - 55,818 - 4 X 30 AND 4 X 12 CBM     KOHSICHANG,  30 AUG/1 SEP AGW\r\nROB: VLSFO ABT 875-925 MTS / LSMGO ABT 135-145 MTS\r\nLAST 5 CARGOES: UREA/ALUMINA/DRY DOCK/SPODUMENE/ AUSSIE WHEAT/SBM\r\n+\r\nM/V 'ARIETTA' BUILT IHI AICHI SHIPYARD CHITA 2009\r\n55,818 MT DWT ON 12.735 SSW, TPC 56.5, BC\r\nVESSEL IS EQUIPPED WITH A DUAL LOADLINE OF ABOUT 49,999 MT ON 11.71M (THERE IS A COST TO MOVE SAME FROM NKK)\r\nLIBERIAN FLAG\r\nLOA/BEAM 190.0M/32.26M, MOULDED DEPTH 18.1M\r\n5 HO/HA - HATCH 1 - 14.56 X 18.60M, HATCHES 2-5 - 20.93 X 18.6M\r\nHYDRAULIC DOUBLE SKIN END FOLDING HATCH COVERS\r\nGRAIN:  72,062.46 CUM, GT/NT 31,532/18,765\r\nCR (IHI) 4 X 30 TONS/24 TONS IN GRABBING MODE, 26.0M OUTREACH (9.87M OVERSIDE) PLUS 4 X 12 CBM PEINER GRABS (ELECTRO HYDRAULIC) ADJUSTING DOWN TO 6.0 CBM, MAX DENSITY 2.5 MT/CBM\r\nNO MORE THAN 1 CRANE TO BE WORKED AT A HATCH OR HOPPER\r\nOWNERS WILL NOT SUPPLY CRANEMEN FROM THE CREW\r\nCHARTERERS TO HAVE FREE USE OF VESSEL'S CRANES AND GRABS\r\nSP/CON LADEN: ABOUT 13.25K ON ABOUT 31T VLSFO/BALLAST: ABOUT 13.5K ON ABOUT 30T VLSFO 380 RMG NMGOAS\r\nECO SPEED WOG ABOUT 13K ON ABOUT 23.0T VLSFO BALLAST/ABOUT 12.00K ON ABOUT 24.50T VLSFO LADEN\r\nPORT CONSUMPTION - IDLE 2.2T VLSFO + 0.1T LSMGO, WORKING 5.0T VLSFO + 0.1 LSMGO\r\nALL DETAILS 'ABOUT'\r\nRegards\r\nChristian Friedrich\r\nphone +49 40450143141\r\nmob +49 15110604640\r\nH. VOGEMANN GMBH - Hallerstrasse 40 - 20146 Hamburg - Germany\r\nRegistered in Hamburg - HRB 17249 - MD F. Jensen, L. Rudebec k",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        13,
+                        19,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        48,
+                        58,
+                        "OPEN_AREA"
+                    ],
+                    [
+                        61,
+                        73,
+                        "OPEN_DATE"
+                    ],
+                    [
+                        201,
+                        213,
+                        "VESSEL_NAME"
+                    ],
+                    [
+                        246,
+                        250,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        252,
+                        265,
+                        "DWT"
+                    ],
+                    [
+                        405,
+                        418,
+                        "FLAG"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

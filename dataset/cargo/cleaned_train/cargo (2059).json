@@ -1,0 +1,65 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nFROM: ARYACORP PVT. LTD.DATE & TIME: 20-08-2024 12:49:03   (GMT +5:30)REFERΕNCE NO: 17715183 ATTN CHARTERING DESKDEAR SIRGOOD DAYDIRECT OWNERS VESSELPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSELACCT DIRECT CHRTS3-9Sept55k 10%  CoalTg Buyut 8k pwwd shincDharamtar 10k pwwd shinc  NOR at Loadport on Free Pratique NOR at Disport ATDN Shinc Bends12 hrs TT Bends12 hrs Documentation time at loadportChabendsAdcom 3.75% pusPLSD TO HEAR. BEST REGARDS,Siddharth Arya | Voyage DeskDirect: +91 22 4044 9001Mobile: +91 9821230311SKYPE ID: asbpl.siddharth@outlook.comAS BROKERS ONLYAs Agents for Core Shipping Ltd.Email: fix@aryacorp.com (Chartering) |  ops@aryacorp.com (Post Fixture)Follow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limitedWebsite: www.aryacorp.comSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION",
+            {
+                "entities": [
+                    [
+                        8,
+                        24,
+                        "COMPANY"
+                    ],
+                    [
+                        39,
+                        49,
+                        "LAYCAN"
+                    ],
+                    [
+                        196,
+                        213,
+                        "COMPANY"
+                    ],
+                    [
+                        213,
+                        220,
+                        "LAYCAN"
+                    ],
+                    [
+                        221,
+                        223,
+                        "CARGO_SIZE"
+                    ],
+                    [
+                        229,
+                        233,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        390,
+                        405,
+                        "LOAD_PORT"
+                    ],
+                    [
+                        411,
+                        416,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

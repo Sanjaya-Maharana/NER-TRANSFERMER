@@ -1,0 +1,60 @@
+{
+    "classes": [
+        "CARGO_NAME",
+        "COMPANY",
+        "LAYCAN",
+        "LOAD_PORT",
+        "LOAD_RATE",
+        "DISCHARGE_PORT",
+        "DISCHARGE_RATE",
+        "ADDRESS_COM",
+        "CARGO_SIZE",
+        "DELIVERY",
+        "RE_DELIVERY",
+        "DURATION"
+    ],
+    "annotations": [
+        [
+            "\r\nTo: Chartering deskFm: SOL / Ms.Lin Re: SOL Shipping Cargo Order:Dear All, good day! Pls pps for our flwg:A/C SOL SHIPPING- DWT 28K, old age ok- BULK COKE / BAG CGO- DURATION ABT 20 DAYS WOG- LAYCAN: 25-28TH/AUG/2024- DELY TIANJIN- REDLY SULAWESI INT MOROWALI- ADD 3.75%(can try 2LL)Tks n b.rgds\r\n\r\nLin 林敏南海航运有限公司SOL Shipping International PTE.LtdTel: 0086-21-65010863 ext 807Mob: +86-135 9953 7112 (Wechat)Mail: lin@sol-shipping.com.cn           chartering@sol-shipping.com.cnSkype: linminjackie QQ: 2636585732地址：上海东大名路1158号浦江国际金融广场 2818室Address: Rm 2818, Pujiang International Finance Plaza, 1158 Dongdaming Rd, Shanghai, China\r\n",
+            {
+                "entities": [
+                    [
+                        108,
+                        124,
+                        "COMPANY"
+                    ],
+                    [
+                        147,
+                        156,
+                        "CARGO_NAME"
+                    ],
+                    [
+                        168,
+                        188,
+                        "DURATION"
+                    ],
+                    [
+                        194,
+                        218,
+                        "LAYCAN"
+                    ],
+                    [
+                        220,
+                        232,
+                        "DELIVERY"
+                    ],
+                    [
+                        234,
+                        261,
+                        "RE_DELIVERY"
+                    ],
+                    [
+                        263,
+                        272,
+                        "ADDRESS_COM"
+                    ]
+                ]
+            }
+        ]
+    ]
+}

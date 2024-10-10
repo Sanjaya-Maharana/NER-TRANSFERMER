@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "VESSEL_NAME",
+        "IMO",
+        "DWT",
+        "BUILD_YEAR",
+        "OPEN_DATE",
+        "OPEN_AREA",
+        "FLAG",
+        "CRANES"
+    ],
+    "annotations": [
+        [
+            "Dear Sirs/Madams\r\nOur clients are looking for A1 charterer for their Blt 2013 Japanese 28k BC for 1-3 years charter period.\r\nPlease let us know if you have potential charterer for this vessel.\r\nFull info upon firm interest\r\nMV TBA\r\nBulk Carrier\r\nBUILT: 2013 in Japan\r\nDWT 28,000 dwt\r\nGross Tonnage 17,000\r\nDRAFT:9.82 M LOA: 169.00 M BEAM: 27.20 M\r\nGrain Capacity of 37,320 cu.m.\r\n5HOLD / 5HATCH T 4 Crane(s) with a safe working load of 30.5 tonnes\r\nMAIN ENGINE 1 x Diesel - MAN B. & W. 6S42MC6.1 - 2-stroke 6-cyl.\r\n(All details are given good faith but without guarantee)\r\n",
+            {
+                "entities": [
+                    [
+                        69,
+                        77,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        246,
+                        257,
+                        "BUILD_YEAR"
+                    ],
+                    [
+                        268,
+                        278,
+                        "DWT"
+                    ]
+                ]
+            }
+        ]
+    ]
+}
