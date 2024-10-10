@@ -4,7 +4,6 @@ import uvicorn
 import traceback
 from typing import Optional
 from pathlib import Path
-
 from django.templatetags.i18n import language
 from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
@@ -17,6 +16,8 @@ from src.fbx import fetch_fbx_data
 from src.models import predict_combined
 from src.status import update_api_stats
 from src.translate import translate_html_content
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
 ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
