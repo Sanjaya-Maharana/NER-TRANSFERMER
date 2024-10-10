@@ -20,7 +20,6 @@ def fetch_fbx_data(from_date, to_date, key):
                 from_year = current_year
             else:
                 from_year = current_year - years
-            print(from_year)
             from_date = f'{from_year}-01-01'
             to_date = f'{current_year}-12-31'
         except ValueError:
@@ -29,7 +28,6 @@ def fetch_fbx_data(from_date, to_date, key):
         url = url.replace('2000-05-01', from_date)
     if to_date:
         url = url.replace('2040-12-31', to_date)
-
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
