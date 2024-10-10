@@ -13,7 +13,7 @@ headers = {
 def fetch_fbx_data(from_date, to_date, key):
     global url, headers
     current_year = datetime.now().year
-    if key.lower() != 'all':
+    if key and key.lower() != 'all':
         try:
             years = int(key.replace('y', ''))
             if years == 1 and key != 'all':
