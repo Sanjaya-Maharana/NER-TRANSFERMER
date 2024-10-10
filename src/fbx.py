@@ -1,3 +1,5 @@
+import copy
+
 import requests
 import pandas as pd
 from datetime import datetime
@@ -13,22 +15,17 @@ headers = {
 def fetch_fbx_data(from_date, to_date, key):
     global url, headers
     current_year = datetime.now().year
+    from_year = None
     if key.lower() != 'all':
         try:
             years = int(key.replace('y', ''))
-            if years == 1:
-                from_year = current_year
-            else:
-                from_year = current_year - years
-            from_date = f'{from_year}-01-01'
-            to_date = f'{current_year}-12-31'
+            from_year = current_year - years
         except ValueError:
             return {"status": False, "error": "Invalid key format. Use '1y', '2y', etc. or 'all'."}
     if from_date:
         url = url.replace('1000-05-01', from_date)
     if to_date:
         url = url.replace('2040-12-31', to_date)
-    print(url)
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
@@ -37,6 +34,8 @@ def fetch_fbx_data(from_date, to_date, key):
         df = pd.DataFrame(fbx_data)
         df['month'] = pd.to_datetime(df['month'])
         df['year'] = df['month'].dt.year
+        if from_year:
+            df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
         df['month'] = df['month'].dt.strftime('%d-%m-%Y')
         df['value'] = df['value'].round(2)
         df = df.sort_values(by='month')
