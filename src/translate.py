@@ -42,20 +42,14 @@ async def translate_html_content(body, target_language):
     """Translate the HTML content to the target language asynchronously."""
     try:
         soup = BeautifulSoup(body, "html.parser")
-
-        # Validate target language
         if target_language.lower() not in languages:
             return {"status": False, "text": f"Unsupported target language: {target_language}"}
-
         target_language_code = languages[target_language.lower()]
-
         tasks = []
         for tag in soup.find_all(string=True):
             original_text = tag.string
             if original_text and original_text.strip():
                 tasks.append(translate_tag(tag, original_text, target_language_code))
-
-        # Run all translations concurrently
         await asyncio.gather(*tasks)
 
         return {"status": True, "text": str(soup)}
@@ -79,5 +73,5 @@ async def main():
     translated_html = await translate_html_content(html_body, "odia")
     print(translated_html["text"])
 
-# Running the async translation
-asyncio.run(main())
+# # Running the async translation
+# asyncio.run(main())
