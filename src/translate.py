@@ -1,6 +1,7 @@
+import asyncio
 from googletrans import Translator
 from bs4 import BeautifulSoup
-import asyncio
+from concurrent.futures import ThreadPoolExecutor
 
 languages = {
     "english": "en", "mandarin chinese": "zh-cn", "spanish": "es", "hindi": "hi", "arabic": "ar", "bengali": "bn",
@@ -15,38 +16,51 @@ languages = {
 }
 
 
-def detect_and_translate(text, target_language):
+def detect_and_translate(text, target_language_code):
+    """Detect the language and translate the text if needed."""
     translator = Translator()
     try:
         detected_language = translator.detect(text).lang
-        if detected_language != target_language:
-            translated_text = translator.translate(text, src=detected_language, dest=target_language).text
+        if detected_language != target_language_code:
+            translated_text = translator.translate(text, src=detected_language, dest=target_language_code).text
             return translated_text
         return text
     except Exception as e:
         print(f"Error during detection/translation: {e}")
         return text
 
+
+async def translate_tag(tag, original_text, target_language_code):
+    """Wrapper to translate the text of the tag asynchronously."""
+    loop = asyncio.get_event_loop()
+    with ThreadPoolExecutor() as pool:
+        translated_text = await loop.run_in_executor(pool, detect_and_translate, original_text, target_language_code)
+        tag.string.replace_with(translated_text)
+
+
 async def translate_html_content(body, target_language):
+    """Translate the HTML content to the target language asynchronously."""
     try:
         soup = BeautifulSoup(body, "html.parser")
+
+        # Validate target language
         if target_language.lower() not in languages:
             return {"status": False, "text": f"Unsupported target language: {target_language}"}
+
+        target_language_code = languages[target_language.lower()]
 
         tasks = []
         for tag in soup.find_all(string=True):
             original_text = tag.string
             if original_text and original_text.strip():
-                tasks.append(translate_tag(tag, original_text, target_language))
+                tasks.append(translate_tag(tag, original_text, target_language_code))
 
+        # Run all translations concurrently
         await asyncio.gather(*tasks)
-        return {target_language: str(soup)}
+
+        return {"status": True, "text": str(soup)}
+
     except Exception as e:
         return {"status": False, "text": str(e)}
 
-
-async def translate_tag(tag, original_text, target_language):
-    target_language = languages[target_language]
-    translated_text = detect_and_translate(original_text, target_language)
-    tag.string.replace_with(translated_text)
 
