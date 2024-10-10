@@ -64,20 +64,20 @@ async def translate_html_content(body, target_language):
         return {"status": False, "text": str(e)}
 
 
-# Example usage of the asynchronous translation function
-async def main():
-    html_body = """
-    <html>
-        <head><title>Test Page</title></head>
-        <body>
-            <h1>This is a test heading</h1>
-            <p>This is a test paragraph. It should be translated.</p>
-        </body>
-    </html>
-    """
-
-    translated_html = await translate_html_content(html_body, "odia")
-    print(translated_html["text"])
-
-# Running the async translation
-asyncio.run(main())
+# # Example usage of the asynchronous translation function
+# async def main():
+#     html_body = """
+#     <html>
+#         <head><title>Test Page</title></head>
+#         <body>
+#             <h1>This is a test heading</h1>
+#             <p>This is a test paragraph. It should be translated.</p>
+#         </body>
+#     </html>
+#     """
+#
+#     translated_html = await translate_html_content(html_body, "odia")
+#     print(translated_html["text"])
+#
+# # Running the async translation
+# asyncio.run(main())
