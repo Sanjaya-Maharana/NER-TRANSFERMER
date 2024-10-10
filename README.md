@@ -21,10 +21,11 @@ This project uses spaCy to train a Named Entity Recognition (NER) model with a t
    ```sh
     pip install spacy spacy-transformers
 
-```sh
+  ```sh
     python -m spacy convert ./data/train.json ./data/
     python -m spacy convert ./data/dev.json ./data/
-```sh
+
+  ```sh
     spacy download en_core_web_trf
     spacy train ./config.cfg --output ./models/vessel_info --paths.train ./data/vessel_info/train.spacy --paths.dev ./data/vessel_info/dev.spacy
 
