@@ -1,5 +1,4 @@
-import copy
-
+import traceback
 import requests
 import pandas as pd
 from datetime import datetime
@@ -28,7 +27,6 @@ def fetch_fbx_data(from_date, to_date, key):
         if to_date:
             url = url.replace('2040-12-31', to_date)
         response = requests.get(url, headers=headers)
-
         if response.status_code == 200:
             data = response.json()
             fbx_data = data.get('indexPoints', [])
@@ -47,4 +45,5 @@ def fetch_fbx_data(from_date, to_date, key):
         else:
             return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
     except Exception as e:
+        print(traceback.print_exc())
         return {"status": False, "error": str(e)}
