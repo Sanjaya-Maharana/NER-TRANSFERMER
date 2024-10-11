@@ -1,3 +1,4 @@
+import copy
 import traceback
 import requests
 import pandas as pd
@@ -14,6 +15,7 @@ headers = {
 def fetch_fbx_data(from_date, to_date, key):
     try:
         global url, headers
+        url_child = copy.copy(url)
         current_year = datetime.now().year
         from_year = None
         if key.lower() != 'all':
@@ -21,12 +23,12 @@ def fetch_fbx_data(from_date, to_date, key):
                 years = int(key.replace('y', ''))
                 from_year = current_year - years
             except ValueError:
-                return {"status": False, "error": "Invalid key format. Use '1y', '2y', etc. or 'all'."}
+                pass
         if from_date:
-            url = url.replace('1000-05-01', from_date)
+            url_child = url_child.replace('1000-05-01', from_date)
         if to_date:
-            url = url.replace('2040-12-31', to_date)
-        response = requests.get(url, headers=headers)
+            url_child = url_child.replace('2040-12-31', to_date)
+        response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
             data = response.json()
             fbx_data = data.get('indexPoints', [])
