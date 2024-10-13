@@ -17,7 +17,6 @@ from src.analytics import plot_data_fun, handle_data
 from src.fbx import fetch_fbx_data
 from src.models import predict_combined
 from src.status import update_api_stats
-from apscheduler.schedulers.background import BackgroundScheduler
 
 from src.translate import translate_html_content
 import warnings
@@ -111,25 +110,6 @@ def fetch_fbx(request: FBXRequest):
     return fetch_fbx_data(from_date, to_date, key)
 
 
-
-import time
-import requests
-
-def run_script():
-    url = "https://prodapi.theoceann.ai/mail/scheduleAllOutlookEmails"
-    data = {
-        "email": "theoceann@theoceann.ai"
-    }
-    response = requests.post(url, json=data)
-    if response.status_code == 200:
-        print(response.json(), time.ctime())
-    else:
-        print(response.text)
-
-
-scheduler = BackgroundScheduler()
-scheduler.add_job(run_script, 'cron', minute='*/15')
-scheduler.start()
 
 
 
