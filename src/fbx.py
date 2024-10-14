@@ -76,7 +76,7 @@ def fetch_fbx_data(key, value, url, headers):
                 return {"category": "global", "index":key, "index_value": value, "max_value": max_val_rounded,
                         "percentage_diff": percentage_diff_rounded}
             else:
-                return {"category": "spacific", "index":key, "index_value": value, "max_value": max_val_rounded,
+                return {"category": "pacific", "index":key, "index_value": value, "max_value": max_val_rounded,
                         "percentage_diff": percentage_diff_rounded}
     except Exception as e:
         print(f"Error fetching data for {key}: {e}")
@@ -86,7 +86,7 @@ def fetch_fbx_data(key, value, url, headers):
 def fetch_all_fbx_filters():
     try:
         global url, headers
-        result_data = {"global": [], "spacific": []}
+        result_data = {"global": [], "pacific": []}
         freight_indexes = {
             "FBX": "Global Container Freight Index",
             "FBX01": "China/East Asia - North America West Coast",
