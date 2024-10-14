@@ -111,7 +111,7 @@ def fetch_all_fbx_filters():
                     if result['category'] == 'global':
                         result_data['global'].append(result)
                     else:
-                        result_data['spacific'].append(result)
+                        result_data['pacific'].append(result)
         return {"status": True, "data": result_data}
     except Exception as e:
         print(traceback.print_exc())
