@@ -17,7 +17,7 @@ def fetch_fbx_data(from_date, to_date, key, index):
     try:
         global url, headers
         url_child = copy.copy(url)
-        if index:
+        if index and index != '':
             url_child = url_child.replace('FBX', index)
         current_year = datetime.now().year
         from_year = None
@@ -31,7 +31,6 @@ def fetch_fbx_data(from_date, to_date, key, index):
             url_child = url_child.replace('1000-05-01', from_date)
         if to_date:
             url_child = url_child.replace('2040-12-31', to_date)
-        print(url_child)
         response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
             data = response.json()
@@ -58,7 +57,7 @@ def fetch_fbx_data(from_date, to_date, key, index):
 
 
 
-def fetch_fbx_data(key, value, url, headers):
+def fetch_fbx_filter_data(key, value, url, headers):
     try:
         url_child = url.replace('FBX', key)
         response = requests.get(url_child, headers=headers)
@@ -103,7 +102,7 @@ def fetch_all_fbx_filters():
             "FBX26": "Europe - South America West Coast"
         }
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(fetch_fbx_data, key, value, url, headers) for key, value in
+            futures = [executor.submit(fetch_fbx_filter_data, key, value, url, headers) for key, value in
                        freight_indexes.items()]
             for future in futures:
                 result = future.result()
