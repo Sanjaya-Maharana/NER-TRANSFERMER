@@ -14,7 +14,7 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi import FastAPI, Request, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from src.analytics import plot_data_fun, handle_data
-from src.fbx import fetch_fbx_data
+from src.fbx import fetch_fbx_data, fetch_all_fbx_filters
 from src.models import predict_combined
 from src.status import update_api_stats
 
@@ -111,6 +111,10 @@ def fetch_fbx(request: FBXRequest):
     index = request.index
     return fetch_fbx_data(from_date, to_date, key, index)
 
+
+@app.get("/fetch_fbx_filter")
+def fetch_fbx_filter():
+    return fetch_all_fbx_filters()
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, workers=4, timeout_keep_alive=600)

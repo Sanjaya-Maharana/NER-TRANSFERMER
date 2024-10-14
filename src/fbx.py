@@ -3,6 +3,7 @@ import traceback
 import requests
 import pandas as pd
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
 url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=True'
 
 headers = {
@@ -49,6 +50,69 @@ def fetch_fbx_data(from_date, to_date, key, index):
             return {"status": True, "data": grouped_data}
         else:
             return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
+    except Exception as e:
+        print(traceback.print_exc())
+        return {"status": False, "error": str(e)}
+
+
+
+
+
+def fetch_fbx_data(key, value, url, headers):
+    try:
+        url_child = url.replace('FBX', key)
+        response = requests.get(url_child, headers=headers)
+        if response.status_code == 200:
+            data = response.json()
+            fbx_data = data.get('indexPoints', [])
+            max_value = fbx_data[-1]
+            min_value = fbx_data[-2]
+            max_val = max_value['value']
+            min_val = min_value['value']
+            max_val_rounded = round(max_val, 2)
+            percentage_diff = ((max_val - min_val) / min_val) * 100
+            percentage_diff_rounded = round(percentage_diff, 2)
+            if key == "FBX":
+                return {"category": "global", "index": value, "max_value": max_val_rounded,
+                        "percentage_diff": percentage_diff_rounded}
+            else:
+                return {"category": "spacific", "index": value, "max_value": max_val_rounded,
+                        "percentage_diff": percentage_diff_rounded}
+    except Exception as e:
+        print(f"Error fetching data for {key}: {e}")
+        return None
+
+
+def fetch_all_fbx_filters():
+    try:
+        global url, headers
+        result_data = {"global": [], "spacific": []}
+        freight_indexes = {
+            "FBX": "Global Container Freight Index",
+            "FBX01": "China/East Asia - North America West Coast",
+            "FBX02": "North America West Coast - China/East Asia",
+            "FBX03": "China/East Asia - North America East Coast",
+            "FBX04": "North America East Coast - China/East Asia",
+            "FBX11": "China/East Asia - North Europe",
+            "FBX12": "North Europe - China/East Asia",
+            "FBX13": "China/East Asia - Mediterranean",
+            "FBX14": "Mediterranean - China/East Asia",
+            "FBX21": "North America East Coast - North Europe",
+            "FBX22": "North Europe - North America East Coast",
+            "FBX24": "Europe - South America East Coast",
+            "FBX26": "Europe - South America West Coast"
+        }
+        with ThreadPoolExecutor() as executor:
+            futures = [executor.submit(fetch_fbx_data, key, value, url, headers) for key, value in
+                       freight_indexes.items()]
+            for future in futures:
+                result = future.result()
+                if result:
+                    if result['category'] == 'global':
+                        result_data['global'].append(result)
+                    else:
+                        result_data['spacific'].append(result)
+        return {"status": True, "data": result_data}
     except Exception as e:
         print(traceback.print_exc())
         return {"status": False, "error": str(e)}
