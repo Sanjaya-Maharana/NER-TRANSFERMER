@@ -12,10 +12,12 @@ headers = {
 }
 
 
-def fetch_fbx_data(from_date, to_date, key):
+def fetch_fbx_data(from_date, to_date, key, index):
     try:
         global url, headers
         url_child = copy.copy(url)
+        if index:
+            url_child = url_child.replace('FBX', index)
         current_year = datetime.now().year
         from_year = None
         if key.lower() != 'all':
@@ -28,6 +30,7 @@ def fetch_fbx_data(from_date, to_date, key):
             url_child = url_child.replace('1000-05-01', from_date)
         if to_date:
             url_child = url_child.replace('2040-12-31', to_date)
+        print(url_child)
         response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
             data = response.json()

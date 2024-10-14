@@ -62,6 +62,7 @@ class FBXRequest(BaseModel):
     from_date: Optional[str] = None
     to_date: Optional[str] = None
     key: Optional[str] = "all"
+    index: Optional[str] = None
 @app.get("/")
 async def home():
     return {"message": "Hello World"}
@@ -107,10 +108,8 @@ def fetch_fbx(request: FBXRequest):
     from_date = request.from_date
     to_date = request.to_date
     key = request.key
-    return fetch_fbx_data(from_date, to_date, key)
-
-
-
+    index = request.index
+    return fetch_fbx_data(from_date, to_date, key, index)
 
 
 if __name__ == '__main__':
