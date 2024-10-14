@@ -73,10 +73,10 @@ def fetch_fbx_data(key, value, url, headers):
             percentage_diff = ((max_val - min_val) / min_val) * 100
             percentage_diff_rounded = round(percentage_diff, 2)
             if key == "FBX":
-                return {"category": "global", "index": value, "max_value": max_val_rounded,
+                return {"category": "global", "index":key, "index_value": value, "max_value": max_val_rounded,
                         "percentage_diff": percentage_diff_rounded}
             else:
-                return {"category": "spacific", "index": value, "max_value": max_val_rounded,
+                return {"category": "spacific", "index":key, "index_value": value, "max_value": max_val_rounded,
                         "percentage_diff": percentage_diff_rounded}
     except Exception as e:
         print(f"Error fetching data for {key}: {e}")
