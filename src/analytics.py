@@ -3,6 +3,8 @@ import math
 import numpy as np
 import pandas as pd
 import traceback
+
+from fastapi.logger import logger
 from pymongo import MongoClient
 from src.status import update_api_stats
 from datetime import datetime, timedelta,date
@@ -38,13 +40,13 @@ def normalize_date_filter(date_filter):
     return date_filter
 
 async def get_data_with_cache(cache_key):
-    print(cache_key)
+    logger.info(f"redis key: {cache_key}")
     cached_data = await redis.get(cache_key)
     if cached_data:
-        print("using catch")
+        logger.info("using catch")
         return json.loads(cached_data)
     else:
-        print("using db")
+        logger.info("using db")
 
 
 def create_bins_and_labels(min_value, max_value, step=500001):
@@ -230,7 +232,7 @@ async def plot_data_fun(request_data):
             raise HTTPException(status_code=400, detail="Invalid request type")
 
     except Exception as e:
-        print(traceback.print_exc())
+        logger.info(traceback.print_exc())
         return JSONResponse(content={"error": str(e), "status": False})
 
 
@@ -311,7 +313,8 @@ def handle_data(request_data):
             raise HTTPException(status_code=400, detail="Invalid data type.")
 
     except Exception as e:
-        print(f"Error occurred: {e}")
+        logger.error(traceback.print_exc())
+        logger.error(e)
         return {
             'status': False,
             'type': 'None',
