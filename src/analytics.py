@@ -102,7 +102,7 @@ async def plot_data_fun(request_data):
         database = client[db_name]
 
         end_date = datetime.now()
-        start_date = end_date - timedelta(weeks=6)
+        start_date = end_date - timedelta(weeks=8)
         from_unix = int(start_date.timestamp())
         to_unix = int(end_date.timestamp())
 
