@@ -133,7 +133,7 @@ async def plot_data_fun(request_data):
 
             date_filter['dwt'] = {"$lt": 10000000}
             normalized_filter = normalize_date_filter(date_filter)
-            cache_key = f"tonnage_{db_name}:{hash(str(normalized_filter))}"
+            cache_key = f"tonnage:{db_name}:{hash(str(normalized_filter))}"
             data = await get_data_with_cache(cache_key)
             if data:
                 return data
@@ -187,7 +187,7 @@ async def plot_data_fun(request_data):
 
             date_filter['cargo_size'] = {"$lt": 10000000}
             normalized_filter = normalize_date_filter(date_filter)
-            cache_key = f"cargo_{db_name}:{hash(str(normalized_filter))}"
+            cache_key = f"cargo:{db_name}:{hash(str(normalized_filter))}"
             data = await get_data_with_cache(cache_key)
             if data:
                 return data
