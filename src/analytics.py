@@ -1,18 +1,51 @@
+import json
 import math
 import numpy as np
 import pandas as pd
 import traceback
 from pymongo import MongoClient
 from src.status import update_api_stats
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta,date
 from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi.responses import JSONResponse
 from sklearn.linear_model import LinearRegression
 from src.authontication import decode_jwt_token
-from fastapi import FastAPI, Request, Depends, HTTPException
-
+from fastapi import HTTPException
+import aioredis
 
 client = AsyncIOMotorClient('mongodb+srv://theoceann:UPYLXvOujwCeARDO@oceannmail-staging.tamt4.mongodb.net/')
+
+redis = aioredis.from_url("redis://47.128.206.58:6380/0")
+
+def custom_json_converter(obj):
+    if isinstance(obj, (pd.Timestamp, datetime)):
+        return obj.isoformat()
+    elif isinstance(obj, date):
+        return obj.isoformat()
+    raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
+
+
+def normalize_date_filter(date_filter):
+    if 'Formatted_Date' in date_filter:
+        date_gte = datetime.fromtimestamp(date_filter['Formatted_Date']['$gte']).date()
+        date_lte = datetime.fromtimestamp(date_filter['Formatted_Date']['$lte']).date()
+
+        date_filter['Formatted_Date'] = {
+            '$gte': int(datetime.combine(date_gte, datetime.min.time()).timestamp()),
+            '$lte': int(datetime.combine(date_lte, datetime.min.time()).timestamp())
+        }
+
+    return date_filter
+
+async def get_data_with_cache(cache_key):
+    print(cache_key)
+    cached_data = await redis.get(cache_key)
+    if cached_data:
+        print("using catch")
+        return json.loads(cached_data)
+    else:
+        print("using db")
+
 
 def create_bins_and_labels(min_value, max_value, step=500001):
     min_value = 0
@@ -21,7 +54,6 @@ def create_bins_and_labels(min_value, max_value, step=500001):
     labels = [f'{bins[i]}-{bins[i + 1] - 1} MT' for i in range(len(bins) - 1)]
     return bins, labels
 
-# Helper function for predicting future weeks using linear regression
 def predict_next_weeks(df, target_column='dwt', num_weeks=3):
     df['Date_ordinal'] = pd.to_datetime(df['Date']).apply(lambda x: x.toordinal())
     X = df['Date_ordinal'].values.reshape(-1, 1)
@@ -41,11 +73,7 @@ def predict_next_weeks(df, target_column='dwt', num_weeks=3):
 
     return future_predictions
 
-# Helper function to convert numpy data types to standard Python types
 def convert_numpy_to_python(data):
-    """
-    Recursively converts numpy data types to Python types to ensure JSON serialization.
-    """
     if isinstance(data, dict):
         return {key: convert_numpy_to_python(value) for key, value in data.items()}
     elif isinstance(data, list):
@@ -57,7 +85,6 @@ def convert_numpy_to_python(data):
 
 async def plot_data_fun(request_data):
     try:
-        # Ensure the request_data has token attribute
         token = getattr(request_data, 'token', None)
         if token:
             decoded_token = decode_jwt_token(token)
@@ -105,7 +132,11 @@ async def plot_data_fun(request_data):
                 }
 
             date_filter['dwt'] = {"$lt": 10000000}
-
+            normalized_filter = normalize_date_filter(date_filter)
+            cache_key = f"tonnage_{db_name}:{hash(str(normalized_filter))}"
+            data = await get_data_with_cache(cache_key)
+            if data:
+                return data
             tonnage_data = await collection.find(
                 date_filter,
                 {'_id': 0, 'vessel_name': 1, 'vessel_type': 1, 'Formatted_Date': 1, 'dwt': 1, 'new_open_port': 1}
@@ -124,7 +155,6 @@ async def plot_data_fun(request_data):
             df['dwt'] = pd.to_numeric(df['dwt'], errors='coerce').fillna(0)
             df['Date'] = df['Formatted_Date'].dt.date
             df['Week'] = pd.to_datetime(df['Formatted_Date']).dt.to_period('W').apply(lambda r: r.start_time)
-
             min_dwt = df['dwt'].min()
             max_dwt = df['dwt'].max()
             bins, labels = create_bins_and_labels(min_dwt, max_dwt, step=2000001)
@@ -140,11 +170,11 @@ async def plot_data_fun(request_data):
 
             predictions = predict_next_weeks(df, target_column='dwt')
 
-            # Convert any numpy data types to Python types
             grouped_data = convert_numpy_to_python(grouped_data)
             predictions = convert_numpy_to_python(predictions)
-
-            return {"data": grouped_data, "predictions": predictions, "status": True, "type": "tonnage"}
+            data = {"data": grouped_data, "predictions": predictions, "status": True, "type": "tonnage"}
+            await redis.set(cache_key, json.dumps(data, default=custom_json_converter), ex=3600)
+            return data
 
         elif request_data.type == 'cargo':
             collection = database['cargo']
@@ -156,7 +186,11 @@ async def plot_data_fun(request_data):
                 date_filter['load_port.port'] = request_data.load_port
 
             date_filter['cargo_size'] = {"$lt": 10000000}
-
+            normalized_filter = normalize_date_filter(date_filter)
+            cache_key = f"cargo_{db_name}:{hash(str(normalized_filter))}"
+            data = await get_data_with_cache(cache_key)
+            if data:
+                return data
             cargo_data = await collection.find(date_filter, {
                 '_id': 0, 'cargo': 1, 'cargo_type': 1, 'Formatted_Date': 1, 'cargo_size': 1, 'load_port': 1
             }).limit(50000).to_list(50000)
@@ -188,8 +222,9 @@ async def plot_data_fun(request_data):
             predictions = predict_next_weeks(df, target_column='cargo_size')
             grouped_data = convert_numpy_to_python(grouped_data)
             predictions = convert_numpy_to_python(predictions)
-
-            return {"data": grouped_data, "predictions": predictions, "status": True, "type": "cargo"}
+            data = {"data": grouped_data, "predictions": predictions, "status": True, "type": "cargo"}
+            await redis.set(cache_key, json.dumps(data, default=custom_json_converter), ex=3600)
+            return data
 
         else:
             raise HTTPException(status_code=400, detail="Invalid request type")
@@ -200,9 +235,6 @@ async def plot_data_fun(request_data):
 
 
 
-
-
-# Helper function to filter valid ports
 def filter_ports(port_list):
     return [port for port in port_list if isinstance(port, str) and port.strip() and port.lower() != 'n/a']
 
