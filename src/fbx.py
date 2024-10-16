@@ -4,17 +4,31 @@ import requests
 import pandas as pd
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
+
 url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=True'
+
+authorization = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhbmpheWEudGhlb2NlYW5uQGdtYWlsLmNvbSIsIm5hbWUiOiJzYW5qYXlhIG1haGFyYW5hIiwicGVybWlzc2lvbnMiOnsiRkJYIjp7InByZW1pdW0iOmZhbHNlLCJjc3ZfZG93bmxvYWQiOmZhbHNlLCJnbG9iYWwiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOm51bGx9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjoiYWxsIiwiaW50ZXJ2YWwiOiJhbGwiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMTYtMTAtMDcifX0sInRpY2tlcnMiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDI0LTA3LTEzIn0sIndlZWtseSI6eyJoaXN0b3JpY2FsX2RhdGEiOjMsImludGVydmFsIjoibW9udGgiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMjQtMDctMTMifX0sImRhaWx5IjpmYWxzZSwibWFya2V0X3VwZGF0ZXMiOmZhbHNlLCJ0cmFuc2l0X3RpbWUiOmZhbHNlfSwiRkFYIjp7InByZW1pdW0iOmZhbHNlLCJjc3ZfZG93bmxvYWQiOmZhbHNlLCJnbG9iYWwiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOm51bGx9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjoiYWxsIiwiaW50ZXJ2YWwiOiJhbGwiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMjEtMDEtMDMifX0sInRpY2tlcnMiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDI0LTA3LTEzIn0sIndlZWtseSI6eyJoaXN0b3JpY2FsX2RhdGEiOjYsImludGVydmFsIjoid2VlayIsImRlZmF1bHRfZnJvbV9kYXRlIjoiMjAyNC0wOS0wMSJ9fSwiZGFpbHkiOmZhbHNlLCJtYXJrZXRfdXBkYXRlcyI6ZmFsc2UsInRyYW5zaXRfdGltZSI6ZmFsc2V9LCJNSVIiOnsicHJlbWl1bSI6ZmFsc2UsImFsbG93ZWRfdHJhZGVsYW5lcyI6MCwibGFzdF9lZGl0aW5nX2RhdGUiOm51bGwsImRlZmF1bHRfZnJvbV9kYXRlIjp7ImFpciI6bnVsbCwib2NlYW4iOm51bGx9LCJoaXN0b3JpY2FsX2RhdGEiOnsiYWlyIjowLCJvY2VhbiI6MH0sImludGVydmFsIjp7ImFpciI6Im1vbnRoIiwib2NlYW4iOiJtb250aCJ9LCJkYWlseSI6ZmFsc2UsIm1hcmtldF91cGRhdGVzIjpmYWxzZSwiY3N2X2Rvd25sb2FkIjpmYWxzZSwicG9ydF9wZXJmb3JtYW5jZSI6ZmFsc2UsInRyYW5zaXRfdGltZSI6ZmFsc2V9LCJCZW5jaG1hcmtpbmciOnsicHJlbWl1bSI6ZmFsc2UsImNzdl9kb3dubG9hZCI6ZmFsc2UsImRhaWx5IjpmYWxzZSwibWFya2V0X3VwZGF0ZXMiOmZhbHNlfSwiaXNfc3VwZXJfYWRtaW4iOmZhbHNlLCJzaG93X2JlbmNobWFyayI6ZmFsc2V9LCJzdWJzY3JpcHRpb25fbGV2ZWwiOnt9LCJzdWJzY3JpcHRpb25fZGV0YWlscyI6e30sImN1c3RvbWVyX3R5cGUiOiJTb2Z0d2FyZSBQcm92aWRlciIsImZieF9mYXhfZmxhZ3MiOnsiZmJ4X3RpY2tlcnNfY2hvc2VuIjpmYWxzZSwiZmF4X3RpY2tlcnNfY2hvc2VuIjpmYWxzZSwiZGF5c19zaW5jZV9maXJzdF9sb2dpbiI6Nywic2hvd19tYW5kYXRvcnlfcG9wdXAiOnRydWUsImxvY2tfZmJ4X3RpY2tlcnMiOmZhbHNlLCJsb2NrX2ZheF90aWNrZXJzIjpmYWxzZSwiZmJ4X3RpY2tlcnMiOltdLCJmYXhfdGlja2VycyI6W10sImZieF9wcmVtaXVtIjpmYWxzZSwiZmF4X3ByZW1pdW0iOmZhbHNlfSwiaXNfbmV3X3VzZXIiOmZhbHNlLCJleHAiOjE3MzAzNTU1NzV9.XX_H6soPiRG2FzunZ_moG4nG5rGY4ue6H1wknRQlAKw'
 
 headers = {
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhbmpheWFtYWhhcmFuYTE0NUBnbWFpbC5jb20iLCJuYW1lIjoic2FuamF5YW1haGFyYW5hMTQ1QGdtYWlsLmNvbSIsInBlcm1pc3Npb25zIjp7IkZCWCI6eyJwcmVtaXVtIjpmYWxzZSwiY3N2X2Rvd25sb2FkIjpmYWxzZSwiZ2xvYmFsIjp7ImRhaWx5Ijp7Imhpc3RvcmljYWxfZGF0YSI6MCwiaW50ZXJ2YWwiOiJtb250aCIsImRlZmF1bHRfZnJvbV9kYXRlIjpudWxsfSwid2Vla2x5Ijp7Imhpc3RvcmljYWxfZGF0YSI6ImFsbCIsImludGVydmFsIjoiYWxsIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDE2LTEwLTA3In19LCJ0aWNrZXJzIjp7ImRhaWx5Ijp7Imhpc3RvcmljYWxfZGF0YSI6MCwiaW50ZXJ2YWwiOiJtb250aCIsImRlZmF1bHRfZnJvbV9kYXRlIjoiMjAyNC0wNy0wNSJ9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjozLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDI0LTA3LTA1In19LCJkYWlseSI6ZmFsc2UsIm1hcmtldF91cGRhdGVzIjpmYWxzZSwidHJhbnNpdF90aW1lIjpmYWxzZX0sIkZBWCI6eyJwcmVtaXVtIjpmYWxzZSwiY3N2X2Rvd25sb2FkIjpmYWxzZSwiZ2xvYmFsIjp7ImRhaWx5Ijp7Imhpc3RvcmljYWxfZGF0YSI6MCwiaW50ZXJ2YWwiOiJtb250aCIsImRlZmF1bHRfZnJvbV9kYXRlIjpudWxsfSwid2Vla2x5Ijp7Imhpc3RvcmljYWxfZGF0YSI6ImFsbCIsImludGVydmFsIjoiYWxsIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDIxLTAxLTAzIn19LCJ0aWNrZXJzIjp7ImRhaWx5Ijp7Imhpc3RvcmljYWxfZGF0YSI6MCwiaW50ZXJ2YWwiOiJtb250aCIsImRlZmF1bHRfZnJvbV9kYXRlIjoiMjAyNC0wNy0wNSJ9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjo2LCJpbnRlcnZhbCI6IndlZWsiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMjQtMDgtMjQifX0sImRhaWx5IjpmYWxzZSwibWFya2V0X3VwZGF0ZXMiOmZhbHNlLCJ0cmFuc2l0X3RpbWUiOmZhbHNlfSwiTUlSIjp7InByZW1pdW0iOmZhbHNlLCJhbGxvd2VkX3RyYWRlbGFuZXMiOjAsImxhc3RfZWRpdGluZ19kYXRlIjpudWxsLCJkZWZhdWx0X2Zyb21fZGF0ZSI6eyJhaXIiOm51bGwsIm9jZWFuIjpudWxsfSwiaGlzdG9yaWNhbF9kYXRhIjp7ImFpciI6MCwib2NlYW4iOjB9LCJpbnRlcnZhbCI6eyJhaXIiOiJtb250aCIsIm9jZWFuIjoibW9udGgifSwiZGFpbHkiOmZhbHNlLCJtYXJrZXRfdXBkYXRlcyI6ZmFsc2UsImNzdl9kb3dubG9hZCI6ZmFsc2UsInBvcnRfcGVyZm9ybWFuY2UiOmZhbHNlLCJ0cmFuc2l0X3RpbWUiOmZhbHNlfSwiQmVuY2htYXJraW5nIjp7InByZW1pdW0iOmZhbHNlLCJjc3ZfZG93bmxvYWQiOmZhbHNlLCJkYWlseSI6ZmFsc2UsIm1hcmtldF91cGRhdGVzIjpmYWxzZX0sImlzX3N1cGVyX2FkbWluIjpmYWxzZSwic2hvd19iZW5jaG1hcmsiOmZhbHNlfSwic3Vic2NyaXB0aW9uX2xldmVsIjp7fSwic3Vic2NyaXB0aW9uX2RldGFpbHMiOnt9LCJjdXN0b21lcl90eXBlIjoiQ29uc3VsdGluZyBGaXJtIiwiZmJ4X2ZheF9mbGFncyI6eyJmYnhfdGlja2Vyc19jaG9zZW4iOmZhbHNlLCJmYXhfdGlja2Vyc19jaG9zZW4iOmZhbHNlLCJkYXlzX3NpbmNlX2ZpcnN0X2xvZ2luIjowLCJzaG93X21hbmRhdG9yeV9wb3B1cCI6dHJ1ZSwibG9ja19mYnhfdGlja2VycyI6ZmFsc2UsImxvY2tfZmF4X3RpY2tlcnMiOmZhbHNlLCJmYnhfdGlja2VycyI6W10sImZheF90aWNrZXJzIjpbXSwiZmJ4X3ByZW1pdW0iOmZhbHNlLCJmYXhfcHJlbWl1bSI6ZmFsc2V9LCJleHAiOjE3Mjk1Nzc4MDQsImlzX25ld191c2VyIjpmYWxzZX0.mAvPfL0Q_gFPg3OM8Q_gdxs5EtUMiG_0iKbX2oi-V3k'
+    'authorization': authorization,
+    'cookie': '_vwo_uuid_v2=D439D082C623162D76F3D0C2014E3C8F0|052100bc058e30ef327d925439ef36dc; _vwo_uuid=D439D082C623162D76F3D0C2014E3C8F0',
+    'priority': 'u=1, i',
+    'referer': 'https://app.terminal.freightos.com/fbx?ticker=%5B%22FBX%22%5D&frequency=%22weekly%22',
+    'sec-ch-ua': '"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'
 }
 
 
 def fetch_fbx_data(from_date, to_date, key, index):
     try:
+        grouped_data = {}
         global url, headers
         url_child = copy.copy(url)
         if index and index != '':
@@ -31,28 +45,36 @@ def fetch_fbx_data(from_date, to_date, key, index):
             url_child = url_child.replace('1000-05-01', from_date)
         if to_date:
             url_child = url_child.replace('2040-12-31', to_date)
+        print(url_child)
         response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
             data = response.json()
             fbx_data = data.get('indexPoints', [])
+            volatility = data.get('date_range_level_volatility', {})
+            if volatility:
+                if index:
+                    volatility = volatility.get(index, {})
+                else:
+                    volatility = volatility.get('FBX', {})
             df = pd.DataFrame(fbx_data)
-            df['month'] = pd.to_datetime(df['month'])
+            try:
+                df['month'] = pd.to_datetime(df['indexDate'])
+            except:
+                df['month'] = pd.to_datetime(df['month'])
             df['year'] = df['month'].dt.year
             if from_year:
                 df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
             df['month'] = df['month'].dt.strftime('%d-%m-%Y')
             df['value'] = df['value'].round(2)
             df = df.sort_values(by='month')
-            grouped_data = {}
             for year, group in df.groupby('year'):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
-            return {"status": True, "data": grouped_data}
+            return {"status": True, "data": grouped_data, "volatility": volatility}
         else:
             return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
     except Exception as e:
         print(traceback.print_exc())
         return {"status": False, "error": str(e)}
-
 
 
 
