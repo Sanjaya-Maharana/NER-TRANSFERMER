@@ -1,4 +1,5 @@
 import copy
+import json
 import traceback
 import requests
 import pandas as pd
@@ -69,9 +70,11 @@ def fetch_fbx_data(from_date, to_date, key, index):
             df = df.sort_values(by='month')
             for year, group in df.groupby('year'):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
-            return {"status": True, "data": grouped_data, "volatility": volatility}
+            return {"status": True, "data": grouped_data, "volatility": volatility, "data_from": "api"}
         else:
-            return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
+            with open('src/data.json', 'r') as f:
+                data = f.read()
+            return json.loads(data)
     except Exception as e:
         print(traceback.print_exc())
         return {"status": False, "error": str(e)}
@@ -133,6 +136,10 @@ def fetch_all_fbx_filters():
                         result_data['global'].append(result)
                     else:
                         result_data['pacific'].append(result)
+        if len(result_data['global'])==0 and len(result_data['pacific'])==0:
+            with open('src/filter_data.json', 'r') as f:
+                data = f.read()
+            return json.loads(data)
         return {"status": True, "data": result_data}
     except Exception as e:
         print(traceback.print_exc())

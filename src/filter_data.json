@@ -1,0 +1,101 @@
+{
+    "status": true,
+    "data": {
+        "global": [
+            {
+                "category": "global",
+                "index": "FBX",
+                "index_value": "Global Container Freight Index",
+                "max_value": 3603.91,
+                "percentage_diff": -25.2
+            }
+        ],
+        "pacific": [
+            {
+                "category": "pacific",
+                "index": "FBX01",
+                "index_value": "China/East Asia - North America West Coast",
+                "max_value": 5496.64,
+                "percentage_diff": -19.55
+            },
+            {
+                "category": "pacific",
+                "index": "FBX02",
+                "index_value": "North America West Coast - China/East Asia",
+                "max_value": 521.0,
+                "percentage_diff": 12.33
+            },
+            {
+                "category": "pacific",
+                "index": "FBX03",
+                "index_value": "China/East Asia - North America East Coast",
+                "max_value": 6515.91,
+                "percentage_diff": -27.59
+            },
+            {
+                "category": "pacific",
+                "index": "FBX04",
+                "index_value": "North America East Coast - China/East Asia",
+                "max_value": 447.0,
+                "percentage_diff": -0.91
+            },
+            {
+                "category": "pacific",
+                "index": "FBX11",
+                "index_value": "China/East Asia - North Europe",
+                "max_value": 3717.64,
+                "percentage_diff": -36.89
+            },
+            {
+                "category": "pacific",
+                "index": "FBX12",
+                "index_value": "North Europe - China/East Asia",
+                "max_value": 459.0,
+                "percentage_diff": -17.29
+            },
+            {
+                "category": "pacific",
+                "index": "FBX13",
+                "index_value": "China/East Asia - Mediterranean",
+                "max_value": 4181.82,
+                "percentage_diff": -24.45
+            },
+            {
+                "category": "pacific",
+                "index": "FBX14",
+                "index_value": "Mediterranean - China/East Asia",
+                "max_value": 393.0,
+                "percentage_diff": -34.93
+            },
+            {
+                "category": "pacific",
+                "index": "FBX21",
+                "index_value": "North America East Coast - North Europe",
+                "max_value": 690.18,
+                "percentage_diff": -11.66
+            },
+            {
+                "category": "pacific",
+                "index": "FBX22",
+                "index_value": "North Europe - North America East Coast",
+                "max_value": 2390.55,
+                "percentage_diff": 29.63
+            },
+            {
+                "category": "pacific",
+                "index": "FBX24",
+                "index_value": "Europe - South America East Coast",
+                "max_value": 864.82,
+                "percentage_diff": 7.8
+            },
+            {
+                "category": "pacific",
+                "index": "FBX26",
+                "index_value": "Europe - South America West Coast",
+                "max_value": 2615.0,
+                "percentage_diff": 5.96
+            }
+        ]
+    },
+    "data_from": "json"
+}
