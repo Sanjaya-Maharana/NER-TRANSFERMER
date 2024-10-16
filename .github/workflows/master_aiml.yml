@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - AIML
+name: Build and deploy Python app to Azure Web App - aiml
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2C6D692B3F184E5DB2B8598F69DC9A2E }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_4401E5D104654D19AC2881BDB334DB03 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F8692A14CC9844D9A3B4BA215369E01F }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2816199F9F4441E28ED7A8073D40A5A4 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7E7ACC7225A54812B6C5E5095BC17EB6 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A4E8EA8E4C764760A54DDDAB9D4CB4BB }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'AIML'
+          app-name: 'aiml'
           slot-name: 'Production'
           
