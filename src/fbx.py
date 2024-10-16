@@ -39,9 +39,9 @@ def fetch_fbx_data(from_date, to_date, key, index):
             volatility = data.get('date_range_level_volatility', {})
             if volatility:
                 if index:
-                    grouped_data['volatility'] = volatility.get(index, {})
+                    volatility = volatility.get(index, {})
                 else:
-                    grouped_data['volatility'] = volatility.get('FBX', {})
+                    volatility = volatility.get('FBX', {})
             df = pd.DataFrame(fbx_data)
             df['month'] = pd.to_datetime(df['indexDate'])
             df['year'] = df['month'].dt.year
@@ -52,7 +52,7 @@ def fetch_fbx_data(from_date, to_date, key, index):
             df = df.sort_values(by='month')
             for year, group in df.groupby('year'):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
-            return {"status": True, "data": grouped_data}
+            return {"status": True, "data": grouped_data, "volatility": volatility}
         else:
             return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
     except Exception as e:
