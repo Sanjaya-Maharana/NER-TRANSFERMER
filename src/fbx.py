@@ -62,7 +62,6 @@ def fetch_fbx_data(from_date, to_date, key, index):
 
 
 
-
 def fetch_fbx_filter_data(key, value, url, headers):
     try:
         url_child = url.replace('FBX', key)
