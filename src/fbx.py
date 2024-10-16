@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
-url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=True'
+url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=False'
 
 headers = {
     'accept': 'application/json, text/plain, */*',
@@ -15,6 +15,7 @@ headers = {
 
 def fetch_fbx_data(from_date, to_date, key, index):
     try:
+        grouped_data = {}
         global url, headers
         url_child = copy.copy(url)
         if index and index != '':
@@ -35,15 +36,20 @@ def fetch_fbx_data(from_date, to_date, key, index):
         if response.status_code == 200:
             data = response.json()
             fbx_data = data.get('indexPoints', [])
+            volatility = data.get('date_range_level_volatility', {})
+            if volatility:
+                if index:
+                    grouped_data['volatility'] = volatility.get(index, {})
+                else:
+                    grouped_data['volatility'] = volatility.get('FBX', {})
             df = pd.DataFrame(fbx_data)
-            df['month'] = pd.to_datetime(df['month'])
+            df['month'] = pd.to_datetime(df['indexDate'])
             df['year'] = df['month'].dt.year
             if from_year:
                 df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
             df['month'] = df['month'].dt.strftime('%d-%m-%Y')
             df['value'] = df['value'].round(2)
             df = df.sort_values(by='month')
-            grouped_data = {}
             for year, group in df.groupby('year'):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
             return {"status": True, "data": grouped_data}
