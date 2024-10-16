@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=False'
+url = 'https://app.terminal.freightos.com/api/v1/fbx/data?tickers=FBX&version=monthly&from_date=1000-05-01&to_date=2040-12-31&is_year_over_year=True'
 
 authorization = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhbmpheWEudGhlb2NlYW5uQGdtYWlsLmNvbSIsIm5hbWUiOiJzYW5qYXlhIG1haGFyYW5hIiwicGVybWlzc2lvbnMiOnsiRkJYIjp7InByZW1pdW0iOmZhbHNlLCJjc3ZfZG93bmxvYWQiOmZhbHNlLCJnbG9iYWwiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOm51bGx9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjoiYWxsIiwiaW50ZXJ2YWwiOiJhbGwiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMTYtMTAtMDcifX0sInRpY2tlcnMiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDI0LTA3LTEzIn0sIndlZWtseSI6eyJoaXN0b3JpY2FsX2RhdGEiOjMsImludGVydmFsIjoibW9udGgiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMjQtMDctMTMifX0sImRhaWx5IjpmYWxzZSwibWFya2V0X3VwZGF0ZXMiOmZhbHNlLCJ0cmFuc2l0X3RpbWUiOmZhbHNlfSwiRkFYIjp7InByZW1pdW0iOmZhbHNlLCJjc3ZfZG93bmxvYWQiOmZhbHNlLCJnbG9iYWwiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOm51bGx9LCJ3ZWVrbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjoiYWxsIiwiaW50ZXJ2YWwiOiJhbGwiLCJkZWZhdWx0X2Zyb21fZGF0ZSI6IjIwMjEtMDEtMDMifX0sInRpY2tlcnMiOnsiZGFpbHkiOnsiaGlzdG9yaWNhbF9kYXRhIjowLCJpbnRlcnZhbCI6Im1vbnRoIiwiZGVmYXVsdF9mcm9tX2RhdGUiOiIyMDI0LTA3LTEzIn0sIndlZWtseSI6eyJoaXN0b3JpY2FsX2RhdGEiOjYsImludGVydmFsIjoid2VlayIsImRlZmF1bHRfZnJvbV9kYXRlIjoiMjAyNC0wOS0wMSJ9fSwiZGFpbHkiOmZhbHNlLCJtYXJrZXRfdXBkYXRlcyI6ZmFsc2UsInRyYW5zaXRfdGltZSI6ZmFsc2V9LCJNSVIiOnsicHJlbWl1bSI6ZmFsc2UsImFsbG93ZWRfdHJhZGVsYW5lcyI6MCwibGFzdF9lZGl0aW5nX2RhdGUiOm51bGwsImRlZmF1bHRfZnJvbV9kYXRlIjp7ImFpciI6bnVsbCwib2NlYW4iOm51bGx9LCJoaXN0b3JpY2FsX2RhdGEiOnsiYWlyIjowLCJvY2VhbiI6MH0sImludGVydmFsIjp7ImFpciI6Im1vbnRoIiwib2NlYW4iOiJtb250aCJ9LCJkYWlseSI6ZmFsc2UsIm1hcmtldF91cGRhdGVzIjpmYWxzZSwiY3N2X2Rvd25sb2FkIjpmYWxzZSwicG9ydF9wZXJmb3JtYW5jZSI6ZmFsc2UsInRyYW5zaXRfdGltZSI6ZmFsc2V9LCJCZW5jaG1hcmtpbmciOnsicHJlbWl1bSI6ZmFsc2UsImNzdl9kb3dubG9hZCI6ZmFsc2UsImRhaWx5IjpmYWxzZSwibWFya2V0X3VwZGF0ZXMiOmZhbHNlfSwiaXNfc3VwZXJfYWRtaW4iOmZhbHNlLCJzaG93X2JlbmNobWFyayI6ZmFsc2V9LCJzdWJzY3JpcHRpb25fbGV2ZWwiOnt9LCJzdWJzY3JpcHRpb25fZGV0YWlscyI6e30sImN1c3RvbWVyX3R5cGUiOiJTb2Z0d2FyZSBQcm92aWRlciIsImZieF9mYXhfZmxhZ3MiOnsiZmJ4X3RpY2tlcnNfY2hvc2VuIjpmYWxzZSwiZmF4X3RpY2tlcnNfY2hvc2VuIjpmYWxzZSwiZGF5c19zaW5jZV9maXJzdF9sb2dpbiI6Nywic2hvd19tYW5kYXRvcnlfcG9wdXAiOnRydWUsImxvY2tfZmJ4X3RpY2tlcnMiOmZhbHNlLCJsb2NrX2ZheF90aWNrZXJzIjpmYWxzZSwiZmJ4X3RpY2tlcnMiOltdLCJmYXhfdGlja2VycyI6W10sImZieF9wcmVtaXVtIjpmYWxzZSwiZmF4X3ByZW1pdW0iOmZhbHNlfSwiaXNfbmV3X3VzZXIiOmZhbHNlLCJleHAiOjE3MzAzNTU1NzV9.XX_H6soPiRG2FzunZ_moG4nG5rGY4ue6H1wknRQlAKw'
 
@@ -31,6 +31,7 @@ def fetch_fbx_data(from_date, to_date, key, index):
         grouped_data = {}
         global url, headers
         url_child = copy.copy(url)
+        url_child = url_child.replace("True","False")
         if index and index != '':
             url_child = url_child.replace('FBX', index)
         current_year = datetime.now().year
@@ -57,7 +58,10 @@ def fetch_fbx_data(from_date, to_date, key, index):
                 else:
                     volatility = volatility.get('FBX', {})
             df = pd.DataFrame(fbx_data)
-            df['month'] = pd.to_datetime(df['indexDate'])
+            try:
+                df['month'] = pd.to_datetime(df['indexDate'])
+            except Exception as e:
+                df['month'] = pd.to_datetime(df['month'])
             df['year'] = df['month'].dt.year
             if from_year:
                 df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
@@ -68,6 +72,7 @@ def fetch_fbx_data(from_date, to_date, key, index):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
             return {"status": True, "data": grouped_data, "volatility": volatility}
         else:
+
             return {"status": False, "error": f"Failed to fetch data. Status code: {response.status_code}"}
     except Exception as e:
         print(traceback.print_exc())
