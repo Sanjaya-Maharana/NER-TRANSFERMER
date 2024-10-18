@@ -1,6 +1,10 @@
 import jwt
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 
+JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
+ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
+JWT_ENCODE_ALGO = "HS256"
+
 
 def decode_jwt_token(token: str):
     try:

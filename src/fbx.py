@@ -58,10 +58,11 @@ def fetch_fbx_data(from_date, to_date, key, index):
                 else:
                     volatility = volatility.get('FBX', {})
             df = pd.DataFrame(fbx_data)
-            try:
+            if 'indexDate' in df.columns:
                 df['month'] = pd.to_datetime(df['indexDate'])
-            except:
+            else:
                 df['month'] = pd.to_datetime(df['month'])
+
             df['year'] = df['month'].dt.year
             if from_year:
                 df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
@@ -82,8 +83,9 @@ def fetch_fbx_data(from_date, to_date, key, index):
 
 
 
-def fetch_fbx_filter_data(key, value, url, headers):
+def fetch_fbx_filter_data(key, value):
     try:
+        global url, headers
         url_child = url.replace('FBX', key)
         response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
@@ -109,7 +111,6 @@ def fetch_fbx_filter_data(key, value, url, headers):
 
 def fetch_all_fbx_filters():
     try:
-        global url, headers
         result_data = {"global": [], "pacific": []}
         freight_indexes = {
             "FBX": "Global Container Freight Index",
@@ -127,7 +128,7 @@ def fetch_all_fbx_filters():
             "FBX26": "Europe - South America West Coast"
         }
         with ThreadPoolExecutor() as executor:
-            futures = [executor.submit(fetch_fbx_filter_data, key, value, url, headers) for key, value in
+            futures = [executor.submit(fetch_fbx_filter_data, key, value) for key, value in
                        freight_indexes.items()]
             for future in futures:
                 result = future.result()

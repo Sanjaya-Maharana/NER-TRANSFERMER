@@ -22,10 +22,6 @@ from src.translate import translate_html_content
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-JWT_USER_SECRET_KEY = "asdgcvsdcv@@@#$@%@!~!~!!)(U*@*fdbvjblejhfvhgvsjfgv$@%&*(W&!)W(!SDHQWFUWKDDOY@TEF@&ETO!*E@(T@(ET!QDXWFBCWJWFGEKUFEUE"
-ADMIN_SECRET_JWT_TOKEN = "rtawdchvscfbdhfvbjkdfnvhdgfjhhHHHHH@@!$@#(%*#$@(*)#!()@*$73y8277"
-JWT_ENCODE_ALGO = "HS256"
-
 stats_file_path = Path('api_status.json')
 
 vessel_nlp = spacy.load(Path(f"models/vessel_info/model-best"))
