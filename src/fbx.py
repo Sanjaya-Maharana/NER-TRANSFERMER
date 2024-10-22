@@ -46,7 +46,6 @@ def fetch_fbx_data(from_date, to_date, key, index):
             url_child = url_child.replace('1000-05-01', from_date)
         if to_date:
             url_child = url_child.replace('2040-12-31', to_date)
-        print(url_child)
         response = requests.get(url_child, headers=headers)
         if response.status_code == 200:
             data = response.json()
@@ -68,7 +67,9 @@ def fetch_fbx_data(from_date, to_date, key, index):
                 df = df[(df['year'] >= from_year) & (df['year'] <= current_year)]
             df['month'] = df['month'].dt.strftime('%d-%m-%Y')
             df['value'] = df['value'].round(2)
+            df['month'] = pd.to_datetime(df['month'], format='%d-%m-%Y')
             df = df.sort_values(by='month')
+            df['month'] = df['month'].dt.strftime('%d-%m-%Y')
             for year, group in df.groupby('year'):
                 grouped_data[year] = group.drop(columns=['year']).to_dict(orient='records')
             return {"status": True, "data": grouped_data, "volatility": volatility, "data_from": "api"}
@@ -79,8 +80,6 @@ def fetch_fbx_data(from_date, to_date, key, index):
     except Exception as e:
         print(traceback.print_exc())
         return {"status": False, "error": str(e)}
-
-
 
 
 def fetch_fbx_filter_data(key, value):
