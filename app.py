@@ -20,6 +20,9 @@ from src.status import update_api_stats
 
 from src.translate import translate_html_content
 import warnings
+
+from src.website_chat import get_chatbot_response
+
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 stats_file_path = Path('api_status.json')
@@ -59,6 +62,9 @@ class FBXRequest(BaseModel):
     to_date: Optional[str] = None
     key: Optional[str] = "all"
     index: Optional[str] = None
+
+class UserInput(BaseModel):
+    message: str
 @app.get("/")
 async def home():
     return {"message": "Hello World"}
@@ -111,6 +117,15 @@ def fetch_fbx(request: FBXRequest):
 @app.get("/fetch_fbx_filter")
 def fetch_fbx_filter():
     return fetch_all_fbx_filters()
+
+
+@app.post("/chat")
+async def chat(user_input: UserInput):
+    if not user_input.message:
+        raise HTTPException(status_code=400, detail="No input provided")
+
+    response = get_chatbot_response(user_input.message)
+    return {"response": response}
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, workers=4, timeout_keep_alive=600)
