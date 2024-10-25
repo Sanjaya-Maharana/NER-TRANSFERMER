@@ -125,7 +125,7 @@ async def chat(user_input: UserInput):
         raise HTTPException(status_code=400, detail="No input provided")
 
     response = get_chatbot_response(user_input.message)
-    return {"response": response}
+    return {"query": user_input.message,"response": response}
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000, workers=4, timeout_keep_alive=600)
