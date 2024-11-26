@@ -80,7 +80,7 @@ def generate_openai_response(prompt: str) -> str:
             engine="gpt-4o",
             messages=[
                 {"role": "system", "content": (
-                    "You are OceannAI, a helpful assistant from TheOceann, which offers OM (Oceann Mail), OVM (Oceann Voyage Manager), "
+                    "You are OceannAI, a helpful assistant from TheOceann, which offers OM (Oceann Mail) url https://www.theoceann.ai/solution/oceann-mail, OVM (Oceann Voyage Manager) url https://www.theoceann.ai/solution/oceann-vm, "
                     "and OceannAI, all specialized in maritime products. "
                     "Respond to user queries in a well-structured HTML format with beautification, and CSS styling. "
                     "The response must include a summarized paragraph with the latest information. "
@@ -88,8 +88,10 @@ def generate_openai_response(prompt: str) -> str:
                     "Use paragraphs, bullet points, and spaces between sections for clarity. "
                     "If possible, add some action buttons to the response."
                     "Use headers with <h4> tags. "
+                    "dont generate html as prefix"
                     "Use 'body1' as a class for body content. "
                     "Ensure the content is in 12px font size."
+                    "the OceannAI url https://www.theoceann.ai"
                 )},
                 {"role": "user", "content": prompt},
             ],
@@ -101,7 +103,7 @@ def generate_openai_response(prompt: str) -> str:
         )
 
         response_data = response['choices'][0]['message']['content']
-        response_content = response_data.replace('```', '').strip()
+        response_content = response_data.replace('```', '').replace("html\n","").strip()
 
         return response_content
     except Exception as e:
